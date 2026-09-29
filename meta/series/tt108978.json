@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "id": "tt9288030",
+    "type": "series",
+    "name": "Reacher",
+    "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+    "background": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+    "description": "Emekli Askerî Polis Subayı Jack Reacher işlemediği bir cinayetten tutuklanınca kendini kirli polisler, karanlık iş adamları ve yozlaşmış siyasetçilerle dolu ölümcül bir komplonun ortasında bulur. Aklından başka bir şeyi olmayan Reacher Margrave, Georgia'da neler döndüğünü çözmek zorunda kalacaktır.",
+    "releaseInfo": "2022",
+    "imdbRating": "8.1",
+    "genres": [
+      "Aksiyon & Macera",
+      "Suç"
+    ],
+    "videos": [
+      {
+        "id": "tt9288030:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt9288030:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt9288030:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt9288030:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt9288030:1:5",
+        "title": "1. Sezon 5. Bölüm",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt9288030:1:6",
+        "title": "1. Sezon 6. Bölüm",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt9288030:1:7",
+        "title": "1. Sezon 7. Bölüm",
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "id": "tt9288030:1:8",
+        "title": "1. Sezon 8. Bölüm",
+        "season": 1,
+        "episode": 8
+      },
+      {
+        "id": "tt9288030:2:1",
+        "title": "2. Sezon 1. Bölüm",
+        "season": 2,
+        "episode": 1
+      },
+      {
+        "id": "tt9288030:2:2",
+        "title": "2. Sezon 2. Bölüm",
+        "season": 2,
+        "episode": 2
+      },
+      {
+        "id": "tt9288030:2:3",
+        "title": "2. Sezon 3. Bölüm",
+        "season": 2,
+        "episode": 3
+      },
+      {
+        "id": "tt9288030:2:4",
+        "title": "2. Sezon 4. Bölüm",
+        "season": 2,
+        "episode": 4
+      },
+      {
+        "id": "tt9288030:2:5",
+        "title": "2. Sezon 5. Bölüm",
+        "season": 2,
+        "episode": 5
+      },
+      {
+        "id": "tt9288030:2:6",
+        "title": "2. Sezon 6. Bölüm",
+        "season": 2,
+        "episode": 6
+      },
+      {
+        "id": "tt9288030:2:7",
+        "title": "2. Sezon 7. Bölüm",
+        "season": 2,
+        "episode": 7
+      },
+      {
+        "id": "tt9288030:2:8",
+        "title": "2. Sezon 8. Bölüm",
+        "season": 2,
+        "episode": 8
+      },
+      {
+        "id": "tt9288030:3:1",
+        "title": "3. Sezon 1. Bölüm",
+        "season": 3,
+        "episode": 1
+      },
+      {
+        "id": "tt9288030:3:2",
+        "title": "3. Sezon 2. Bölüm",
+        "season": 3,
+        "episode": 2
+      },
+      {
+        "id": "tt9288030:3:3",
+        "title": "3. Sezon 3. Bölüm",
+        "season": 3,
+        "episode": 3
+      },
+      {
+        "id": "tt9288030:3:4",
+        "title": "3. Sezon 4. Bölüm",
+        "season": 3,
+        "episode": 4
+      },
+      {
+        "id": "tt9288030:3:5",
+        "title": "3. Sezon 5. Bölüm",
+        "season": 3,
+        "episode": 5
+      },
+      {
+        "id": "tt9288030:3:6",
+        "title": "3. Sezon 6. Bölüm",
+        "season": 3,
+        "episode": 6
+      },
+      {
+        "id": "tt9288030:3:7",
+        "title": "3. Sezon 7. Bölüm",
+        "season": 3,
+        "episode": 7
+      },
+      {
+        "id": "tt9288030:3:8",
+        "title": "3. Sezon 8. Bölüm",
+        "season": 3,
+        "episode": 8
+      },
+      {
+        "id": "tt9288030:4:1",
+        "title": "4. Sezon 1. Bölüm",
+        "season": 4,
+        "episode": 1
+      },
+      {
+        "id": "tt9288030:4:2",
+        "title": "4. Sezon 2. Bölüm",
+        "season": 4,
+        "episode": 2
+      },
+      {
+        "id": "tt9288030:4:3",
+        "title": "4. Sezon 3. Bölüm",
+        "season": 4,
+        "episode": 3
+      },
+      {
+        "id": "tt9288030:4:4",
+        "title": "4. Sezon 4. Bölüm",
+        "season": 4,
+        "episode": 4
+      },
+      {
+        "id": "tt9288030:4:5",
+        "title": "4. Sezon 5. Bölüm",
+        "season": 4,
+        "episode": 5
+      },
+      {
+        "id": "tt9288030:4:6",
+        "title": "4. Sezon 6. Bölüm",
+        "season": 4,
+        "episode": 6
+      },
+      {
+        "id": "tt9288030:4:7",
+        "title": "4. Sezon 7. Bölüm",
+        "season": 4,
+        "episode": 7
+      },
+      {
+        "id": "tt9288030:4:8",
+        "title": "4. Sezon 8. Bölüm",
+        "season": 4,
+        "episode": 8
+      }
+    ]
+  }
+}

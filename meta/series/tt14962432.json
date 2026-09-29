@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "id": "tt14962432",
+    "type": "series",
+    "name": "おーばーふろぉ",
+    "poster": "https://image.tmdb.org/t/p/w500/8RtwL5gxUvh9YViqjhNlVRvJpum.jpg",
+    "background": "https://image.tmdb.org/t/p/original/4NRBKA8qVzCvuD3WeLieiLGmIjm.jpg",
+    "description": "おーばーふろぉ — Türkçe Anime Kaynağı",
+    "releaseInfo": "2020",
+    "imdbRating": "7.5",
+    "genres": [
+      "Anime",
+      "Animasyon",
+      "Japonca"
+    ],
+    "videos": [
+      {
+        "id": "tt14962432:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt14962432:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt14962432:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt14962432:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt14962432:1:5",
+        "title": "1. Sezon 5. Bölüm",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt14962432:1:6",
+        "title": "1. Sezon 6. Bölüm",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt14962432:1:7",
+        "title": "1. Sezon 7. Bölüm",
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "id": "tt14962432:1:8",
+        "title": "1. Sezon 8. Bölüm",
+        "season": 1,
+        "episode": 8
+      }
+    ]
+  }
+}

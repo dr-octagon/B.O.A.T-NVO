@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "id": "tt5875444",
+    "type": "series",
+    "name": "Slow Horses",
+    "poster": "https://image.tmdb.org/t/p/w500/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "background": "https://image.tmdb.org/t/p/original/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+    "description": "Bu zekice yazılmış casus hikâyesinde, İngiltere'yi uğursuz güçlerden korumak için casusluk dünyasının kandırmacaları arasında gezinen işlevsiz bir MI5 ajanları ekibini ve iğrenç patronları, kötü şöhretli Jackson Lamb'ı izliyoruz.",
+    "releaseInfo": "2022",
+    "imdbRating": "8.0",
+    "genres": [
+      "Suç",
+      "Dram",
+      "Gizem"
+    ],
+    "videos": [
+      {
+        "id": "tt5875444:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:1:5",
+        "title": "1. Sezon 5. Bölüm",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:1:6",
+        "title": "1. Sezon 6. Bölüm",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt5875444:2:1",
+        "title": "2. Sezon 1. Bölüm",
+        "season": 2,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:2:2",
+        "title": "2. Sezon 2. Bölüm",
+        "season": 2,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:2:3",
+        "title": "2. Sezon 3. Bölüm",
+        "season": 2,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:2:4",
+        "title": "2. Sezon 4. Bölüm",
+        "season": 2,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:2:5",
+        "title": "2. Sezon 5. Bölüm",
+        "season": 2,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:2:6",
+        "title": "2. Sezon 6. Bölüm",
+        "season": 2,
+        "episode": 6
+      },
+      {
+        "id": "tt5875444:3:1",
+        "title": "3. Sezon 1. Bölüm",
+        "season": 3,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:3:2",
+        "title": "3. Sezon 2. Bölüm",
+        "season": 3,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:3:3",
+        "title": "3. Sezon 3. Bölüm",
+        "season": 3,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:3:4",
+        "title": "3. Sezon 4. Bölüm",
+        "season": 3,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:3:5",
+        "title": "3. Sezon 5. Bölüm",
+        "season": 3,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:3:6",
+        "title": "3. Sezon 6. Bölüm",
+        "season": 3,
+        "episode": 6
+      },
+      {
+        "id": "tt5875444:4:1",
+        "title": "4. Sezon 1. Bölüm",
+        "season": 4,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:4:2",
+        "title": "4. Sezon 2. Bölüm",
+        "season": 4,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:4:3",
+        "title": "4. Sezon 3. Bölüm",
+        "season": 4,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:4:4",
+        "title": "4. Sezon 4. Bölüm",
+        "season": 4,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:4:5",
+        "title": "4. Sezon 5. Bölüm",
+        "season": 4,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:4:6",
+        "title": "4. Sezon 6. Bölüm",
+        "season": 4,
+        "episode": 6
+      },
+      {
+        "id": "tt5875444:5:1",
+        "title": "5. Sezon 1. Bölüm",
+        "season": 5,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:5:2",
+        "title": "5. Sezon 2. Bölüm",
+        "season": 5,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:5:3",
+        "title": "5. Sezon 3. Bölüm",
+        "season": 5,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:5:4",
+        "title": "5. Sezon 4. Bölüm",
+        "season": 5,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:5:5",
+        "title": "5. Sezon 5. Bölüm",
+        "season": 5,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:5:6",
+        "title": "5. Sezon 6. Bölüm",
+        "season": 5,
+        "episode": 6
+      },
+      {
+        "id": "tt5875444:6:1",
+        "title": "6. Sezon 1. Bölüm",
+        "season": 6,
+        "episode": 1
+      },
+      {
+        "id": "tt5875444:6:2",
+        "title": "6. Sezon 2. Bölüm",
+        "season": 6,
+        "episode": 2
+      },
+      {
+        "id": "tt5875444:6:3",
+        "title": "6. Sezon 3. Bölüm",
+        "season": 6,
+        "episode": 3
+      },
+      {
+        "id": "tt5875444:6:4",
+        "title": "6. Sezon 4. Bölüm",
+        "season": 6,
+        "episode": 4
+      },
+      {
+        "id": "tt5875444:6:5",
+        "title": "6. Sezon 5. Bölüm",
+        "season": 6,
+        "episode": 5
+      },
+      {
+        "id": "tt5875444:6:6",
+        "title": "6. Sezon 6. Bölüm",
+        "season": 6,
+        "episode": 6
+      }
+    ]
+  }
+}

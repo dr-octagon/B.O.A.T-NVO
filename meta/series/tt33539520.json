@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "id": "tt33539520",
+    "type": "series",
+    "name": "Neagley",
+    "poster": "https://image.tmdb.org/t/p/w500/waLS8JD7QqO4oVUs6mgYh7xVxkn.jpg",
+    "background": "https://image.tmdb.org/t/p/original/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+    "description": "REACHER evreninde yeni bir sayfa açılıyor. Frances Neagley, askerlik günlerinde Jack Reacher ile 110'uncu Birlik'te görev yapmış Şikagolu bir özel dedektiftir. Geçmişten çok yakın bir dostunun şüpheli bir kazada öldürüldüğünü öğrenince adalet aramaya başlar.",
+    "releaseInfo": "2026",
+    "imdbRating": "8.1",
+    "genres": [
+      "Dram",
+      "Gizem",
+      "Suç"
+    ],
+    "videos": [
+      {
+        "id": "tt33539520:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt33539520:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt33539520:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt33539520:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt33539520:1:5",
+        "title": "1. Sezon 5. Bölüm",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt33539520:1:6",
+        "title": "1. Sezon 6. Bölüm",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt33539520:1:7",
+        "title": "1. Sezon 7. Bölüm",
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "id": "tt33539520:1:8",
+        "title": "1. Sezon 8. Bölüm",
+        "season": 1,
+        "episode": 8
+      }
+    ]
+  }
+}

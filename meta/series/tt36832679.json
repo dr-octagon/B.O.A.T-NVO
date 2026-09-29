@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "id": "tt36832679",
+    "type": "series",
+    "name": "Son Vaka",
+    "poster": "https://image.tmdb.org/t/p/w500/2TtMEicy4BwUTv6mw5TWcM0KdN5.jpg",
+    "background": "https://image.tmdb.org/t/p/original/m9QKL9smb61v1XSYJoHdl7p5yUd.jpg",
+    "description": "1959 baharında, Mallorca yakınlarındaki küçük bir adada, on üç kişi bir fırtına nedeniyle mahsur kalır. Küçük bir otelde konaklayan bu insanlar, başlarına geleceklerden habersizdir. Bu sırada İngiliz kökenli, ketum bir turist olan Elisa Mander ölü bulunur. Başta intihar gibi görünen olay, kısa sürede çok daha rahatsız edici bir şeye, bir cinayete işaret etmeye başlar. Bir zamanlar beyaz perdede Sherlock Holmes karakterini canlandırmış olan emekli oyuncu Basil, istemeden de olsa bu gizemi çözme görevini üstlenir. Ne kimsenin ayrılabildiği ne de dışarıdan birinin gelebildiği bu kapalı ortamda, tüm misafirler ve otel çalışanları birer şüpheliye dönüşür. Her geçen dakika, bu suçun düşündüklerinden çok daha karmaşık ve anlaşılması güç olduğu ortaya çıkar.",
+    "releaseInfo": "2026",
+    "imdbRating": "7.4",
+    "genres": [
+      "Suç",
+      "Gizem"
+    ],
+    "videos": [
+      {
+        "id": "tt36832679:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt36832679:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt36832679:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt36832679:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      }
+    ]
+  }
+}

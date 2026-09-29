@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt26657236",
+    "type": "movie",
+    "name": "Backrooms",
+    "poster": "https://image.tmdb.org/t/p/w500/pR7HAA2STN78NN7egkrp9DsKI7c.jpg",
+    "background": "https://image.tmdb.org/t/p/original/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+    "description": "Bir terapist, hastası gerçekliğin ötesindeki bir boyutta kaybolduktan sonra, onu kurtarmak için bilinmeyene doğru bir yolculuğa çıkmak zorunda kalır.",
+    "releaseInfo": "2026",
+    "imdbRating": "7.0",
+    "genres": [
+      "Korku",
+      "Gizem",
+      "Bilim Kurgu"
+    ]
+  }
+}
