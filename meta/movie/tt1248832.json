@@ -3,10 +3,14 @@
     "id": "tt31450459",
     "type": "movie",
     "name": "Digger",
+    "originalName": "Digger",
+    "tmdbId": "1248832",
+    "imdbId": "tt31450459",
     "poster": "https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
     "background": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
     "description": "Dünyanın en güçlü adamı, kendi yol açtığı felaket her şeyi yok etmeden önce, insanlığın kurtarıcısı olduğunu kanıtlamak için hummalı bir mücadeleye girişir.",
     "releaseInfo": "2026",
+    "year": 2026,
     "imdbRating": "7.4",
     "genres": [
       "Komedi"

@@ -169,79 +169,132 @@ var require_tmdb = __commonJS({
   "src/shared/tmdb.js"(exports2, module2) {
     var TMDB_DEFAULT_KEY = "500330721680edb6d5f7f12ba7cd9023";
     var TMDB_BASE_URL2 = "https://api.themoviedb.org/3";
+    var GITHUB_RAW_BASE = "https://raw.githubusercontent.com/dr-octagon/Nuvio/main";
+    var CINEMETA_BASE = "https://v3-cinemeta.strem.io";
     function getApiKey2() {
       if (typeof globalThis !== "undefined" && globalThis.TMDB_API_KEY) {
         return globalThis.TMDB_API_KEY;
       }
       return TMDB_DEFAULT_KEY;
     }
+    async function fetchWithTimeout(url, options, timeoutMs) {
+      options = options || {};
+      timeoutMs = timeoutMs || 3e3;
+      var controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+      var timer = null;
+      if (controller) {
+        timer = setTimeout(function() {
+          controller.abort();
+        }, timeoutMs);
+        options.signal = controller.signal;
+      }
+      try {
+        var res = await fetch(url, options);
+        if (timer) clearTimeout(timer);
+        return res;
+      } catch (e) {
+        if (timer) clearTimeout(timer);
+        return null;
+      }
+    }
     async function getMediaDetails2(id, mediaType) {
-      const apiKey = getApiKey2();
-      let cleanId = String(id || "").trim();
+      var rawId = String(id || "").trim();
+      var cleanId = rawId;
+      cleanId = cleanId.replace(/^tmdb:/, "").replace(/^boat:movie:/, "").replace(/^boat:series:/, "").replace(/^boat:/, "").replace(/^noat:/, "").replace(/^hdfilmcehennemi:/, "");
       if (cleanId.includes(":")) {
         cleanId = cleanId.split(":")[0];
       }
-      const type = mediaType === "tv" || mediaType === "series" ? "tv" : "movie";
-      const isImdb = cleanId.startsWith("tt");
-      let tmdbId = isImdb ? null : cleanId;
-      let details = null;
+      var isTv = mediaType === "tv" || mediaType === "series";
+      var type = isTv ? "series" : "movie";
+      var tmdbType = isTv ? "tv" : "movie";
+      var isImdb = cleanId.startsWith("tt");
+      var result = {
+        tmdbId: isImdb ? "" : cleanId,
+        title: "",
+        originalTitle: "",
+        year: null,
+        type: tmdbType,
+        details: null
+      };
+      if (!cleanId) return result;
       try {
+        var ghUrl = `${GITHUB_RAW_BASE}/meta/${type}/${cleanId}.json`;
+        var ghRes = await fetchWithTimeout(ghUrl, { headers: { "Accept": "application/json" } }, 2500);
+        if (ghRes && ghRes.ok) {
+          var ghData = await ghRes.json();
+          var meta = ghData && ghData.meta;
+          if (meta && meta.name) {
+            result.title = String(meta.name).replace(/\s*\(\d{4}\)$/, "").trim();
+            result.originalTitle = meta.originalName || meta.originalTitle || result.title;
+            var y = meta.releaseInfo ? parseInt(meta.releaseInfo, 10) : meta.year ? parseInt(meta.year, 10) : null;
+            result.year = y && !isNaN(y) ? y : null;
+            if (meta.tmdbId) result.tmdbId = String(meta.tmdbId);
+            result.details = meta;
+            return result;
+          }
+        }
+      } catch (e) {
+      }
+      if (isImdb) {
+        try {
+          var cmUrl = `${CINEMETA_BASE}/meta/${type}/${cleanId}.json`;
+          var cmRes = await fetchWithTimeout(cmUrl, { headers: { "Accept": "application/json" } }, 2500);
+          if (cmRes && cmRes.ok) {
+            var cmData = await cmRes.json();
+            var cmMeta = cmData && cmData.meta;
+            if (cmMeta && cmMeta.name) {
+              result.title = String(cmMeta.name).trim();
+              result.originalTitle = String(cmMeta.name).trim();
+              var cy = cmMeta.year ? parseInt(cmMeta.year, 10) : null;
+              result.year = cy && !isNaN(cy) ? cy : null;
+              if (cmMeta.moviedb_id) result.tmdbId = String(cmMeta.moviedb_id);
+              result.details = cmMeta;
+              return result;
+            }
+          }
+        } catch (e) {
+        }
+      }
+      try {
+        var apiKey = getApiKey2();
+        var tmdbId = isImdb ? null : cleanId;
         if (isImdb) {
-          const findUrl = `${TMDB_BASE_URL2}/find/${cleanId}?api_key=${apiKey}&external_source=imdb_id`;
-          const findRes = await fetch(findUrl);
-          if (findRes.ok) {
-            const fData = await findRes.json();
-            const item = type === "tv" ? fData.tv_results && fData.tv_results[0] : fData.movie_results && fData.movie_results[0];
+          var findUrl = `${TMDB_BASE_URL2}/find/${cleanId}?api_key=${apiKey}&external_source=imdb_id`;
+          var findRes = await fetchWithTimeout(findUrl, {}, 2500);
+          if (findRes && findRes.ok) {
+            var fData = await findRes.json();
+            var item = tmdbType === "tv" ? fData.tv_results && fData.tv_results[0] : fData.movie_results && fData.movie_results[0];
             if (item && item.id) {
               tmdbId = String(item.id);
-              details = item;
+              result.details = item;
             }
           }
         }
         if (tmdbId) {
-          const detUrl = `${TMDB_BASE_URL2}/${type}/${tmdbId}?api_key=${apiKey}&language=tr-TR`;
-          const detRes = await fetch(detUrl);
-          if (detRes.ok) {
-            details = await detRes.json();
+          var detUrl = `${TMDB_BASE_URL2}/${tmdbType}/${tmdbId}?api_key=${apiKey}&language=tr-TR`;
+          var detRes = await fetchWithTimeout(detUrl, {}, 2500);
+          if (detRes && detRes.ok) {
+            var d = await detRes.json();
+            result.tmdbId = String(tmdbId);
+            result.title = d.title || d.name || "";
+            result.originalTitle = d.original_title || d.original_name || "";
+            var releaseDate = d.release_date || d.first_air_date || "";
+            var dy = releaseDate ? parseInt(releaseDate.slice(0, 4), 10) : null;
+            result.year = dy && !isNaN(dy) ? dy : null;
+            result.details = d;
+            return result;
           }
         }
-        if (!details) {
-          return {
-            tmdbId: tmdbId || cleanId,
-            title: "",
-            originalTitle: "",
-            year: null,
-            type,
-            details: null
-          };
-        }
-        const title = details.title || details.name || "";
-        const originalTitle = details.original_title || details.original_name || "";
-        const releaseDate = details.release_date || details.first_air_date || "";
-        const year = releaseDate ? parseInt(releaseDate.slice(0, 4), 10) : null;
-        return {
-          tmdbId: String(tmdbId || details.id),
-          title,
-          originalTitle,
-          year: isNaN(year) ? null : year,
-          type,
-          details
-        };
-      } catch (err) {
-        return {
-          tmdbId: tmdbId || cleanId,
-          title: "",
-          originalTitle: "",
-          year: null,
-          type,
-          details: null
-        };
+      } catch (e) {
       }
+      return result;
     }
     module2.exports = {
       getApiKey: getApiKey2,
       getMediaDetails: getMediaDetails2,
-      TMDB_BASE_URL: TMDB_BASE_URL2
+      TMDB_BASE_URL: TMDB_BASE_URL2,
+      GITHUB_RAW_BASE,
+      CINEMETA_BASE
     };
   }
 });
@@ -643,6 +696,7 @@ async function getStreamsFromPage(pageUrl) {
                 quality: "1080p",
                 type: "hls",
                 format: "hls",
+                language: "tr",
                 headers: streamData.headers,
                 subtitles: streamData.subtitles
               });
@@ -667,12 +721,23 @@ async function getStreams(id, mediaType, season, episode) {
       return [];
     }
     const isTv = tmdbMeta.type === "tv" || tmdbMeta.type === "series";
-    let results = [];
-    if (tmdbMeta.title) {
-      results = await searchHDF(tmdbMeta.title);
+    const searchQueries = [];
+    if (tmdbMeta.title) searchQueries.push(tmdbMeta.title);
+    if (tmdbMeta.originalTitle && tmdbMeta.originalTitle !== tmdbMeta.title) {
+      searchQueries.push(tmdbMeta.originalTitle);
     }
-    if (results.length === 0 && tmdbMeta.originalTitle && tmdbMeta.originalTitle !== tmdbMeta.title) {
-      results = await searchHDF(tmdbMeta.originalTitle);
+    if (tmdbMeta.title && tmdbMeta.title.includes(":")) {
+      const b = tmdbMeta.title.split(":")[0].trim();
+      if (b && !searchQueries.includes(b)) searchQueries.push(b);
+    }
+    if (tmdbMeta.originalTitle && tmdbMeta.originalTitle.includes(":")) {
+      const b = tmdbMeta.originalTitle.split(":")[0].trim();
+      if (b && !searchQueries.includes(b)) searchQueries.push(b);
+    }
+    let results = [];
+    for (const q of searchQueries) {
+      results = await searchHDF(q);
+      if (results.length > 0) break;
     }
     if (results.length === 0) return [];
     const candidates = rankCandidates(results, tmdbMeta.title, tmdbMeta.originalTitle, isTv, tmdbMeta.year);
@@ -696,74 +761,49 @@ async function getStreams(id, mediaType, season, episode) {
 }
 async function getCatalog(type, id, extra) {
   try {
-    const apiKey = getApiKey();
-    const tmdbType = type === "series" || type === "tv" ? "tv" : "movie";
-    let endpoint = `${TMDB_BASE_URL}/trending/${tmdbType}/week?api_key=${apiKey}&language=tr-TR`;
+    const isMovie = type !== "series" && type !== "tv";
     if (extra && extra.search) {
-      endpoint = `${TMDB_BASE_URL}/search/${tmdbType}?api_key=${apiKey}&language=tr-TR&query=${encodeURIComponent(extra.search)}`;
-    }
-    const res = await fetch(endpoint);
-    if (!res.ok) return { metas: [] };
-    const data = await res.json();
-    const results = data.results || [];
-    const metas = results.map(function(item) {
-      const isMovie = tmdbType === "movie";
-      return {
-        id: item.id ? String(item.id) : "",
+      const searchResults = await searchHDF(extra.search);
+      const metas = searchResults.filter((r) => isMovie ? !r.isSeries : r.isSeries).map((item) => ({
+        id: item.url,
         type: isMovie ? "movie" : "series",
-        name: item.title || item.name || "HDFilmCehennemi",
-        poster: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : void 0,
-        background: item.backdrop_path ? `https://image.tmdb.org/t/p/original${item.backdrop_path}` : void 0,
-        description: item.overview || "",
+        name: item.title,
+        description: `${item.title} \u2014 HDFilmCehennemi`,
         genres: ["HDFilmCehennemi", isMovie ? "Film" : "Dizi"]
-      };
-    });
-    return { metas };
+      }));
+      return { metas };
+    }
+    const catId = isMovie ? "tmdb_trending_movies" : "tmdb_popular_series";
+    const catUrl = `https://raw.githubusercontent.com/dr-octagon/Nuvio/main/catalog/${isMovie ? "movie" : "series"}/${catId}.json`;
+    const res = await fetch(catUrl);
+    if (res.ok) {
+      const data = await res.json();
+      if (data && data.metas) return data;
+    }
+    return { metas: [] };
   } catch (e) {
     return { metas: [] };
   }
 }
 async function getMeta(args) {
   try {
-    const apiKey = getApiKey();
     const rawId = typeof args === "string" ? args : args && args.id ? args.id : "";
     if (!rawId) return { meta: null };
     const type = args && args.type ? args.type : "movie";
-    const tmdbType = type === "series" || type === "tv" ? "tv" : "movie";
-    const detUrl = `${TMDB_BASE_URL}/${tmdbType}/${rawId}?api_key=${apiKey}&language=tr-TR`;
-    const res = await fetch(detUrl);
-    if (!res.ok) return { meta: null };
-    const d = await res.json();
-    const isMovie = tmdbType === "movie";
-    const videos = [];
-    if (!isMovie && d.seasons) {
-      for (let s = 0; s < d.seasons.length; s++) {
-        const season = d.seasons[s];
-        const sNum = season.season_number;
-        if (sNum === 0) continue;
-        const epCount = season.episode_count || 0;
-        for (let e = 1; e <= epCount; e++) {
-          videos.push({
-            id: `${rawId}:${sNum}:${e}`,
-            title: `${sNum}. Sezon ${e}. B\xF6l\xFCm`,
-            season: sNum,
-            episode: e
-          });
+    const details = await getMediaDetails(rawId, type);
+    if (details && details.title) {
+      return {
+        meta: {
+          id: rawId,
+          type: details.type === "tv" || details.type === "series" ? "series" : "movie",
+          name: details.title,
+          description: details.details && details.details.description || details.details && details.details.overview || details.title,
+          releaseInfo: details.year ? String(details.year) : void 0,
+          genres: details.details && details.details.genres || ["HDFilmCehennemi"]
         }
-      }
+      };
     }
-    return {
-      meta: {
-        id: rawId,
-        type: isMovie ? "movie" : "series",
-        name: d.title || d.name,
-        poster: d.poster_path ? `https://image.tmdb.org/t/p/w500${d.poster_path}` : void 0,
-        background: d.backdrop_path ? `https://image.tmdb.org/t/p/original${d.backdrop_path}` : void 0,
-        description: d.overview,
-        genres: (d.genres || []).map((g) => g.name),
-        videos: videos.length > 0 ? videos : void 0
-      }
-    };
+    return { meta: null };
   } catch (e) {
     return { meta: null };
   }
