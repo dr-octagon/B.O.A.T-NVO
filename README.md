@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>🌟 Nuvio — Türkçe Eklenti Deposu</h1>
-  <p><strong>Nuvio için Doğrulanmış Türkçe Film, Dizi, Anime ve Canlı TV Eklentileri</strong></p>
+  <h1>🌟 N.O.A.T — Nuvio Of All Time</h1>
+  <p><strong>Nuvio için Doğrulanmış Türkçe Film, Dizi, Anime ve Canlı TV Eklenti Deposu</strong></p>
 
   <p>
-    <a href="https://github.com/dr-octagon/Nuvio"><img src="https://img.shields.io/badge/Nuvio-Eklenti_Deposu-00e676?style=for-the-badge&logo=github&logoColor=white" alt="Nuvio" /></a>
+    <a href="https://github.com/dr-octagon/Nuvio"><img src="https://img.shields.io/badge/Eklenti-N.O.A.T-00e676?style=for-the-badge&logo=github&logoColor=white" alt="N.O.A.T" /></a>
     <img src="https://img.shields.io/badge/Sürüm-1.0.0-blue?style=for-the-badge" alt="Sürüm 1.0.0" />
     <img src="https://img.shields.io/badge/Lisans-MIT-green?style=for-the-badge" alt="MIT Lisansı" />
     <img src="https://img.shields.io/badge/Kalite-4K_&_1080p-orange?style=for-the-badge" alt="4K ve 1080p" />
@@ -28,42 +28,37 @@ https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json
 ### 📱 Nuvio Mobile & 🖥️ Nuvio Desktop
 
 1. **Nuvio** uygulamasını açın.
-2. Sağ alt köşeden **Ayarlar (Settings)** sekmesine gidin.
-3. **Eklentiler (Plugins / Add-ons)** veya **İçerik & Keşif** bölümünü açın.
-4. **Depo Ekle (Add Repository)** butonuna tıklayın.
-5. Yukarıdaki bağlantıyı yapıştırın:
+2. **Ayarlar (Settings)** → **İçerik & Keşif (Content & Discovery)** → **Pluginler (Plugins)** sekmesine gidin.
+3. **Depo Ekle (Add Repository)** alanına şu URL'yi yapıştırın:
    ```text
    https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json
    ```
-6. **Ekle / Kaydet** butonuna basın. Eklentiler anında yüklenecektir.
+4. **Depoyu Kur (Install)** butonuna basın. **N.O.A.T** anında yüklenecektir.
 
 ---
 
 ### 📺 Nuvio TV (Android TV, Google TV & Fire TV)
 
 1. Televizyonunuzda **Nuvio TV** uygulamasını açın.
-2. Yan menüden **Ayarlar (Settings)** simgesine gelin.
-3. **Eklenti Yönetimi (Plugins)** alanına girin.
-4. Depo ekleme ekranına URL'yi girin veya telefonunuzdaki Nuvio uygulamasından eşitleme özelliğini kullanın.
-5. Depoyu onaylayın.
+2. **Ayarlar (Settings)** → **Pluginler (Plugins)** alanına girin.
+3. Yukarıdaki bağlantıyı girip onaylayın.
 
 ---
 
-## 📦 Mevcut ve Desteklenen Eklentiler
+## 📦 Mevcut Eklentiler
 
 | Eklenti | Tür | Desteklenen İçerik | Çözünürlük | Ses / Altyazı | Durum |
 |---|:---:|---|:---:|:---:|:---:|
-| 🎌 **Anizium** | Anime / Film / Dizi | Popüler ve güncel tüm animeler | 4K UHD, 1080p, 720p | Türkçe Dublaj & Çok Dilli Altyazı | 🟢 **Aktif** |
-| 🎬 **Daha Fazlası...** | Film / Dizi / Canlı TV | Yerli ve yabancı film, dizi ve canlı spor eklentileri uyarlanıyor | 1080p, Full HD | TR Dublaj & Altyazı | 🟡 *Yakında* |
+| 👑 **N.O.A.T** | Film / Dizi / Anime / TV | Popüler ve güncel tüm içerikler tek çatı altında | 4K UHD, 1080p, 720p | Türkçe Dublaj & Altyazı | 🟢 **Aktif** |
 
 ---
 
 ## 🚀 Öne Çıkan Özellikler
 
-* ⚡ **Doğrudan CDN Akışları:** Reklam ve yönlendirme olmadan en hızlı sunuculardan oynatma.
+* ⚡ **Doğrudan Akışlar:** Reklamsız, doğrudan hızlı sunucu bağlantıları.
 * 🎯 **4K & 1080p Çözünürlük:** En yüksek kaliteli video kaynakları önceliklendirilir.
-* 💬 **Entegre Altyazı Desteği:** Türkçe, İngilizce ve diğer dillerde otomatik senkronize altyazılar.
-* 🔄 **Otomatik Güncelleme:** Kaynaklar ve alan adları arka planda otomatik güncellenir, manuel işlem gerektirmez.
+* 💬 **Entegre Altyazı Desteği:** Türkçe ve çok dilli senkron altyazılar.
+* 🔄 **Otomatik Güncelleme:** Kaynaklar arka planda güncellenir.
 
 ---
 

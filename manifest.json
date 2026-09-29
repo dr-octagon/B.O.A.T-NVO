@@ -1,10 +1,10 @@
 {
-  "id": "community.nuvio.turkiye",
-  "name": "Nuvio Türkiye",
+  "id": "community.nuvio.noat",
+  "name": "N.O.A.T",
   "version": "1.0.0",
-  "description": "Nuvio için Türkçe Film, Dizi, Anime ve Canlı TV Eklentileri",
+  "description": "N.O.A.T — Nuvio Of All Time (Türkçe Dizi, Film, Anime ve TV)",
   "author": "Dr.Octagon",
-  "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/anizium.png",
+  "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/logos/boat_v2.png",
   "resources": [
     "stream",
     "meta",
@@ -19,13 +19,24 @@
   ],
   "idPrefixes": [
     "tt",
-    "anizium:"
+    "noat:"
   ],
   "catalogs": [
     {
-      "type": "anime",
-      "id": "anizium_anime",
-      "name": "Anizium — Popüler Animeler",
+      "type": "movie",
+      "id": "noat_movies",
+      "name": "N.O.A.T — Popüler Filmler",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "id": "noat_series",
+      "name": "N.O.A.T — Popüler Diziler",
       "extra": [
         {
           "name": "search",
@@ -36,9 +47,9 @@
   ],
   "scrapers": [
     {
-      "id": "anizium",
-      "name": "Anizium",
-      "description": "4K & 1080p Türkçe Dublaj ve Altyazılı Anime Kaynağı",
+      "id": "noat",
+      "name": "N.O.A.T",
+      "description": "N.O.A.T — Nuvio Of All Time",
       "version": "1.0.0",
       "author": "Dr.Octagon",
       "supportedTypes": [
@@ -47,14 +58,14 @@
         "series",
         "anime"
       ],
-      "filename": "providers/anizium.js",
+      "filename": "providers/noat.js",
       "enabled": true,
       "formats": [
         "mp4",
         "hls",
         "m3u8"
       ],
-      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/anizium.png",
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/logos/boat_v2.png",
       "contentLanguage": [
         "tr"
       ]
