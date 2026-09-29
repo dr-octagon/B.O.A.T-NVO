@@ -30,6 +30,12 @@
     "stream_timeout_ms": 8000
   },
   "urls": {
+    "boat": {
+      "torrentio": "https://torrentio.strem.fun/providers=yts,eztv,rarbg,1337x,thepiratebay,kickasstorrents,torrentgalaxy,magnetdl,nyaasi,tokyotosho,anidex,rutor|sort=qualitysize|qualityfilter=scr,cam|limit=50",
+      "torrentsdb": "https://torrentsdb.com/eyJsaW1pdCI6ICI1MCIsICJzb3J0IjogInF1YWxpdHlzaXplIiwgInF1YWxpdHlmaWx0ZXIiOiBbInNjciIsICJjYW0iXSwgImRlYnJpZG9wdGlvbnMiOiBbIm5vZG93bmxvYWRsaW5rcyJdfQ==",
+      "tpb": "https://thepiratebay-plus.strem.fun",
+      "subtitles_opensubtitles": "https://opensubtitles-v3.strem.io"
+    },
     "tmdb": {
       "api_base": "https://api.themoviedb.org/3",
       "api_key": "500330721680edb6d5f7f12ba7cd9023",
