@@ -1,0 +1,45 @@
+{
+  "name": "Nuvio Türkiye",
+  "version": "1.0.0",
+  "author": "Dr.Octagon",
+  "description": "Nuvio için Türkçe Film, Dizi, Anime ve Canlı TV Eklentileri",
+  "scrapers": [
+    {
+      "id": "anizium",
+      "name": "Anizium",
+      "description": "4K & 1080p Türkçe Dublaj ve Altyazılı Anime Kaynağı",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series",
+        "anime"
+      ],
+      "filename": "providers/anizium.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/anizium.png",
+      "contentLanguage": [
+        "tr"
+      ],
+      "catalogs": [
+        {
+          "type": "anime",
+          "id": "anizium_anime",
+          "name": "Anizium — Popüler Animeler",
+          "extra": [
+            {
+              "name": "search",
+              "isRequired": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
