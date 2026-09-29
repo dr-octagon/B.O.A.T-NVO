@@ -1,13 +1,12 @@
 {
-  "id": "community.nuvio.noat",
-  "name": "N.O.A.T",
-  "version": "1.1.0",
-  "description": "N.O.A.T — Nuvio Of All Time (Türkçe Dizi, Film, Anime ve TV)",
+  "id": "community.nuvio.boat",
+  "name": "B.O.A.T",
+  "version": "1.1.2",
+  "description": "B.O.A.T — Best Of All Time (Türkçe Dizi, Film, Anime ve TV)",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
     "meta",
-    "subtitles",
     "catalog"
   ],
   "types": [
@@ -18,14 +17,13 @@
   ],
   "idPrefixes": [
     "tt",
-    "noat:",
     "boat:"
   ],
   "catalogs": [
     {
       "type": "movie",
-      "id": "noat_movies",
-      "name": "N.O.A.T — Popüler Filmler",
+      "id": "boat_movies",
+      "name": "B.O.A.T — Popüler Filmler",
       "extra": [
         {
           "name": "search",
@@ -35,8 +33,8 @@
     },
     {
       "type": "series",
-      "id": "noat_series",
-      "name": "N.O.A.T — Popüler Diziler",
+      "id": "boat_series",
+      "name": "B.O.A.T — Popüler Diziler",
       "extra": [
         {
           "name": "search",
@@ -47,61 +45,10 @@
   ],
   "scrapers": [
     {
-      "id": "noat",
-      "name": "N.O.A.T",
-      "description": "N.O.A.T — Nuvio Of All Time (4K UHD, Torrent, Altyazı)",
-      "version": "1.1.0",
-      "author": "Dr.Octagon",
-      "supportedTypes": [
-        "movie",
-        "tv",
-        "series",
-        "anime"
-      ],
-      "filename": "providers/noat.js",
-      "enabled": true,
-      "formats": [
-        "torrent",
-        "magnet",
-        "mp4",
-        "hls",
-        "m3u8"
-      ],
-      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
-      "contentLanguage": [
-        "tr",
-        "en"
-      ],
-      "catalogs": [
-        {
-          "type": "movie",
-          "id": "noat_movies",
-          "name": "N.O.A.T — Popüler Filmler",
-          "extra": [
-            {
-              "name": "search",
-              "isRequired": false
-            }
-          ]
-        },
-        {
-          "type": "series",
-          "id": "noat_series",
-          "name": "N.O.A.T — Popüler Diziler",
-          "extra": [
-            {
-              "name": "search",
-              "isRequired": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
-      "description": "B.O.A.T 4K UHD Çoklu Kaynak",
-      "version": "1.1.0",
+      "description": "B.O.A.T — Best Of All Time (4K UHD, Torrent, Altyazı)",
+      "version": "1.1.2",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -122,6 +69,30 @@
       "contentLanguage": [
         "tr",
         "en"
+      ],
+      "catalogs": [
+        {
+          "type": "movie",
+          "id": "boat_movies",
+          "name": "B.O.A.T — Popüler Filmler",
+          "extra": [
+            {
+              "name": "search",
+              "isRequired": false
+            }
+          ]
+        },
+        {
+          "type": "series",
+          "id": "boat_series",
+          "name": "B.O.A.T — Popüler Diziler",
+          "extra": [
+            {
+              "name": "search",
+              "isRequired": false
+            }
+          ]
+        }
       ]
     }
   ]

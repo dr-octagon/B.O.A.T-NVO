@@ -67,14 +67,40 @@ var require_quality = __commonJS({
       if (isDirectMp4 && score > 0) score += 1;
       return score;
     }
+    function parseSizeBytes(s) {
+      if (!s) return 0;
+      var raw = "";
+      if (typeof s === "object") {
+        raw = (s.size || "") + " " + (s.name || "") + " " + (s.title || "");
+      } else if (typeof s === "string") {
+        raw = s;
+      }
+      var m = raw.match(/([\d.]+)\s*(TB|TIB|GB|GIB|MB|MIB|KB|KIB)\b/i);
+      if (!m) return 0;
+      var num = parseFloat(m[1]);
+      if (isNaN(num)) return 0;
+      var unit = m[2].toUpperCase();
+      if (unit === "TB" || unit === "TIB") return num * 1099511627776;
+      if (unit === "GB" || unit === "GIB") return num * 1073741824;
+      if (unit === "MB" || unit === "MIB") return num * 1048576;
+      if (unit === "KB" || unit === "KIB") return num * 1024;
+      return num;
+    }
     function sortStreamsByQuality2(streams) {
       if (!Array.isArray(streams) || streams.length === 0) return streams;
       return streams.slice().sort(function(a, b) {
-        return getQualityScore(b) - getQualityScore(a);
+        var scoreDiff = getQualityScore(b) - getQualityScore(a);
+        if (scoreDiff !== 0) return scoreDiff;
+        var sizeDiff = parseSizeBytes(b) - parseSizeBytes(a);
+        if (sizeDiff !== 0) return sizeDiff;
+        var seedDiff = (b.seeders || 0) - (a.seeders || 0);
+        if (seedDiff !== 0) return seedDiff;
+        return 0;
       });
     }
     module2.exports = {
       getQualityScore,
+      parseSizeBytes,
       sortStreamsByQuality: sortStreamsByQuality2
     };
   }
@@ -298,7 +324,7 @@ function resolveMediaMeta(id, mediaType, season, episode) {
     const apiKey = getEffectiveTmdbApiKey();
     const isSeries = mediaType === "tv" || mediaType === "series";
     let cleanId = String(id || "").trim();
-    cleanId = cleanId.replace(/^boat:movie:/, "").replace(/^boat:series:/, "").replace(/^boat:ep:/, "").replace(/^boat:/, "");
+    cleanId = cleanId.replace(/^boat:movie:/, "").replace(/^boat:series:/, "").replace(/^boat:ep:/, "").replace(/^boat:/, "").replace(/^noat:movie:/, "").replace(/^noat:series:/, "").replace(/^noat:ep:/, "").replace(/^noat:/, "");
     if (cleanId.includes(":")) {
       const parts = cleanId.split(":");
       cleanId = parts[0];
@@ -379,39 +405,35 @@ function fetchOpenSubtitles(meta) {
       if (!res || !res.ok) return [];
       const data = yield res.json();
       if (!data || !Array.isArray(data.subtitles)) return [];
-      const subs = [];
+      const trSubs = [];
+      const enSubs = [];
+      const otherSubs = [];
       const seen = /* @__PURE__ */ new Set();
-      data.subtitles.forEach((s, idx) => {
+      data.subtitles.forEach((s) => {
         if (!s.url || seen.has(s.url)) return;
         seen.add(s.url);
+        const subUrl = s.url.endsWith(".srt") || s.url.endsWith(".vtt") ? s.url : s.url + ".srt";
         const langLower = (s.lang || "").toLowerCase();
         const isTr = langLower === "tur" || langLower === "tr";
         const isEn = langLower === "eng" || langLower === "en";
-        let label = s.name || (isTr ? "T\xFCrk\xE7e" : isEn ? "\u0130ngilizce" : langLower.toUpperCase());
+        let label = s.name || s.subtitleFileName || (isTr ? "T\xFCrk\xE7e" : isEn ? "\u0130ngilizce" : langLower.toUpperCase());
         if (isTr) label = `\u{1F1F9}\u{1F1F7} ${label}`;
         else if (isEn) label = `\u{1F1EC}\u{1F1E7} ${label}`;
-        subs.push({
-          id: `os_${langLower}_${idx + 1}`,
-          url: s.url,
-          file: s.url,
-          link: s.url,
-          lang: s.lang || "und",
+        const subObj = {
+          id: `os_${langLower}_${seen.size}`,
+          url: subUrl,
           language: isTr ? "tr" : isEn ? "en" : langLower,
-          label,
-          name: label,
-          title: label,
-          format: s.url.endsWith(".vtt") ? "vtt" : "srt",
-          type: s.url.endsWith(".vtt") ? "text/vtt" : "application/x-subrip",
-          mimeType: s.url.endsWith(".vtt") ? "text/vtt" : "application/x-subrip",
-          isTurkish: isTr
-        });
+          name: label
+        };
+        if (isTr) {
+          trSubs.push(subObj);
+        } else if (isEn) {
+          if (enSubs.length < 5) enSubs.push(subObj);
+        } else {
+          if (otherSubs.length < 5) otherSubs.push(subObj);
+        }
       });
-      subs.sort((a, b) => {
-        if (a.isTurkish && !b.isTurkish) return -1;
-        if (!a.isTurkish && b.isTurkish) return 1;
-        return 0;
-      });
-      return subs;
+      return [...trSubs, ...enSubs, ...otherSubs];
     } catch (e) {
       return [];
     }
