@@ -1,8 +1,39 @@
 {
+  "id": "community.nuvio.turkiye",
   "name": "Nuvio Türkiye",
   "version": "1.0.0",
-  "author": "Dr.Octagon",
   "description": "Nuvio için Türkçe Film, Dizi, Anime ve Canlı TV Eklentileri",
+  "author": "Dr.Octagon",
+  "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/anizium.png",
+  "resources": [
+    "stream",
+    "meta",
+    "subtitles",
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime",
+    "tv"
+  ],
+  "idPrefixes": [
+    "tt",
+    "anizium:"
+  ],
+  "catalogs": [
+    {
+      "type": "anime",
+      "id": "anizium_anime",
+      "name": "Anizium — Popüler Animeler",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
   "scrapers": [
     {
       "id": "anizium",
@@ -26,19 +57,6 @@
       "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/anizium.png",
       "contentLanguage": [
         "tr"
-      ],
-      "catalogs": [
-        {
-          "type": "anime",
-          "id": "anizium_anime",
-          "name": "Anizium — Popüler Animeler",
-          "extra": [
-            {
-              "name": "search",
-              "isRequired": false
-            }
-          ]
-        }
       ]
     }
   ]
