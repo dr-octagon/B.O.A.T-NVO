@@ -1,12 +1,14 @@
 {
   "id": "community.nuvio.boat",
-  "name": "B.O.A.T",
-  "version": "1.1.2",
-  "description": "B.O.A.T — Best Of All Time (Türkçe Dizi, Film, Anime ve TV)",
+  "name": "B.O.A.T & N.O.A.T",
+  "version": "1.2.0",
+  "description": "B.O.A.T & N.O.A.T — En İyi Türkçe Dizi, Film, Anime ve TV Yayınları (4K UHD & HLS)",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
+    "stream",
     "meta",
+    "subtitles",
     "catalog"
   ],
   "types": [
@@ -17,7 +19,9 @@
   ],
   "idPrefixes": [
     "tt",
-    "boat:"
+    "tmdb:",
+    "boat:",
+    "noat:"
   ],
   "catalogs": [
     {
@@ -47,8 +51,8 @@
     {
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
-      "description": "B.O.A.T — Best Of All Time (4K UHD, Torrent, Altyazı)",
-      "version": "1.1.2",
+      "description": "B.O.A.T — 4K UHD, Torrent & Altyazı Kaynakları",
+      "version": "1.2.0",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -69,30 +73,30 @@
       "contentLanguage": [
         "tr",
         "en"
+      ]
+    },
+    {
+      "id": "noat",
+      "name": "N.O.A.T (HDFilmCehennemi)",
+      "description": "N.O.A.T — HDFilmCehennemi HLS Doğrudan Akışlar (Türkçe Dublaj & Altyazı)",
+      "version": "1.2.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series",
+        "anime"
       ],
-      "catalogs": [
-        {
-          "type": "movie",
-          "id": "boat_movies",
-          "name": "B.O.A.T — Popüler Filmler",
-          "extra": [
-            {
-              "name": "search",
-              "isRequired": false
-            }
-          ]
-        },
-        {
-          "type": "series",
-          "id": "boat_series",
-          "name": "B.O.A.T — Popüler Diziler",
-          "extra": [
-            {
-              "name": "search",
-              "isRequired": false
-            }
-          ]
-        }
+      "filename": "providers/noat.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
       ]
     }
   ]
