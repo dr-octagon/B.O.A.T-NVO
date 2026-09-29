@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "Nuvio Türkiye Eklentileri",
-  "version": "1.2.0",
-  "description": "Nuvio Türkiye — HDFilmCehennemi, B.O.A.T ve N.O.A.T Sağlayıcıları",
+  "name": "Nuvio Türkiye (TMDB, HDFilmCehennemi, B.O.A.T)",
+  "version": "1.3.0",
+  "description": "Nuvio Türkiye — TMDB Türkçe Ana Ekran Kataloğu, HDFilmCehennemi ve B.O.A.T",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -27,25 +27,33 @@
   "catalogs": [
     {
       "type": "movie",
+      "id": "tmdb_trending_movies",
+      "name": "🔥 Trend Filmler (TMDB)"
+    },
+    {
+      "type": "series",
+      "id": "tmdb_popular_series",
+      "name": "📺 Popüler Diziler (TMDB)"
+    },
+    {
+      "type": "movie",
+      "id": "tmdb_top_movies",
+      "name": "⭐ En Çok Beğenilen Filmler"
+    },
+    {
+      "type": "series",
+      "id": "tmdb_anime",
+      "name": "⛩️ Popüler Animeler"
+    },
+    {
+      "type": "movie",
       "id": "boat_movies",
-      "name": "B.O.A.T — Popüler Filmler",
-      "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        }
-      ]
+      "name": "🎬 B.O.A.T — Popüler Filmler"
     },
     {
       "type": "series",
       "id": "boat_series",
-      "name": "B.O.A.T — Popüler Diziler",
-      "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        }
-      ]
+      "name": "📺 B.O.A.T — Popüler Diziler"
     }
   ],
   "scrapers": [

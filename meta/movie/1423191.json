@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "tt35538033",
+    "type": "movie",
+    "name": "Resident Evil",
+    "poster": "https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
+    "background": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+    "description": "Uzak bir hastaneye paket götürmekle görevlendirilen talihsiz bir kurye, vardığında kendini aniden bir salgının tam ortasında bulur. Hayatta kalabilmek için mutasyona uğramış yaratık sürülerine karşı amansız bir mücadele vermek zorundadır.",
+    "releaseInfo": "2026",
+    "imdbRating": "7.3",
+    "genres": [
+      "Korku",
+      "Bilim Kurgu",
+      "Macera"
+    ]
+  }
+}

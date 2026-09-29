@@ -5,12 +5,13 @@
     "name": "Primetime",
     "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
     "background": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-    "description": "Primetime — N.O.A.T 4K UHD & 1080p Kaynağı",
+    "description": "Primetime — Nuvio Türkçe Film",
     "releaseInfo": "2026",
     "imdbRating": "7.2",
     "genres": [
       "Suç",
-      "Gerilim"
+      "Gerilim",
+      "Dram"
     ]
   }
 }

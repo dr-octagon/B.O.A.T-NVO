@@ -1,6 +1,21 @@
 {
   "metas": [
     {
+      "id": "tt33764258",
+      "type": "movie",
+      "name": "Odyssey (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
+      "background": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "description": "İthaka'nın efsanevi kralı Odysseus, Truva Savaşı'nın ardından evine dönmek üzere uzun ve tehlikeli bir yolculuğa çıkar. Yolculuğu boyunca tanrıların keyfi istekleriyle, mitolojik canavarlarla ve insanlığını kırılma noktasına kadar zorlayan çetin sınavlarla yüzleşmek zorunda kalır.",
+      "releaseInfo": "2026",
+      "imdbRating": "8.0",
+      "genres": [
+        "Macera",
+        "Aksiyon",
+        "Fantastik"
+      ]
+    },
+    {
       "id": "tt6933238",
       "type": "movie",
       "name": "UNABOMBER (2026)",
@@ -8,7 +23,7 @@
       "background": "https://image.tmdb.org/t/p/original/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
       "description": "Gerçek olaylardan ilham alan bu dramada, FBI'ı peşine takan Ted Kaczynski'nin Harvardlı bir dâhi ve denekten Unabomber'lığa uzanan serüveni gözler önüne seriliyor.",
       "releaseInfo": "2026",
-      "imdbRating": "7.0",
+      "imdbRating": "6.9",
       "genres": [
         "Gerilim",
         "Dram",
@@ -31,16 +46,35 @@
       ]
     },
     {
-      "id": "tt31450459",
+      "id": "tt34206385",
       "type": "movie",
-      "name": "Digger (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
-      "background": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
-      "description": "Dünyanın en güçlü adamı, kendi yol açtığı felaket her şeyi yok etmeden önce, insanlığın kurtarıcısı olduğunu kanıtlamak için hummalı bir mücadeleye girişir.",
+      "name": "Primetime (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "background": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "description": "Primetime — Nuvio Türkçe Film",
       "releaseInfo": "2026",
-      "imdbRating": "7.5",
+      "imdbRating": "7.2",
       "genres": [
-        "Komedi"
+        "Suç",
+        "Gerilim",
+        "Dram"
+      ]
+    },
+    {
+      "id": "tt36583977",
+      "type": "movie",
+      "name": "Unutulmuş Ada (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/uYYe3C57nsqw3bA84tSR58g4EFx.jpg",
+      "background": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "description": "Lise mezuniyetlerinin ardından farklı hayatlara savrulmak üzere olan iki kadim dost olan Jo ve Raissa, son gecelerini kutlarken kendilerini gizemli bir portalın içinde bulurlar. Filipin efsanelerinden aşina oldukları sihirli ve mitolojik yaratıklarla dolu fantastik Nakali Adası, bu iki arkadaşın dostluğunu en büyük sınavından geçirecektir. Eve dönmenin bedelinin tüm anılarını unutmak olduğunu öğrendiklerinde Jo ve Raissa, birbirlerini sonsuza dek unutmadan adadan ayrılmanın bir yolunu bulmaya çalışacaklardır.",
+      "releaseInfo": "2026",
+      "imdbRating": "8.1",
+      "genres": [
+        "Animasyon",
+        "Macera",
+        "Fantastik",
+        "Komedi",
+        "Aile"
       ]
     },
     {
@@ -51,10 +85,25 @@
       "background": "https://image.tmdb.org/t/p/original/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
       "description": "New York Times çoksatan romanı Aşk Hipotezi'nden uyarlanan film, doktora öğrencisi Olive'ın, bölümünün en korkulan profesörü Adam Carlsen'ı ani bir dürtüyle öpmesiyle başlayan hikâyesini konu alıyor. İkisinin de ihtiyaç duyduğu sahte ilişki, zamanla kimyalarını sınayan ve belki de aşkın formülünü ortaya çıkarabilecek bir deneye dönüşüyor.",
       "releaseInfo": "2026",
-      "imdbRating": "8.1",
+      "imdbRating": "8.2",
       "genres": [
         "Romantik",
         "Komedi"
+      ]
+    },
+    {
+      "id": "tt27165187",
+      "type": "movie",
+      "name": "Oak Caddesi'nin Sonu (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
+      "background": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "description": "Gizemli bir kozmik olay Oak Caddesi’ni sıradan banliyö yaşamından koparıp tamamen bilinmeyen bir yere taşıdıktan sonra Platt ailesi, hayatta kalabilmelerinin tek yolunun birbirlerine sıkı sıkıya bağlı kalmak olduğunu keşfeder. Artık tanınmaz hale gelen çevrelerinde yollarını bulmaya çalışırken aile bağları, onların en büyük gücü ve tek sığınağı olacaktır.",
+      "releaseInfo": "2026",
+      "imdbRating": "7.1",
+      "genres": [
+        "Bilim Kurgu",
+        "Gizem",
+        "Gerilim"
       ]
     },
     {
@@ -68,6 +117,19 @@
       "imdbRating": "8.0",
       "genres": [
         "Aksiyon",
+        "Komedi"
+      ]
+    },
+    {
+      "id": "tt31450459",
+      "type": "movie",
+      "name": "Digger (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
+      "background": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+      "description": "Dünyanın en güçlü adamı, kendi yol açtığı felaket her şeyi yok etmeden önce, insanlığın kurtarıcısı olduğunu kanıtlamak için hummalı bir mücadeleye girişir.",
+      "releaseInfo": "2026",
+      "imdbRating": "7.4",
+      "genres": [
         "Komedi"
       ]
     },
@@ -86,35 +148,6 @@
       ]
     },
     {
-      "id": "tt36983905",
-      "type": "movie",
-      "name": "The Uprising (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg",
-      "background": "https://image.tmdb.org/t/p/original/4YyuSadBoc5k6krj0REcYH15DXG.jpg",
-      "description": "The Uprising — N.O.A.T 4K UHD & 1080p Kaynağı",
-      "releaseInfo": "2026",
-      "imdbRating": "7.3",
-      "genres": [
-        "Aksiyon",
-        "Tarih",
-        "Dram"
-      ]
-    },
-    {
-      "id": "tt34206385",
-      "type": "movie",
-      "name": "Primetime (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-      "background": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-      "description": "Primetime — N.O.A.T 4K UHD & 1080p Kaynağı",
-      "releaseInfo": "2026",
-      "imdbRating": "7.2",
-      "genres": [
-        "Suç",
-        "Gerilim"
-      ]
-    },
-    {
       "id": "tt37971717",
       "type": "movie",
       "name": "Son Bir Şans (2026)",
@@ -126,35 +159,6 @@
       "genres": [
         "Aksiyon",
         "Gerilim"
-      ]
-    },
-    {
-      "id": "tt37287335",
-      "type": "movie",
-      "name": "Saplantı (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
-      "background": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
-      "description": "​Hoşlandığı kızın kalbini kazanmak için gizemli \"Tek Dilek Söğüdü\"nü (One Wish Willow) kıran umutsuz bir romantik, tam da dilediği şeye kavuşur; ancak çok geçmeden bazı arzuların karanlık ve tekinsiz bir bedeli olduğunu keşfeder.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.2",
-      "genres": [
-        "Korku",
-        "Gerilim"
-      ]
-    },
-    {
-      "id": "tt1756855",
-      "type": "movie",
-      "name": "Coyote Acme'ye Karşı (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/tiS1RDaTrPftGZ0yGNaUW5DLuir.jpg",
-      "background": "https://image.tmdb.org/t/p/original/7GOW6jod9lLurW5utokAatxg7ql.jpg",
-      "description": "Wile E. Coyote, Road Runner'ı yakalama girişimleri sırasında kullandığı ve sürekli bozularak kendisine zarar veren ürünler nedeniyle Acme Corporation şirketine karşı hukuki bir süreç başlatır. Coyote'un yasal mücadelesinde onu temsil eden avukat ile Acme'nin savunmasını yürüten şirket avukatı mahkemede karşı karşıya gelir.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.6",
-      "genres": [
-        "Komedi",
-        "Macera",
-        "Aile"
       ]
     },
     {
@@ -189,6 +193,34 @@
       ]
     },
     {
+      "id": "tt37287335",
+      "type": "movie",
+      "name": "Saplantı (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
+      "background": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+      "description": "​Hoşlandığı kızın kalbini kazanmak için gizemli \"Tek Dilek Söğüdü\"nü (One Wish Willow) kıran umutsuz bir romantik, tam da dilediği şeye kavuşur; ancak çok geçmeden bazı arzuların karanlık ve tekinsiz bir bedeli olduğunu keşfeder.",
+      "releaseInfo": "2026",
+      "imdbRating": "8.2",
+      "genres": [
+        "Korku",
+        "Gerilim"
+      ]
+    },
+    {
+      "id": "tt34890576",
+      "type": "movie",
+      "name": "Clayface (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/1Xkpx33q2wZ9DEfdJbz1l1id00A.jpg",
+      "background": "https://image.tmdb.org/t/p/original/pwWR1DRjoFxwdH0jI2elBdXTF1F.jpg",
+      "description": "Matt Hagen’ın Gotham sokaklarından Hollywood’un başrollerine uzanan hızlı yükselişi, yerel bir suç baronunun hamlesiyle korkunç şekilde tanınmaz hale gelmesi sonucu yarıda kesilir. Ekibi tarafından yüzüstü bırakılan ve tutunacak hiçbir şeyi kalmayan Matt, kendisini mucizevi bir şekilde eski haline getireceğine inandığı son teknoloji bir tedavinin peşine düşer. Ancak bu tedavi beklenmedik bir şekilde gerçeklikle olan bağını koparmaya başlar ve onu, önüne çıkan her şeyi yutan yıkıcı bir intikam sarmalına sürükler.",
+      "releaseInfo": "2026",
+      "genres": [
+        "Korku",
+        "Gerilim",
+        "Bilim Kurgu"
+      ]
+    },
+    {
       "id": "tt21357150",
       "type": "movie",
       "name": "Avengers: Doomsday (2026)",
@@ -203,21 +235,6 @@
       ]
     },
     {
-      "id": "tt33764258",
-      "type": "movie",
-      "name": "Odyssey (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
-      "background": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
-      "description": "İthaka'nın efsanevi kralı Odysseus, Truva Savaşı'nın ardından evine dönmek üzere uzun ve tehlikeli bir yolculuğa çıkar. Yolculuğu boyunca tanrıların keyfi istekleriyle, mitolojik canavarlarla ve insanlığını kırılma noktasına kadar zorlayan çetin sınavlarla yüzleşmek zorunda kalır.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.0",
-      "genres": [
-        "Macera",
-        "Aksiyon",
-        "Fantastik"
-      ]
-    },
-    {
       "id": "tt32261958",
       "type": "movie",
       "name": "Verity: Gerçeğin Diğer Kıyısı (2026)",
@@ -225,27 +242,10 @@
       "background": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
       "description": "Jeremy Crawford, geçirdiği bir kaza sonucu romanlarını tamamlayamadan vefat eden çok satan yazarı olan eşi Verity'nin romanlarını tamamlaması amacıyla Lowen Ashleigh'i işe alır. Lowen, çalışmak için Crawford'ların evinde kaldığı süre boyunca Verity'nin rahatsız edici gerçeklerini ortaya çıkarır.",
       "releaseInfo": "2026",
-      "imdbRating": "8.0",
+      "imdbRating": "8.3",
       "genres": [
         "Gizem",
         "Gerilim"
-      ]
-    },
-    {
-      "id": "tt36583977",
-      "type": "movie",
-      "name": "Unutulmuş Ada (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/uYYe3C57nsqw3bA84tSR58g4EFx.jpg",
-      "background": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-      "description": "Lise mezuniyetlerinin ardından farklı hayatlara savrulmak üzere olan iki kadim dost olan Jo ve Raissa, son gecelerini kutlarken kendilerini gizemli bir portalın içinde bulurlar. Filipin efsanelerinden aşina oldukları sihirli ve mitolojik yaratıklarla dolu fantastik Nakali Adası, bu iki arkadaşın dostluğunu en büyük sınavından geçirecektir. Eve dönmenin bedelinin tüm anılarını unutmak olduğunu öğrendiklerinde Jo ve Raissa, birbirlerini sonsuza dek unutmadan adadan ayrılmanın bir yolunu bulmaya çalışacaklardır.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.2",
-      "genres": [
-        "Animasyon",
-        "Macera",
-        "Fantastik",
-        "Komedi",
-        "Aile"
       ]
     },
     {
@@ -264,32 +264,33 @@
       ]
     },
     {
-      "id": "tt27165187",
+      "id": "tt36893729",
       "type": "movie",
-      "name": "Oak Caddesi'nin Sonu (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
-      "background": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-      "description": "Gizemli bir kozmik olay Oak Caddesi’ni sıradan banliyö yaşamından koparıp tamamen bilinmeyen bir yere taşıdıktan sonra Platt ailesi, hayatta kalabilmelerinin tek yolunun birbirlerine sıkı sıkıya bağlı kalmak olduğunu keşfeder. Artık tanınmaz hale gelen çevrelerinde yollarını bulmaya çalışırken aile bağları, onların en büyük gücü ve tek sığınağı olacaktır.",
+      "name": "Dondurmacı (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/eiSbwkwkHO8FIVFQYjCFGwwifPx.jpg",
+      "background": "https://image.tmdb.org/t/p/original/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+      "description": "Huzurlu bir yaz günü, sakin bir kasaba. Gizemli bir dondurmacı ortaya çıkar ve çocuklara dondurma satmaya başlar. Bu dondurmaları yiyen çocuklar çok geçmeden bu sakin ve huzurlu kasabaya dehşeti yaşatacaktır.",
       "releaseInfo": "2026",
-      "imdbRating": "7.1",
+      "imdbRating": "4.7",
       "genres": [
-        "Bilim Kurgu",
-        "Gizem",
+        "Komedi",
+        "Korku",
         "Gerilim"
       ]
     },
     {
-      "id": "tt6628920",
+      "id": "tt35298123",
       "type": "movie",
-      "name": "Idiots (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
-      "background": "https://image.tmdb.org/t/p/original/v65hwf9S6mxFtobq4w6SlLnWgLq.jpg",
-      "description": "Idiots — N.O.A.T 4K UHD & 1080p Kaynağı",
+      "name": "Miyazma Kampında Ergenlik Arzuları ve Ölüm (2026)",
+      "poster": "https://image.tmdb.org/t/p/w500/c07S1wCUJGzpDcSeUf34rWaISiZ.jpg",
+      "background": "https://image.tmdb.org/t/p/original/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "description": "Miyazma Kampında Ergenlik Arzuları ve Ölüm — Nuvio Türkçe Film",
       "releaseInfo": "2026",
       "imdbRating": "6.4",
       "genres": [
         "Komedi",
-        "Suç"
+        "Korku",
+        "Romantik"
       ]
     }
   ]
