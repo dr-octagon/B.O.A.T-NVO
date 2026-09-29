@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "B.O.A.T & N.O.A.T",
+  "name": "Nuvio Türkiye Eklentileri",
   "version": "1.2.0",
-  "description": "B.O.A.T & N.O.A.T — En İyi Türkçe Dizi, Film, Anime ve TV Yayınları (4K UHD & HLS)",
+  "description": "Nuvio Türkiye — HDFilmCehennemi, B.O.A.T ve N.O.A.T Sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -21,7 +21,8 @@
     "tt",
     "tmdb:",
     "boat:",
-    "noat:"
+    "noat:",
+    "hdfilmcehennemi:"
   ],
   "catalogs": [
     {
@@ -48,6 +49,29 @@
     }
   ],
   "scrapers": [
+    {
+      "id": "hdfilmcehennemi",
+      "name": "HDFilmCehennemi",
+      "description": "HDFilmCehennemi — Türkçe Dublaj & Altyazılı HLS Doğrudan Akışlar",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/hdfilmcehennemi.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
     {
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
@@ -77,8 +101,8 @@
     },
     {
       "id": "noat",
-      "name": "N.O.A.T (HDFilmCehennemi)",
-      "description": "N.O.A.T — HDFilmCehennemi HLS Doğrudan Akışlar (Türkçe Dublaj & Altyazı)",
+      "name": "N.O.A.T",
+      "description": "N.O.A.T — Nuvio Of All Time Birleşik Sağlayıcı",
       "version": "1.2.0",
       "author": "Dr.Octagon",
       "supportedTypes": [
