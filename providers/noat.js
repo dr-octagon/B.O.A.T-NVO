@@ -190,7 +190,8 @@ var require_boat = __commonJS({
     var _cfgReady = null;
     function cfgReady() {
       if (!_cfgReady) {
-        _cfgReady = loadConfig().then(function() {
+        _cfgReady = Promise.resolve();
+        loadConfig().then(function() {
           var v;
           v = val("urls.boat.torrentio");
           if (v) TORRENTIO_API = String(v).replace(/\/+$/, "");
@@ -202,6 +203,7 @@ var require_boat = __commonJS({
           if (v) OPENSUBTITLES_API = String(v).replace(/\/+$/, "");
           v = val("api_keys.tmdb");
           if (v) TMDB_API_KEY = String(v);
+        }).catch(function() {
         });
       }
       return _cfgReady;
@@ -234,18 +236,19 @@ var require_boat = __commonJS({
     }
     function fetchWithTimeout(_0) {
       return __async(this, arguments, function* (url, options = {}, timeoutMs = 8e3) {
-        const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
-        const timeoutId = controller ? setTimeout(() => controller.abort(), timeoutMs) : null;
+        const hasTimeout = typeof setTimeout === "function";
+        const controller = hasTimeout && typeof AbortController !== "undefined" ? new AbortController() : null;
+        const timeoutId = hasTimeout && controller ? setTimeout(() => controller.abort(), timeoutMs) : null;
         try {
           const fetchOpts = Object.assign({}, options, {
             headers: Object.assign({}, DEFAULT_HEADERS, options.headers || {})
           });
           if (controller) fetchOpts.signal = controller.signal;
           const res = yield fetch(url, fetchOpts);
-          if (timeoutId) clearTimeout(timeoutId);
+          if (timeoutId && typeof clearTimeout === "function") clearTimeout(timeoutId);
           return res;
         } catch (e) {
-          if (timeoutId) clearTimeout(timeoutId);
+          if (timeoutId && typeof clearTimeout === "function") clearTimeout(timeoutId);
           return null;
         }
       });
@@ -445,7 +448,7 @@ ${s.title || ""}`;
             const isTr = /turkish|turkce|\btr\b|dublaj/i.test(cleanTitle);
             const trTag = isTr ? " \u{1F1F9}\u{1F1F7}" : "";
             results.push({
-              name: "B.O.A.T",
+              name: `${cleanTitle}${sizeTag}${seedTag}${trTag}`,
               title: `\u231C B.O.A.T \u{1F9F2} \u231F | ${cleanTitle} [${quality}]${sizeTag}${seedTag} [${site}]${trTag}`,
               url: streamUrl,
               quality,
@@ -493,7 +496,7 @@ ${s.title || ""}`;
             const isTr = /turkish|turkce|\btr\b|dublaj/i.test(cleanTitle);
             const trTag = isTr ? " \u{1F1F9}\u{1F1F7}" : "";
             results.push({
-              name: "B.O.A.T",
+              name: `${cleanTitle}${sizeTag}${seedTag}${trTag}`,
               title: `\u231C B.O.A.T \u{1F9F2} \u231F | ${cleanTitle} [${quality}]${sizeTag}${seedTag} [${site}]${trTag}`,
               url: streamUrl,
               quality,
@@ -538,7 +541,7 @@ ${s.title || ""}`;
             const sizeTag = size ? ` [${size}]` : "";
             const seedTag = seeders > 0 ? ` [\u{1F464} ${seeders}]` : "";
             results.push({
-              name: "B.O.A.T",
+              name: `${cleanTitle}${sizeTag}${seedTag}`,
               title: `\u231C B.O.A.T \u{1F9F2} \u231F | ${cleanTitle} [${quality}]${sizeTag}${seedTag} [ThePirateBay]`,
               url: streamUrl,
               quality,
@@ -576,7 +579,7 @@ ${s.title || ""}`;
               const typeLabel = t.type ? ` [${t.type.toUpperCase()}]` : "";
               const sizeLabel = t.size ? ` [${t.size}]` : "";
               results.push({
-                name: "B.O.A.T",
+                name: `${movieTitle} [${qLabel}]${typeLabel}${sizeLabel} [YTS]`,
                 title: `\u231C B.O.A.T \u{1F9F2} \u231F | ${movieTitle} [${qLabel}]${typeLabel}${sizeLabel} [YTS/TorrentFilm]`,
                 url: magnet,
                 quality: qLabel,

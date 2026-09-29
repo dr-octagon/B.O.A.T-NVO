@@ -1,12 +1,11 @@
 {
   "id": "community.nuvio.noat",
   "name": "N.O.A.T",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "N.O.A.T — Nuvio Of All Time (Türkçe Dizi, Film, Anime ve TV)",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
-    "stream",
     "meta",
     "subtitles",
     "catalog"
@@ -51,7 +50,7 @@
       "id": "noat",
       "name": "N.O.A.T",
       "description": "N.O.A.T — Nuvio Of All Time (4K UHD, Torrent, Altyazı)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -102,7 +101,7 @@
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
       "description": "B.O.A.T 4K UHD Çoklu Kaynak",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
