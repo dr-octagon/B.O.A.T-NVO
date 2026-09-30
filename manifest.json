@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi)",
-  "version": "1.6.4",
-  "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T & HDFilmCehennemi Sağlayıcıları",
+  "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi, DiziBox)",
+  "version": "1.7.0",
+  "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T, HDFilmCehennemi & DiziBox Sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -19,7 +19,8 @@
     "tt",
     "tmdb:",
     "boat:",
-    "hdfilmcehennemi:"
+    "hdfilmcehennemi:",
+    "dizibox:"
   ],
   "catalogs": [
     {
@@ -91,6 +92,29 @@
         "series"
       ],
       "filename": "providers/hdfilmcehennemi.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "dizibox",
+      "name": "DiziBox",
+      "description": "DiziBox — Yabancı Diziler, King Player & VidMoly 1080p Doğrudan Akış",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "filename": "providers/dizibox.js",
       "enabled": true,
       "formats": [
         "m3u8",
