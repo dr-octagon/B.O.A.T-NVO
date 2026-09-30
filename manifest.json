@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "Nuvio Türkiye (TMDB & HDFilmCehennemi)",
-  "version": "1.6.0",
-  "description": "Nuvio Türkiye — TMDB Türkçe Arayüz & HDFilmCehennemi Doğrudan Akışlar",
+  "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi)",
+  "version": "1.6.1",
+  "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T & HDFilmCehennemi Sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -18,6 +18,8 @@
   "idPrefixes": [
     "tt",
     "tmdb:",
+    "boat:",
+    "noat:",
     "hdfilmcehennemi:"
   ],
   "catalogs": [
@@ -90,6 +92,57 @@
         "series"
       ],
       "filename": "providers/hdfilmcehennemi.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8",
+        "mp4"
+      ],
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "boat",
+      "name": "B.O.A.T (Best Of All Time)",
+      "description": "B.O.A.T — 4K UHD, Torrent & Altyazı Kaynakları",
+      "version": "1.3.1",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series",
+        "anime"
+      ],
+      "filename": "providers/boat.js",
+      "enabled": true,
+      "formats": [
+        "torrent",
+        "magnet",
+        "mp4",
+        "hls",
+        "m3u8"
+      ],
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr",
+        "en"
+      ]
+    },
+    {
+      "id": "noat",
+      "name": "N.O.A.T",
+      "description": "N.O.A.T — Nuvio Of All Time Birleşik Sağlayıcı",
+      "version": "1.3.1",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series",
+        "anime"
+      ],
+      "filename": "providers/noat.js",
       "enabled": true,
       "formats": [
         "hls",
