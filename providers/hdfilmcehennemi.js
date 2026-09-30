@@ -171,6 +171,7 @@ var require_tmdb = __commonJS({
     var TMDB_BASE_URL2 = "https://api.themoviedb.org/3";
     var GITHUB_RAW_BASE = "https://raw.githubusercontent.com/dr-octagon/Nuvio/main";
     var CINEMETA_BASE = "https://v3-cinemeta.strem.io";
+    var WIKIDATA_SPARQL_URL = "https://query.wikidata.org/sparql";
     function getApiKey2() {
       if (typeof globalThis !== "undefined" && globalThis.TMDB_API_KEY) {
         return globalThis.TMDB_API_KEY;
@@ -210,6 +211,7 @@ var require_tmdb = __commonJS({
       var isImdb = cleanId.startsWith("tt");
       var result = {
         tmdbId: isImdb ? "" : cleanId,
+        imdbId: isImdb ? cleanId : "",
         title: "",
         originalTitle: "",
         year: null,
@@ -219,7 +221,7 @@ var require_tmdb = __commonJS({
       if (!cleanId) return result;
       try {
         var ghUrl = `${GITHUB_RAW_BASE}/meta/${type}/${cleanId}.json`;
-        var ghRes = await fetchWithTimeout(ghUrl, { headers: { "Accept": "application/json" } }, 2500);
+        var ghRes = await fetchWithTimeout(ghUrl, { headers: { "Accept": "application/json" } }, 2e3);
         if (ghRes && ghRes.ok) {
           var ghData = await ghRes.json();
           var meta = ghData && ghData.meta;
@@ -229,31 +231,66 @@ var require_tmdb = __commonJS({
             var y = meta.releaseInfo ? parseInt(meta.releaseInfo, 10) : meta.year ? parseInt(meta.year, 10) : null;
             result.year = y && !isNaN(y) ? y : null;
             if (meta.tmdbId) result.tmdbId = String(meta.tmdbId);
+            if (meta.imdbId) result.imdbId = String(meta.imdbId);
             result.details = meta;
             return result;
           }
         }
       } catch (e) {
       }
-      if (isImdb) {
+      try {
+        var sparqlQuery = "";
+        if (isImdb) {
+          sparqlQuery = `SELECT ?itemLabel ?tmdbMovie ?tmdbTv WHERE { ?item wdt:P345 "${cleanId}" . OPTIONAL { ?item wdt:P4947 ?tmdbMovie } OPTIONAL { ?item wdt:P4983 ?tmdbTv } SERVICE wikibase:label { bd:serviceParam wikibase:language "tr,en". } } LIMIT 1`;
+        } else {
+          var tmdbProp = isTv ? "wdt:P4983" : "wdt:P4947";
+          sparqlQuery = `SELECT ?itemLabel ?imdb WHERE { ?item ${tmdbProp} "${cleanId}" . OPTIONAL { ?item wdt:P345 ?imdb } SERVICE wikibase:label { bd:serviceParam wikibase:language "tr,en". } } LIMIT 1`;
+        }
+        var wikiUrl = `${WIKIDATA_SPARQL_URL}?query=${encodeURIComponent(sparqlQuery)}&format=json`;
+        var wikiRes = await fetchWithTimeout(wikiUrl, {
+          headers: { "User-Agent": "NuvioScraper/1.0", "Accept": "application/json" }
+        }, 2500);
+        if (wikiRes && wikiRes.ok) {
+          var wikiData = await wikiRes.json();
+          var row = wikiData && wikiData.results && wikiData.results.bindings && wikiData.results.bindings[0];
+          if (row) {
+            if (row.itemLabel && row.itemLabel.value) {
+              result.title = row.itemLabel.value.trim();
+            }
+            if (isImdb) {
+              var foundTmdb = row.tmdbMovie && row.tmdbMovie.value || row.tmdbTv && row.tmdbTv.value;
+              if (foundTmdb) result.tmdbId = String(foundTmdb);
+            } else if (row.imdb && row.imdb.value) {
+              result.imdbId = row.imdb.value.trim();
+            }
+          }
+        }
+      } catch (e) {
+      }
+      var effectiveImdbId = result.imdbId || (isImdb ? cleanId : "");
+      if (effectiveImdbId) {
         try {
-          var cmUrl = `${CINEMETA_BASE}/meta/${type}/${cleanId}.json`;
+          var cmUrl = `${CINEMETA_BASE}/meta/${type}/${effectiveImdbId}.json`;
           var cmRes = await fetchWithTimeout(cmUrl, { headers: { "Accept": "application/json" } }, 2500);
           if (cmRes && cmRes.ok) {
             var cmData = await cmRes.json();
             var cmMeta = cmData && cmData.meta;
             if (cmMeta && cmMeta.name) {
-              result.title = String(cmMeta.name).trim();
               result.originalTitle = String(cmMeta.name).trim();
+              if (!result.title) result.title = result.originalTitle;
               var cy = cmMeta.year ? parseInt(cmMeta.year, 10) : null;
-              result.year = cy && !isNaN(cy) ? cy : null;
-              if (cmMeta.moviedb_id) result.tmdbId = String(cmMeta.moviedb_id);
+              if (!result.year && cy && !isNaN(cy)) result.year = cy;
+              if (!result.tmdbId && cmMeta.moviedb_id) result.tmdbId = String(cmMeta.moviedb_id);
               result.details = cmMeta;
               return result;
             }
           }
         } catch (e) {
         }
+      }
+      if (result.title) {
+        if (!result.originalTitle) result.originalTitle = result.title;
+        return result;
       }
       try {
         var apiKey = getApiKey2();
@@ -277,7 +314,7 @@ var require_tmdb = __commonJS({
             var d = await detRes.json();
             result.tmdbId = String(tmdbId);
             result.title = d.title || d.name || "";
-            result.originalTitle = d.original_title || d.original_name || "";
+            result.originalTitle = d.original_title || d.original_name || result.title;
             var releaseDate = d.release_date || d.first_air_date || "";
             var dy = releaseDate ? parseInt(releaseDate.slice(0, 4), 10) : null;
             result.year = dy && !isNaN(dy) ? dy : null;
@@ -294,7 +331,8 @@ var require_tmdb = __commonJS({
       getMediaDetails: getMediaDetails2,
       TMDB_BASE_URL: TMDB_BASE_URL2,
       GITHUB_RAW_BASE,
-      CINEMETA_BASE
+      CINEMETA_BASE,
+      WIKIDATA_SPARQL_URL
     };
   }
 });
@@ -559,11 +597,16 @@ function rankCandidates(results, title, originalTitle, isTv, year) {
       const yStr = String(year);
       if (item.title.includes(yStr) || item.url.includes(yStr)) {
         score += 50;
+      } else {
+        const m = item.title.match(/\b(19\d\d|20\d\d)\b/) || item.url.match(/\b(19\d\d|20\d\d)\b/);
+        if (m && Math.abs(parseInt(m[1], 10) - year) > 1) {
+          score -= 60;
+        }
       }
     }
     if (normTitle && normItem === normTitle) score += 40;
     if (normOrig && normItem === normOrig) score += 40;
-    const sequelKeywords = ["bolum iki", "part two", "part 2", " 2", "-2", "bolum uc", "part three", "part 3"];
+    const sequelKeywords = ["bolum iki", "part two", "part 2", " 2", "-2", "bolum uc", "part three", "part 3", " 3", "-3", " 4", "-4", "resurrections", "dirilis", "reloaded", "revolutions"];
     const requestedHasSequel = sequelKeywords.some((kw) => normTitle.includes(kw) || normOrig.includes(kw));
     if (!requestedHasSequel) {
       const itemHasSequel = sequelKeywords.some((kw) => normItem.includes(kw) || item.url.includes(kw));
@@ -683,14 +726,14 @@ async function getStreamsFromPage(pageUrl) {
           if (fastPlayUrl) {
             const streamData = await extractFastPlay(fastPlayUrl, embedUrl);
             if (streamData && streamData.url) {
-              let label = `SetPlay - 1080p`;
+              let label = `SetPlay 1080p`;
               if (opt.partKey) {
                 label += ` [${opt.partKey}]`;
               } else {
                 label += ` (T\xFCrk\xE7e Dublaj & Altyaz\u0131)`;
               }
               streams.push({
-                name: "HDFilmCehennemi",
+                name: label,
                 title: label,
                 url: streamData.url,
                 quality: "1080p",
