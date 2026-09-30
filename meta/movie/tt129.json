@@ -6,8 +6,8 @@
     "originalName": "千と千尋の神隠し",
     "tmdbId": "129",
     "imdbId": "tt0245429",
-    "poster": "https://image.tmdb.org/t/p/w500/xvOEOMCzfV8qXkd1n1btZ8q4Psd.jpg",
-    "background": "https://image.tmdb.org/t/p/original/6oaL4DP75yABrd5EbC4H2zq5ghc.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/xvOEOMCzfV8qXkd1n1btZ8q4Psd.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/6oaL4DP75yABrd5EbC4H2zq5ghc.jpg",
     "description": "Film, küçük Chihiro ve ailesinin yeni bir kasabaya taşınmalarıyla açılır. Yolculuk esnasında yolda gördükleri bir tünele dikkat eden aile, tünelin içerisinden geçtiklerinde karşılaştıkları fantastik dünyanın içerisinde büyülenirler. Ancak bu kasabada yolunda gitmeyen bir şeyler vardır, bu büyü kısa bir zaman sonra bozulacaktır. Ailesini kaybeden küçük Chihiro, babasını kurtarmak için korku dolu bir maceraya atılacaktır.",
     "releaseInfo": "2001",
     "year": 2001,
@@ -16,6 +16,23 @@
       "Animasyon",
       "Aile",
       "Fantastik"
-    ]
+    ],
+    "cast": [
+      "柊瑠美",
+      "Miyu İrino",
+      "Mari Natsuki",
+      "内藤剛志",
+      "沢口靖子",
+      "我修院達也",
+      "Ryunosuke Kamiki",
+      "玉井夕海"
+    ],
+    "director": [
+      "Hayao Miyazaki"
+    ],
+    "writer": [
+      "Hayao Miyazaki"
+    ],
+    "runtime": "125 dk"
   }
 }

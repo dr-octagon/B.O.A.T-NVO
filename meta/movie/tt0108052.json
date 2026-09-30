@@ -6,8 +6,8 @@
     "originalName": "Schindler's List",
     "tmdbId": "424",
     "imdbId": "tt0108052",
-    "poster": "https://image.tmdb.org/t/p/w500/2mOH8EqumIaepdP94e0cy4Xnyg7.jpg",
-    "background": "https://image.tmdb.org/t/p/original/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/2mOH8EqumIaepdP94e0cy4Xnyg7.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
     "description": "Tüm zamanların tarihsel açıdan en önemli filmlerinden biri olan Steven Spielberg'in Schindler'ın Listesi, cesaret ve inanç dersleriyle nesiller boyu ilham vermeye devam eden güçlü bir hikaye. En İyi Film ve En İyi Yönetmen de dahil olmak üzere yedi Akademi Ödülü sahibi olan bu inanılmaz gerçek hikaye, Holokost sırasında 1.100'den fazla Yahudinin hayatını kurtaran esrarengiz Oskar Schindler'ı (Liam Neeson) konu alıyor. Bu, fark yaratan bir adamın zaferi ve yaptıkları sayesinde insanlık tarihinin en karanlık bölümlerinden birini atlatanların dramıdır.",
     "releaseInfo": "1993",
     "year": 1993,
@@ -16,6 +16,23 @@
       "Dram",
       "Tarih",
       "Savaş"
-    ]
+    ],
+    "cast": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes",
+      "Caroline Goodall",
+      "יהונתן סגל",
+      "Embeth Davidtz",
+      "Malgorzata Gebel",
+      "שמוליק לוי"
+    ],
+    "director": [
+      "Steven Spielberg"
+    ],
+    "writer": [
+      "Steven Zaillian"
+    ],
+    "runtime": "195 dk"
   }
 }

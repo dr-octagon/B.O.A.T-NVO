@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "tt0816692",
+    "type": "movie",
+    "name": "Yıldızlararası",
+    "originalName": "Interstellar",
+    "tmdbId": "157336",
+    "imdbId": "tt0816692",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/xbiycuc84TrieEWwkkuH2hoEa9S.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+    "description": "Dünya'nın kuraklık ve kıtlıkla yok oluşun eşiğine geldiği bir gelecekte, insanlığın hayatta kalabilmesi için yeni bir yuva bulması şarttır. Keşfedilen gizemli bir solucan deliği, bir grup astronot ve bilim insanına insanlık tarihinin en önemli görevini üstlenme fırsatı verir. Eski bir NASA pilotu olan Cooper, ailesini geride bırakarak yıldızlararası bir yolculuğa çıkar ve bilinmeyen galaksilerde insanlığın kurtuluşunu arar.",
+    "releaseInfo": "2014",
+    "year": 2014,
+    "imdbRating": "8.5",
+    "genres": [
+      "Macera",
+      "Dram",
+      "Bilim-Kurgu"
+    ],
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Michael Caine",
+      "Jessica Chastain",
+      "Casey Affleck",
+      "Wes Bentley",
+      "Topher Grace",
+      "Mackenzie Foy"
+    ],
+    "director": [
+      "Christopher Nolan"
+    ],
+    "writer": [
+      "Jonathan Nolan",
+      "Christopher Nolan"
+    ],
+    "runtime": "169 dk"
+  }
+}

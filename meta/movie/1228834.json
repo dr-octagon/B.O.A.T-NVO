@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt9601292",
+    "type": "movie",
+    "name": "The Fix",
+    "originalName": "The Fix",
+    "tmdbId": "1228834",
+    "imdbId": "tt9601292",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/9iSkee8DPpwBQI3GhXSTGZJKNYM.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+    "description": "The Fix — Nuvio Türkçe Film",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "7.1",
+    "genres": [
+      "Aksiyon",
+      "Gerilim"
+    ],
+    "cast": [
+      "Zachary Levi",
+      "Liam Neeson",
+      "Wes Chatham",
+      "Titus Welliver",
+      "Navit Nikaban",
+      "Annet Mahendru",
+      "Grant Harvey",
+      "Augusto Aguilera"
+    ],
+    "director": [
+      "Guy Moshe"
+    ],
+    "writer": [
+      "Guy Moshe",
+      "Mark Bacci"
+    ],
+    "runtime": "142 dk"
+  }
+}

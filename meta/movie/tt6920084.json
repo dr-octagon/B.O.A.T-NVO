@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt6920084",
+    "type": "movie",
+    "name": "Resident Evil: Raccoon Şehri",
+    "originalName": "Resident Evil: Welcome to Raccoon City",
+    "tmdbId": "460458",
+    "imdbId": "tt6920084",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qSzvsqocllBxjcgFY725zfr5dSU.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg",
+    "description": "Bir zamanlar ilaç devi Umbrella Şirketi'nin hızla gelişen yuvası olan Raccoon Şehri, artık ölmekte olan bir orta batı kentidir. Şirket buradan ayrılırken ardında çorak topraklar bırakmıştır ve de yüzeyin altında yavaş yavaş büyüyen büyük bir kötülük vardır. Bu kötülük nihayet gün yüzüne çıktığında hayatta kalan bir grup insanın, Umbrella'nın ardındaki gerçeği keşfetmek ve geceyi sağ salim atlatmak için işbirliği yapması gerekecektir.",
+    "releaseInfo": "2021",
+    "year": 2021,
+    "imdbRating": "5.9",
+    "genres": [
+      "Aksiyon",
+      "Korku",
+      "Bilim-Kurgu"
+    ],
+    "cast": [
+      "Kaya Scodelario",
+      "Hannah John-Kamen",
+      "Robbie Amell",
+      "Tom Hopper",
+      "Avan Jogia",
+      "Donal Logue",
+      "Neal McDonough",
+      "Lily Gao"
+    ],
+    "director": [
+      "Johannes Roberts"
+    ],
+    "writer": [
+      "Johannes Roberts"
+    ],
+    "runtime": "107 dk"
+  }
+}

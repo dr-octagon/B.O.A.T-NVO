@@ -6,8 +6,8 @@
     "originalName": "Toy Story 5",
     "tmdbId": "1084244",
     "imdbId": "tt29355505",
-    "poster": "https://image.tmdb.org/t/p/w500/4LHyUPK4obqICeCt4rjhpQDOhJt.jpg",
-    "background": "https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/4LHyUPK4obqICeCt4rjhpQDOhJt.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
     "description": "Bonnie'nin hediye olarak aldığı bir Lilypad tablete takıntılı hale gelmesiyle birlikte, Buzz, Woody, Jessie ve diğer oyuncaklar için işler iyice karmaşıklaşır; zira artık oyun saatini tehdit eden yepyeni bir tehlikeyle mücadele etmek zorundadırlar.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -17,6 +17,24 @@
       "Aile",
       "Komedi",
       "Macera"
-    ]
+    ],
+    "cast": [
+      "Joan Cusack",
+      "Tom Hanks",
+      "Tim Allen",
+      "Conan O'Brien",
+      "Scarlett Spears",
+      "Greta Lee",
+      "Shelby Rabara",
+      "Mykal-Michelle Harris"
+    ],
+    "director": [
+      "Andrew Stanton"
+    ],
+    "writer": [
+      "Andrew Stanton",
+      "Kenna Harris"
+    ],
+    "runtime": "102 dk"
   }
 }

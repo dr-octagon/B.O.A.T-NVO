@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "tt36073210",
+    "type": "movie",
+    "name": "Dayanılmaz Çekim",
+    "originalName": "Enfrentados: Marfil",
+    "tmdbId": "1440098",
+    "imdbId": "tt36073210",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qQQ7MPymZeyIRAMF32e0QFgcV0f.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+    "description": "Güçlü bir İspanyol iş insanının kızı olan Marfil, kaçırılıp açıklama yapılmadan serbest bırakılınca New York'taki hayatı altüst olur. Babası, Sebastian Moore'u kızına koruma olarak tutar. Her anı birlikte geçirmek zorunda kalan ikili arasında, hiçbir şeyin göründüğü gibi olmadığı bir dünyada kaçınılmaz bir çekim oluşur. \"Culpables\" serisinin yazarı Mercedes Ron'un romanından uyarlanmıştır.",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "6.8",
+    "genres": [
+      "Romantik",
+      "Gerilim"
+    ],
+    "cast": [
+      "Ester Expósito",
+      "Hugo Diego Garcia",
+      "Pablo Molinero",
+      "Lluís Homar",
+      "Joaquín Ferreira",
+      "Zoe Bonafonte",
+      "Majo Gámez",
+      "João Bettencourt"
+    ],
+    "director": [
+      "Óscar Pedraza"
+    ],
+    "writer": [
+      "Sofía Cuenca"
+    ],
+    "runtime": "104 dk"
+  }
+}

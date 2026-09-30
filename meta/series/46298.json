@@ -6,8 +6,8 @@
     "originalName": "HUNTER×HUNTER",
     "tmdbId": "46298",
     "imdbId": "tt2098220",
-    "poster": "https://image.tmdb.org/t/p/w500/9WxfAQquTun9ATkV6iAeFHMkqxv.jpg",
-    "background": "https://image.tmdb.org/t/p/original/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/9WxfAQquTun9ATkV6iAeFHMkqxv.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
     "description": "On iki yaşındaki Gon Freecss, bir gün kendisine her zaman söylendiği babasının hayatta olduğunu keşfeder. Babası Ging bir Avcıdır - toplumun elit kesiminin bir yere gitme veya neredeyse her şeyi yapma lisansına sahip bir üyesidir. Babasının izinden gitmeye kararlı olan Gon, Avcı Sınavına girmeye karar verir ve sonunda babasını kendi başına bir Avcı olarak kanıtlamak için bulur. Ancak yolda, bir Avcı olmanın önceden düşünüldüğünden daha fazlası olduğunu ve karşılaşması gereken zorlukların dünyanın en zoru olarak kabul edildiğini öğrenir.",
     "releaseInfo": "2011",
     "year": 2011,
@@ -16,6 +16,12 @@
       "Animasyon",
       "Aksiyon & Macera",
       "Bilim Kurgu & Fantazi"
+    ],
+    "cast": [
+      "Megumi Han",
+      "Mariya İse",
+      "二又一成",
+      "Keiji Fujiwara"
     ],
     "videos": [
       {

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "tt6751668",
+    "type": "movie",
+    "name": "Parazit",
+    "originalName": "기생충",
+    "tmdbId": "496243",
+    "imdbId": "tt6751668",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/nx7TmJDMkgyBc09DVo5ze52Wt3F.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+    "description": "Yoksul Kim ailesi, hileyle zengin Park ailesinin yanında çalışmaya başlar; ancak konutun altında gizli bir sığınak keşfetmeleriyle parazitçe yürüttükleri bu plan kontrolden çıkar ve şiddetli bir sınıf çatışmasına dönüşür.",
+    "releaseInfo": "2019",
+    "year": 2019,
+    "imdbRating": "8.5",
+    "genres": [
+      "Komedi",
+      "Gerilim",
+      "Dram"
+    ],
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik",
+      "Park So-dam",
+      "Lee Jung-eun",
+      "Jang Hye-jin",
+      "Park Myung-hoon"
+    ],
+    "director": [
+      "Bong Joon-ho"
+    ],
+    "writer": [
+      "Bong Joon-ho",
+      "Han Jin-won"
+    ],
+    "runtime": "133 dk"
+  }
+}

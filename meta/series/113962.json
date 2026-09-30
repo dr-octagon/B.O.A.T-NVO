@@ -6,15 +6,28 @@
     "originalName": "Lioness",
     "tmdbId": "113962",
     "imdbId": "tt13111078",
-    "poster": "https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
-    "background": "https://image.tmdb.org/t/p/original/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
     "description": "Sert mizaçlı fakat tutkulu bir genç deniz piyadesi olan Cruz Manuelos, bir terör örgütünü içeriden çökertmeye yardımcı olmak amacıyla CIA'in Lioness Operasyon Ekibi'ne sızma ajanı olarak seçilir. Lioness programının istasyon şefi Joe ise kadın gizli görev ajanlarını eğitmek, yönetmek ve liderlik etmekle görevlendirilir.",
     "releaseInfo": "2023",
     "year": 2023,
     "imdbRating": "8.3",
     "genres": [
       "Dram",
-      "Savaş & Politika"
+      "Savaş & Politik"
+    ],
+    "cast": [
+      "Zoe Saldaña",
+      "Laysla De Oliveira",
+      "Dave Annable",
+      "Jill Wagner",
+      "LaMonica Garrett",
+      "James Jordan",
+      "Genesis Rodriguez",
+      "Michael Kelly"
+    ],
+    "director": [
+      "Taylor Sheridan"
     ],
     "videos": [
       {

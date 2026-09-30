@@ -6,8 +6,8 @@
     "originalName": "Swapped",
     "tmdbId": "1007757",
     "imdbId": "tt29552248",
-    "poster": "https://image.tmdb.org/t/p/w500/qOGVmgnIO71nIffkGmGtGmhHLdN.jpg",
-    "background": "https://image.tmdb.org/t/p/original/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qOGVmgnIO71nIffkGmGtGmhHLdN.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/zMwhWailP1WY7sb6AoE6b8ugoy.jpg",
     "description": "Ormanda yaşayan küçük bir canlıyla görkemli bir kuşun bedenleri aniden yer değiştirir ve böylece hayatlarının en çılgın macerasından sağ çıkabilmek için birlik olmaları gerekir.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -17,6 +17,25 @@
       "Animasyon",
       "Aile",
       "Fantastik"
-    ]
+    ],
+    "cast": [
+      "Michael B. Jordan",
+      "Juno Temple",
+      "Tracy Morgan",
+      "Cedric the Entertainer",
+      "Justina Machado",
+      "Nate Torrence",
+      "Camden Brooks",
+      "Táta Vega"
+    ],
+    "director": [
+      "Nathan Greno"
+    ],
+    "writer": [
+      "Christian Magalhaes",
+      "Robert Snow",
+      "John Whittington"
+    ],
+    "runtime": "102 dk"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "tt0060196",
+    "type": "movie",
+    "name": "İyi, Kötü ve Çirkin",
+    "originalName": "Il buono, il brutto, il cattivo",
+    "tmdbId": "429",
+    "imdbId": "tt0060196",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/c7xlVD3VVn5skrhvy03NbNx5FhR.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/x4biAVdPVCghBlsVIzB6NmbghIz.jpg",
+    "description": "Ortak bir hedefe doğru değişik nedenlerle yol almakta olan üç silah arkadaşı aslında kader açısından yolları kesişmiş insanlardır. İsimleri İyi, Kötü ve Çirkin olan bu kişiler için o dönemdeki Amerikan İç Savaşı bir araçtır. İyi ile Çirkin’in risk barındıran ancak iyi para getiren işleri mevcuttur. Çirkin, aranan azılı bir suçlu olduğu için İyi onu adalete teslim edip önce ödülünü alıyor sonra da darağacından riskli bir metot ile kurtarıp bir sonraki işe kadar sağ kalmasını sağlamaktadır. Bir gün gizli bir hazinenin ortaya çıkmasıyla ikilinin araları bozulur. Onlar birbirleriyle didişirken ortaya üçüncü bir hazine avcısı çıkar; o da Kötü adındaki kişidir. Artık her şeyin başka türlü yaşanma zamanıdır...",
+    "releaseInfo": "1966",
+    "year": 1966,
+    "imdbRating": "8.5",
+    "genres": [
+      "Vahşi Batı"
+    ],
+    "cast": [
+      "Clint Eastwood",
+      "Eli Wallach",
+      "Lee Van Cleef",
+      "Aldo Giuffrè",
+      "Luigi Pistilli",
+      "Rada Rassimov",
+      "Enzo Petito",
+      "Claudio Scarchilli"
+    ],
+    "director": [
+      "Sergio Leone"
+    ],
+    "writer": [
+      "Luciano Vincenzoni",
+      "Sergio Leone",
+      "Age",
+      "Scarpelli"
+    ],
+    "runtime": "161 dk"
+  }
+}

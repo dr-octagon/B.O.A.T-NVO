@@ -1,11 +1,56 @@
 {
   "metas": [
     {
+      "id": "tt22084616",
+      "type": "movie",
+      "name": "Örümcek-Adam: Yepyeni Bir Gün (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/kYySrq73W9qzldhIebOGQImd4.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "description": "Artık onu hatırlamayan bir dünyada tam zamanlı olarak Örümcek Adamlık yapmak ve eski arkadaşlarının hayatlarına o olmadan devam ettiklerini görmenin yarattığı baskı, Peter Parker'da kontrol edemeyeceği bir değişimi tetikler. Ancak bu değişim; şehre ve sevdiklerine yönelik olan yeni bir tehdidi, yani kimsenin göremediği güçlü bir düşmanı durdurabilecek tek şey de olabilir.",
+      "releaseInfo": "2026",
+      "imdbRating": "7.9",
+      "genres": [
+        "Bilim-Kurgu",
+        "Aksiyon",
+        "Macera"
+      ]
+    },
+    {
+      "id": "tt35538033",
+      "type": "movie",
+      "name": "Resident Evil (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "description": "Uzak bir hastaneye paket götürmekle görevlendirilen talihsiz bir kurye, vardığında kendini aniden bir salgının tam ortasında bulur. Hayatta kalabilmek için mutasyona uğramış yaratık sürülerine karşı amansız bir mücadele vermek zorundadır.",
+      "releaseInfo": "2026",
+      "imdbRating": "7.3",
+      "genres": [
+        "Korku",
+        "Bilim-Kurgu",
+        "Macera"
+      ]
+    },
+    {
+      "id": "tt1756855",
+      "type": "movie",
+      "name": "Coyote Acme'ye Karşı (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/tiS1RDaTrPftGZ0yGNaUW5DLuir.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7GOW6jod9lLurW5utokAatxg7ql.jpg",
+      "description": "Wile E. Coyote, Road Runner'ı yakalama girişimleri sırasında kullandığı ve sürekli bozularak kendisine zarar veren ürünler nedeniyle Acme Corporation şirketine karşı hukuki bir süreç başlatır. Coyote'un yasal mücadelesinde onu temsil eden avukat ile Acme'nin savunmasını yürüten şirket avukatı mahkemede karşı karşıya gelir.",
+      "releaseInfo": "2026",
+      "imdbRating": "7.6",
+      "genres": [
+        "Komedi",
+        "Macera",
+        "Aile"
+      ]
+    },
+    {
       "id": "tt33764258",
       "type": "movie",
       "name": "Odyssey (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
-      "background": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
       "description": "İthaka'nın efsanevi kralı Odysseus, Truva Savaşı'nın ardından evine dönmek üzere uzun ve tehlikeli bir yolculuğa çıkar. Yolculuğu boyunca tanrıların keyfi istekleriyle, mitolojik canavarlarla ve insanlığını kırılma noktasına kadar zorlayan çetin sınavlarla yüzleşmek zorunda kalır.",
       "releaseInfo": "2026",
       "imdbRating": "8.0",
@@ -16,148 +61,88 @@
       ]
     },
     {
-      "id": "tt6933238",
+      "id": "tt27165187",
       "type": "movie",
-      "name": "UNABOMBER (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
-      "background": "https://image.tmdb.org/t/p/original/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
-      "description": "Gerçek olaylardan ilham alan bu dramada, FBI'ı peşine takan Ted Kaczynski'nin Harvardlı bir dâhi ve denekten Unabomber'lığa uzanan serüveni gözler önüne seriliyor.",
+      "name": "Oak Caddesi'nin Sonu (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "description": "Gizemli bir kozmik olay Oak Caddesi’ni sıradan banliyö yaşamından koparıp tamamen bilinmeyen bir yere taşıdıktan sonra Platt ailesi, hayatta kalabilmelerinin tek yolunun birbirlerine sıkı sıkıya bağlı kalmak olduğunu keşfeder. Artık tanınmaz hale gelen çevrelerinde yollarını bulmaya çalışırken aile bağları, onların en büyük gücü ve tek sığınağı olacaktır.",
       "releaseInfo": "2026",
-      "imdbRating": "6.9",
+      "imdbRating": "7.1",
       "genres": [
-        "Gerilim",
-        "Dram",
-        "Suç"
-      ]
-    },
-    {
-      "id": "tt35538033",
-      "type": "movie",
-      "name": "Resident Evil (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
-      "background": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
-      "description": "Uzak bir hastaneye paket götürmekle görevlendirilen talihsiz bir kurye, vardığında kendini aniden bir salgının tam ortasında bulur. Hayatta kalabilmek için mutasyona uğramış yaratık sürülerine karşı amansız bir mücadele vermek zorundadır.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.3",
-      "genres": [
-        "Korku",
-        "Bilim Kurgu",
-        "Macera"
-      ]
-    },
-    {
-      "id": "tt34206385",
-      "type": "movie",
-      "name": "Primetime (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-      "background": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
-      "description": "Primetime — Nuvio Türkçe Film",
-      "releaseInfo": "2026",
-      "imdbRating": "7.2",
-      "genres": [
-        "Suç",
-        "Gerilim",
-        "Dram"
-      ]
-    },
-    {
-      "id": "tt36583977",
-      "type": "movie",
-      "name": "Unutulmuş Ada (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/uYYe3C57nsqw3bA84tSR58g4EFx.jpg",
-      "background": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-      "description": "Lise mezuniyetlerinin ardından farklı hayatlara savrulmak üzere olan iki kadim dost olan Jo ve Raissa, son gecelerini kutlarken kendilerini gizemli bir portalın içinde bulurlar. Filipin efsanelerinden aşina oldukları sihirli ve mitolojik yaratıklarla dolu fantastik Nakali Adası, bu iki arkadaşın dostluğunu en büyük sınavından geçirecektir. Eve dönmenin bedelinin tüm anılarını unutmak olduğunu öğrendiklerinde Jo ve Raissa, birbirlerini sonsuza dek unutmadan adadan ayrılmanın bir yolunu bulmaya çalışacaklardır.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.1",
-      "genres": [
-        "Animasyon",
-        "Macera",
-        "Fantastik",
-        "Komedi",
-        "Aile"
+        "Bilim-Kurgu",
+        "Gizem",
+        "Gerilim"
       ]
     },
     {
       "id": "tt22526100",
       "type": "movie",
       "name": "Aşk Hipotezi (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/oQTT50Kl65WdOatg5Zz2aXoXAPd.jpg",
-      "background": "https://image.tmdb.org/t/p/original/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/oQTT50Kl65WdOatg5Zz2aXoXAPd.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
       "description": "New York Times çoksatan romanı Aşk Hipotezi'nden uyarlanan film, doktora öğrencisi Olive'ın, bölümünün en korkulan profesörü Adam Carlsen'ı ani bir dürtüyle öpmesiyle başlayan hikâyesini konu alıyor. İkisinin de ihtiyaç duyduğu sahte ilişki, zamanla kimyalarını sınayan ve belki de aşkın formülünü ortaya çıkarabilecek bir deneye dönüşüyor.",
       "releaseInfo": "2026",
-      "imdbRating": "8.2",
+      "imdbRating": "8.1",
       "genres": [
         "Romantik",
         "Komedi"
       ]
     },
     {
-      "id": "tt27165187",
-      "type": "movie",
-      "name": "Oak Caddesi'nin Sonu (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
-      "background": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-      "description": "Gizemli bir kozmik olay Oak Caddesi’ni sıradan banliyö yaşamından koparıp tamamen bilinmeyen bir yere taşıdıktan sonra Platt ailesi, hayatta kalabilmelerinin tek yolunun birbirlerine sıkı sıkıya bağlı kalmak olduğunu keşfeder. Artık tanınmaz hale gelen çevrelerinde yollarını bulmaya çalışırken aile bağları, onların en büyük gücü ve tek sığınağı olacaktır.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.1",
-      "genres": [
-        "Bilim Kurgu",
-        "Gizem",
-        "Gerilim"
-      ]
-    },
-    {
       "id": "tt31349844",
       "type": "movie",
       "name": "Sınırsız (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/pZaaOG9H5qJT8PpgRzbkAQQJo1h.jpg",
-      "background": "https://image.tmdb.org/t/p/original/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/pZaaOG9H5qJT8PpgRzbkAQQJo1h.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
       "description": "Eski bir asker olan Hank, hasta bir çocuğun hayatını kurtarabilecek kritik bir organı zamanında hastaneye ulaştırmak için görevlendirilir. Ancak taşıdığı organı ele geçirmek isteyen acımasız bir suç örgütünün hedefi haline gelince görev basit bir teslimattan ölümcül bir kovalamacaya dönüşür. Hank, karşısına çıkan tehlikeleri aşarak hem hayatta kalmaya hem de küçük çocuğun hayatını kurtaracak teslimatı zamanında tamamlamaya çalışır.",
       "releaseInfo": "2026",
-      "imdbRating": "8.0",
+      "imdbRating": "8.1",
       "genres": [
         "Aksiyon",
         "Komedi"
       ]
     },
     {
-      "id": "tt31450459",
+      "id": "tt32338669",
       "type": "movie",
-      "name": "Digger (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
-      "background": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
-      "description": "Dünyanın en güçlü adamı, kendi yol açtığı felaket her şeyi yok etmeden önce, insanlığın kurtarıcısı olduğunu kanıtlamak için hummalı bir mücadeleye girişir.",
+      "name": "İsyan (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/2iUs37uU9kKMxme1S08JlJ7RqJw.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+      "description": "Ünlü iş adamı Tibu'nun ölümünden sorumlu tutulduktan sonra kaçak duruma düşen eski polis Cole Reed, Tibu'nun gerçek katillerini bulmak ve adını temize çıkarmak için tehlikeli bir yolculuğa çıkar. Bir kargo gemisinde illegal işler peşindeki bir şebekeyi ortaya çıkaran Cole, hiç beklemediği bir komployla karşı karşıya gelir. Tibu'nun intikamını almak ve adaleti sağlamak isteyen Cole, hem masumları kurtaracak hem de kendi geçmişiyle yüzleşecektir.",
       "releaseInfo": "2026",
-      "imdbRating": "7.4",
+      "imdbRating": "7.3",
       "genres": [
-        "Komedi"
+        "Aksiyon",
+        "Gerilim"
+      ]
+    },
+    {
+      "id": "tt34385135",
+      "type": "movie",
+      "name": "Koloni (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/thK6glS5pklrlijsgSN6Hw9GLQK.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
+      "description": "Biyoteknoloji profesörü Se-jeong, bir biyoteknoloji konferansına katılır; ancak hızla mutasyona uğrayan bir virüsün ortaya çıkmasıyla etkinlik kısa sürede felakete dönüşür. Salgın yayılıp enfekte olanlar dönüşmeye başlarken, yetkililer tüm tesisi karantinaya alır ve hayatta kalanlar giderek büyüyen tehditle içeride mahsur kalır.",
+      "releaseInfo": "2026",
+      "imdbRating": "8.1",
+      "genres": [
+        "Korku",
+        "Aksiyon",
+        "Bilim-Kurgu"
       ]
     },
     {
       "id": "tt7526136",
       "type": "movie",
       "name": "Vahşinin Kalbi (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "background": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/mYqiF90igComG2L2qm8SwFbaMwn.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
       "description": "Özel Kuvvetler subayı James Belmont, içinde bulunduğu uçağın Alaska'nın zorlu coğrafyasına düşmesi sonucu hayatta kalmayı başarır. Yanında sadece eğitimli savaş köpeği Odin bulunan Belmont; dondurucu soğuklar, vahşi doğa şartları ve sınırlı kaynaklarla karşı karşıya kalır. Medeniyetten tamamen uzakta mahsur kalan ikili, bir yandan bölgenin çetin iklim koşullarına ve yırtıcılara karşı direnirken diğer yandan da aralarındaki bağı ve askeri hayatta kalma becerilerini kullanarak kurtulmanın bir yolunu arar.",
       "releaseInfo": "2026",
-      "imdbRating": "7.7",
+      "imdbRating": "7.6",
       "genres": [
         "Macera",
-        "Gerilim"
-      ]
-    },
-    {
-      "id": "tt37971717",
-      "type": "movie",
-      "name": "Son Bir Şans (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
-      "background": "https://image.tmdb.org/t/p/original/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
-      "description": "Navy SEAL Jake Harris, eski bir silah arkadaşı dünyayı tehdit edince yeniden göreve çağrılır.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.4",
-      "genres": [
-        "Aksiyon",
         "Gerilim"
       ]
     },
@@ -165,8 +150,8 @@
       "id": "tt29355505",
       "type": "movie",
       "name": "Oyuncak Hikayesi 5 (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/4LHyUPK4obqICeCt4rjhpQDOhJt.jpg",
-      "background": "https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/4LHyUPK4obqICeCt4rjhpQDOhJt.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
       "description": "Bonnie'nin hediye olarak aldığı bir Lilypad tablete takıntılı hale gelmesiyle birlikte, Buzz, Woody, Jessie ve diğer oyuncaklar için işler iyice karmaşıklaşır; zira artık oyun saatini tehdit eden yepyeni bir tehlikeyle mücadele etmek zorundadırlar.",
       "releaseInfo": "2026",
       "imdbRating": "8.3",
@@ -178,26 +163,26 @@
       ]
     },
     {
-      "id": "tt22084616",
+      "id": "tt6933238",
       "type": "movie",
-      "name": "Örümcek-Adam: Yepyeni Bir Gün (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/kYySrq73W9qzldhIebOGQImd4.jpg",
-      "background": "https://image.tmdb.org/t/p/original/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
-      "description": "Artık onu hatırlamayan bir dünyada tam zamanlı olarak Örümcek Adamlık yapmak ve eski arkadaşlarının hayatlarına o olmadan devam ettiklerini görmenin yarattığı baskı, Peter Parker'da kontrol edemeyeceği bir değişimi tetikler. Ancak bu değişim; şehre ve sevdiklerine yönelik olan yeni bir tehdidi, yani kimsenin göremediği güçlü bir düşmanı durdurabilecek tek şey de olabilir.",
+      "name": "UNABOMBER (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+      "description": "Gerçek olaylardan ilham alan bu dramada, FBI'ı peşine takan Ted Kaczynski'nin Harvardlı bir dâhi ve denekten Unabomber'lığa uzanan serüveni gözler önüne seriliyor.",
       "releaseInfo": "2026",
-      "imdbRating": "7.9",
+      "imdbRating": "6.8",
       "genres": [
-        "Bilim Kurgu",
-        "Aksiyon",
-        "Macera"
+        "Gerilim",
+        "Dram",
+        "Suç"
       ]
     },
     {
       "id": "tt37287335",
       "type": "movie",
       "name": "Saplantı (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
-      "background": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
       "description": "​Hoşlandığı kızın kalbini kazanmak için gizemli \"Tek Dilek Söğüdü\"nü (One Wish Willow) kıran umutsuz bir romantik, tam da dilediği şeye kavuşur; ancak çok geçmeden bazı arzuların karanlık ve tekinsiz bir bedeli olduğunu keşfeder.",
       "releaseInfo": "2026",
       "imdbRating": "8.2",
@@ -207,71 +192,29 @@
       ]
     },
     {
-      "id": "tt34890576",
+      "id": "tt6920084",
       "type": "movie",
-      "name": "Clayface (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/1Xkpx33q2wZ9DEfdJbz1l1id00A.jpg",
-      "background": "https://image.tmdb.org/t/p/original/pwWR1DRjoFxwdH0jI2elBdXTF1F.jpg",
-      "description": "Matt Hagen’ın Gotham sokaklarından Hollywood’un başrollerine uzanan hızlı yükselişi, yerel bir suç baronunun hamlesiyle korkunç şekilde tanınmaz hale gelmesi sonucu yarıda kesilir. Ekibi tarafından yüzüstü bırakılan ve tutunacak hiçbir şeyi kalmayan Matt, kendisini mucizevi bir şekilde eski haline getireceğine inandığı son teknoloji bir tedavinin peşine düşer. Ancak bu tedavi beklenmedik bir şekilde gerçeklikle olan bağını koparmaya başlar ve onu, önüne çıkan her şeyi yutan yıkıcı bir intikam sarmalına sürükler.",
-      "releaseInfo": "2026",
+      "name": "Resident Evil: Raccoon Şehri (2021)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qSzvsqocllBxjcgFY725zfr5dSU.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg",
+      "description": "Bir zamanlar ilaç devi Umbrella Şirketi'nin hızla gelişen yuvası olan Raccoon Şehri, artık ölmekte olan bir orta batı kentidir. Şirket buradan ayrılırken ardında çorak topraklar bırakmıştır ve de yüzeyin altında yavaş yavaş büyüyen büyük bir kötülük vardır. Bu kötülük nihayet gün yüzüne çıktığında hayatta kalan bir grup insanın, Umbrella'nın ardındaki gerçeği keşfetmek ve geceyi sağ salim atlatmak için işbirliği yapması gerekecektir.",
+      "releaseInfo": "2021",
+      "imdbRating": "5.9",
       "genres": [
-        "Korku",
-        "Gerilim",
-        "Bilim Kurgu"
-      ]
-    },
-    {
-      "id": "tt21357150",
-      "type": "movie",
-      "name": "Avengers: Doomsday (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/rjjW3loZDVY4a6uHzUHfoJrawH.jpg",
-      "background": "https://image.tmdb.org/t/p/original/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-      "description": "Thunderbolts* (2025) filmindeki olaylardan 14 ay sonra; Avengers, Wakandalılar, Fantastic Four, New Avengers ve orijinal X-Men,  3 farklı evrenden gelen sevilen kahramanlar, ölümcül bir çarpışma rotasına giriyor ve şimdiye kadar karşılaştıkları hiçbir şeye benzemeyen varoluşsal bir tehditle karşı karşıya kalarak Doctor Doom'a karşı birleşirler.",
-      "releaseInfo": "2026",
-      "genres": [
-        "Bilim Kurgu",
         "Aksiyon",
-        "Macera"
-      ]
-    },
-    {
-      "id": "tt32261958",
-      "type": "movie",
-      "name": "Verity: Gerçeğin Diğer Kıyısı (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/yKLBWj6KXJNgRQtzZ9aCgSxyYEC.jpg",
-      "background": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
-      "description": "Jeremy Crawford, geçirdiği bir kaza sonucu romanlarını tamamlayamadan vefat eden çok satan yazarı olan eşi Verity'nin romanlarını tamamlaması amacıyla Lowen Ashleigh'i işe alır. Lowen, çalışmak için Crawford'ların evinde kaldığı süre boyunca Verity'nin rahatsız edici gerçeklerini ortaya çıkarır.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.3",
-      "genres": [
-        "Gizem",
-        "Gerilim"
-      ]
-    },
-    {
-      "id": "tt26657236",
-      "type": "movie",
-      "name": "Backrooms (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/pR7HAA2STN78NN7egkrp9DsKI7c.jpg",
-      "background": "https://image.tmdb.org/t/p/original/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
-      "description": "Bir terapist, hastası gerçekliğin ötesindeki bir boyutta kaybolduktan sonra, onu kurtarmak için bilinmeyene doğru bir yolculuğa çıkmak zorunda kalır.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.0",
-      "genres": [
         "Korku",
-        "Gizem",
-        "Bilim Kurgu"
+        "Bilim-Kurgu"
       ]
     },
     {
       "id": "tt36893729",
       "type": "movie",
       "name": "Dondurmacı (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/eiSbwkwkHO8FIVFQYjCFGwwifPx.jpg",
-      "background": "https://image.tmdb.org/t/p/original/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/eiSbwkwkHO8FIVFQYjCFGwwifPx.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
       "description": "Huzurlu bir yaz günü, sakin bir kasaba. Gizemli bir dondurmacı ortaya çıkar ve çocuklara dondurma satmaya başlar. Bu dondurmaları yiyen çocuklar çok geçmeden bu sakin ve huzurlu kasabaya dehşeti yaşatacaktır.",
       "releaseInfo": "2026",
-      "imdbRating": "4.7",
+      "imdbRating": "4.8",
       "genres": [
         "Komedi",
         "Korku",
@@ -279,18 +222,77 @@
       ]
     },
     {
-      "id": "tt35298123",
+      "id": "tt27419466",
       "type": "movie",
-      "name": "Miyazma Kampında Ergenlik Arzuları ve Ölüm (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/c07S1wCUJGzpDcSeUf34rWaISiZ.jpg",
-      "background": "https://image.tmdb.org/t/p/original/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
-      "description": "Miyazma Kampında Ergenlik Arzuları ve Ölüm — Nuvio Türkçe Film",
+      "name": "Moana (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/AddecwRjKUqiRaztmZwxgCz6eHr.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+      "description": "Genç Moana, Okyanus'un çağrısına kulak verir ve halkına refahı geri getirmek için çıktığı unutulmaz bir yolculukta, kötü şöhretli yarı tanrı Maui ile birlikte ilk kez adası Motunui'nin resifinin ötesine açılır.",
       "releaseInfo": "2026",
-      "imdbRating": "6.4",
+      "imdbRating": "7.4",
       "genres": [
+        "Aile",
+        "Fantastik",
         "Komedi",
+        "Macera"
+      ]
+    },
+    {
+      "id": "tt30887701",
+      "type": "movie",
+      "name": "Pinokyo: Kanlı Masal (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/mIiKQtiyM6pMb9COlUzmL3Pi7oT.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/vgZDb7kmaxP24cFbt1KJdMLlHFZ.jpg",
+      "description": "Genç bir çocuk olan James, büyükbabası Geppetto'yu ziyarete gider. Geppetto, ona en iyi arkadaşı olması için görünüşte sihirli bir tahta kukla olan Pinokyo'yu tanıştırır. Ancak James, Pinokyo'nun saf ve dünyadan habersiz doğasının farkında değildir. Onu dış dünyayla tanıştırması, Pinokyo'nun \"kötü\" olarak gördüğü her şeyi ortadan kaldırmak için kanlı bir mücadeleye girişmesine yol açar.",
+      "releaseInfo": "2026",
+      "imdbRating": "6.6",
+      "genres": [
         "Korku",
-        "Romantik"
+        "Fantastik",
+        "Gizem"
+      ]
+    },
+    {
+      "id": "tt4154796",
+      "type": "movie",
+      "name": "Avengers: Endgame (2019)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/zx1uMVXSJrzYCA8KTpmeEBqBx66.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "description": "Marvel Sinematik Evreni'nin dördüncü aşamasının zirve noktası olarak kabul edilen bu epik filmde, \"Avengers: Sonsuzluk Savaşı\" (2018) olaylarının hemen ardından başlar ve Thanos'un sonsuz taşları kullanarak evrenin yarısını yok etmesinin sonuçlarına odaklanır. Yenilmezler ekibinin hayatta kalan üyelerinin, kaybettikleri arkadaşlarını geri getirmek ve evreni kurtarmak için bir plan hazırlarlar. Tony Stark (Iron Man), Steve Rogers (Captain America), Natasha Romanoff (Black Widow), Bruce Banner (Hulk), Thor ve diğer karakterler, geçmişe dönerek Sonsuz Taşları toplamak için zaman yolculuğu yaparlar. Bu süreçte, eski anılarla yüzleşirler ve birbirleriyle olan bağlarını güçlendirirler. Zaman yolculuğu teması, filmde önemli bir rol oynar ve izleyicilere önceki Marvel filmlerine göndermeler yapılır. Filmin doruk noktası, Yenilmezler'in Thanos ile büyük bir savaşta karşılaşmasıdır. Tüm kahramanlar, kayıplarını telafi etmek ve dünyayı kurtarmak için bir araya gelirler.",
+      "releaseInfo": "2019",
+      "imdbRating": "8.2",
+      "genres": [
+        "Macera",
+        "Bilim-Kurgu",
+        "Aksiyon"
+      ]
+    },
+    {
+      "id": "tt36073210",
+      "type": "movie",
+      "name": "Dayanılmaz Çekim (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qQQ7MPymZeyIRAMF32e0QFgcV0f.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+      "description": "Güçlü bir İspanyol iş insanının kızı olan Marfil, kaçırılıp açıklama yapılmadan serbest bırakılınca New York'taki hayatı altüst olur. Babası, Sebastian Moore'u kızına koruma olarak tutar. Her anı birlikte geçirmek zorunda kalan ikili arasında, hiçbir şeyin göründüğü gibi olmadığı bir dünyada kaçınılmaz bir çekim oluşur. \"Culpables\" serisinin yazarı Mercedes Ron'un romanından uyarlanmıştır.",
+      "releaseInfo": "2026",
+      "imdbRating": "6.8",
+      "genres": [
+        "Romantik",
+        "Gerilim"
+      ]
+    },
+    {
+      "id": "tt12042730",
+      "type": "movie",
+      "name": "Kurtuluş Projesi (2026)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/suFNqtGOi0BsBI3uJPKkDXCwgVI.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "description": "Fen bilgisi öğretmeni Ryland Grace, evinden ışık yılları uzakta bir uzay gemisinde uyanır, kim olduğuna ya da oraya nasıl geldiğine dair hiçbir şey hatırlamaz. Hafızası yavaş yavaş yerine gelirken görevini de çözmeye başlar: Güneşin sönmesine neden olan gizemli maddenin sırrını çözmek. Dünyadaki her şeyi yok olmaktan kurtarmak için tüm bilimsel bilgisine ve sıra dışı fikirlerine başvurmak zorundadır. Ancak beklenmedik bir dostluk, bu görevi tek başına yapmak zorunda kalmayacağı anlamına gelecektir.",
+      "releaseInfo": "2026",
+      "imdbRating": "8.6",
+      "genres": [
+        "Bilim-Kurgu",
+        "Macera"
       ]
     }
   ]

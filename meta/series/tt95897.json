@@ -6,14 +6,19 @@
     "originalName": "おーばーふろぉ",
     "tmdbId": "95897",
     "imdbId": "tt14962432",
-    "poster": "https://image.tmdb.org/t/p/w500/8RtwL5gxUvh9YViqjhNlVRvJpum.jpg",
-    "background": "https://image.tmdb.org/t/p/original/4NRBKA8qVzCvuD3WeLieiLGmIjm.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/8RtwL5gxUvh9YViqjhNlVRvJpum.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4NRBKA8qVzCvuD3WeLieiLGmIjm.jpg",
     "description": "おーばーふろぉ — Nuvio Türkçe Dizi",
     "releaseInfo": "2020",
     "year": 2020,
     "imdbRating": "7.5",
     "genres": [
       "Animasyon"
+    ],
+    "cast": [
+      "門脇舞以",
+      "民安ともえ",
+      "佐田直啓"
     ],
     "videos": [
       {

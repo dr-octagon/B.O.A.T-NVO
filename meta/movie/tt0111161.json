@@ -6,8 +6,8 @@
     "originalName": "The Shawshank Redemption",
     "tmdbId": "278",
     "imdbId": "tt0111161",
-    "poster": "https://image.tmdb.org/t/p/w500/7T2SDS5efuJiK45oyKoEzf9RKjw.jpg",
-    "background": "https://image.tmdb.org/t/p/original/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/7T2SDS5efuJiK45oyKoEzf9RKjw.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
     "description": "Genç ve başarılı bir banker olan Andy Dufresne, karısını ve onun sevgilisini öldürmek suçundan ömür boyu hapse mahkum edilir ve Shawshank hapishanesine gönderilir. İşkence, tecavüz, dayak dahil her türlü kötü koşulun hüküm sürdüğü hapishane koşullarında, Andy'nin hayata bağlı ve her daim iyi bir şeyler bulma çabası içindeki hali, çevresindeki herkesi çok etkileyecektir. Bir süre sonra parmaklıkların arkasında bile özgür bir yaşam olabileceğine bütün mahkumları inandırır. Bu mahkumlardan biri olan Ellis Boyd \"Red\" ve Andy, unutulmaz bir dostluk kurarak hapishaneyi bambaşka bir yer haline getirirler.",
     "releaseInfo": "1994",
     "year": 1994,
@@ -15,6 +15,23 @@
     "genres": [
       "Dram",
       "Suç"
-    ]
+    ],
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler",
+      "Clancy Brown",
+      "Gil Bellows",
+      "James Whitmore",
+      "Mark Rolston"
+    ],
+    "director": [
+      "Frank Darabont"
+    ],
+    "writer": [
+      "Frank Darabont"
+    ],
+    "runtime": "142 dk"
   }
 }

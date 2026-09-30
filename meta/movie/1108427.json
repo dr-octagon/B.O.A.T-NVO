@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "tt27419466",
+    "type": "movie",
+    "name": "Moana",
+    "originalName": "Moana",
+    "tmdbId": "1108427",
+    "imdbId": "tt27419466",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/AddecwRjKUqiRaztmZwxgCz6eHr.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+    "description": "Genç Moana, Okyanus'un çağrısına kulak verir ve halkına refahı geri getirmek için çıktığı unutulmaz bir yolculukta, kötü şöhretli yarı tanrı Maui ile birlikte ilk kez adası Motunui'nin resifinin ötesine açılır.",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "7.4",
+    "genres": [
+      "Aile",
+      "Fantastik",
+      "Komedi",
+      "Macera"
+    ],
+    "cast": [
+      "Catherine Lagaʻaia",
+      "Dwayne Johnson",
+      "Rena Owen",
+      "John Tui",
+      "Frankie Adams",
+      "Jemaine Clement",
+      "Emma Puahi-Shapazian",
+      "Amaya Masoli"
+    ],
+    "director": [
+      "Thomas Kail"
+    ],
+    "writer": [
+      "Jared Bush",
+      "Dana Ledoux Miller"
+    ],
+    "runtime": "115 dk"
+  }
+}

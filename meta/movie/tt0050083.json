@@ -6,14 +6,31 @@
     "originalName": "12 Angry Men",
     "tmdbId": "389",
     "imdbId": "tt0050083",
-    "poster": "https://image.tmdb.org/t/p/w500/jA3MHw8Nl4sevDqhgS8ZptwXN8b.jpg",
-    "background": "https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/jA3MHw8Nl4sevDqhgS8ZptwXN8b.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
     "description": "Latin kökenli bir Amerikalı genç babasını bıçaklayarak öldürdüğü gerekçesiyle birinci dereceden cinayetle suçlanır ve mahkeme önüne çıkarılır.",
     "releaseInfo": "1957",
     "year": 1957,
     "imdbRating": "8.6",
     "genres": [
       "Dram"
-    ]
+    ],
+    "cast": [
+      "Martin Balsam",
+      "John Fiedler",
+      "Lee J. Cobb",
+      "E.G. Marshall",
+      "Jack Klugman",
+      "Edward Binns",
+      "Jack Warden",
+      "Henry Fonda"
+    ],
+    "director": [
+      "Sidney Lumet"
+    ],
+    "writer": [
+      "Reginald Rose"
+    ],
+    "runtime": "97 dk"
   }
 }

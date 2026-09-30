@@ -6,8 +6,8 @@
     "originalName": "The Godfather",
     "tmdbId": "238",
     "imdbId": "tt0068646",
-    "poster": "https://image.tmdb.org/t/p/w500/vseIVRdN4xasYwStQIi6SI7DcEu.jpg",
-    "background": "https://image.tmdb.org/t/p/original/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/vseIVRdN4xasYwStQIi6SI7DcEu.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
     "description": "Mario Puzo'nun çok satan kitabından Puzo ve yönetmen Francis Ford Coppola tarafından sinemaya uyarlanan eser, 40'lar ve 50'lerin Amerika'sında, bir İtalyan mafya ailesinin destansı öyküsünü konu alıyor. Corleone ailesi, Don Vito Corleone'nin başında olduğu, suça dayalı bir örgüt kurmuş olan İtalyan asıllı meşhur bir ailedir. Aile, New York'taki diğer dört aileyle birlikte New York'un yeraltı işlerini yönetmektedir. Ancak Corleone ailesini diğerlerinden ayıran özelliği, Don Corleone'nin cebinde bozuk para gibi taşıdığı politikacılar ve yargıçlardır. Politikacılar ve yargıçlarla olan bu yakın ilişkileri diğer ailelerin açamadığı kapıları açabilmesini sağlamaktadır.",
     "releaseInfo": "1972",
     "year": 1972,
@@ -15,6 +15,24 @@
     "genres": [
       "Dram",
       "Suç"
-    ]
+    ],
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Robert Duvall",
+      "Richard S. Castellano",
+      "Diane Keaton",
+      "Talia Shire",
+      "Gianni Russo"
+    ],
+    "director": [
+      "Francis Ford Coppola"
+    ],
+    "writer": [
+      "Mario Puzo",
+      "Francis Ford Coppola"
+    ],
+    "runtime": "175 dk"
   }
 }

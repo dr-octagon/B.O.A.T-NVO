@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "tt4154796",
+    "type": "movie",
+    "name": "Avengers: Endgame",
+    "originalName": "Avengers: Endgame",
+    "tmdbId": "299534",
+    "imdbId": "tt4154796",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/zx1uMVXSJrzYCA8KTpmeEBqBx66.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "description": "Marvel Sinematik Evreni'nin dördüncü aşamasının zirve noktası olarak kabul edilen bu epik filmde, \"Avengers: Sonsuzluk Savaşı\" (2018) olaylarının hemen ardından başlar ve Thanos'un sonsuz taşları kullanarak evrenin yarısını yok etmesinin sonuçlarına odaklanır. Yenilmezler ekibinin hayatta kalan üyelerinin, kaybettikleri arkadaşlarını geri getirmek ve evreni kurtarmak için bir plan hazırlarlar. Tony Stark (Iron Man), Steve Rogers (Captain America), Natasha Romanoff (Black Widow), Bruce Banner (Hulk), Thor ve diğer karakterler, geçmişe dönerek Sonsuz Taşları toplamak için zaman yolculuğu yaparlar. Bu süreçte, eski anılarla yüzleşirler ve birbirleriyle olan bağlarını güçlendirirler. Zaman yolculuğu teması, filmde önemli bir rol oynar ve izleyicilere önceki Marvel filmlerine göndermeler yapılır. Filmin doruk noktası, Yenilmezler'in Thanos ile büyük bir savaşta karşılaşmasıdır. Tüm kahramanlar, kayıplarını telafi etmek ve dünyayı kurtarmak için bir araya gelirler.",
+    "releaseInfo": "2019",
+    "year": 2019,
+    "imdbRating": "8.2",
+    "genres": [
+      "Macera",
+      "Bilim-Kurgu",
+      "Aksiyon"
+    ],
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson",
+      "Jeremy Renner",
+      "Josh Brolin",
+      "Don Cheadle"
+    ],
+    "director": [
+      "Anthony Russo",
+      "Joe Russo"
+    ],
+    "writer": [
+      "Christopher Markus",
+      "Stephen McFeely"
+    ],
+    "runtime": "182 dk"
+  }
+}

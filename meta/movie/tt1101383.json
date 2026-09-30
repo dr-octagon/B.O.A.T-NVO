@@ -6,16 +6,33 @@
     "originalName": "The End of Oak Street",
     "tmdbId": "1101383",
     "imdbId": "tt27165187",
-    "poster": "https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
-    "background": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/fqrxqGU4UQqYLumLLx7W0ewGl77.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
     "description": "Gizemli bir kozmik olay Oak Caddesi’ni sıradan banliyö yaşamından koparıp tamamen bilinmeyen bir yere taşıdıktan sonra Platt ailesi, hayatta kalabilmelerinin tek yolunun birbirlerine sıkı sıkıya bağlı kalmak olduğunu keşfeder. Artık tanınmaz hale gelen çevrelerinde yollarını bulmaya çalışırken aile bağları, onların en büyük gücü ve tek sığınağı olacaktır.",
     "releaseInfo": "2026",
     "year": 2026,
     "imdbRating": "7.1",
     "genres": [
-      "Bilim Kurgu",
+      "Bilim-Kurgu",
       "Gizem",
       "Gerilim"
-    ]
+    ],
+    "cast": [
+      "Anne Hathaway",
+      "Ewan McGregor",
+      "Maisy Stella",
+      "Christian Convery",
+      "Jordan Alexa Davis",
+      "P.J. Byrne",
+      "Hudson Meek",
+      "Anne Gee Byrd"
+    ],
+    "director": [
+      "David Robert Mitchell"
+    ],
+    "writer": [
+      "David Robert Mitchell"
+    ],
+    "runtime": "100 dk"
   }
 }

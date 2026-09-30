@@ -6,8 +6,8 @@
     "originalName": "葬送のフリーレン",
     "tmdbId": "209867",
     "imdbId": "tt22248376",
-    "poster": "https://image.tmdb.org/t/p/w500/dhzbCznEzU67RXWYb53fyPe9Keb.jpg",
-    "background": "https://image.tmdb.org/t/p/original/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/dhzbCznEzU67RXWYb53fyPe9Keb.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
     "description": "Kahramanlar grubu Şeytan Kral’ı yenilgiye uğrattıktan sonra, topraklara barışı geri getirdiler ve inzivaya çekildiler. Nesiller geçti ve elf büyücü Frieren, insanlığın ölümlülüğüyle yüz yüze geldi. Yeni bir çırak aldı ve eski dostlarının son arzularını yerine getireceğine söz verdi. Bir elf zihni, yaşam ve ölümün doğasıyla barışabilir mi? Frieren, bunu öğrenmek için bir yolculuğa çıkar.",
     "releaseInfo": "2023",
     "year": 2023,
@@ -17,6 +17,14 @@
       "Aksiyon & Macera",
       "Dram",
       "Bilim Kurgu & Fantazi"
+    ],
+    "cast": [
+      "Atsumi Tanezaki",
+      "市ノ瀬加那",
+      "Çiaki Kobayaşi",
+      "Nobuhiko Okamoto",
+      "Hiroki Tuçi",
+      "Yoji Ueda"
     ],
     "videos": [
       {

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "tt34385135",
+    "type": "movie",
+    "name": "Koloni",
+    "originalName": "군체",
+    "tmdbId": "1375646",
+    "imdbId": "tt34385135",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/thK6glS5pklrlijsgSN6Hw9GLQK.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
+    "description": "Biyoteknoloji profesörü Se-jeong, bir biyoteknoloji konferansına katılır; ancak hızla mutasyona uğrayan bir virüsün ortaya çıkmasıyla etkinlik kısa sürede felakete dönüşür. Salgın yayılıp enfekte olanlar dönüşmeye başlarken, yetkililer tüm tesisi karantinaya alır ve hayatta kalanlar giderek büyüyen tehditle içeride mahsur kalır.",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "8.1",
+    "genres": [
+      "Korku",
+      "Aksiyon",
+      "Bilim-Kurgu"
+    ],
+    "cast": [
+      "Jun Ji-hyun",
+      "Koo Kyo-hwan",
+      "Ji Chang-wook",
+      "Kim Shin-rok",
+      "Shin Hyun-been",
+      "Go Soo",
+      "Lee Joong-ok",
+      "Kim Jong-tae"
+    ],
+    "director": [
+      "Yeon Sang-ho"
+    ],
+    "writer": [
+      "Yeon Sang-ho",
+      "Choi Gyu-seok"
+    ],
+    "runtime": "122 dk"
+  }
+}

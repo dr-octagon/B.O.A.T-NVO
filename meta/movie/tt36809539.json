@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "id": "tt36809539",
+    "type": "movie",
+    "name": "After Impact",
+    "originalName": "After Impact",
+    "tmdbId": "1751701",
+    "imdbId": "tt36809539",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/yzDuAQCY2n6zzOlBkn6JzhLhY3k.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/k22XyPbce7zvzzf5OnT4uaY8ZD1.jpg",
+    "description": "After Impact — Nuvio Türkçe Film",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "6.4",
+    "genres": [
+      "Bilim-Kurgu",
+      "Dram",
+      "Gerilim"
+    ],
+    "cast": [
+      "Michiel Rensen",
+      "Maxie Li",
+      "Riki Antonievich",
+      "Will Clague",
+      "Stephanie Ramlose",
+      "Lee-Ann Dirks",
+      "James Crompton",
+      "Moehau Hodges-Tai"
+    ],
+    "director": [
+      "Michiel Rensen",
+      "Liam Carter"
+    ],
+    "writer": [
+      "Michiel Rensen"
+    ],
+    "runtime": "95 dk"
+  }
+}

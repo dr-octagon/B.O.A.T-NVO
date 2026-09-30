@@ -6,16 +6,34 @@
     "originalName": "Resident Evil",
     "tmdbId": "1423191",
     "imdbId": "tt35538033",
-    "poster": "https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
-    "background": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
     "description": "Uzak bir hastaneye paket götürmekle görevlendirilen talihsiz bir kurye, vardığında kendini aniden bir salgının tam ortasında bulur. Hayatta kalabilmek için mutasyona uğramış yaratık sürülerine karşı amansız bir mücadele vermek zorundadır.",
     "releaseInfo": "2026",
     "year": 2026,
     "imdbRating": "7.3",
     "genres": [
       "Korku",
-      "Bilim Kurgu",
+      "Bilim-Kurgu",
       "Macera"
-    ]
+    ],
+    "cast": [
+      "Austin Abrams",
+      "Paul Walter Hauser",
+      "Kali Reis",
+      "Zach Cherry",
+      "Johnno Wilson",
+      "Shaun W. Loeser",
+      "Zach Cregger",
+      "Emily Piggford"
+    ],
+    "director": [
+      "Zach Cregger"
+    ],
+    "writer": [
+      "Shay Hatten",
+      "Zach Cregger"
+    ],
+    "runtime": "95 dk"
   }
 }

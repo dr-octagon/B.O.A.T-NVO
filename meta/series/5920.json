@@ -1,0 +1,940 @@
+{
+  "meta": {
+    "id": "tt1196946",
+    "type": "series",
+    "name": "The Mentalist",
+    "originalName": "The Mentalist",
+    "tmdbId": "5920",
+    "imdbId": "tt1196946",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/rJFqKcmMSttdNP58l0dVzY2NcTA.jpg",
+    "description": "Patrick Jane isimli bir medyum, sirkte çalışan ve gözlem güçlerini kullanarak insanlar hakkında birtakım fikirler edinip bu fikirleri onlara medyum gibi satan biridir. Bir gün bu özelliği sebebiyle televizyona çıkar ve kendine Red John isimli bir düşman edinir. Red John Jane’in kızını ve eşini öldürünce ortada kalan ve bu ölümlerin sebebinin kendisi olduğunu düşünen Jane, en sonunda FBI’a başvurarak Red John’ın peşine düşmek ister. Her ne kadar ilk başlarda bu isteği geri çevrilse de FBI’ın çözemediği birtakım davaları çözen Jane, bu özel ekibe danışman olarak işe alınır.",
+    "releaseInfo": "2008",
+    "year": 2008,
+    "imdbRating": "8.4",
+    "genres": [
+      "Suç",
+      "Dram",
+      "Gizem"
+    ],
+    "cast": [
+      "Simon Baker",
+      "Robin Tunney",
+      "Tim Kang",
+      "Rockmond Dunbar",
+      "Joe Adler",
+      "Josie Loren"
+    ],
+    "director": [
+      "Bruno Heller"
+    ],
+    "videos": [
+      {
+        "id": "tt1196946:1:1",
+        "title": "1. Sezon 1. Bölüm",
+        "season": 1,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:1:2",
+        "title": "1. Sezon 2. Bölüm",
+        "season": 1,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:1:3",
+        "title": "1. Sezon 3. Bölüm",
+        "season": 1,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:1:4",
+        "title": "1. Sezon 4. Bölüm",
+        "season": 1,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:1:5",
+        "title": "1. Sezon 5. Bölüm",
+        "season": 1,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:1:6",
+        "title": "1. Sezon 6. Bölüm",
+        "season": 1,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:1:7",
+        "title": "1. Sezon 7. Bölüm",
+        "season": 1,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:1:8",
+        "title": "1. Sezon 8. Bölüm",
+        "season": 1,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:1:9",
+        "title": "1. Sezon 9. Bölüm",
+        "season": 1,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:1:10",
+        "title": "1. Sezon 10. Bölüm",
+        "season": 1,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:1:11",
+        "title": "1. Sezon 11. Bölüm",
+        "season": 1,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:1:12",
+        "title": "1. Sezon 12. Bölüm",
+        "season": 1,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:1:13",
+        "title": "1. Sezon 13. Bölüm",
+        "season": 1,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:1:14",
+        "title": "1. Sezon 14. Bölüm",
+        "season": 1,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:1:15",
+        "title": "1. Sezon 15. Bölüm",
+        "season": 1,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:1:16",
+        "title": "1. Sezon 16. Bölüm",
+        "season": 1,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:1:17",
+        "title": "1. Sezon 17. Bölüm",
+        "season": 1,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:1:18",
+        "title": "1. Sezon 18. Bölüm",
+        "season": 1,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:1:19",
+        "title": "1. Sezon 19. Bölüm",
+        "season": 1,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:1:20",
+        "title": "1. Sezon 20. Bölüm",
+        "season": 1,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:1:21",
+        "title": "1. Sezon 21. Bölüm",
+        "season": 1,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:1:22",
+        "title": "1. Sezon 22. Bölüm",
+        "season": 1,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:1:23",
+        "title": "1. Sezon 23. Bölüm",
+        "season": 1,
+        "episode": 23
+      },
+      {
+        "id": "tt1196946:2:1",
+        "title": "2. Sezon 1. Bölüm",
+        "season": 2,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:2:2",
+        "title": "2. Sezon 2. Bölüm",
+        "season": 2,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:2:3",
+        "title": "2. Sezon 3. Bölüm",
+        "season": 2,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:2:4",
+        "title": "2. Sezon 4. Bölüm",
+        "season": 2,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:2:5",
+        "title": "2. Sezon 5. Bölüm",
+        "season": 2,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:2:6",
+        "title": "2. Sezon 6. Bölüm",
+        "season": 2,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:2:7",
+        "title": "2. Sezon 7. Bölüm",
+        "season": 2,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:2:8",
+        "title": "2. Sezon 8. Bölüm",
+        "season": 2,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:2:9",
+        "title": "2. Sezon 9. Bölüm",
+        "season": 2,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:2:10",
+        "title": "2. Sezon 10. Bölüm",
+        "season": 2,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:2:11",
+        "title": "2. Sezon 11. Bölüm",
+        "season": 2,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:2:12",
+        "title": "2. Sezon 12. Bölüm",
+        "season": 2,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:2:13",
+        "title": "2. Sezon 13. Bölüm",
+        "season": 2,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:2:14",
+        "title": "2. Sezon 14. Bölüm",
+        "season": 2,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:2:15",
+        "title": "2. Sezon 15. Bölüm",
+        "season": 2,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:2:16",
+        "title": "2. Sezon 16. Bölüm",
+        "season": 2,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:2:17",
+        "title": "2. Sezon 17. Bölüm",
+        "season": 2,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:2:18",
+        "title": "2. Sezon 18. Bölüm",
+        "season": 2,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:2:19",
+        "title": "2. Sezon 19. Bölüm",
+        "season": 2,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:2:20",
+        "title": "2. Sezon 20. Bölüm",
+        "season": 2,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:2:21",
+        "title": "2. Sezon 21. Bölüm",
+        "season": 2,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:2:22",
+        "title": "2. Sezon 22. Bölüm",
+        "season": 2,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:2:23",
+        "title": "2. Sezon 23. Bölüm",
+        "season": 2,
+        "episode": 23
+      },
+      {
+        "id": "tt1196946:3:1",
+        "title": "3. Sezon 1. Bölüm",
+        "season": 3,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:3:2",
+        "title": "3. Sezon 2. Bölüm",
+        "season": 3,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:3:3",
+        "title": "3. Sezon 3. Bölüm",
+        "season": 3,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:3:4",
+        "title": "3. Sezon 4. Bölüm",
+        "season": 3,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:3:5",
+        "title": "3. Sezon 5. Bölüm",
+        "season": 3,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:3:6",
+        "title": "3. Sezon 6. Bölüm",
+        "season": 3,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:3:7",
+        "title": "3. Sezon 7. Bölüm",
+        "season": 3,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:3:8",
+        "title": "3. Sezon 8. Bölüm",
+        "season": 3,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:3:9",
+        "title": "3. Sezon 9. Bölüm",
+        "season": 3,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:3:10",
+        "title": "3. Sezon 10. Bölüm",
+        "season": 3,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:3:11",
+        "title": "3. Sezon 11. Bölüm",
+        "season": 3,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:3:12",
+        "title": "3. Sezon 12. Bölüm",
+        "season": 3,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:3:13",
+        "title": "3. Sezon 13. Bölüm",
+        "season": 3,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:3:14",
+        "title": "3. Sezon 14. Bölüm",
+        "season": 3,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:3:15",
+        "title": "3. Sezon 15. Bölüm",
+        "season": 3,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:3:16",
+        "title": "3. Sezon 16. Bölüm",
+        "season": 3,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:3:17",
+        "title": "3. Sezon 17. Bölüm",
+        "season": 3,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:3:18",
+        "title": "3. Sezon 18. Bölüm",
+        "season": 3,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:3:19",
+        "title": "3. Sezon 19. Bölüm",
+        "season": 3,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:3:20",
+        "title": "3. Sezon 20. Bölüm",
+        "season": 3,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:3:21",
+        "title": "3. Sezon 21. Bölüm",
+        "season": 3,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:3:22",
+        "title": "3. Sezon 22. Bölüm",
+        "season": 3,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:3:23",
+        "title": "3. Sezon 23. Bölüm",
+        "season": 3,
+        "episode": 23
+      },
+      {
+        "id": "tt1196946:3:24",
+        "title": "3. Sezon 24. Bölüm",
+        "season": 3,
+        "episode": 24
+      },
+      {
+        "id": "tt1196946:4:1",
+        "title": "4. Sezon 1. Bölüm",
+        "season": 4,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:4:2",
+        "title": "4. Sezon 2. Bölüm",
+        "season": 4,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:4:3",
+        "title": "4. Sezon 3. Bölüm",
+        "season": 4,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:4:4",
+        "title": "4. Sezon 4. Bölüm",
+        "season": 4,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:4:5",
+        "title": "4. Sezon 5. Bölüm",
+        "season": 4,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:4:6",
+        "title": "4. Sezon 6. Bölüm",
+        "season": 4,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:4:7",
+        "title": "4. Sezon 7. Bölüm",
+        "season": 4,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:4:8",
+        "title": "4. Sezon 8. Bölüm",
+        "season": 4,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:4:9",
+        "title": "4. Sezon 9. Bölüm",
+        "season": 4,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:4:10",
+        "title": "4. Sezon 10. Bölüm",
+        "season": 4,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:4:11",
+        "title": "4. Sezon 11. Bölüm",
+        "season": 4,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:4:12",
+        "title": "4. Sezon 12. Bölüm",
+        "season": 4,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:4:13",
+        "title": "4. Sezon 13. Bölüm",
+        "season": 4,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:4:14",
+        "title": "4. Sezon 14. Bölüm",
+        "season": 4,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:4:15",
+        "title": "4. Sezon 15. Bölüm",
+        "season": 4,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:4:16",
+        "title": "4. Sezon 16. Bölüm",
+        "season": 4,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:4:17",
+        "title": "4. Sezon 17. Bölüm",
+        "season": 4,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:4:18",
+        "title": "4. Sezon 18. Bölüm",
+        "season": 4,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:4:19",
+        "title": "4. Sezon 19. Bölüm",
+        "season": 4,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:4:20",
+        "title": "4. Sezon 20. Bölüm",
+        "season": 4,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:4:21",
+        "title": "4. Sezon 21. Bölüm",
+        "season": 4,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:4:22",
+        "title": "4. Sezon 22. Bölüm",
+        "season": 4,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:4:23",
+        "title": "4. Sezon 23. Bölüm",
+        "season": 4,
+        "episode": 23
+      },
+      {
+        "id": "tt1196946:4:24",
+        "title": "4. Sezon 24. Bölüm",
+        "season": 4,
+        "episode": 24
+      },
+      {
+        "id": "tt1196946:5:1",
+        "title": "5. Sezon 1. Bölüm",
+        "season": 5,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:5:2",
+        "title": "5. Sezon 2. Bölüm",
+        "season": 5,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:5:3",
+        "title": "5. Sezon 3. Bölüm",
+        "season": 5,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:5:4",
+        "title": "5. Sezon 4. Bölüm",
+        "season": 5,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:5:5",
+        "title": "5. Sezon 5. Bölüm",
+        "season": 5,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:5:6",
+        "title": "5. Sezon 6. Bölüm",
+        "season": 5,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:5:7",
+        "title": "5. Sezon 7. Bölüm",
+        "season": 5,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:5:8",
+        "title": "5. Sezon 8. Bölüm",
+        "season": 5,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:5:9",
+        "title": "5. Sezon 9. Bölüm",
+        "season": 5,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:5:10",
+        "title": "5. Sezon 10. Bölüm",
+        "season": 5,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:5:11",
+        "title": "5. Sezon 11. Bölüm",
+        "season": 5,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:5:12",
+        "title": "5. Sezon 12. Bölüm",
+        "season": 5,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:5:13",
+        "title": "5. Sezon 13. Bölüm",
+        "season": 5,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:5:14",
+        "title": "5. Sezon 14. Bölüm",
+        "season": 5,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:5:15",
+        "title": "5. Sezon 15. Bölüm",
+        "season": 5,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:5:16",
+        "title": "5. Sezon 16. Bölüm",
+        "season": 5,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:5:17",
+        "title": "5. Sezon 17. Bölüm",
+        "season": 5,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:5:18",
+        "title": "5. Sezon 18. Bölüm",
+        "season": 5,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:5:19",
+        "title": "5. Sezon 19. Bölüm",
+        "season": 5,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:5:20",
+        "title": "5. Sezon 20. Bölüm",
+        "season": 5,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:5:21",
+        "title": "5. Sezon 21. Bölüm",
+        "season": 5,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:5:22",
+        "title": "5. Sezon 22. Bölüm",
+        "season": 5,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:6:1",
+        "title": "6. Sezon 1. Bölüm",
+        "season": 6,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:6:2",
+        "title": "6. Sezon 2. Bölüm",
+        "season": 6,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:6:3",
+        "title": "6. Sezon 3. Bölüm",
+        "season": 6,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:6:4",
+        "title": "6. Sezon 4. Bölüm",
+        "season": 6,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:6:5",
+        "title": "6. Sezon 5. Bölüm",
+        "season": 6,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:6:6",
+        "title": "6. Sezon 6. Bölüm",
+        "season": 6,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:6:7",
+        "title": "6. Sezon 7. Bölüm",
+        "season": 6,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:6:8",
+        "title": "6. Sezon 8. Bölüm",
+        "season": 6,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:6:9",
+        "title": "6. Sezon 9. Bölüm",
+        "season": 6,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:6:10",
+        "title": "6. Sezon 10. Bölüm",
+        "season": 6,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:6:11",
+        "title": "6. Sezon 11. Bölüm",
+        "season": 6,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:6:12",
+        "title": "6. Sezon 12. Bölüm",
+        "season": 6,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:6:13",
+        "title": "6. Sezon 13. Bölüm",
+        "season": 6,
+        "episode": 13
+      },
+      {
+        "id": "tt1196946:6:14",
+        "title": "6. Sezon 14. Bölüm",
+        "season": 6,
+        "episode": 14
+      },
+      {
+        "id": "tt1196946:6:15",
+        "title": "6. Sezon 15. Bölüm",
+        "season": 6,
+        "episode": 15
+      },
+      {
+        "id": "tt1196946:6:16",
+        "title": "6. Sezon 16. Bölüm",
+        "season": 6,
+        "episode": 16
+      },
+      {
+        "id": "tt1196946:6:17",
+        "title": "6. Sezon 17. Bölüm",
+        "season": 6,
+        "episode": 17
+      },
+      {
+        "id": "tt1196946:6:18",
+        "title": "6. Sezon 18. Bölüm",
+        "season": 6,
+        "episode": 18
+      },
+      {
+        "id": "tt1196946:6:19",
+        "title": "6. Sezon 19. Bölüm",
+        "season": 6,
+        "episode": 19
+      },
+      {
+        "id": "tt1196946:6:20",
+        "title": "6. Sezon 20. Bölüm",
+        "season": 6,
+        "episode": 20
+      },
+      {
+        "id": "tt1196946:6:21",
+        "title": "6. Sezon 21. Bölüm",
+        "season": 6,
+        "episode": 21
+      },
+      {
+        "id": "tt1196946:6:22",
+        "title": "6. Sezon 22. Bölüm",
+        "season": 6,
+        "episode": 22
+      },
+      {
+        "id": "tt1196946:7:1",
+        "title": "7. Sezon 1. Bölüm",
+        "season": 7,
+        "episode": 1
+      },
+      {
+        "id": "tt1196946:7:2",
+        "title": "7. Sezon 2. Bölüm",
+        "season": 7,
+        "episode": 2
+      },
+      {
+        "id": "tt1196946:7:3",
+        "title": "7. Sezon 3. Bölüm",
+        "season": 7,
+        "episode": 3
+      },
+      {
+        "id": "tt1196946:7:4",
+        "title": "7. Sezon 4. Bölüm",
+        "season": 7,
+        "episode": 4
+      },
+      {
+        "id": "tt1196946:7:5",
+        "title": "7. Sezon 5. Bölüm",
+        "season": 7,
+        "episode": 5
+      },
+      {
+        "id": "tt1196946:7:6",
+        "title": "7. Sezon 6. Bölüm",
+        "season": 7,
+        "episode": 6
+      },
+      {
+        "id": "tt1196946:7:7",
+        "title": "7. Sezon 7. Bölüm",
+        "season": 7,
+        "episode": 7
+      },
+      {
+        "id": "tt1196946:7:8",
+        "title": "7. Sezon 8. Bölüm",
+        "season": 7,
+        "episode": 8
+      },
+      {
+        "id": "tt1196946:7:9",
+        "title": "7. Sezon 9. Bölüm",
+        "season": 7,
+        "episode": 9
+      },
+      {
+        "id": "tt1196946:7:10",
+        "title": "7. Sezon 10. Bölüm",
+        "season": 7,
+        "episode": 10
+      },
+      {
+        "id": "tt1196946:7:11",
+        "title": "7. Sezon 11. Bölüm",
+        "season": 7,
+        "episode": 11
+      },
+      {
+        "id": "tt1196946:7:12",
+        "title": "7. Sezon 12. Bölüm",
+        "season": 7,
+        "episode": 12
+      },
+      {
+        "id": "tt1196946:7:13",
+        "title": "7. Sezon 13. Bölüm",
+        "season": 7,
+        "episode": 13
+      }
+    ]
+  }
+}

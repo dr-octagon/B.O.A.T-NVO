@@ -6,14 +6,35 @@
     "originalName": "Digger",
     "tmdbId": "1248832",
     "imdbId": "tt31450459",
-    "poster": "https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
-    "background": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/tPvspXZzprJhYu6jGXvX1myfmlj.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
     "description": "Dünyanın en güçlü adamı, kendi yol açtığı felaket her şeyi yok etmeden önce, insanlığın kurtarıcısı olduğunu kanıtlamak için hummalı bir mücadeleye girişir.",
     "releaseInfo": "2026",
     "year": 2026,
-    "imdbRating": "7.4",
+    "imdbRating": "7.3",
     "genres": [
-      "Komedi"
-    ]
+      "Komedi",
+      "Dram"
+    ],
+    "cast": [
+      "Tom Cruise",
+      "Riz Ahmed",
+      "John Goodman",
+      "Sandra Hüller",
+      "Michael Stuhlbarg",
+      "Jesse Plemons",
+      "Robert John Burke",
+      "Emma D'Arcy"
+    ],
+    "director": [
+      "Alejandro G. Iñárritu"
+    ],
+    "writer": [
+      "Alejandro G. Iñárritu",
+      "Alexander Dinelaris",
+      "Nicolás Giacobone",
+      "Sabina Berman"
+    ],
+    "runtime": "129 dk"
   }
 }

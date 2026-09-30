@@ -6,8 +6,8 @@
     "originalName": "ドラえもん",
     "tmdbId": "65733",
     "imdbId": "tt4083422",
-    "poster": "https://image.tmdb.org/t/p/w500/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
-    "background": "https://image.tmdb.org/t/p/original/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
     "description": "Robot kedi Doraemon, kaderi trajik bir geleceğe sahip olmak olan tembel ve uyumsuz bir çocuk olan 10 yaşındaki Nobita'yı korumak için 22. yüzyıldan geçmişe gönderilir. Doraemon karnındaki bir cepten gizli aletler çıkarabilmektedir, ancak Nobita'nın bunları kötüye kullanma eğilimi nedeniyle bunlar genellikle iyilikten çok kötülüğe neden olmaktadır.",
     "releaseInfo": "2005",
     "year": 2005,
@@ -17,8 +17,18 @@
       "Animasyon",
       "Komedi",
       "Bilim Kurgu & Fantazi",
-      "Çocuk",
+      "Çocuklar",
       "Aile"
+    ],
+    "cast": [
+      "大原めぐみ",
+      "水田わさび",
+      "かかずゆみ",
+      "Tomokazu Seki",
+      "Subaru Kimura",
+      "千秋",
+      "三石琴乃",
+      "松本保典"
     ],
     "videos": [
       {

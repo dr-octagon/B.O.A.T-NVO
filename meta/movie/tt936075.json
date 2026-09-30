@@ -6,8 +6,8 @@
     "originalName": "Michael",
     "tmdbId": "936075",
     "imdbId": "tt11378946",
-    "poster": "https://image.tmdb.org/t/p/w500/Awq135QNhuvZ99VyNZgSlnKxFW2.jpg",
-    "background": "https://image.tmdb.org/t/p/original/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/Awq135QNhuvZ99VyNZgSlnKxFW2.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
     "description": "Michael Jackson'a gerçek hayattaki yeğeni Jaafar Jackson'ın hayat verdiği filmde, onu tüm zamanların en büyük şovmeni haline getiren en ikonik performansları da dahil olmak üzere Michael'ın hayatının tüm yönleri gözler önüne seriliyor.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -15,6 +15,23 @@
     "genres": [
       "Müzik",
       "Dram"
-    ]
+    ],
+    "cast": [
+      "Jaafar Jackson",
+      "Colman Domingo",
+      "Nia Long",
+      "Juliano Krue Valdi",
+      "KeiLyn Durrel Jones",
+      "Miles Teller",
+      "Larenz Tate",
+      "Laura Harrier"
+    ],
+    "director": [
+      "Antoine Fuqua"
+    ],
+    "writer": [
+      "John Logan"
+    ],
+    "runtime": "128 dk"
   }
 }

@@ -6,8 +6,8 @@
     "originalName": "One Last Shot",
     "tmdbId": "1607127",
     "imdbId": "tt37971717",
-    "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
-    "background": "https://image.tmdb.org/t/p/original/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
     "description": "Navy SEAL Jake Harris, eski bir silah arkadaşı dünyayı tehdit edince yeniden göreve çağrılır.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -15,6 +15,23 @@
     "genres": [
       "Aksiyon",
       "Gerilim"
-    ]
+    ],
+    "cast": [
+      "Scott Adkins",
+      "Steven Cree",
+      "Hannah Ware",
+      "Dolph Lundgren",
+      "Kane Kosugi",
+      "Neil Linpow",
+      "Ray Fearon",
+      "Tom Dunne"
+    ],
+    "director": [
+      "James Nunn"
+    ],
+    "writer": [
+      "Jamie Russell"
+    ],
+    "runtime": "98 dk"
   }
 }

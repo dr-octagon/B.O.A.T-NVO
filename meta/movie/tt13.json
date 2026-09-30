@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt0109830",
+    "type": "movie",
+    "name": "Forrest Gump",
+    "originalName": "Forrest Gump",
+    "tmdbId": "13",
+    "imdbId": "tt0109830",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/Cw4hIUIAmSYfK9QfaUW5igp9La.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
+    "description": "Forrest Gump, düşük IQ’su olmasına rağmen, Amerikan tarihinin en önemli olaylarının tam ortasında yer alan biridir. Alabama'da büyüyen Forrest, koşma yeteneği sayesinde üniversiteye girer, Vietnam Savaşı'na katılır, Beyaz Saray’a davet edilir ve karides işinden milyoner olur. Ancak tüm bu başarılar, çocukluk aşkı Jenny’ye duyduğu sevginin yanında sönük kalır.",
+    "releaseInfo": "1994",
+    "year": 1994,
+    "imdbRating": "8.5",
+    "genres": [
+      "Komedi",
+      "Dram",
+      "Romantik"
+    ],
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Sally Field",
+      "Mykelti Williamson",
+      "Michael Conner Humphreys",
+      "Hanna Hall",
+      "Haley Joel Osment"
+    ],
+    "director": [
+      "Robert Zemeckis"
+    ],
+    "writer": [
+      "Eric Roth"
+    ],
+    "runtime": "142 dk"
+  }
+}

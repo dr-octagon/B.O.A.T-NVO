@@ -6,8 +6,8 @@
     "originalName": "The Odyssey",
     "tmdbId": "1368337",
     "imdbId": "tt33764258",
-    "poster": "https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
-    "background": "https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/edC4JzDHJUoQddhbHlBNSU3RHPR.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
     "description": "İthaka'nın efsanevi kralı Odysseus, Truva Savaşı'nın ardından evine dönmek üzere uzun ve tehlikeli bir yolculuğa çıkar. Yolculuğu boyunca tanrıların keyfi istekleriyle, mitolojik canavarlarla ve insanlığını kırılma noktasına kadar zorlayan çetin sınavlarla yüzleşmek zorunda kalır.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -16,6 +16,23 @@
       "Macera",
       "Aksiyon",
       "Fantastik"
-    ]
+    ],
+    "cast": [
+      "Matt Damon",
+      "Tom Holland",
+      "Anne Hathaway",
+      "Robert Pattinson",
+      "Himesh Patel",
+      "Charlize Theron",
+      "John Leguizamo",
+      "Travis Scott"
+    ],
+    "director": [
+      "Christopher Nolan"
+    ],
+    "writer": [
+      "Christopher Nolan"
+    ],
+    "runtime": "173 dk"
   }
 }

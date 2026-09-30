@@ -6,8 +6,8 @@
     "originalName": "Obsession",
     "tmdbId": "1339713",
     "imdbId": "tt37287335",
-    "poster": "https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
-    "background": "https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/nriiXc6VbD6qWBj7INOElJbX8mp.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
     "description": "​Hoşlandığı kızın kalbini kazanmak için gizemli \"Tek Dilek Söğüdü\"nü (One Wish Willow) kıran umutsuz bir romantik, tam da dilediği şeye kavuşur; ancak çok geçmeden bazı arzuların karanlık ve tekinsiz bir bedeli olduğunu keşfeder.",
     "releaseInfo": "2026",
     "year": 2026,
@@ -15,6 +15,23 @@
     "genres": [
       "Korku",
       "Gerilim"
-    ]
+    ],
+    "cast": [
+      "Michael Johnston",
+      "Inde Navarrette",
+      "Cooper Tomlinson",
+      "Megan Lawless",
+      "Andy Richter",
+      "Haley Fitzgerald",
+      "Darin Toonder",
+      "Anthony Pavone"
+    ],
+    "director": [
+      "Curry Barker"
+    ],
+    "writer": [
+      "Curry Barker"
+    ],
+    "runtime": "109 dk"
   }
 }

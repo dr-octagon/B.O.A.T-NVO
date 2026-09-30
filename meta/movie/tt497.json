@@ -6,8 +6,8 @@
     "originalName": "The Green Mile",
     "tmdbId": "497",
     "imdbId": "tt0120689",
-    "poster": "https://image.tmdb.org/t/p/w500/6ZNnKbdDRQm0ftkq3OKiDrwZkIN.jpg",
-    "background": "https://image.tmdb.org/t/p/original/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/6ZNnKbdDRQm0ftkq3OKiDrwZkIN.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/amZavErrjrdgDwhsIdpWxHNenIx.jpg",
     "description": "Edgecomb, hikayesini anlatırken bir huzurevinde yaşamaktadır ve hapishanedeki görevinin üzerinden yıllar geçmiştir. Hapishanedeki hücrelerinden alınan idam mahkumlarının elektrikli sandalyenin bulunduğu ölüm odasına giderken yürüdükleri, bir millik yeşil yolda yaşananlara her defasında tanık olan Edgecomb, ömrü boyu unutamayacağı olaylara tanık olur. Edgecomb, yıllar boyunca sayısız idam mahkumu nakleder ama hiç birisi onu John Coffey kadar etkilemez. Oldukça iri yarı bir adam olan Coffey, iki küçük kızı öldürmek suçundan idama mahkum olmuştur. Ürkütücü görünümünün aksine oldukça ince, kırılgan ve düşünceli bir yapıya sahip olan Coffey, bazı doğaüstü güçlere sahiptir. Edgecomb'un ona gerçekten suçlu olup olmadığını sorması ile aralarında bir diyalog başlar.",
     "releaseInfo": "1999",
     "year": 1999,
@@ -16,6 +16,23 @@
       "Fantastik",
       "Dram",
       "Suç"
-    ]
+    ],
+    "cast": [
+      "Tom Hanks",
+      "David Morse",
+      "Bonnie Hunt",
+      "Michael Clarke Duncan",
+      "James Cromwell",
+      "Michael Jeter",
+      "Graham Greene",
+      "Doug Hutchison"
+    ],
+    "director": [
+      "Frank Darabont"
+    ],
+    "writer": [
+      "Frank Darabont"
+    ],
+    "runtime": "189 dk"
   }
 }

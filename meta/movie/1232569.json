@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt30887701",
+    "type": "movie",
+    "name": "Pinokyo: Kanlı Masal",
+    "originalName": "Pinocchio: Unstrung",
+    "tmdbId": "1232569",
+    "imdbId": "tt30887701",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/mIiKQtiyM6pMb9COlUzmL3Pi7oT.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/vgZDb7kmaxP24cFbt1KJdMLlHFZ.jpg",
+    "description": "Genç bir çocuk olan James, büyükbabası Geppetto'yu ziyarete gider. Geppetto, ona en iyi arkadaşı olması için görünüşte sihirli bir tahta kukla olan Pinokyo'yu tanıştırır. Ancak James, Pinokyo'nun saf ve dünyadan habersiz doğasının farkında değildir. Onu dış dünyayla tanıştırması, Pinokyo'nun \"kötü\" olarak gördüğü her şeyi ortadan kaldırmak için kanlı bir mücadeleye girişmesine yol açar.",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "6.6",
+    "genres": [
+      "Korku",
+      "Fantastik",
+      "Gizem"
+    ],
+    "cast": [
+      "Jude Evan Lloyd",
+      "Cameron Bell",
+      "Richard Brake",
+      "Jessica Balmer",
+      "Jack Art Gray",
+      "Robert Englund",
+      "Emma Tate",
+      "Toni Olabanji"
+    ],
+    "director": [
+      "Rhys Frake-Waterfield"
+    ],
+    "writer": [
+      "Rhys Frake-Waterfield"
+    ],
+    "runtime": "82 dk"
+  }
+}

@@ -6,8 +6,8 @@
     "originalName": "名探偵コナン",
     "tmdbId": "30983",
     "imdbId": "tt0131179",
-    "poster": "https://image.tmdb.org/t/p/w500/gW14n6xxONXrya8CIDhRe5Ada7U.jpg",
-    "background": "https://image.tmdb.org/t/p/original/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/gW14n6xxONXrya8CIDhRe5Ada7U.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
     "description": "Dünyaca ünlü bir gizem yazarı olan Jimmy Kudo'nun oğlu, yerel polise bir öğrenci dedektifi olarak yardım ederek ün kazandı. Zekasını ve muhakeme gücünü kullanarak her zaman en zor ceza davalarını çözebilmiştir. HD Kaliteli Olsun Hemde Tam Bolum Turkce Seslendirmeli Olsun",
     "releaseInfo": "1996",
     "year": 1996,
@@ -17,6 +17,16 @@
       "Suç",
       "Gizem",
       "Komedi"
+    ],
+    "cast": [
+      "Minami Takayama",
+      "Kappei Yamaguçi",
+      "Vakana Yamazaki",
+      "岡村明美",
+      "神谷明",
+      "Rikiya Koyama",
+      "Megumi Hayaşibara",
+      "緒方賢一"
     ],
     "videos": [
       {

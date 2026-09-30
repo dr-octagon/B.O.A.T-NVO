@@ -6,8 +6,8 @@
     "originalName": "The Simpsons",
     "tmdbId": "456",
     "imdbId": "tt0096697",
-    "poster": "https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
-    "background": "https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
     "description": "Bu animasyon komedi dizisi, Springfield'de diziye adını veren aileye odaklanmaktadır. Baba Homer, tipik bir aile babası değildir. Nükleer santralde çalışarak ailesine liderlik etmeye çalışır ancak çoğu zaman ailesi onu yönetir. Sevgi dolu, mavi saçlı aile reisi anne Marge, sorun çıkaran oğlu Bart, çok başarılı kızı Lisa ve bebek Maggie, ailenin diğer üyeleridir.",
     "releaseInfo": "1989",
     "year": 1989,
@@ -15,6 +15,17 @@
     "genres": [
       "Animasyon",
       "Komedi"
+    ],
+    "cast": [
+      "Dan Castellaneta",
+      "Julie Kavner",
+      "Nancy Cartwright",
+      "Yeardley Smith",
+      "Hank Azaria",
+      "Harry Shearer"
+    ],
+    "director": [
+      "Matt Groening"
     ],
     "videos": [
       {

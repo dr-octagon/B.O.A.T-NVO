@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt0112870",
+    "type": "movie",
+    "name": "Cesur Yürek Gelini Alır",
+    "originalName": "दिलवाले दुल्हनिया ले जायेंगे",
+    "tmdbId": "19404",
+    "imdbId": "tt0112870",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/84beTJf26mfhoasUlKSOiNSutyS.jpg",
+    "description": "Londra'da yaşayan bir aile babası olan Chaudhry Baldev Singh, bir gün Hindistan'dan gelen bir mektupla geçmişe döner. Mektup bir zamanlar en yakın arkadaşı olan kişidendir ve uzun zaman önce kendisine verdiği sözü hatırlatmaktadır. Buna göre aralarında yıllar önce birbirlerine verdikleri söz nedeniyle çocuklarını birbirleriyle evlendirmeleri gerekmektedir. Chaudhry sözünü tutmaya kararlıdır ancak kızını evlenmek için Hindistan'a göndermeden önce ona özgür olup istediğini yapabilmesi için bir aylık bir mühdet tanır...",
+    "releaseInfo": "1995",
+    "year": 1995,
+    "imdbRating": "8.5",
+    "genres": [
+      "Komedi",
+      "Dram",
+      "Romantik"
+    ],
+    "cast": [
+      "काजोल",
+      "Şah Ruh Han",
+      "Amrish Puri",
+      "Feride Celal",
+      "Anupam Kher",
+      "Pooja Ruparel",
+      "Parmeet Sethi",
+      "Satish Shah"
+    ],
+    "director": [
+      "Aditya Chopra"
+    ],
+    "writer": [
+      "Aditya Chopra"
+    ],
+    "runtime": "190 dk"
+  }
+}

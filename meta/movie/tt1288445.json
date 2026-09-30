@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt32338669",
+    "type": "movie",
+    "name": "İsyan",
+    "originalName": "Mutiny",
+    "tmdbId": "1288445",
+    "imdbId": "tt32338669",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/2iUs37uU9kKMxme1S08JlJ7RqJw.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+    "description": "Ünlü iş adamı Tibu'nun ölümünden sorumlu tutulduktan sonra kaçak duruma düşen eski polis Cole Reed, Tibu'nun gerçek katillerini bulmak ve adını temize çıkarmak için tehlikeli bir yolculuğa çıkar. Bir kargo gemisinde illegal işler peşindeki bir şebekeyi ortaya çıkaran Cole, hiç beklemediği bir komployla karşı karşıya gelir. Tibu'nun intikamını almak ve adaleti sağlamak isteyen Cole, hem masumları kurtaracak hem de kendi geçmişiyle yüzleşecektir.",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "7.3",
+    "genres": [
+      "Aksiyon",
+      "Gerilim"
+    ],
+    "cast": [
+      "Jason Statham",
+      "Annabelle Wallis",
+      "Roland Møller",
+      "Ramon Tikaram",
+      "Arnas Fedaravičius",
+      "Jason Wong",
+      "Adrian Lester",
+      "Chaneil Kular"
+    ],
+    "director": [
+      "Jean-François Richet"
+    ],
+    "writer": [
+      "Lindsay Michel",
+      "J.P. Davis"
+    ],
+    "runtime": "96 dk"
+  }
+}

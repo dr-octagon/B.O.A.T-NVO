@@ -6,15 +6,32 @@
     "originalName": "The Love Hypothesis",
     "tmdbId": "1032863",
     "imdbId": "tt22526100",
-    "poster": "https://image.tmdb.org/t/p/w500/oQTT50Kl65WdOatg5Zz2aXoXAPd.jpg",
-    "background": "https://image.tmdb.org/t/p/original/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/oQTT50Kl65WdOatg5Zz2aXoXAPd.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
     "description": "New York Times çoksatan romanı Aşk Hipotezi'nden uyarlanan film, doktora öğrencisi Olive'ın, bölümünün en korkulan profesörü Adam Carlsen'ı ani bir dürtüyle öpmesiyle başlayan hikâyesini konu alıyor. İkisinin de ihtiyaç duyduğu sahte ilişki, zamanla kimyalarını sınayan ve belki de aşkın formülünü ortaya çıkarabilecek bir deneye dönüşüyor.",
     "releaseInfo": "2026",
     "year": 2026,
-    "imdbRating": "8.2",
+    "imdbRating": "8.1",
     "genres": [
       "Romantik",
       "Komedi"
-    ]
+    ],
+    "cast": [
+      "Lili Reinhart",
+      "Tom Bateman",
+      "Rachel Marsh",
+      "Jaboukie Young-White",
+      "Nicholas Duvernay",
+      "Arty Froushan",
+      "Jeananne Goossen",
+      "Aladeen Tawfeek"
+    ],
+    "director": [
+      "Claire Scanlon"
+    ],
+    "writer": [
+      "Sarah Rothschild"
+    ],
+    "runtime": "112 dk"
   }
 }

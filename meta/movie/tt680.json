@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt0110912",
+    "type": "movie",
+    "name": "Ucuz Roman",
+    "originalName": "Pulp Fiction",
+    "tmdbId": "680",
+    "imdbId": "tt0110912",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/AgY33Wtg4737MhYopJSFyKWhKsO.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "description": "Jules Winnfield ve Vincent Vega, mafya babası patronları Marsellus Wallace’tan çalınan bir çantayı geri almaya giden iki profesyonel tetikçidir. Wallace aynı zamanda Vincent’a, kendisi birkaç gün sonra şehir dışındayken karısını dışarı çıkarmasını söyler. Butch Coolidge, bir sonraki maçını kaybetmesi için Wallace’tan para alan yaşlı bir boksördür. Honey Bunny ve Pumpkin, yer değişikliğine ihtiyaçları olduğuna karar veren soyguncu bir çifttir. Görünüşte birbirleriyle alakası olmayan bu insanların hayatları, hem heyecanlı hem de eğlendirici bir sinema filmi macerasında nefes kesici bir şekilde birleşecektir.",
+    "releaseInfo": "1994",
+    "year": 1994,
+    "imdbRating": "8.5",
+    "genres": [
+      "Gerilim",
+      "Suç",
+      "Komedi"
+    ],
+    "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis",
+      "Ving Rhames",
+      "Harvey Keitel",
+      "Eric Stoltz",
+      "Tim Roth"
+    ],
+    "director": [
+      "Quentin Tarantino"
+    ],
+    "writer": [
+      "Quentin Tarantino"
+    ],
+    "runtime": "154 dk"
+  }
+}

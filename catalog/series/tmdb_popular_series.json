@@ -1,43 +1,54 @@
 {
   "metas": [
     {
-      "id": "tt26545992",
+      "id": "tt2057880",
       "type": "series",
-      "name": "Lanterns (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/jawrZGhKVSfdUtoSh2rUXFF7b8G.jpg",
-      "background": "https://image.tmdb.org/t/p/original/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
-      "description": "Galaksiler arası iki polis olan çaylak John Stewart ve Fener efsanesi Hal Jordan, Amerika'nın kalbinde işlenen bir cinayeti soruştururken kendilerini Dünya'da geçen, karanlık bir gizemin ortasında bulurlar.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.3",
+      "name": "Watch What Happens Live with Andy Cohen (2009)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg",
+      "description": "Watch What Happens Live with Andy Cohen — Nuvio Türkçe Dizi",
+      "releaseInfo": "2009",
+      "imdbRating": "5.0",
       "genres": [
-        "Dram",
-        "Gizem",
-        "Bilim Kurgu & Fantazi"
+        "Talk",
+        "Komedi"
       ]
     },
     {
-      "id": "tt41538904",
+      "id": "tt0203259",
       "type": "series",
-      "name": "LEGO ONE PIECE (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/2bpv75taDqB6j5nkIpKe1E1b75s.jpg",
-      "background": "https://image.tmdb.org/t/p/original/qA8U2ABepV5E2BcNIBcgUaFy4fM.jpg",
-      "description": "LEGO ONE PIECE — Nuvio Türkçe Dizi",
-      "releaseInfo": "2026",
-      "imdbRating": "9.0",
+      "name": "Law & Order: Special Victims Unit (1999)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/imaKy0BLfX1iPzj9ZvbOD0D09m6.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+      "description": "New York yeraltı dünyasının karanlık yüzünü araştıran bir özel suçlar birimi. New York Polis Departmanı'nda cinsel suçlar konusunda uzman dedektiflerden oluşan bu birim, insanın kanını donduran vakaları incelemek zorundadır. Her gün yardım isteyen kurbanlar, kapatılmayı bekleyen dosyalarla uğraşan bu ekibin üyeleri, bir yandan da bu araştırmaların özel yaşamlarına olan etkisini dengelemeye çalışırlar.",
+      "releaseInfo": "1999",
+      "imdbRating": "8.0",
       "genres": [
-        "Animasyon",
-        "Aksiyon & Macera",
-        "Bilim Kurgu & Fantazi",
+        "Suç",
+        "Dram",
+        "Gizem"
+      ]
+    },
+    {
+      "id": "tt3444938",
+      "type": "series",
+      "name": "The Tonight Show Starring Jimmy Fallon (2014)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/i4OYRb5V13BrOnTPJGdyXWg4r0J.jpg",
+      "description": "The Tonight Show Starring Jimmy Fallon — Nuvio Türkçe Dizi",
+      "releaseInfo": "2014",
+      "imdbRating": "5.8",
+      "genres": [
         "Komedi",
-        "Aile"
+        "Talk"
       ]
     },
     {
       "id": "tt9288030",
       "type": "series",
       "name": "Reacher (2022)",
-      "poster": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "background": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
       "description": "Emekli Askerî Polis Subayı Jack Reacher işlemediği bir cinayetten tutuklanınca kendini kirli polisler, karanlık iş adamları ve yozlaşmış siyasetçilerle dolu ölümcül bir komplonun ortasında bulur. Aklından başka bir şeyi olmayan Reacher Margrave, Georgia'da neler döndüğünü çözmek zorunda kalacaktır.",
       "releaseInfo": "2022",
       "imdbRating": "8.1",
@@ -47,113 +58,52 @@
       ]
     },
     {
-      "id": "tt32500958",
+      "id": "tt0055708",
       "type": "series",
-      "name": "兰香如故 (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/kfurXRMH1ZkUoyT5HN72zLTQxzZ.jpg",
-      "background": "https://image.tmdb.org/t/p/original/mZSewqVlY4F2F2Axm7hiG6KBOBp.jpg",
-      "description": "兰香如故 — Nuvio Türkçe Dizi",
-      "releaseInfo": "2026",
-      "imdbRating": "6.2",
+      "name": "The Tonight Show Starring Johnny Carson (1962)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/uSvET5YUvHNDIeoCpErrbSmasFb.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qFfWFwfaEHzDLWLuttWiYq7Poy2.jpg",
+      "description": "The Tonight Show Starring Johnny Carson — Nuvio Türkçe Dizi",
+      "releaseInfo": "1962",
+      "imdbRating": "7.6",
       "genres": [
-        "Dram",
-        "Aile"
+        "Talk"
       ]
     },
     {
-      "id": "tt31510819",
+      "id": "tt3697842",
       "type": "series",
-      "name": "MobLand (2025)",
-      "poster": "https://image.tmdb.org/t/p/w500/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
-      "background": "https://image.tmdb.org/t/p/original/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
-      "description": "İki düşman Londra suç ailesi olan Harrigan’lar ve Stevenson’lar arasında, imparatorlukları yıkma ve hayatları mahvetme tehdidi oluşturan öl ya da öldür savaşında güç ele geçirilmeyi bekliyor. Çatışmanın ortasında kalan ve tehlikeli olduğu kadar yakışıklı da olan ’çözümleyici’ Harry Da Souza, karşıt güçler çarpıştığında sadakatin nerede yattığını çok iyi biliyor. Krallıklar karşı karşıya gelirken, sınırlar aşılacak ve tek kurtuluş garantisi var: Her şeyin üstünde aile.",
-      "releaseInfo": "2025",
-      "imdbRating": "8.4",
+      "name": "The Late Show with Stephen Colbert (2015)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/gMMnf8VRg3Z98WaFmOLr9Jk8pIs.jpg",
+      "description": "Doğaçlama oyuncusu ve komedyen Stephen Colbert, uzun zamandır beklenen televizyona dönüşünü yaparken \"The Colbert Report\" karakterini geride bırakıyor. New York'taki tarihi Ed Sullivan Tiyatrosu'nda kaydedilen The Late Show franchise redux'un ev sahibi olarak Colbert, aktörler, sporcular, politikacılar, çizgi romanlar, sanatçılar ve müzisyenlerle ilk kez kendisi olarak konuşuyor. Bununla birlikte, sadık hayranlar, Colbert'in eski girişiminden yazı ve dijital ekibinin birçok üyesi tarafından desteklenmeye devam ettiği için tutarlılık muamelesi görecek. Julliard tarafından eğitilmiş Jon Batiste, grup lideri olarak görev yapıyor.",
+      "releaseInfo": "2015",
+      "imdbRating": "6.1",
+      "genres": [
+        "Komedi",
+        "Talk"
+      ]
+    },
+    {
+      "id": "tt0098844",
+      "type": "series",
+      "name": "Law & Order (1990)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/haJ9eHytVO3H3JooMJG1DiWwDNm.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+      "description": "Law & Order, ABD kaynaklı bir mahkeme ve suç draması konulu bir televizyon dizisi. Dick Wolf tarafından yaratılan dizi 13 Eylül 1990 tarihinde ABD'nin NBC televizyon kanalında yayına başlamıştır. New York kentinde geçen dizi bir grup savcı ve polis görevlilerinin meslek yaşamlarını konu almaktadır.",
+      "releaseInfo": "1990",
+      "imdbRating": "7.3",
       "genres": [
         "Suç",
         "Dram"
       ]
     },
     {
-      "id": "tt0149460",
-      "type": "series",
-      "name": "Futurama (1999)",
-      "poster": "https://image.tmdb.org/t/p/w500/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
-      "background": "https://image.tmdb.org/t/p/original/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
-      "description": "Fry pizza dağıtıcısıdır. 2000 yılına girilen yılbaşı gecesi kazara teslimat yaptığı laboratuvarda bir makineye girer. 31 Aralık 2999 gecesi yeniden uyanır. Tek gözlü Leela ve robot Bender ile tanışır. Ortak noktaları yapmak zorunda oldukları işten nefret etmeleri ve bundan kaçmalarıdır. Fry ve arkadaşları, Fry'ın hayattaki tek akrabası olan yaşlı yeğeni Farnsworth'a ulaşırlar ve macera başlar.",
-      "releaseInfo": "1999",
-      "imdbRating": "8.4",
-      "genres": [
-        "Animasyon",
-        "Komedi",
-        "Bilim Kurgu & Fantazi"
-      ]
-    },
-    {
-      "id": "tt299939",
-      "type": "series",
-      "name": "Canavar: Lizzie Borden'ın Hikâyesi (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
-      "background": "https://image.tmdb.org/t/p/original/gaew60NXUxok3Vmls7gkAT7lYW0.jpg",
-      "description": "Viktorya döneminde, acımasız bir ailenin içinde kısılı kalan Lizzie Borden, ebeveynlerini baltayla vahşice öldürerek tüm ülkeyi şaşkına çevirir.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.0",
-      "genres": [
-        "Dram",
-        "Suç"
-      ]
-    },
-    {
-      "id": "tt13293588",
-      "type": "series",
-      "name": "Mushoku Tensei: Isekai Ittara Honki Dasu (2021)",
-      "poster": "https://image.tmdb.org/t/p/w500/tn2mxPYSSUPHgfcAe5SCga1DO0i.jpg",
-      "background": "https://image.tmdb.org/t/p/original/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
-      "description": "Tanımadığı birini trafik kazasından kurtarırken ölen 34 yaşındaki bir NEET büyülü bir dünyaya Rudeus Greyrat isminde yeni doğmuş bir bebek olarak reenkarne olur. Geçmiş hayatından ona kalan bilgisi, tecrübesi ve pişmanlıklarıyla beraber daha önce yaptığı yanlışları yapmadan dolu dolu bir hayat yaşamaya çalışmaya karar verir. Oldukça yüksek olan büyü güçleri ve yetişkin beyniyle ailesi ve çevresi tarafından bir dahi olarak görülse de içinde hala bir otaku ruhu taşımaktadır.",
-      "releaseInfo": "2021",
-      "imdbRating": "8.4",
-      "genres": [
-        "Aksiyon & Macera",
-        "Animasyon",
-        "Bilim Kurgu & Fantazi"
-      ]
-    },
-    {
-      "id": "tt0388629",
-      "type": "series",
-      "name": "One Piece (1999)",
-      "poster": "https://image.tmdb.org/t/p/w500/8f33Q5AuM2G5ZqFeusbIqDjr3cI.jpg",
-      "background": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-      "description": "Korsanlar Kralı Gold Roger, bu dünyadaki herşeyi elde eder ve idam edilirken, tüm servetinin Grand Line'da olduğunu, onu arayıp bulmaları gerektiğini söyler. Bu olaydan sonra herkes Grand Line'a gider. Ancak Grand Line'a girmek çok zor, Grand Line'da canlı kalabilmek imkansızdır. Kahramanımız Monkey D. Luffy'nin hayali, Korsanlar kralı olmak ve One Piece denen kimsenin bilmediği, görmediği hazineyi ele geçirmektir. Küçük yaşlardan beri hep korsan olmak isteyen Luffy, kazara bir şeytan meyvesi (Akuma No Mi) yemiştir. 3 farklı şeytan meyvesi vardır ve bu meyvalar yiyenlere çok üstün güçler sağlamaktadır ancak bu güçlerin bedeli asla yüzememektir. Luffy'nin yediği meyve onu bir lastik çocuğa çevirir. Bu olaydan yıllar sonra Luffy denize açılır. Yolculuğu sırasında ekibini toplayacak ve One Piece'i bulmak için Grand Line'da birbirinden tehlikeli ve komik maceralara atılacaktır.",
-      "releaseInfo": "1999",
-      "imdbRating": "8.8",
-      "genres": [
-        "Aksiyon & Macera",
-        "Komedi",
-        "Animasyon"
-      ]
-    },
-    {
-      "id": "tt1844624",
-      "type": "series",
-      "name": "American Horror Story (2011)",
-      "poster": "https://image.tmdb.org/t/p/w500/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg",
-      "background": "https://image.tmdb.org/t/p/original/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg",
-      "description": "Cinayet dolu geçmişi olan bir ev, bir akıl hastanesi, bir cadı meclisi, bir ucube gösterisi, bir otel, Roanoke'de bir çiftlik evi, bir tarikat, kıyamet ve bir yaz kampı da dahil olmak üzere farklı karakter ve mekanlara odaklanan bir antoloji korku drama dizisi.",
-      "releaseInfo": "2011",
-      "imdbRating": "8.1",
-      "genres": [
-        "Dram",
-        "Gizem",
-        "Bilim Kurgu & Fantazi"
-      ]
-    },
-    {
       "id": "tt0096697",
       "type": "series",
       "name": "Simpsonlar (1989)",
-      "poster": "https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
-      "background": "https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
       "description": "Bu animasyon komedi dizisi, Springfield'de diziye adını veren aileye odaklanmaktadır. Baba Homer, tipik bir aile babası değildir. Nükleer santralde çalışarak ailesine liderlik etmeye çalışır ancak çoğu zaman ailesi onu yönetir. Sevgi dolu, mavi saçlı aile reisi anne Marge, sorun çıkaran oğlu Bart, çok başarılı kızı Lisa ve bebek Maggie, ailenin diğer üyeleridir.",
       "releaseInfo": "1989",
       "imdbRating": "8.0",
@@ -163,132 +113,174 @@
       ]
     },
     {
-      "id": "tt13111078",
+      "id": "tt2185037",
       "type": "series",
-      "name": "Lioness (2023)",
-      "poster": "https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
-      "background": "https://image.tmdb.org/t/p/original/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
-      "description": "Sert mizaçlı fakat tutkulu bir genç deniz piyadesi olan Cruz Manuelos, bir terör örgütünü içeriden çökertmeye yardımcı olmak amacıyla CIA'in Lioness Operasyon Ekibi'ne sızma ajanı olarak seçilir. Lioness programının istasyon şefi Joe ise kadın gizli görev ajanlarını eğitmek, yönetmek ve liderlik etmekle görevlendirilir.",
-      "releaseInfo": "2023",
-      "imdbRating": "8.3",
+      "name": "런닝맨 (2010)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/15SMnscZqd7HZ0bzruatOcKUlOV.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wsHj4oHQJoe7DMYaqNFwVoyLiAh.jpg",
+      "description": "런닝맨 — Nuvio Türkçe Dizi",
+      "releaseInfo": "2010",
+      "imdbRating": "8.2",
       "genres": [
-        "Dram",
-        "Savaş & Politika"
+        "Komedi",
+        "Gerçeklik"
       ]
     },
     {
-      "id": "tt36832679",
+      "id": "tt1196946",
       "type": "series",
-      "name": "Son Vaka (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/2TtMEicy4BwUTv6mw5TWcM0KdN5.jpg",
-      "background": "https://image.tmdb.org/t/p/original/m9QKL9smb61v1XSYJoHdl7p5yUd.jpg",
-      "description": "1959 baharında, Mallorca yakınlarındaki küçük bir adada, on üç kişi bir fırtına nedeniyle mahsur kalır. Küçük bir otelde konaklayan bu insanlar, başlarına geleceklerden habersizdir. Bu sırada İngiliz kökenli, ketum bir turist olan Elisa Mander ölü bulunur. Başta intihar gibi görünen olay, kısa sürede çok daha rahatsız edici bir şeye, bir cinayete işaret etmeye başlar. Bir zamanlar beyaz perdede Sherlock Holmes karakterini canlandırmış olan emekli oyuncu Basil, istemeden de olsa bu gizemi çözme görevini üstlenir. Ne kimsenin ayrılabildiği ne de dışarıdan birinin gelebildiği bu kapalı ortamda, tüm misafirler ve otel çalışanları birer şüpheliye dönüşür. Her geçen dakika, bu suçun düşündüklerinden çok daha karmaşık ve anlaşılması güç olduğu ortaya çıkar.",
-      "releaseInfo": "2026",
-      "imdbRating": "7.6",
+      "name": "The Mentalist (2008)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/rJFqKcmMSttdNP58l0dVzY2NcTA.jpg",
+      "description": "Patrick Jane isimli bir medyum, sirkte çalışan ve gözlem güçlerini kullanarak insanlar hakkında birtakım fikirler edinip bu fikirleri onlara medyum gibi satan biridir. Bir gün bu özelliği sebebiyle televizyona çıkar ve kendine Red John isimli bir düşman edinir. Red John Jane’in kızını ve eşini öldürünce ortada kalan ve bu ölümlerin sebebinin kendisi olduğunu düşünen Jane, en sonunda FBI’a başvurarak Red John’ın peşine düşmek ister. Her ne kadar ilk başlarda bu isteği geri çevrilse de FBI’ın çözemediği birtakım davaları çözen Jane, bu özel ekibe danışman olarak işe alınır.",
+      "releaseInfo": "2008",
+      "imdbRating": "8.4",
       "genres": [
         "Suç",
+        "Dram",
         "Gizem"
       ]
     },
     {
-      "id": "tt5607616",
+      "id": "tt3513388",
       "type": "series",
-      "name": "Re:Zero kara Hajimeru Isekai Seikatsu (2016)",
-      "poster": "https://image.tmdb.org/t/p/w500/ccG0ZfXOQ0834bIus4SwZrXtkyM.jpg",
-      "background": "https://image.tmdb.org/t/p/original/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
-      "description": "Lise öğrencisi Subaru Natsuki, bir gün bakkaldan dönerken öteki dünyaya çağırılır ve böylece hayatının en büyük dönüm noktası başlar. Kim tarafından çağrıldığını henüz bilmemekteydi ve saldırıya uğradığında işler çok daha kötü bir hal alır. Ancak gümüş saçlı gizemli bir kız ve onun sihirli kedisi kendisini kurtadığında Subaru, ona olan iyilik borcunu ödemek için iş birliği yapar. İkisi beraber ipuçlarını bir araya getirdiğinde Subaru ve kız, saldırıya uğrayıp öldürülür. Bundan sonra Subaru, \"Ölümden Dönüş\" adlı yeteneği kazanmış halde uyanır ve zamanı ölümden geri alabilen, çaresiz biri haline gelir ve umutsuzluğun ötesinde kızı, ölümün kaderinden kurtarmaya çalışır.(Acaba başarabilecek mi?)",
-      "releaseInfo": "2016",
-      "imdbRating": "8.1",
+      "name": "Late Night with Seth Meyers (2014)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/dfX2UaHVE5c7kLBFbgmEZJuy4Ev.jpg",
+      "description": "Late Night with Seth Meyers — Nuvio Türkçe Dizi",
+      "releaseInfo": "2014",
+      "imdbRating": "5.1",
       "genres": [
-        "Animasyon",
-        "Gizem",
-        "Aksiyon & Macera",
-        "Bilim Kurgu & Fantazi"
+        "Talk",
+        "Komedi"
       ]
     },
     {
-      "id": "tt6773088",
+      "id": "tt0386676",
       "type": "series",
-      "name": "Kardeşten Öte (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/bajp3VjJVSb33Yfz52yyHCBUeQa.jpg",
-      "background": "https://image.tmdb.org/t/p/original/aLE7R8QZPpTiWZS48PS22i2OWbl.jpg",
-      "description": "Hollywood oyuncuları Matthew McConaughey ve Woody Harrelson yıllardır en yakın arkadaştır ama şoke edici bir aile sırrı, bağlarının daha da yakın olabileceğini düşündürür.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.7",
+      "name": "‎Ofis‎ (2005)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/4Sip027pKdNJctuFLFAeUbGNKvN.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mLyW3UTgi2lsMdtueYODcfAB9Ku.jpg",
+      "description": "Çalışanlarının mutluluğunu gözeterek şirket kurallarını esnetmeye çalışan, ara sıra masumane oyunların kurbanı, kaba ve taş kalpli bir şef: Michael Scott.\n\nHepsinin kendince takıntıları olan farklı yaş gruplarından personeliyle ile The Office çalışanlarının hayatlarına şöyle bir göz atıyor; bıkkın aynı zamanda yetenekli satış elemanı Jim, onun sosyopat, yalaka düşmanı Dwight, kibar ve dürüst resepsiyonisti Pam ve isteksiz, kayıtsız stajyeri Ryan.",
+      "releaseInfo": "2005",
+      "imdbRating": "8.6",
       "genres": [
         "Komedi"
       ]
     },
     {
-      "id": "tt12327578",
+      "id": "tt0115147",
       "type": "series",
-      "name": "Star Trek: Strange New Worlds (2022)",
-      "poster": "https://image.tmdb.org/t/p/w500/511LZFZJIbxhGjclesSBGQ2ygnE.jpg",
-      "background": "https://image.tmdb.org/t/p/original/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
-      "description": "Star Trek: The Original Series’in öncesince geçecek olan bir Star Trek prequel’i. Federasyon Gemisi Enterprise (Atılgan)’ın Kaptan Kirk’ten önceki kaptanı olan Kaptan Christopher Pike ve ekibinin hikayelerini konu ediniyor",
-      "releaseInfo": "2022",
-      "imdbRating": "7.9",
+      "name": "The Daily Show (1996)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "description": "En önemli haberleri mizahi bir şekilde ele alan bir komedi haber programı.",
+      "releaseInfo": "1996",
+      "imdbRating": "6.4",
       "genres": [
-        "Bilim Kurgu & Fantazi",
-        "Dram"
+        "Haber",
+        "Komedi"
       ]
     },
     {
-      "id": "tt33081352",
+      "id": "tt0182576",
       "type": "series",
-      "name": "A Different World (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
-      "background": "https://image.tmdb.org/t/p/original/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
-      "description": "Siyahilerin gittiği köklü bir üniversiteye yeni başlayan bir genç kız ve yakın arkadaşları okulla, romantik dramlarla ve aile miraslarıyla baş etmeye çalışır.",
-      "releaseInfo": "2026",
-      "imdbRating": "6.7",
+      "name": "Family Guy (1999)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/ad75MS8xP2EmkYXy4101ljmpIfn.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+      "description": "2000 yılından bu yana komedi ve animasyon dallarında Emmy adaylıklarının ve ödüllerinin gediklisi olan çizgi dizi Family Guy,sıra dışı Griffin ailesinin absürd hayatlarını ekranlara taşıyor. Zaman zaman The Simpsons efsanesine benzetilen çizgisi ile yıllardır geniş bir hayran kitlesi yaratan dizi, başı dertten kurtulmayan baba Peter Griffin, fedakar ama hafif bela paratoneri olan anne Louis ve onların üç çocuğu, ne yapsa yaramayan “loser” Meg, fil çocuk Chris, dünyayı ele geçirmeyi kafaya koyan bebek Stewieve tabii ki ailenin yegane üyesi entelektüel köpek Brian’ın çılgın maceralarını konu alıyor.\n\nSeth MacFarlane imzasını taşıyan dizi, ki kendisi aynı zamanda baba Peter Griffin’e sesiyle hayat veriyor, Amerikan toplumuna yaptığı güncel göndermeleri, zeki esprileri, konuk ünlüleri ve müzikleriyle son on yılın en sevilen animasyon komedileri arasında yer alıyor.",
+      "releaseInfo": "1999",
+      "imdbRating": "7.4",
       "genres": [
-        "Komedi",
-        "Dram"
+        "Animasyon",
+        "Komedi"
       ]
     },
     {
-      "id": "tt33539520",
+      "id": "tt0364845",
       "type": "series",
-      "name": "Neagley (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/waLS8JD7QqO4oVUs6mgYh7xVxkn.jpg",
-      "background": "https://image.tmdb.org/t/p/original/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
-      "description": "REACHER evreninde yeni bir sayfa açılıyor. Frances Neagley, askerlik günlerinde Jack Reacher ile 110'uncu Birlik'te görev yapmış Şikagolu bir özel dedektiftir. Geçmişten çok yakın bir dostunun şüpheli bir kazada öldürüldüğünü öğrenince adalet aramaya başlar.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.1",
+      "name": "NCIS (2003)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/mBcu8d6x6zB1el3MPNl7cZQEQ31.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+      "description": "Deniz Kuvvetleri Kriminal Araştırma Servisi ya da kısa deyişle \"NCIS\". Bu nefes kesen aksiyon drama, deniz kuvvetlerine ilişkin suçları araştıran özel bir ekibin her daim şaşırtıcı serüvenlerine odaklanıyor. Bol dozda mizahla yoğrulmuş \"NCIS\"ın başrolünde '80'lerin unutulmaz dizilerinden \"Flamingo Yolu\"yla tanıyıp sevdiğimiz Mark Harmon var.\n\nRenkli kişiliklerden oluşan NCIS ekibinin lideri; eşsiz yeteneklere sahip, eski bir deniz topçu astsubayı olan Özel Ajan Leroy Jethro Gibbs. Gibbs'in altında çalışan Özel Ajan Anthony Dinozzo ise eski bir cinayet masası dedektifi. Sezgileri çok kuvvetli. Ekibin diğer üyeleri; yetenekli bir bilimadamı olan adli uzman Abby Sciuto ve bilgisayar dahisi NCIS Özel Ajanı Timoth McGee. Ekibin en büyük yardımcısı ise adli tıp doktoru Dr. Donald \"Ducky\" Mallard. Cinayet ve casusluktan, terörizme ve denizaltı hırsızlığına kadar bu özel ajanlar, deniz kuvvetleriyle bağlantılı her türlü suçu araştırmak için dünyayı dolaşıyor.",
+      "releaseInfo": "2003",
+      "imdbRating": "7.6",
+      "genres": [
+        "Suç",
+        "Dram",
+        "Aksiyon & Macera"
+      ]
+    },
+    {
+      "id": "tt13111078",
+      "type": "series",
+      "name": "Lioness (2023)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
+      "description": "Sert mizaçlı fakat tutkulu bir genç deniz piyadesi olan Cruz Manuelos, bir terör örgütünü içeriden çökertmeye yardımcı olmak amacıyla CIA'in Lioness Operasyon Ekibi'ne sızma ajanı olarak seçilir. Lioness programının istasyon şefi Joe ise kadın gizli görev ajanlarını eğitmek, yönetmek ve liderlik etmekle görevlendirilir.",
+      "releaseInfo": "2023",
+      "imdbRating": "8.3",
       "genres": [
         "Dram",
-        "Gizem",
-        "Suç"
+        "Savaş & Politik"
       ]
     },
     {
-      "id": "tt27497393",
+      "id": "tt0246393",
       "type": "series",
-      "name": "Stuart Fails to Save the Universe (2026)",
-      "poster": "https://image.tmdb.org/t/p/w500/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg",
-      "background": "https://image.tmdb.org/t/p/original/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
-      "description": "Çizgi roman dükkânı sahibi Stuart Bloom, yanlışlıkla çoklu evren kıyametini başlatınca gerçekliği eski hâline getirmekle görevlendirilir.",
-      "releaseInfo": "2026",
-      "imdbRating": "8.5",
+      "name": "Tagesschau (1952)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
+      "description": "Tagesschau — Nuvio Türkçe Dizi",
+      "releaseInfo": "1952",
+      "imdbRating": "6.8",
       "genres": [
-        "Komedi",
-        "Bilim Kurgu & Fantazi"
+        "Haber"
       ]
     },
     {
-      "id": "tt0434665",
+      "id": "tt9022950",
       "type": "series",
-      "name": "Bleach (2004)",
-      "poster": "https://image.tmdb.org/t/p/w500/e0kKmeM8R7Kersh5N2PPzIRNRhr.jpg",
-      "background": "https://image.tmdb.org/t/p/original/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
-      "description": "Kurosaki Ichigo 15 yaşında normal bir öğrencidir ancak ölülerle iletişim kurma becerisine sahiptir. Ichigo'nun babası ve kardeşleri aileye ait bir klinik işletmektedirler.\n\nÖlüm tanrısı olan Kuchiki Rukia, bir gün Ichigo'nun odasına camdan girer ve Ichigo'nun onu görebildiğine çok şaşırır. O anın kargaşasında orada bulunan kayıp ruh ile dövüşürlerken Rukia, güçlerini Ichigo'ya aktarır. Ölüm tanrısı güçlerine sahip olan Ichigo, Rukia ile beraber kayıp ruhları yok etmeye başlar.",
-      "releaseInfo": "2004",
-      "imdbRating": "8.4",
+      "name": "The Kelly Clarkson Show (2019)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/sBix25bie9UQFzbarN51DpFO5ky.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bk7QdAIUqkGpZO5GUX4AMB2AZIB.jpg",
+      "description": "The Kelly Clarkson Show — Nuvio Türkçe Dizi",
+      "releaseInfo": "2019",
+      "imdbRating": "6.2",
+      "genres": [
+        "Talk"
+      ]
+    },
+    {
+      "id": "tt4083422",
+      "type": "series",
+      "name": "Doraemon (2005)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
+      "description": "Robot kedi Doraemon, kaderi trajik bir geleceğe sahip olmak olan tembel ve uyumsuz bir çocuk olan 10 yaşındaki Nobita'yı korumak için 22. yüzyıldan geçmişe gönderilir. Doraemon karnındaki bir cepten gizli aletler çıkarabilmektedir, ancak Nobita'nın bunları kötüye kullanma eğilimi nedeniyle bunlar genellikle iyilikten çok kötülüğe neden olmaktadır.",
+      "releaseInfo": "2005",
+      "imdbRating": "8.1",
       "genres": [
         "Aksiyon & Macera",
         "Animasyon",
-        "Bilim Kurgu & Fantazi"
+        "Komedi",
+        "Bilim Kurgu & Fantazi",
+        "Çocuklar",
+        "Aile"
+      ]
+    },
+    {
+      "id": "tt0106053",
+      "type": "series",
+      "name": "David Letterman ile Geç Gösteri (1993)",
+      "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/fTBC5EpsgKmli9VQcJMtqQ08Qj4.jpg",
+      "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7jEnft2CLNbILWAiBRIBrXNN7Qh.jpg",
+      "description": "ABD’nin en çok izlenen talk show ustalarından David Letterman; sinema, televizyon, tiyatro, müzik, politika ve spor dünyasının zirvedeki isimlerini ağırladığı ünlü şovuyla izleyicileri gülmekten kırıp geçiriyor.",
+      "releaseInfo": "1993",
+      "imdbRating": "6.5",
+      "genres": [
+        "Talk",
+        "Komedi"
       ]
     }
   ]

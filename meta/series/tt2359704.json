@@ -6,8 +6,8 @@
     "originalName": "ジョジョの奇妙な冒険",
     "tmdbId": "45790",
     "imdbId": "tt2359704",
-    "poster": "https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
-    "background": "https://image.tmdb.org/t/p/original/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/2Sc0veFPh9CcHMtNqMyiQqIW9ZF.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
     "description": "Jonathan Joestar zengin, asil, herkesin arzu edeceği hayata sahip bir çocuktur. Dio Brando ise babasının ölmesiyle JoJo ailesine evlatlık gelmiş hırslı ve yetenekli bir çocuktur. Hikaye, Jonathan Joestar ve Dio Brando'dan başlayarak iki ailenin birkaç nesil boyunca birbiri ile olan mücadelesini konu almaktadır.",
     "releaseInfo": "2012",
     "year": 2012,
@@ -16,6 +16,13 @@
       "Animasyon",
       "Aksiyon & Macera",
       "Bilim Kurgu & Fantazi"
+    ],
+    "cast": [
+      "坂田将吾",
+      "Yohei Azakami",
+      "Kaito İşikava",
+      "高橋李依",
+      "Kenta Miyake"
     ],
     "videos": [
       {

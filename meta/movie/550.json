@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "tt0137523",
+    "type": "movie",
+    "name": "Dövüş Kulübü",
+    "originalName": "Fight Club",
+    "tmdbId": "550",
+    "imdbId": "tt0137523",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/yjMuqAyJUoQZGWsZ0vZuYj5inAR.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/c6OLXfKAk5BKeR6broC8pYiCquX.jpg",
+    "description": "Saatli bomba gibi patlamaya hazır, uykusuzluk çeken bir adam ile tekinsiz bir sabun satıcısı; ilkel erkek saldırganlığını şok edici yeni bir terapi yöntemine dönüştürür. Kurdukları bu fikir hızla yayılır ve her şehirde yeraltı \"dövüş kulüpleri\" kurulmaya başlar ta ki egzantrik biri yollarına çıkıp yok oluşa doğru giden, kontrolden çıkmış bir sarmalı tetikleyene kadar.",
+    "releaseInfo": "1999",
+    "year": 1999,
+    "imdbRating": "8.4",
+    "genres": [
+      "Dram",
+      "Gerilim"
+    ],
+    "cast": [
+      "Edward Norton",
+      "Brad Pitt",
+      "Helena Bonham Carter",
+      "Meat Loaf",
+      "Jared Leto",
+      "Zach Grenier",
+      "Holt McCallany",
+      "Eion Bailey"
+    ],
+    "director": [
+      "David Fincher"
+    ],
+    "writer": [
+      "Jim Uhls"
+    ],
+    "runtime": "139 dk"
+  }
+}

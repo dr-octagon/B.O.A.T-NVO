@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "id": "tt36980377",
+    "type": "movie",
+    "name": "Zip Wire",
+    "originalName": "Zip Wire",
+    "tmdbId": "1482547",
+    "imdbId": "tt36980377",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/cO7J0XSVKPlAjUCMWC7DVBn1Py2.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/sbkkAtymJaH5UzExiK974uPzCY4.jpg",
+    "description": "Zip Wire — Nuvio Türkçe Film",
+    "releaseInfo": "2026",
+    "year": 2026,
+    "imdbRating": "7.5",
+    "genres": [
+      "Aksiyon",
+      "Gerilim"
+    ],
+    "cast": [
+      "MyAnna Buring",
+      "Joseph Millson",
+      "Saffron Burrows",
+      "Michael Amariah",
+      "Silvia Presente"
+    ],
+    "director": [
+      "Howard J. Ford"
+    ],
+    "writer": [
+      "Tom Boyle"
+    ],
+    "runtime": "95 dk"
+  }
+}

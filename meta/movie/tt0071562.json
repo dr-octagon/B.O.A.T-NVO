@@ -6,8 +6,8 @@
     "originalName": "The Godfather Part II",
     "tmdbId": "240",
     "imdbId": "tt0071562",
-    "poster": "https://image.tmdb.org/t/p/w500/3Yaj5y25485A2YeixwayoP8ywZ0.jpg",
-    "background": "https://image.tmdb.org/t/p/original/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/3Yaj5y25485A2YeixwayoP8ywZ0.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/pGzqRKrYeK4LogoysNro0vG8d8N.jpg",
     "description": "Genç Vito Corleone, Amerika'ya yeni gelmiştir. 1917 yılında, New York şehri'nin yerel mafyalarından birinin liderini öldürünce saygınlık kazanır ve korkulan biri haline gelir.Bu arada, 50 yıl sonra, Michael Corleone, Washington'da senato komitesine aile işleriyle ilgili ifade vermektedir.1972 yapımı ilk filmin devamı niteliğinde, yine yazar Mario Puzo ve yönetmen Francis Ford Coppola'nın yaratıcı ellerinden çıkmış usta işi bir yapım. Eleştirmenler tarafından, önceki filmden daha başarılı bulunan az sayıdaki devam filminden biri olarak kabul ediliyor.",
     "releaseInfo": "1974",
     "year": 1974,
@@ -15,6 +15,24 @@
     "genres": [
       "Dram",
       "Suç"
-    ]
+    ],
+    "cast": [
+      "Al Pacino",
+      "Robert Duvall",
+      "Diane Keaton",
+      "Robert De Niro",
+      "John Cazale",
+      "Talia Shire",
+      "Lee Strasberg",
+      "Michael V. Gazzo"
+    ],
+    "director": [
+      "Francis Ford Coppola"
+    ],
+    "writer": [
+      "Mario Puzo",
+      "Francis Ford Coppola"
+    ],
+    "runtime": "202 dk"
   }
 }

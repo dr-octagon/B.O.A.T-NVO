@@ -6,8 +6,8 @@
     "originalName": "The Lord of the Rings: The Return of the King",
     "tmdbId": "122",
     "imdbId": "tt0167260",
-    "poster": "https://image.tmdb.org/t/p/w500/qwigzi0gOcXZRxbm488wT31t2UZ.jpg",
-    "background": "https://image.tmdb.org/t/p/original/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/qwigzi0gOcXZRxbm488wT31t2UZ.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
     "description": "Karanlığın bütün güçleri son savaş için bir araya gelirken Gandalf, Gondor'un yaralı ordusunu toparlamak için hazırlıklara başlar. Theoden, tarihin bu en büyük savaşı için tüm savaşçılarını seferber eder. İçlerinde saklanan Eowyn ve Merry ile birlikte insanlar, tüm cesaretlerine rağmen Gondor'u kuşatan düşmanlar karşısında güçsüzdür. Yine de Yüzük Taşıyıcısı'nın yolculuğunu tamamlaması için hayatlarının en zor savaşında birbirlerine kenetlenirler.",
     "releaseInfo": "2003",
     "year": 2003,
@@ -16,6 +16,25 @@
       "Macera",
       "Fantastik",
       "Aksiyon"
-    ]
+    ],
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Andy Serkis",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "John Noble"
+    ],
+    "director": [
+      "Peter Jackson"
+    ],
+    "writer": [
+      "Peter Jackson",
+      "Fran Walsh",
+      "Philippa Boyens"
+    ],
+    "runtime": "263 dk"
   }
 }

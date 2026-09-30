@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "tt5311514",
+    "type": "movie",
+    "name": "Senin Adın",
+    "originalName": "君の名は。",
+    "tmdbId": "372058",
+    "imdbId": "tt5311514",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/jkK6XdJqSCm7maDV8xgbE0JVNIP.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+    "description": "Lise öğrencileri Mitsuha ve Taki, ayrı hayatlar yaşayan birbirine tamamen yabancı iki kişidir. Ancak bir gece, aniden yer değiştirirler. Mitsuha, Taki'nin bedeninde uyanır, Taki ise Mitsuha'nın bedeninde. Bu tuhaf olay rastgele gerçekleşmeye devam eder ve ikisi de hayatlarını birbirlerine göre ayarlamak zorunda kalır.",
+    "releaseInfo": "2016",
+    "year": 2016,
+    "imdbRating": "8.5",
+    "genres": [
+      "Animasyon",
+      "Romantik",
+      "Dram"
+    ],
+    "cast": [
+      "Ryunosuke Kamiki",
+      "Mone Kamişiraişi",
+      "Ryo Narita",
+      "Aoi Yuki",
+      "Nobunaga Şimazaki",
+      "Kaito İşikava",
+      "Kanon Tani",
+      "Masaki Terasoma"
+    ],
+    "director": [
+      "Makoto Şinkay"
+    ],
+    "writer": [
+      "Makoto Şinkay"
+    ],
+    "runtime": "106 dk"
+  }
+}

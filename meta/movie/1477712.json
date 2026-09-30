@@ -6,16 +6,34 @@
     "originalName": "Ice Cream Man",
     "tmdbId": "1477712",
     "imdbId": "tt36893729",
-    "poster": "https://image.tmdb.org/t/p/w500/eiSbwkwkHO8FIVFQYjCFGwwifPx.jpg",
-    "background": "https://image.tmdb.org/t/p/original/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/eiSbwkwkHO8FIVFQYjCFGwwifPx.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
     "description": "Huzurlu bir yaz günü, sakin bir kasaba. Gizemli bir dondurmacı ortaya çıkar ve çocuklara dondurma satmaya başlar. Bu dondurmaları yiyen çocuklar çok geçmeden bu sakin ve huzurlu kasabaya dehşeti yaşatacaktır.",
     "releaseInfo": "2026",
     "year": 2026,
-    "imdbRating": "4.7",
+    "imdbRating": "4.8",
     "genres": [
       "Komedi",
       "Korku",
       "Gerilim"
-    ]
+    ],
+    "cast": [
+      "Ari Millen",
+      "Charlie Zeltzer",
+      "Shiloh O’Reilly",
+      "Kiori Mirza Waldman",
+      "Sarah Abbott",
+      "Benjamin Byron Davis",
+      "Karen Cliche",
+      "Dylan Hawco"
+    ],
+    "director": [
+      "Eli Roth"
+    ],
+    "writer": [
+      "Eli Roth",
+      "Noah Belson"
+    ],
+    "runtime": "86 dk"
   }
 }

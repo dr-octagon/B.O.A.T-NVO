@@ -6,8 +6,8 @@
     "originalName": "らんま1/2",
     "tmdbId": "259140",
     "imdbId": "tt32766897",
-    "poster": "https://image.tmdb.org/t/p/w500/1C4HtKv13BQnhofwnPZiyfti5aC.jpg",
-    "background": "https://image.tmdb.org/t/p/original/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+    "poster": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w500/1C4HtKv13BQnhofwnPZiyfti5aC.jpg",
+    "background": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
     "description": "Akane Tendo yeni nişanlısı Ranma Saotome ile tanışır. Dövüş sanatları ustası olan Ranma'nın tuhaf bir özelliği vardır: Soğuk suyla temas ettiğinde sihirli biçimde bir kıza dönüşür.",
     "releaseInfo": "2024",
     "year": 2024,
@@ -16,6 +16,11 @@
       "Animasyon",
       "Aksiyon & Macera",
       "Komedi"
+    ],
+    "cast": [
+      "Kappei Yamaguçi",
+      "Megumi Hayaşibara",
+      "日髙のり子"
     ],
     "videos": [
       {

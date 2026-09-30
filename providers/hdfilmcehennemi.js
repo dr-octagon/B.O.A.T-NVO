@@ -618,12 +618,16 @@ async function searchHDF(query) {
       }
       const title = $el.find(".poster-title, .title, h2, h3").text().trim() || $el.attr("title") || $el.find("img").attr("alt") || "";
       if (!title) return;
+      let poster = $el.find("img").attr("data-src") || $el.find("img").attr("src") || "";
+      if (poster && poster.startsWith("//")) poster = `https:${poster}`;
+      else if (poster && poster.startsWith("/")) poster = `${BASE_URL}${poster}`;
       const isSeries = href.includes("/dizi/") || href.includes("/bolum/");
       if (!results.find((r) => r.url === href)) {
         results.push({
           title,
           url: href,
-          isSeries
+          isSeries,
+          poster
         });
       }
     });
@@ -804,11 +808,25 @@ async function getStreams(id, mediaType, season, episode) {
     const rawId = String(id || "").trim();
     const sNum = season ? parseInt(season, 10) : void 0;
     const eNum = episode ? parseInt(episode, 10) : void 0;
+    const isTv = mediaType === "series" || mediaType === "tv";
+    if (rawId.startsWith("hdfilmcehennemi:")) {
+      const pageUrl = decodeURIComponent(rawId.replace(/^hdfilmcehennemi:/, ""));
+      let targetPageUrl = pageUrl;
+      if (isTv) {
+        const epUrl = await resolveEpisodeUrl(pageUrl, sNum || 1, eNum || 1);
+        if (epUrl) targetPageUrl = epUrl;
+      }
+      const streams = await getStreamsFromPage(targetPageUrl);
+      if (streams && streams.length > 0) {
+        return sortStreamsByQuality(streams);
+      }
+      return [];
+    }
     const tmdbMeta = await getMediaDetails(rawId, mediaType);
     if (!tmdbMeta || !tmdbMeta.title && !tmdbMeta.originalTitle) {
       return [];
     }
-    const isTv = tmdbMeta.type === "tv" || tmdbMeta.type === "series";
+    const effectiveIsTv = tmdbMeta.type === "tv" || tmdbMeta.type === "series" || isTv;
     const searchQueries = [];
     if (tmdbMeta.title) searchQueries.push(tmdbMeta.title);
     if (tmdbMeta.originalTitle && tmdbMeta.originalTitle !== tmdbMeta.title) {
@@ -828,11 +846,11 @@ async function getStreams(id, mediaType, season, episode) {
       if (results.length > 0) break;
     }
     if (results.length === 0) return [];
-    const candidates = rankCandidates(results, tmdbMeta.title, tmdbMeta.originalTitle, isTv, tmdbMeta.year);
+    const candidates = rankCandidates(results, tmdbMeta.title, tmdbMeta.originalTitle, effectiveIsTv, tmdbMeta.year);
     if (candidates.length === 0) return [];
     for (const candidate of candidates) {
       let targetPageUrl = candidate.url;
-      if (isTv) {
+      if (effectiveIsTv) {
         const epUrl = await resolveEpisodeUrl(candidate.url, sNum || 1, eNum || 1);
         if (!epUrl) continue;
         targetPageUrl = epUrl;
@@ -852,13 +870,21 @@ async function getCatalog(type, id, extra) {
     const isMovie = type !== "series" && type !== "tv";
     if (extra && extra.search) {
       const searchResults = await searchHDF(extra.search);
-      const metas = searchResults.filter((r) => isMovie ? !r.isSeries : r.isSeries).map((item) => ({
-        id: item.url,
-        type: isMovie ? "movie" : "series",
-        name: item.title,
-        description: `${item.title} \u2014 HDFilmCehennemi`,
-        genres: ["HDFilmCehennemi", isMovie ? "Film" : "Dizi"]
-      }));
+      const metas = searchResults.filter((r) => isMovie ? !r.isSeries : r.isSeries).map((item) => {
+        let poster = item.poster;
+        if (poster && poster.startsWith("http")) {
+          poster = `https://wsrv.nl/?url=${encodeURIComponent(poster)}`;
+        }
+        return {
+          id: `hdfilmcehennemi:${encodeURIComponent(item.url)}`,
+          type: isMovie ? "movie" : "series",
+          name: item.title,
+          poster: poster || void 0,
+          background: poster || void 0,
+          description: `${item.title} \u2014 HDFilmCehennemi`,
+          genres: ["HDFilmCehennemi", isMovie ? "Film" : "Dizi"]
+        };
+      });
       return { metas };
     }
     const catId = isMovie ? "tmdb_trending_movies" : "tmdb_popular_series";
@@ -878,16 +904,54 @@ async function getMeta(args) {
     const rawId = typeof args === "string" ? args : args && args.id ? args.id : "";
     if (!rawId) return { meta: null };
     const type = args && args.type ? args.type : "movie";
+    if (rawId.startsWith("hdfilmcehennemi:")) {
+      const pageUrl = decodeURIComponent(rawId.replace(/^hdfilmcehennemi:/, ""));
+      const res = await fetch(pageUrl, {
+        headers: { "User-Agent": USER_AGENT, "Referer": `${BASE_URL}/` }
+      });
+      if (res.ok) {
+        const html = await res.text();
+        const $ = cheerio.load(html);
+        const name = $("h1").first().text().trim() || "HDFilmCehennemi";
+        const desc = $(".film-overview, .overview, .entry-content p, article p").first().text().trim() || name;
+        let poster = $(".poster img, .film-poster img, article img").first().attr("data-src") || $(".poster img, .film-poster img, article img").first().attr("src") || "";
+        if (poster && poster.startsWith("//")) poster = `https:${poster}`;
+        else if (poster && poster.startsWith("/")) poster = `${BASE_URL}${poster}`;
+        if (poster && poster.startsWith("http")) poster = `https://wsrv.nl/?url=${encodeURIComponent(poster)}`;
+        return {
+          meta: {
+            id: rawId,
+            type,
+            name,
+            poster: poster || void 0,
+            background: poster || void 0,
+            description: desc,
+            genres: ["HDFilmCehennemi"]
+          }
+        };
+      }
+    }
     const details = await getMediaDetails(rawId, type);
     if (details && details.title) {
+      let poster = details.details && details.details.poster || (details.details && details.details.poster_path ? `https://image.tmdb.org/t/p/w500${details.details.poster_path}` : "");
+      let background = details.details && details.details.background || (details.details && details.details.backdrop_path ? `https://image.tmdb.org/t/p/original${details.details.backdrop_path}` : "");
+      if (poster && poster.startsWith("http")) poster = `https://wsrv.nl/?url=${encodeURIComponent(poster)}`;
+      if (background && background.startsWith("http")) background = `https://wsrv.nl/?url=${encodeURIComponent(background)}`;
       return {
         meta: {
           id: rawId,
           type: details.type === "tv" || details.type === "series" ? "series" : "movie",
           name: details.title,
+          poster: poster || void 0,
+          background: background || void 0,
           description: details.details && details.details.description || details.details && details.details.overview || details.title,
           releaseInfo: details.year ? String(details.year) : void 0,
-          genres: details.details && details.details.genres || ["HDFilmCehennemi"]
+          genres: details.details && details.details.genres || ["HDFilmCehennemi"],
+          cast: details.details && details.details.cast,
+          director: details.details && details.details.director,
+          writer: details.details && details.details.writer,
+          runtime: details.details && details.details.runtime,
+          imdbRating: details.details && details.details.imdbRating
         }
       };
     }
