@@ -120,7 +120,6 @@ var require_fastplay = __commonJS({
         const spT = spTMatch ? parseInt(spTMatch[1], 10) : Math.floor(Date.now() / 1e3);
         const streamPath = streamMatch[1];
         const manifestUrl = streamPath.startsWith("http") ? streamPath : `https://fastplay.mom${streamPath}`;
-        const token = generateXSpToken(sp, spT);
         const subtitles = [];
         const tracksMatch = html.match(/(?:tracks|subtitles)\s*:\s*(\[[^\]]+\])/);
         if (tracksMatch) {
@@ -143,13 +142,41 @@ var require_fastplay = __commonJS({
           } catch (err) {
           }
         }
+        let finalStreamUrl = manifestUrl;
+        let quality = "1080p";
+        try {
+          const token1 = generateXSpToken(sp, spT);
+          const mRes = await fetch(manifestUrl, {
+            headers: {
+              "User-Agent": DEFAULT_USER_AGENT,
+              "Referer": fastPlayUrl,
+              "X-Sp": token1
+            }
+          });
+          if (mRes.ok) {
+            const mText = await mRes.text();
+            const lines = mText.split("\n").map((l) => l.trim());
+            const sub1080 = lines.find((l) => l.includes("q1080p.txt") || l.includes("1080p"));
+            const anySub = lines.find((l) => l.startsWith("http") && (l.includes(".txt") || l.includes(".m3u8")));
+            if (sub1080 && sub1080.startsWith("http")) {
+              finalStreamUrl = sub1080;
+              quality = "1080p";
+            } else if (anySub) {
+              finalStreamUrl = anySub;
+              quality = anySub.includes("720p") ? "720p" : "1080p";
+            }
+          }
+        } catch (e) {
+        }
+        const token2 = generateXSpToken(sp, spT);
         const headers = {
           "Referer": "https://fastplay.mom/",
           "User-Agent": DEFAULT_USER_AGENT,
-          "X-Sp": token
+          "X-Sp": token2
         };
         return {
-          url: manifestUrl,
+          url: finalStreamUrl,
+          quality,
           headers,
           subtitles
         };
@@ -785,11 +812,18 @@ async function getStreamsFromPage(pageUrl) {
                 name: label,
                 title: label,
                 url: streamData.url,
-                quality: "1080p",
+                quality: streamData.quality || "1080p",
                 type: "hls",
                 format: "hls",
                 language: "tr",
                 headers: streamData.headers,
+                behaviorHints: {
+                  headers: streamData.headers,
+                  proxyHeaders: {
+                    request: streamData.headers
+                  },
+                  notWebReady: false
+                },
                 subtitles: streamData.subtitles
               });
             }
