@@ -773,6 +773,45 @@ async function resolveEpisodeUrl(seriesUrl, season, episode) {
     return null;
   }
 }
+async function resolveVixSrc(tmdbId, mediaType, season, episode) {
+  if (!tmdbId || String(tmdbId).startsWith("hdfilmcehennemi:")) return [];
+  try {
+    const isTv = (mediaType === "tv" || mediaType === "series") && season != null && episode != null;
+    const path = isTv ? `/api/tv/${encodeURIComponent(String(tmdbId))}/${encodeURIComponent(String(season))}/${encodeURIComponent(String(episode))}` : `/api/movie/${encodeURIComponent(String(tmdbId))}`;
+    const headers = {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+      "Referer": "https://vixsrc.to/",
+      "Accept": "application/json, text/javascript, */*; q=0.01"
+    };
+    const res = await fetch(`https://vixsrc.to${path}`, { headers, signal: AbortSignal.timeout(6e3) });
+    if (!res.ok) return [];
+    const payload = await res.json();
+    if (!payload || !payload.src) return [];
+    const pageUrl = /^https?:/i.test(payload.src) ? payload.src : `https://vixsrc.to${payload.src}`;
+    const pageRes = await fetch(pageUrl, { headers, signal: AbortSignal.timeout(6e3) });
+    if (!pageRes.ok) return [];
+    const html = await pageRes.text();
+    const s = /(?:url|file)\s*:\s*['"]([^'"]+)['"]/.exec(html);
+    const t = /['"]?token['"]?\s*:\s*['"]([^'"]+)['"]/.exec(html);
+    const e = /['"]?expires['"]?\s*:\s*['"]([^'"]+)['"]/.exec(html);
+    if (!s || !t || !e) return [];
+    const streamUrl = s[1] + (s[1].indexOf("?") >= 0 ? "&" : "?") + "token=" + encodeURIComponent(t[1]) + "&expires=" + encodeURIComponent(e[1]) + "&h=1";
+    return [{
+      name: "[HDF] \u{1F680} H\u0131zl\u0131 Ak\u0131\u015F (ClipBox \u2022 1080p)",
+      title: "HDFilmCehennemi \u2022 ClipBox VixSrc \u2022 1080p Full HD",
+      url: streamUrl,
+      quality: 1080,
+      provider: "hdfilmcehennemi",
+      type: "m3u8",
+      format: "m3u8",
+      language: "tr",
+      headers: { "User-Agent": headers["User-Agent"], "Referer": "https://vixsrc.to/" },
+      behaviorHints: { notWebReady: false }
+    }];
+  } catch (err) {
+    return [];
+  }
+}
 async function getStreamsFromPage(pageUrl) {
   const streams = [];
   try {
@@ -836,21 +875,34 @@ async function getStreamsFromPage(pageUrl) {
         } else if (embedUrl.includes("fastplay")) {
           fastPlayUrl = embedUrl;
         }
+        const isDublaj = opt.partKey === "turkcedublaj" || opt.playerName && opt.playerName.toLowerCase().includes("dublaj");
+        const isAltyazi = opt.partKey === "turkcealtyazi" || opt.playerName && opt.playerName.toLowerCase().includes("altyaz");
+        const langTag = isDublaj ? "\u{1F1F9}\u{1F1F7} T\xFCrk\xE7e Dublaj" : isAltyazi ? "\u{1F4AC} T\xFCrk\xE7e Altyaz\u0131" : "\u{1F1F9}\u{1F1F7} Dublaj & Altyaz\u0131";
+        streams.push({
+          name: `[HDF] ${langTag}`,
+          title: `HDFilmCehennemi \u2022 SetPlay Player (${langTag})`,
+          url: embedUrl,
+          quality: 1080,
+          provider: "hdfilmcehennemi",
+          type: "video",
+          format: "video",
+          language: "tr",
+          headers: { "Referer": pageUrl, "User-Agent": USER_AGENT },
+          behaviorHints: { notWebReady: false }
+        });
         if (fastPlayUrl) {
           const streamData = await extractFastPlay(fastPlayUrl, embedUrl);
           if (streamData && streamData.url) {
-            const isDublaj = opt.partKey === "turkcedublaj" || opt.playerName && opt.playerName.toLowerCase().includes("dublaj");
-            const isAltyazi = opt.partKey === "turkcealtyazi" || opt.playerName && opt.playerName.toLowerCase().includes("altyaz");
-            const langTag = isDublaj ? "\u{1F1F9}\u{1F1F7} T\xFCrk\xE7e Dublaj" : isAltyazi ? "\u{1F4AC} T\xFCrk\xE7e Altyaz\u0131" : "\u{1F1F9}\u{1F1F7} Dublaj & Altyaz\u0131";
             const streamName = `[HDF] ${langTag}`;
-            const streamTitle = `HDFilmCehennemi \u2022 ${streamData.quality || "1080p"} (${langTag})`;
+            const streamTitle = `HDFilmCehennemi \u2022 Direct 1080p (${langTag})`;
             streams.push({
               name: streamName,
               title: streamTitle,
               url: streamData.url,
-              quality: streamData.quality || "1080p",
-              type: "hls",
-              format: "hls",
+              quality: 1080,
+              provider: "hdfilmcehennemi",
+              type: "m3u8",
+              format: "m3u8",
               language: "tr",
               headers: streamData.headers,
               behaviorHints: {
@@ -865,16 +917,14 @@ async function getStreamsFromPage(pageUrl) {
           }
         } else if (embedUrl.includes(".m3u8") || embedUrl.includes(".mp4")) {
           const isMp4 = embedUrl.includes(".mp4");
-          const isDublaj = opt.partKey === "turkcedublaj";
-          const isAltyazi = opt.partKey === "turkcealtyazi";
-          const langTag = isDublaj ? "\u{1F1F9}\u{1F1F7} T\xFCrk\xE7e Dublaj" : isAltyazi ? "\u{1F4AC} T\xFCrk\xE7e Altyaz\u0131" : "\u{1F1F9}\u{1F1F7} Dublaj & Altyaz\u0131";
           streams.push({
             name: `[HDF] ${langTag}`,
             title: `HDFilmCehennemi \u2022 1080p (${langTag})`,
             url: embedUrl,
-            quality: "1080p",
-            type: isMp4 ? "mp4" : "hls",
-            format: isMp4 ? "mp4" : "hls",
+            quality: 1080,
+            provider: "hdfilmcehennemi",
+            type: isMp4 ? "mp4" : "m3u8",
+            format: isMp4 ? "mp4" : "m3u8",
             language: "tr",
             headers: { "Referer": pageUrl, "User-Agent": USER_AGENT },
             behaviorHints: { notWebReady: false }
@@ -912,6 +962,7 @@ async function getStreams(id, mediaType, season, episode) {
       return [];
     }
     const effectiveIsTv = tmdbMeta.type === "tv" || tmdbMeta.type === "series" || isTv;
+    const vixPromise = resolveVixSrc(tmdbMeta.tmdbId || rawId, effectiveIsTv ? "tv" : "movie", sNum, eNum);
     const searchQueries = [];
     if (tmdbMeta.title) searchQueries.push(tmdbMeta.title);
     if (tmdbMeta.originalTitle && tmdbMeta.originalTitle !== tmdbMeta.title) {
@@ -930,20 +981,31 @@ async function getStreams(id, mediaType, season, episode) {
       results = await searchHDF(q);
       if (results.length > 0) break;
     }
-    if (results.length === 0) return [];
-    const candidates = rankCandidates(results, tmdbMeta.title, tmdbMeta.originalTitle, effectiveIsTv, tmdbMeta.year);
-    if (candidates.length === 0) return [];
-    for (const candidate of candidates) {
-      let targetPageUrl = candidate.url;
-      if (effectiveIsTv) {
-        const epUrl = await resolveEpisodeUrl(candidate.url, sNum || 1, eNum || 1);
-        if (!epUrl) continue;
-        targetPageUrl = epUrl;
+    let hdfStreams = [];
+    if (results.length > 0) {
+      const candidates = rankCandidates(results, tmdbMeta.title, tmdbMeta.originalTitle, effectiveIsTv, tmdbMeta.year);
+      if (candidates.length > 0) {
+        for (const candidate of candidates) {
+          let targetPageUrl = candidate.url;
+          if (effectiveIsTv) {
+            const epUrl = await resolveEpisodeUrl(candidate.url, sNum || 1, eNum || 1);
+            if (!epUrl) continue;
+            targetPageUrl = epUrl;
+          }
+          const streams = await getStreamsFromPage(targetPageUrl);
+          if (streams && streams.length > 0) {
+            hdfStreams = streams;
+            break;
+          }
+        }
       }
-      const streams = await getStreamsFromPage(targetPageUrl);
-      if (streams && streams.length > 0) {
-        return sortStreamsByQuality(streams);
-      }
+    }
+    const vixStreams = await vixPromise;
+    let allStreams = [];
+    if (hdfStreams && hdfStreams.length > 0) allStreams = allStreams.concat(hdfStreams);
+    if (vixStreams && vixStreams.length > 0) allStreams = allStreams.concat(vixStreams);
+    if (allStreams.length > 0) {
+      return sortStreamsByQuality(allStreams);
     }
     return [];
   } catch (err) {
