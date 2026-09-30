@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "id": "tt1160419",
+    "type": "movie",
+    "name": "Dune: Çöl Gezegeni",
+    "originalName": "Dune: Part One",
+    "tmdbId": "438631",
+    "imdbId": "tt1160419",
+    "poster": "https://image.tmdb.org/t/p/w500/yXs3qdcTxteZnZZH78xvm7Q6iK2.jpg",
+    "background": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+    "description": "Paul Atreides, ailesi ve halkının geleceğini garanti altına almak için evrendeki en tehlikeli gezegene seyahat etmek zorundadır.",
+    "releaseInfo": "2021",
+    "year": 2021,
+    "imdbRating": "8.0",
+    "genres": [
+      "Bilim Kurgu",
+      "Macera"
+    ]
+  }
+}

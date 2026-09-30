@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (TMDB, HDFilmCehennemi, B.O.A.T)",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Nuvio Türkiye — TMDB Türkçe Ana Ekran Kataloğu, HDFilmCehennemi ve B.O.A.T",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -59,7 +59,7 @@
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "HDFilmCehennemi — Türkçe Dublaj & Altyazılı HLS Doğrudan Akışlar",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "id": "tt0133093",
+    "type": "movie",
+    "name": "Matrix",
+    "originalName": "The Matrix",
+    "tmdbId": "603",
+    "imdbId": "tt0133093",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "background": "https://image.tmdb.org/t/p/original/l4QHerTSbMI7qgvej05apMsa1m8.jpg",
+    "description": "Bir hacker olan Neo, yaşadığı dünyanın aslında insanları uyuşturup köleleştiren bir simülasyon olduğunu keşfeder. Gerçek dünyada insanlığın son direnişine katılarak makinelerle savaşa başlar.",
+    "releaseInfo": "1999",
+    "year": 1999,
+    "imdbRating": "8.7",
+    "genres": [
+      "Aksiyon",
+      "Bilim Kurgu"
+    ]
+  }
+}
