@@ -75,6 +75,10 @@ var require_quality = __commonJS({
         if (sizeDiff !== 0) return sizeDiff;
         var seedDiff = (b.seeders || 0) - (a.seeders || 0);
         if (seedDiff !== 0) return seedDiff;
+        var aDub = (a.name || "").includes("Dublaj") || (a.title || "").includes("Dublaj");
+        var bDub = (b.name || "").includes("Dublaj") || (b.title || "").includes("Dublaj");
+        if (aDub && !bDub) return -1;
+        if (!aDub && bDub) return 1;
         return 0;
       });
     }

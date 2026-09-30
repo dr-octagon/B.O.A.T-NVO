@@ -145,7 +145,7 @@ var require_fastplay = __commonJS({
         let finalStreamUrl = manifestUrl;
         let quality = "1080p";
         try {
-          const token1 = generateXSpToken(sp, spT);
+          const token1 = generateXSpToken(sp, Math.floor(Date.now() / 1e3));
           const mRes = await fetch(manifestUrl, {
             headers: {
               "User-Agent": DEFAULT_USER_AGENT,
@@ -156,23 +156,52 @@ var require_fastplay = __commonJS({
           if (mRes.ok) {
             const mText = await mRes.text();
             const lines = mText.split("\n").map((l) => l.trim());
-            const sub1080 = lines.find((l) => l.includes("q1080p.txt") || l.includes("1080p"));
-            const anySub = lines.find((l) => l.startsWith("http") && (l.includes(".txt") || l.includes(".m3u8")));
-            if (sub1080 && sub1080.startsWith("http")) {
+            const sub1080 = lines.find((l) => l.startsWith("http") && (l.includes("q1080p") || l.includes("1080p"))) || lines.find((l) => l.startsWith("http"));
+            if (sub1080) {
               finalStreamUrl = sub1080;
-              quality = "1080p";
-            } else if (anySub) {
-              finalStreamUrl = anySub;
-              quality = anySub.includes("720p") ? "720p" : "1080p";
+              quality = sub1080.includes("720p") ? "720p" : "1080p";
+              const token2 = generateXSpToken(sp, Math.floor(Date.now() / 1e3));
+              const qRes = await fetch(sub1080, {
+                headers: {
+                  "User-Agent": DEFAULT_USER_AGENT,
+                  "Referer": fastPlayUrl,
+                  "X-Sp": token2
+                }
+              });
+              if (qRes.ok) {
+                const qText = await qRes.text();
+                const segLine = qText.split("\n").map((l) => l.trim()).find((l) => l.startsWith("http") && l.includes(".png"));
+                if (segLine) {
+                  const lastSlash = segLine.lastIndexOf("/");
+                  if (lastSlash !== -1) {
+                    const dir = segLine.substring(0, lastSlash + 1);
+                    const candidates = [
+                      `${dir}master.txt?.m3u8`,
+                      `${dir}video.txt?.m3u8`
+                    ];
+                    for (const c of candidates) {
+                      try {
+                        const cRes = await fetch(c, {
+                          headers: { "Referer": "https://fastplay.mom/" },
+                          signal: AbortSignal.timeout(3e3)
+                        });
+                        if (cRes.ok) {
+                          finalStreamUrl = c;
+                          break;
+                        }
+                      } catch (e) {
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         } catch (e) {
         }
-        const token2 = generateXSpToken(sp, spT);
         const headers = {
           "Referer": "https://fastplay.mom/",
-          "User-Agent": DEFAULT_USER_AGENT,
-          "X-Sp": token2
+          "User-Agent": DEFAULT_USER_AGENT
         };
         return {
           url: finalStreamUrl,
@@ -481,6 +510,10 @@ var require_quality = __commonJS({
         if (sizeDiff !== 0) return sizeDiff;
         var seedDiff = (b.seeders || 0) - (a.seeders || 0);
         if (seedDiff !== 0) return seedDiff;
+        var aDub = (a.name || "").includes("Dublaj") || (a.title || "").includes("Dublaj");
+        var bDub = (b.name || "").includes("Dublaj") || (b.title || "").includes("Dublaj");
+        if (aDub && !bDub) return -1;
+        if (!aDub && bDub) return 1;
         return 0;
       });
     }
@@ -797,37 +830,55 @@ async function getStreamsFromPage(pageUrl) {
         const ajaxData = await ajaxRes.json();
         const embedUrl = ajaxData?.data?.url || ajaxData?.data?.stream?.url;
         if (!embedUrl || !embedUrl.startsWith("http")) return;
+        let fastPlayUrl = null;
         if (embedUrl.includes("setplay")) {
-          const fastPlayUrl = await extractSetPlay(embedUrl, pageUrl);
-          if (fastPlayUrl) {
-            const streamData = await extractFastPlay(fastPlayUrl, embedUrl);
-            if (streamData && streamData.url) {
-              let label = `SetPlay 1080p`;
-              if (opt.partKey) {
-                label += ` [${opt.partKey}]`;
-              } else {
-                label += ` (T\xFCrk\xE7e Dublaj & Altyaz\u0131)`;
-              }
-              streams.push({
-                name: label,
-                title: label,
-                url: streamData.url,
-                quality: streamData.quality || "1080p",
-                type: "hls",
-                format: "hls",
-                language: "tr",
+          fastPlayUrl = await extractSetPlay(embedUrl, pageUrl);
+        } else if (embedUrl.includes("fastplay")) {
+          fastPlayUrl = embedUrl;
+        }
+        if (fastPlayUrl) {
+          const streamData = await extractFastPlay(fastPlayUrl, embedUrl);
+          if (streamData && streamData.url) {
+            const isDublaj = opt.partKey === "turkcedublaj" || opt.playerName && opt.playerName.toLowerCase().includes("dublaj");
+            const isAltyazi = opt.partKey === "turkcealtyazi" || opt.playerName && opt.playerName.toLowerCase().includes("altyaz");
+            const langTag = isDublaj ? "\u{1F1F9}\u{1F1F7} T\xFCrk\xE7e Dublaj" : isAltyazi ? "\u{1F4AC} T\xFCrk\xE7e Altyaz\u0131" : "\u{1F1F9}\u{1F1F7} Dublaj & Altyaz\u0131";
+            const streamName = `[HDF] ${langTag}`;
+            const streamTitle = `HDFilmCehennemi \u2022 ${streamData.quality || "1080p"} (${langTag})`;
+            streams.push({
+              name: streamName,
+              title: streamTitle,
+              url: streamData.url,
+              quality: streamData.quality || "1080p",
+              type: "hls",
+              format: "hls",
+              language: "tr",
+              headers: streamData.headers,
+              behaviorHints: {
                 headers: streamData.headers,
-                behaviorHints: {
-                  headers: streamData.headers,
-                  proxyHeaders: {
-                    request: streamData.headers
-                  },
-                  notWebReady: false
+                proxyHeaders: {
+                  request: streamData.headers
                 },
-                subtitles: streamData.subtitles
-              });
-            }
+                notWebReady: false
+              },
+              subtitles: streamData.subtitles
+            });
           }
+        } else if (embedUrl.includes(".m3u8") || embedUrl.includes(".mp4")) {
+          const isMp4 = embedUrl.includes(".mp4");
+          const isDublaj = opt.partKey === "turkcedublaj";
+          const isAltyazi = opt.partKey === "turkcealtyazi";
+          const langTag = isDublaj ? "\u{1F1F9}\u{1F1F7} T\xFCrk\xE7e Dublaj" : isAltyazi ? "\u{1F4AC} T\xFCrk\xE7e Altyaz\u0131" : "\u{1F1F9}\u{1F1F7} Dublaj & Altyaz\u0131";
+          streams.push({
+            name: `[HDF] ${langTag}`,
+            title: `HDFilmCehennemi \u2022 1080p (${langTag})`,
+            url: embedUrl,
+            quality: "1080p",
+            type: isMp4 ? "mp4" : "hls",
+            format: isMp4 ? "mp4" : "hls",
+            language: "tr",
+            headers: { "Referer": pageUrl, "User-Agent": USER_AGENT },
+            behaviorHints: { notWebReady: false }
+          });
         }
       } catch (err) {
       }
