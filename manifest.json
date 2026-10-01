@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix)",
-  "version": "1.8.0",
-  "description": "Nuvio Türkiye — BronzeCloud Süper Sağlayıcı, TMDB Türkçe Arayüz, B.O.A.T, FilmModu, Sinewix, HDFilmCehennemi & DiziBox",
+  "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
+  "version": "1.8.1",
+  "description": "Nuvio Türkiye — BronzeCloud Süper Sağlayıcı, TMDB Türkçe Arayüz, B.O.A.T, FilmModu, Sinewix, HDFilmizle, HDFilmCehennemi & DiziBox",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -24,6 +24,7 @@
     "bronzecloud:",
     "filmmodu:",
     "sinewix:",
+    "hdfilmizle:",
     "hdfilmcehennemi:",
     "dizibox:"
   ],
@@ -149,6 +150,30 @@
         "mkv",
         "mp4",
         "m3u8",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "hdfilmizle",
+      "name": "HDFilmizle",
+      "description": "HDFilmizle — 1080p FHD Çift Ses (Dual-Audio Türkçe Dublaj & Altyazı), Vidrame & Vidmoxy Akışları",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/hdfilmizle.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
         "video"
       ],
       "supportsExternalPlayer": true,
