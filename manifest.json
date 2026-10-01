@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi, DiziBox)",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T, HDFilmCehennemi & DiziBox Sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -84,7 +84,7 @@
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "HDFilmCehennemi — Türkçe Dublaj, Altyazı & ClipBox Hızlı Akış",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -108,7 +108,7 @@
       "id": "dizibox",
       "name": "DiziBox",
       "description": "DiziBox — Yabancı Diziler, King Player & VidMoly 1080p Doğrudan Akış",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "series",
