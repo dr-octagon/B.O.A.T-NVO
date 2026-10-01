@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi, DiziBox)",
-  "version": "1.7.5",
+  "version": "1.7.6",
   "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T, HDFilmCehennemi & DiziBox Sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -133,7 +133,7 @@
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
       "description": "B.O.A.T — Doğrudan HLS (Vidrock, VaPlayer, VixSrc), 4K UHD & Torrent",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
