@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
-  "name": "Nuvio Türkiye (TMDB, B.O.A.T, HDFilmCehennemi, DiziBox)",
-  "version": "1.7.6",
-  "description": "Nuvio Türkiye — TMDB Türkçe Arayüz, B.O.A.T, HDFilmCehennemi & DiziBox Sağlayıcıları",
+  "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix)",
+  "version": "1.8.0",
+  "description": "Nuvio Türkiye — BronzeCloud Süper Sağlayıcı, TMDB Türkçe Arayüz, B.O.A.T, FilmModu, Sinewix, HDFilmCehennemi & DiziBox",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -21,6 +21,9 @@
     "tt",
     "tmdb:",
     "boat:",
+    "bronzecloud:",
+    "filmmodu:",
+    "sinewix:",
     "hdfilmcehennemi:",
     "dizibox:"
   ],
@@ -83,10 +86,82 @@
   ],
   "scrapers": [
     {
+      "id": "bronzecloud",
+      "name": "BronzeCloud (Tüm Türkçe Kaynaklar)",
+      "description": "BronzeCloud — HDFilmCehennemi, FilmModu, Sinewix & DiziBox Akışlarını Tek Listede Toplar",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/bronzecloud.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "filmmodu",
+      "name": "FilmModu",
+      "description": "FilmModu — 4K UHD & 1080p Doğrudan HLS Akışları (Türkçe Dublaj & Altyazılı)",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie"
+      ],
+      "filename": "providers/filmmodu.js",
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "sinewix",
+      "name": "Sinewix",
+      "description": "Sinewix — Çift Ses (Dual-Audio), Türkçe Dublaj & 1080p Doğrudan CDN Akışları",
+      "version": "1.0.0",
+      "author": "Dr.Octagon",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/sinewix.js",
+      "enabled": true,
+      "formats": [
+        "mkv",
+        "mp4",
+        "m3u8",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "HDFilmCehennemi — Türkçe Dublaj, Altyazı & ClipBox Hızlı Akış",
-      "version": "1.3.4",
+      "version": "1.3.5",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
