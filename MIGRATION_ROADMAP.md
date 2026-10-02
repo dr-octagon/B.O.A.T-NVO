@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 23 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.3 ile Puhu, SelcukFlix, Vavoo ve Anizium eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve dokuz modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 26 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.4 ile Reeltu, HDFilmCehennemi NL ve YabancıDizi eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve altı modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -47,14 +47,14 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | FilmMakinesi | JS portu; CloseLoad çözümü ve kısa kontrol geçti |
 | FullHDFilm | JS portu; VidPapi üzerinden üç HLS akışı geldi |
 | FullHDFilmizlesene | JS portu; RapidVid ve kısa kontrol geçti |
-| HDFilmCehennemi | Ayrı `.nl` modülü; Land sağlayıcısıyla aynı değil |
+| HDFilmCehennemi | Ayrı `.nl` JS portu; JSON katalog/video API, Close/Rapidrame üzerinden iki HLS akışı kontrolü geçti |
 | HDFilmDelisi | JS portu; Next.js video URL ve Vixolity çözümü, kısa kontrol geçti |
 | inatbox-bc | Taşınacak |
 | JetFilmizle | JS portu; çoklu kaynak POST ve kısa kontrol geçti |
 | KultFilmler | JS portu; kısa katalog/akış kontrolü geçti |
 | Puhu | JS portu; katalog, sezon/bölüm API ve altı HLS akışıyla kısa kontrol geçti |
 | rectv-bc | Taşınacak |
-| Reeltu | Taşınacak |
+| Reeltu | JS portu; dinamik API keşfi, anime/sezon/shorts ve VaPlayer desteği; örnek dizide 12 bölüm ve dört kaynak geldi |
 | SelcukFlix | JS portu; AES API, Next.js meta ve Pichive HLS kısa kontrolü geçti |
 | SetFilmIzle | JS portu; SetPlay/FastPlay ve kısa kontrol geçti |
 | SezonlukDizi | JS portu; alternatif API, OK.ru/VidMoly akışları ve kısa kontrol geçti |
@@ -64,7 +64,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | Watch2Movies | Katalog/meta hazır; dinamik oynatıcı çözümü sürüyor |
 | WebDramaTurkey | JS portu; UpNS/PlayerP2P şifreli API çözümü, yedi akışla kısa kontrol geçti |
 | WebteIzle | JS portu; katalog/meta geldi, ilk filmin iki dili reCAPTCHA gerektiriyor |
-| YabanciDizi | Taşınacak |
+| YabanciDizi | JS portu; arama/bölüm ve çoklu oynatıcı API, salted AES çözümü; Mac/VidMoly/OK.ru ile kısa kontrol geçti |
 
 ## Uygulama sırası
 

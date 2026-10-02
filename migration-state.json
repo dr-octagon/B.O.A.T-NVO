@@ -203,9 +203,14 @@
     },
     {
       "module": "HDFilmCehennemi",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "hdfilmcehenneminl",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 2,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "HDFilmDelisi",
@@ -259,9 +264,14 @@
     },
     {
       "module": "Reeltu",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "reeltu",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 18,
+        "streamCount": 4,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "SelcukFlix",
@@ -371,9 +381,14 @@
     },
     {
       "module": "YabanciDizi",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "yabancidizi",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 3,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "inatbox-bc",
