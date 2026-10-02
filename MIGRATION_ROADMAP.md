@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 27 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.5 ile DominoTV'nin film/dizi ve canlı yayın portu eklendi. Gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve yedi modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 29 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.6 ile Trdiziizle ve DomatesTV eklendi. DominoTV'nin gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve beş modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -42,7 +42,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | DiziPalOriginal | JS portu; oturumlu config API, XOR/AES ve çoklu ses HLS kontrolü geçti |
 | Dizipod | JS portu; sezon/bölüm, AJAX ve Tyuopix/ArtPlayer HLS kontrolü geçti |
 | DiziYou | JS portu; orijinal/dublaj ve altyazılı akış geldi |
-| DomatesTV | Kaynak depoya yeni eklendi; taşınacak |
+| DomatesTV | JS portu; platform/Firestore katalogları, tüm arama sayfaları ve sezon/bölüm eşleştirmesi; örnek film ve Vezir Gambiti Pichive HLS kontrolü geçti. Mezarlık CDN API'si `unauthorized` dönüyor; reklam MP4'leri kaynak olarak döndürülmüyor |
 | DominoTV | JS portu; gzip katalog/meta ve film HLS kontrolü geçti; örnek canlı kanal HLS listesi HTTP 200 |
 | FilmEkseni | JS portu; CSRF keşfet API, EksenLoad HLS ve kısa kontrol geçti |
 | FilmMakinesi | JS portu; CloseLoad çözümü ve kısa kontrol geçti |
@@ -61,7 +61,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | SezonlukDizi | JS portu; alternatif API, OK.ru/VidMoly akışları ve kısa kontrol geçti |
 | SinemaCX | JS portu; SinemaCC çoklu oyuncu ve kısa kontrol geçti |
 | TLCtr | JS portu; sezon/bölüm ve kısa kontrol geçti |
-| Trdiziizle | Kaynak depoya yeni eklendi; taşınacak |
+| Trdiziizle | JS portu; katalog/arama, diziye geçiş, sezon/bölüm, JWPlayer/base64 MP4, YouTube ve iç iframe yolları; Ömür Usta 1. bölüm Twitter HLS kontrolü geçti. Diğer oynatıcı yollarının kapsamlı kontrolü bekliyor |
 | Vavoo | JS portu; 300 canlı kanal, API çözümü ve canlı HLS yanıtı kontrolü geçti |
 | Watch2Movies | Katalog/meta hazır; dinamik oynatıcı çözümü sürüyor |
 | WebDramaTurkey | JS portu; UpNS/PlayerP2P şifreli API çözümü, yedi akışla kısa kontrol geçti |

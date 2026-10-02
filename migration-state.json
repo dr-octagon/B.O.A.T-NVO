@@ -147,9 +147,19 @@
     },
     {
       "module": "DomatesTV",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "domatestv",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 10,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports",
+        "movieStreamCount": 1,
+        "searchOriginalTitleMatched": true,
+        "upstreamLimitations": [
+          "Mezarlik first CDN episode API: unauthorized; preroll videos excluded"
+        ]
+      }
     },
     {
       "module": "DominoTV",
@@ -348,9 +358,17 @@
     },
     {
       "module": "Trdiziizle",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "trdiziizle",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 7,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports",
+        "metadataEpisodes": 1,
+        "sample": "Omur Usta S1E1",
+        "playlistHttpStatus": 200
+      }
     },
     {
       "module": "Vavoo",
