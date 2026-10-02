@@ -6,6 +6,8 @@ Yardımcı `127.0.0.1:18765` üzerinde çalışır. Eklenti korumalı ana/alt li
 
 ## Windows üzerinde başlatma
 
+Sürüm 3, CineJoy için `/transport/cinejoy` ikili POST/yanıt aktarımı ve TMDB katalog/meta için `/transport/tmdb` JSON aktarımı ekler. CineJoy adresleri sabit GitHub domain yapılandırmasıyla sınırlandırılır; oynatıcı yanıtının AES-GCM çözümü sağlayıcının JS kodunda yapılır. TMDB aktarımı yalnız okuma uç noktalarına gider, bu tek API adresini DoH ile çözer ve TLS doğrulamasını korur. Sistemin DNS/hosts ayarları değiştirilmez. Bu yollar dış URL veya kullanıcı oturum başlığı kabul etmez; tarayıcı Origin'i olan istekler reddedilir. CineJoy API'si 502 döndüğünde bu sunucudan kaynak gelmez; bağımsız Movy sunucuları denenmeye devam eder.
+
 Node.js gereklidir. Dağıtım deposundaki bu klasörde:
 
 ```powershell

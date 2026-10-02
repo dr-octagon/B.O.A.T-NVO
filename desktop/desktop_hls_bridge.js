@@ -2,7 +2,9 @@ const http = require('node:http');
 const { randomUUID, createHash } = require('node:crypto');
 const { readFileSync } = require('node:fs');
 const { gunzipSync } = require('node:zlib');
+const { cinejoyBinary, tmdbJson } = require('./desktop_provider_transport');
 const REVISION = createHash('sha256').update(readFileSync(__filename)).digest('hex');
+const TRANSPORT_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_provider_transport'))).digest('hex');
 const isHls = text => typeof text === 'string' && /^\s*#EXTM3U\b/.test(text);
 
 const PORT = 18765;
@@ -48,9 +50,20 @@ function createBridge() {
         };
         // Native plugin requests have no Origin. Browsers must not register playlists.
         const route = (req.url || '').split('?')[0];
-        if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/'))) return send(403, { error: 'Native requests only' });
+        if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/') || route.startsWith('/transport/'))) return send(403, { error: 'Native requests only' });
         for (const [key, session] of sessions) if (Date.now() - session.created > TTL) sessions.delete(key);
-        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 2, revision: REVISION });
+        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 3, revision: REVISION, transportRevision: TRANSPORT_REVISION, transports: ['tmdb-json', 'cinejoy-binary'] });
+        if (req.method === 'GET' && route === '/transport/tmdb') {
+            try { return send(200, await tmdbJson(new URL(req.url, 'http://127.0.0.1').searchParams.get('path'))); }
+            catch (error) { return send(502, { error: error.message }); }
+        }
+        if (req.method === 'POST' && route === '/transport/cinejoy') {
+            try {
+                const chunks = []; let size = 0;
+                for await (const chunk of req) { size += chunk.length; if (size > 70000) { send(413, { error: 'Binary body size limit' }); req.destroy(); return; } chunks.push(chunk); }
+                return send(200, await cinejoyBinary(JSON.parse(Buffer.concat(chunks).toString('utf8'))));
+            } catch (error) { return send(502, { error: error.message }); }
+        }
         if (req.method === 'GET' && route.startsWith('/catalog/domino/')) {
             try {
                 const query = new URL(req.url, 'http://127.0.0.1').searchParams;

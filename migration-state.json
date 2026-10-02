@@ -40,9 +40,28 @@
     },
     {
       "module": "CineJoy",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "cinejoy",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 10,
+        "fullValidation": "deferred-until-all-ports",
+        "sampleMovie": "The Matrix (1999)",
+        "metadataSample": "Reacher",
+        "metadataEpisodes": 32,
+        "movyServers": 6,
+        "mainApiStatus": 502,
+        "aesGcmAadUnitCheck": true,
+        "binaryApiLiveValidation": "pending-upstream-recovery",
+        "upstreamLimitations": [
+          "CineJoy api.shegu.st and api.shegu.xyz return HTTP 502; Movy sources work"
+        ],
+        "seriesSample": "Reacher S1E1",
+        "seriesStreamCount": 10,
+        "movieSubtitleCount": 33,
+        "localPlaylistHttpStatus": 200
+      }
     },
     {
       "module": "CineStream",
