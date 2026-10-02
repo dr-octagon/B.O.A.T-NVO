@@ -1,8 +1,8 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.8.2",
-  "description": "Nuvio Türkiye — BronzeCloud Süper Sağlayıcı, TMDB Türkçe Arayüz, B.O.A.T, FilmModu, Sinewix, HDFilmizle, HDFilmCehennemi & DiziBox",
+  "version": "1.9.0",
+  "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
   "resources": [
@@ -26,7 +26,17 @@
     "sinewix:",
     "hdfilmizle:",
     "hdfilmcehennemi:",
-    "dizibox:"
+    "dizibox:",
+    "diziyou:",
+    "dizimom:",
+    "tlctr:",
+    "fullhdfilmizlesene:",
+    "sinemacx:",
+    "kultfilmler:",
+    "filmmakinesi:",
+    "jetfilmizle:",
+    "setfilmizle:",
+    "watch2movies:"
   ],
   "catalogs": [
     {
@@ -253,6 +263,249 @@
       "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
       "contentLanguage": [
         "tr",
+        "en"
+      ]
+    },
+    {
+      "id": "diziyou",
+      "name": "DiziYou",
+      "description": "DiziYou — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/diziyou.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "dizimom",
+      "name": "DiziMom",
+      "description": "DiziMom — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/dizimom.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "tlctr",
+      "name": "TLCtr",
+      "description": "TLCtr — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/tlctr.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "fullhdfilmizlesene",
+      "name": "FullHDFilmizlesene",
+      "description": "FullHDFilmizlesene — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/fullhdfilmizlesene.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "sinemacx",
+      "name": "SinemaCX",
+      "description": "SinemaCX — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/sinemacx.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "kultfilmler",
+      "name": "KultFilmler",
+      "description": "KultFilmler — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/kultfilmler.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "filmmakinesi",
+      "name": "FilmMakinesi",
+      "description": "FilmMakinesi — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/filmmakinesi.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "jetfilmizle",
+      "name": "JetFilmizle",
+      "description": "JetFilmizle — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/jetfilmizle.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "setfilmizle",
+      "name": "SetFilmIzle",
+      "description": "SetFilmIzle — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/setfilmizle.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "watch2movies",
+      "name": "Watch2Movies",
+      "description": "Watch2Movies — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/watch2movies.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": false,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
         "en"
       ]
     }

@@ -1,0 +1,303 @@
+{
+  "sourceRepository": "Cloudstream-BronzeCloud-Source",
+  "totalModules": 41,
+  "verificationPolicy": "Short native catalog/stream smoke during migration; comprehensive checks after every module is ported.",
+  "modules": [
+    {
+      "module": "Anizium",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "BCSports",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "BOAT",
+      "providerId": "boat",
+      "status": "existing-parity-pending",
+      "checks": {}
+    },
+    {
+      "module": "BelgeselX",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "CineJoy",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "CineStream",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "CizgiMax",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "Ddizi",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "DiziBox",
+      "providerId": "dizibox",
+      "status": "existing-parity-pending",
+      "checks": {}
+    },
+    {
+      "module": "DiziMom",
+      "providerId": "dizimom",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 10,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "DiziPal",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "DiziPalOriginal",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "DiziYou",
+      "providerId": "diziyou",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 28,
+        "streamCount": 2,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "Dizilla",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "Dizipod",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "DominoTV",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "FilmEkseni",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "FilmMakinesi",
+      "providerId": "filmmakinesi",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 24,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "FilmModu",
+      "providerId": "filmmodu",
+      "status": "existing-parity-pending",
+      "checks": {}
+    },
+    {
+      "module": "FullHDFilm",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "FullHDFilmizlesene",
+      "providerId": "fullhdfilmizlesene",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 18,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "HDFilmCehennemi",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "HDFilmDelisi",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "HDFilmcehennemiLand",
+      "providerId": "hdfilmcehennemi",
+      "status": "existing-parity-pending",
+      "checks": {}
+    },
+    {
+      "module": "JetFilmizle",
+      "providerId": "jetfilmizle",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 30,
+        "streamCount": 2,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "KultFilmler",
+      "providerId": "kultfilmler",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "Puhu",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "Reeltu",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "SelcukFlix",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "SetFilmIzle",
+      "providerId": "setfilmizle",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 23,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "SezonlukDizi",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "SinemaCX",
+      "providerId": "sinemacx",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 16,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "Sinewix",
+      "providerId": "sinewix",
+      "status": "existing-parity-pending",
+      "checks": {}
+    },
+    {
+      "module": "TLCtr",
+      "providerId": "tlctr",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 55,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "Vavoo",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "Watch2Movies",
+      "providerId": "watch2movies",
+      "status": "implemented-validation-pending",
+      "checks": {
+        "nativeDesktop": false,
+        "catalogEntries": 24,
+        "streamCount": 0,
+        "fullValidation": "deferred-until-all-ports"
+      }
+    },
+    {
+      "module": "WebDramaTurkey",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "WebteIzle",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "YabanciDizi",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "inatbox-bc",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    },
+    {
+      "module": "rectv-bc",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
+    }
+  ]
+}

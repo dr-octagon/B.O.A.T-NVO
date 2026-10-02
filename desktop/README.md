@@ -20,7 +20,7 @@ node ./desktop_hls_bridge.js
 
 Sağlık kontrolü: `http://127.0.0.1:18765/health`. Başlatma scripti mevcut yardımcıyı yeniden başlatmaz. Günlükler depo kökünde `tmp/` altında tutulur.
 
-Kaynak deposunda aynı dosyalar `scripts/` altındadır. `scripts/install_desktop_hls.ps1 -AutoStart`, Nuvio kapalıyken dört kurulu eklentiyi günceller ve Windows Başlangıç klasörüne `Nuvio Desktop HLS.lnk` ekler. Bu kısayol kaynak klasörüne bağlıdır; depo taşınırsa kurulum scriptini yeniden çalıştırın. Otomatik başlatmayı kaldırmak için yalnız bu kısayolu silin.
+Kaynak deposunda aynı dosyalar `scripts/` altındadır. `scripts/install_desktop_hls.ps1 -AutoStart`, Nuvio kapalıyken dört kurulu eklentiyi günceller ve Windows Başlangıç klasörüne `Nuvio Desktop HLS.lnk` ekler. `-AllRegistered` eklenirse manifest içinde etkin tüm derlenmiş sağlayıcıları önbelleğe yükler ve yeni kayıtları ekler; mevcut sağlayıcıların kullanıcı tarafından seçilmiş açık/kapalı durumu korunur. İşlem öncesinde ayarlar ve önbellek `tmp/desktop-backup-*` altında yedeklenir. Bu kısayol kaynak klasörüne bağlıdır; depo taşınırsa kurulum scriptini yeniden çalıştırın. Otomatik başlatmayı kaldırmak için yalnız bu kısayolu silin.
 
 Yardımcı kapalı olduğunda sağlayıcılar uzak URL'leri döndürür; bu Desktop sürümünde King/FastPlay sorunu tekrar oluşabilir. Yardımcı yeniden başlatıldıktan veya kaynak tokeni sona erdikten sonra Nuvio'da kaynak listesini yeniden açın. Yerel listeler bellekte en fazla 12 saat/128 oturum tutulur. Servis yalnız loopback'e bağlanır, tarayıcı Origin'iyle liste kaydını reddeder ve dışarıdan dosya/URL çekme uç noktası sunmaz.
 
