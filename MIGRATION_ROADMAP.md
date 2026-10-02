@@ -2,7 +2,7 @@
 
 2026-10-02 tarihli yerel kaynak envanteri: Cloudstream deposunda `build.gradle.kts` içeren ve `settings.gradle.kts` tarafından etkinleştirilen 41 modül var. `__Temel`, `NovaStream` ve `NovaStream_backup_pre_tv` dışarıda bırakılıyor.
 
-Nuvio'da yedi JavaScript sağlayıcı mevcut: BOAT, BronzeCloud, DiziBox, FilmModu, HDFilmCehennemi, HDFilmizle ve Sinewix. BronzeCloud bir birleştirici; HDFilmizle mevcut Cloudstream modül adıyla birebir eşleşmiyor. Beş Cloudstream modülünün JS karşılığı mevcut olması tam özellik eşitliği anlamına gelmiyor. Örneğin DiziBox şu anda yalnız akış çözüyor. Önceki plandaki “Anizium tamamlandı” kaydı kaynak ağacında karşılık bulmadığı için kaldırıldı.
+Taşıma öncesinde Nuvio'da yedi JavaScript sağlayıcı vardı: BOAT, BronzeCloud, DiziBox, FilmModu, HDFilmCehennemi, HDFilmizle ve Sinewix. BronzeCloud bir birleştirici; HDFilmizle mevcut Cloudstream modül adıyla birebir eşleşmiyor. Beş Cloudstream modülünün JS karşılığı mevcut olması tam özellik eşitliği anlamına gelmiyor. Örneğin DiziBox şu anda yalnız akış çözüyor.
 
 ## Dönüşüm eşlemesi
 
@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 19 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. İlk iki gruba FilmEkseni, Dizipod, Dizilla, DiziPal ve DiziPalOriginal eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve 13 modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 23 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.3 ile Puhu, SelcukFlix, Vavoo ve Anizium eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve dokuz modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -29,7 +29,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | FilmModu | `filmmodu` mevcut; güncel site/Pilavyer desteği eklendi |
 | HDFilmcehennemiLand | `hdfilmcehennemi` mevcut; SetPlay/FastPlay düzeltildi |
 | Sinewix | `sinewix` mevcut; özellik eşitliği incelenecek |
-| Anizium | Taşınacak |
+| Anizium | JS portu; günlük API başlığı, sezon/bölüm ve iki dilde on video bağlantısı kontrolü geçti |
 | BCSports | Taşınacak |
 | BelgeselX | Katalog/meta hazır; ilk bölümün Google Photos yanıtında kullanılabilir medya yok |
 | CineJoy | Taşınacak |
@@ -52,15 +52,15 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | inatbox-bc | Taşınacak |
 | JetFilmizle | JS portu; çoklu kaynak POST ve kısa kontrol geçti |
 | KultFilmler | JS portu; kısa katalog/akış kontrolü geçti |
-| Puhu | Taşınacak |
+| Puhu | JS portu; katalog, sezon/bölüm API ve altı HLS akışıyla kısa kontrol geçti |
 | rectv-bc | Taşınacak |
 | Reeltu | Taşınacak |
-| SelcukFlix | Taşınacak |
+| SelcukFlix | JS portu; AES API, Next.js meta ve Pichive HLS kısa kontrolü geçti |
 | SetFilmIzle | JS portu; SetPlay/FastPlay ve kısa kontrol geçti |
 | SezonlukDizi | JS portu; alternatif API, OK.ru/VidMoly akışları ve kısa kontrol geçti |
 | SinemaCX | JS portu; SinemaCC çoklu oyuncu ve kısa kontrol geçti |
 | TLCtr | JS portu; sezon/bölüm ve kısa kontrol geçti |
-| Vavoo | Taşınacak |
+| Vavoo | JS portu; 300 canlı kanal, API çözümü ve canlı HLS yanıtı kontrolü geçti |
 | Watch2Movies | Katalog/meta hazır; dinamik oynatıcı çözümü sürüyor |
 | WebDramaTurkey | JS portu; UpNS/PlayerP2P şifreli API çözümü, yedi akışla kısa kontrol geçti |
 | WebteIzle | JS portu; katalog/meta geldi, ilk filmin iki dili reCAPTCHA gerektiriyor |

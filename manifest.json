@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -15,7 +15,8 @@
     "movie",
     "series",
     "anime",
-    "tv"
+    "tv",
+    "live"
   ],
   "idPrefixes": [
     "tt",
@@ -49,7 +50,11 @@
     "webteizle:",
     "dizilla:",
     "dizipal:",
-    "dizipaloriginal:"
+    "dizipaloriginal:",
+    "puhu:",
+    "selcukflix:",
+    "vavoo:",
+    "anizium:"
   ],
   "catalogs": [
     {
@@ -113,7 +118,7 @@
       "id": "bronzecloud",
       "name": "BronzeCloud (Tüm Türkçe Kaynaklar)",
       "description": "BronzeCloud — HDFilmCehennemi, FilmModu, Sinewix & DiziBox Akışlarını Tek Listede Toplar",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -138,7 +143,7 @@
       "id": "filmmodu",
       "name": "FilmModu",
       "description": "FilmModu — 4K UHD & 1080p Doğrudan HLS Akışları (Türkçe Dublaj & Altyazılı)",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie"
@@ -160,7 +165,7 @@
       "id": "sinewix",
       "name": "Sinewix",
       "description": "Sinewix — Çift Ses (Dual-Audio), Türkçe Dublaj & 1080p Doğrudan CDN Akışları",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -185,7 +190,7 @@
       "id": "hdfilmizle",
       "name": "HDFilmizle",
       "description": "HDFilmizle — 1080p FHD Çift Ses (Dual-Audio Türkçe Dublaj & Altyazı), Vidrame & Vidmoxy Akışları",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -209,7 +214,7 @@
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
       "description": "HDFilmCehennemi — SetPlay / FastPlay, Türkçe Dublaj & Altyazı",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -233,7 +238,7 @@
       "id": "dizibox",
       "name": "DiziBox",
       "description": "DiziBox — Yabancı Diziler, VidMoly 1080p Doğrudan Akış & King Player",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "series",
@@ -256,7 +261,7 @@
       "id": "boat",
       "name": "B.O.A.T (Best Of All Time)",
       "description": "B.O.A.T — Doğrudan HLS (Vidrock, VaPlayer, VixSrc), 4K UHD & Torrent",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -283,7 +288,7 @@
       "id": "diziyou",
       "name": "DiziYou",
       "description": "DiziYou — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/diziyou.js",
       "supportedTypes": [
@@ -307,7 +312,7 @@
       "id": "dizimom",
       "name": "DiziMom",
       "description": "DiziMom — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dizimom.js",
       "supportedTypes": [
@@ -331,7 +336,7 @@
       "id": "tlctr",
       "name": "TLCtr",
       "description": "TLCtr — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/tlctr.js",
       "supportedTypes": [
@@ -355,7 +360,7 @@
       "id": "fullhdfilmizlesene",
       "name": "FullHDFilmizlesene",
       "description": "FullHDFilmizlesene — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/fullhdfilmizlesene.js",
       "supportedTypes": [
@@ -378,7 +383,7 @@
       "id": "sinemacx",
       "name": "SinemaCX",
       "description": "SinemaCX — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/sinemacx.js",
       "supportedTypes": [
@@ -401,7 +406,7 @@
       "id": "kultfilmler",
       "name": "KultFilmler",
       "description": "KultFilmler — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/kultfilmler.js",
       "supportedTypes": [
@@ -426,7 +431,7 @@
       "id": "filmmakinesi",
       "name": "FilmMakinesi",
       "description": "FilmMakinesi — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/filmmakinesi.js",
       "supportedTypes": [
@@ -451,7 +456,7 @@
       "id": "jetfilmizle",
       "name": "JetFilmizle",
       "description": "JetFilmizle — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/jetfilmizle.js",
       "supportedTypes": [
@@ -476,7 +481,7 @@
       "id": "setfilmizle",
       "name": "SetFilmIzle",
       "description": "SetFilmIzle — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/setfilmizle.js",
       "supportedTypes": [
@@ -501,7 +506,7 @@
       "id": "watch2movies",
       "name": "Watch2Movies",
       "description": "Watch2Movies — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/watch2movies.js",
       "supportedTypes": [
@@ -526,7 +531,7 @@
       "id": "ddizi",
       "name": "Ddizi",
       "description": "Ddizi — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/ddizi.js",
       "supportedTypes": [
@@ -550,7 +555,7 @@
       "id": "sezonlukdizi",
       "name": "SezonlukDizi",
       "description": "SezonlukDizi — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/sezonlukdizi.js",
       "supportedTypes": [
@@ -574,7 +579,7 @@
       "id": "fullhdfilm",
       "name": "FullHDFilm",
       "description": "FullHDFilm — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/fullhdfilm.js",
       "supportedTypes": [
@@ -599,7 +604,7 @@
       "id": "hdfilmdelisi",
       "name": "HDFilmDelisi",
       "description": "HDFilmDelisi — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/hdfilmdelisi.js",
       "supportedTypes": [
@@ -622,7 +627,7 @@
       "id": "cizgimax",
       "name": "CizgiMax",
       "description": "CizgiMax — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/cizgimax.js",
       "supportedTypes": [
@@ -646,7 +651,7 @@
       "id": "webdramaturkey",
       "name": "WebDramaTurkey",
       "description": "WebDramaTurkey — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/webdramaturkey.js",
       "supportedTypes": [
@@ -672,7 +677,7 @@
       "id": "belgeselx",
       "name": "BelgeselX",
       "description": "BelgeselX — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/belgeselx.js",
       "supportedTypes": [
@@ -697,7 +702,7 @@
       "id": "dizipod",
       "name": "Dizipod",
       "description": "Dizipod — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dizipod.js",
       "supportedTypes": [
@@ -722,7 +727,7 @@
       "id": "filmekseni",
       "name": "FilmEkseni",
       "description": "FilmEkseni — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/filmekseni.js",
       "supportedTypes": [
@@ -747,7 +752,7 @@
       "id": "webteizle",
       "name": "WebteIzle",
       "description": "WebteIzle — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/webteizle.js",
       "supportedTypes": [
@@ -770,7 +775,7 @@
       "id": "dizilla",
       "name": "Dizilla",
       "description": "Dizilla — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dizilla.js",
       "supportedTypes": [
@@ -794,7 +799,7 @@
       "id": "dizipal",
       "name": "DiziPal",
       "description": "DiziPal — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dizipal.js",
       "supportedTypes": [
@@ -819,12 +824,112 @@
       "id": "dizipaloriginal",
       "name": "DiziPalOriginal",
       "description": "DiziPalOriginal — Cloudstream JS portu",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dizipaloriginal.js",
       "supportedTypes": [
         "movie",
         "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "puhu",
+      "name": "Puhu",
+      "description": "Puhu — Cloudstream JS portu",
+      "version": "1.9.3",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/puhu.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "live",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "selcukflix",
+      "name": "SelcukFlix",
+      "description": "SelcukFlix — Cloudstream JS portu",
+      "version": "1.9.3",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/selcukflix.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "vavoo",
+      "name": "Vavoo",
+      "description": "Vavoo — Cloudstream JS portu",
+      "version": "1.9.3",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/vavoo.js",
+      "supportedTypes": [
+        "live"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "anizium",
+      "name": "Anizium",
+      "description": "Anizium — Cloudstream JS portu",
+      "version": "1.9.3",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/anizium.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "anime",
         "tv"
       ],
       "enabled": true,

@@ -5,9 +5,14 @@
   "modules": [
     {
       "module": "Anizium",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "anizium",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 7,
+        "streamCount": 10,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "BCSports",
@@ -243,9 +248,14 @@
     },
     {
       "module": "Puhu",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "puhu",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 6,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "Reeltu",
@@ -255,9 +265,14 @@
     },
     {
       "module": "SelcukFlix",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "selcukflix",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 24,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "SetFilmIzle",
@@ -311,9 +326,14 @@
     },
     {
       "module": "Vavoo",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "vavoo",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 300,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "Watch2Movies",
