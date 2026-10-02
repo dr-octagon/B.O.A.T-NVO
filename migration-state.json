@@ -16,9 +16,46 @@
     },
     {
       "module": "BCSports",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "bcsports",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 12,
+        "streamCount": 3,
+        "fullValidation": "deferred-until-all-ports",
+        "sampleChannel": "BeIN Sports 1",
+        "implementedSourceFamilies": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "livePlaylistHttpStatus": 200,
+        "mediaHttpStatus": 200,
+        "mediaFormat": "MPEG-TS",
+        "verifiedSourceFamilies": [
+          "C",
+          "E",
+          "F"
+        ],
+        "upstreamFailures": {
+          "A": "HTTP 403",
+          "B": "Native HTTP 0 / connection failure",
+          "D": "HTTP 204, empty HLS response for IDs 2/34/220"
+        },
+        "rgbTsBinaryDecode": "fixture passed; source B live verification pending",
+        "sourceDKeyInterceptor": "implemented; live verification pending",
+        "desktopCatalogUi": "pending integration",
+        "inactiveOriginalServer": "server 2 returns emptyList in Kotlin",
+        "continuousLiveRefresh": {
+          "source": "E",
+          "firstSequence": 3215,
+          "secondSequence": 3217,
+          "intervalSeconds": 7
+        }
+      }
     },
     {
       "module": "BOAT",

@@ -7,7 +7,8 @@ try {
         $taskExpectedRevision = (Get-FileHash -LiteralPath $taskExpectedScript -Algorithm SHA256).Hash
         $taskTransportScript = Join-Path $PSScriptRoot 'desktop_provider_transport.js'
         $taskTransportRevision = (Get-FileHash -LiteralPath $taskTransportScript -Algorithm SHA256).Hash
-        if ($taskHealth.version -ge 3 -and $taskHealth.revision -eq $taskExpectedRevision -and $taskHealth.transportRevision -eq $taskTransportRevision) { return }
+        $taskLiveRevision = (Get-FileHash -LiteralPath (Join-Path $PSScriptRoot 'desktop_live_transport.js') -Algorithm SHA256).Hash
+        if ($taskHealth.version -ge 4 -and $taskHealth.revision -eq $taskExpectedRevision -and $taskHealth.transportRevision -eq $taskTransportRevision -and $taskHealth.liveRevision -eq $taskLiveRevision) { return }
         $taskPidFile = Join-Path (Split-Path $PSScriptRoot -Parent) 'tmp/desktop-hls.pid'
         $taskOwnedId = if (Test-Path -LiteralPath $taskPidFile) { [int](Get-Content -LiteralPath $taskPidFile) } else { 0 }
         $taskOwnedProcess = if ($taskOwnedId) { Get-CimInstance Win32_Process -Filter "ProcessId = $taskOwnedId" } else { $null }

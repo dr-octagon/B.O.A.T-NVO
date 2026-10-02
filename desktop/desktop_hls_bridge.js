@@ -3,8 +3,10 @@ const { randomUUID, createHash } = require('node:crypto');
 const { readFileSync } = require('node:fs');
 const { gunzipSync } = require('node:zlib');
 const { cinejoyBinary, tmdbJson } = require('./desktop_provider_transport');
+const { createLiveTransport } = require('./desktop_live_transport');
 const REVISION = createHash('sha256').update(readFileSync(__filename)).digest('hex');
 const TRANSPORT_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_provider_transport'))).digest('hex');
+const LIVE_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_live_transport'))).digest('hex');
 const isHls = text => typeof text === 'string' && /^\s*#EXTM3U\b/.test(text);
 
 const PORT = 18765;
@@ -24,6 +26,8 @@ function rewritePlaylist(text, base, urls) {
 }
 
 function createBridge() {
+    let server;
+    const live = createLiveTransport(() => server.address().port);
     const sessions = new Map();
     const catalogs = new Map();
     const foldCatalogTitle = value => String(value || '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -43,7 +47,7 @@ function createBridge() {
         }
         return catalogs.get(name).promise;
     }
-    const server = http.createServer(async (req, res) => {
+    server = http.createServer(async (req, res) => {
         const send = (status, data) => {
             res.writeHead(status, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
             res.end(JSON.stringify(data));
@@ -52,7 +56,8 @@ function createBridge() {
         const route = (req.url || '').split('?')[0];
         if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/') || route.startsWith('/transport/'))) return send(403, { error: 'Native requests only' });
         for (const [key, session] of sessions) if (Date.now() - session.created > TTL) sessions.delete(key);
-        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 3, revision: REVISION, transportRevision: TRANSPORT_REVISION, transports: ['tmdb-json', 'cinejoy-binary'] });
+        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 4, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live'] });
+        if (await live(req, res, send)) return;
         if (req.method === 'GET' && route === '/transport/tmdb') {
             try { return send(200, await tmdbJson(new URL(req.url, 'http://127.0.0.1').searchParams.get('path'))); }
             catch (error) { return send(502, { error: error.message }); }
