@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 29 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.6 ile Trdiziizle ve DomatesTV eklendi. DominoTV'nin gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve beş modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 30 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.7 ile InatBox eklendi: çift AES/HMAC protokolü, 19 kategori, sezon/bölüm, canlı/VOD ve API başlıkları taşındı. DominoTV'nin gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve dört modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -50,7 +50,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | FullHDFilmizlesene | JS portu; RapidVid ve kısa kontrol geçti |
 | HDFilmCehennemi | Ayrı `.nl` JS portu; JSON katalog/video API, Close/Rapidrame üzerinden iki HLS akışı kontrolü geçti |
 | HDFilmDelisi | JS portu; Next.js video URL ve Vixolity çözümü, kısa kontrol geçti |
-| inatbox-bc | Taşınacak |
+| inatbox-bc | JS portu; 33 ulusal kanal, TRT 1 canlı HLS HTTP 200; Seni Tanıyorum 8 bölüm ve ilk bölümde Dzen HLS/DASH/144p–1080p toplam 8 kaynak. VK/Yandex/JWPlayer ve dinamik AES/metin-regex yolları taşındı; diğer kategorilerin kapsamlı kontrolü bekliyor |
 | JetFilmizle | JS portu; çoklu kaynak POST ve kısa kontrol geçti |
 | KultFilmler | JS portu; kısa katalog/akış kontrolü geçti |
 | Puhu | JS portu; katalog, sezon/bölüm API ve altı HLS akışıyla kısa kontrol geçti |

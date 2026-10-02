@@ -428,9 +428,19 @@
     },
     {
       "module": "inatbox-bc",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "inatbox",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 33,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports",
+        "livePlaylistHttpStatus": 200,
+        "seriesCatalogEntries": 31,
+        "metadataEpisodes": 8,
+        "vodStreamCount": 8,
+        "sampleSeries": "Seni Taniyorum S1E1"
+      }
     },
     {
       "module": "rectv-bc",
