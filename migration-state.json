@@ -444,9 +444,24 @@
     },
     {
       "module": "rectv-bc",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "rectv",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 19,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports",
+        "aesGcmNative": true,
+        "livePlaylistHttpStatus": 200,
+        "seriesCatalogEntries": 30,
+        "metadataEpisodes": 4,
+        "vodStreamCount": 2,
+        "sampleSeries": "East of Eden S1E1",
+        "languageVariants": [
+          "Turkish dub",
+          "Turkish subtitles"
+        ]
+      }
     }
   ]
 }

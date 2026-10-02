@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 30 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.7 ile InatBox eklendi: çift AES/HMAC protokolü, 19 kategori, sezon/bölüm, canlı/VOD ve API başlıkları taşındı. DominoTV'nin gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve dört modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 31 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.8 ile RecTV eklendi: imzalı API, AES-GCM adres çözümü, canlı/film/dizi ve iki dil seçeneği taşındı. AES-GCM için saf JS [noble-ciphers](https://github.com/paulmillr/noble-ciphers) kullanılıyor; dağıtımdaki kütüphane lisansları `THIRD_PARTY_NOTICES.md` içinde korunuyor. DominoTV'nin gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve üç modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -54,7 +54,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | JetFilmizle | JS portu; çoklu kaynak POST ve kısa kontrol geçti |
 | KultFilmler | JS portu; kısa katalog/akış kontrolü geçti |
 | Puhu | JS portu; katalog, sezon/bölüm API ve altı HLS akışıyla kısa kontrol geçti |
-| rectv-bc | Taşınacak |
+| rectv-bc | JS portu; 19 ulusal kanal, TRT 1 canlı HLS HTTP 200; 30 dizi ve Cennetin Doğusu 4 bölüm; ilk bölümde dublaj/altyazı iki HLS kaynak. AES-GCM doğrulaması ve API başlıkları taşındı; kilitli/hardware integrity isteyen kanallar filtreleniyor, diğer kategorilerin kapsamlı kontrolü bekliyor |
 | Reeltu | JS portu; dinamik API keşfi, anime/sezon/shorts ve VaPlayer desteği; örnek dizide 12 bölüm ve dört kaynak geldi |
 | SelcukFlix | JS portu; AES API, Next.js meta ve Pichive HLS kısa kontrolü geçti |
 | SetFilmIzle | JS portu; SetPlay/FastPlay ve kısa kontrol geçti |
