@@ -1,6 +1,6 @@
 # Cloudstream → Nuvio taşıma planı
 
-2026-10-02 tarihli yerel kaynak envanteri: Cloudstream deposunda `build.gradle.kts` içeren ve `settings.gradle.kts` tarafından etkinleştirilen 41 modül var. `__Temel`, `NovaStream` ve `NovaStream_backup_pre_tv` dışarıda bırakılıyor.
+2026-10-02 tarihli güncel yerel kaynak envanteri: Cloudstream deposunda `build.gradle.kts` içeren ve `settings.gradle.kts` tarafından etkinleştirilen 43 modül var. Taşıma sırasında eklenen DomatesTV ve Trdiziizle envantere alındı. `__Temel`, `NovaStream` ve `NovaStream_backup_pre_tv` dışarıda bırakılıyor.
 
 Taşıma öncesinde Nuvio'da yedi JavaScript sağlayıcı vardı: BOAT, BronzeCloud, DiziBox, FilmModu, HDFilmCehennemi, HDFilmizle ve Sinewix. BronzeCloud bir birleştirici; HDFilmizle mevcut Cloudstream modül adıyla birebir eşleşmiyor. Beş Cloudstream modülünün JS karşılığı mevcut olması tam özellik eşitliği anlamına gelmiyor. Örneğin DiziBox şu anda yalnız akış çözüyor.
 
@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 26 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.4 ile Reeltu, HDFilmCehennemi NL ve YabancıDizi eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve altı modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 27 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. 1.9.5 ile DominoTV'nin film/dizi ve canlı yayın portu eklendi. Gzip katalogları diğer ortamlarda JS ile açılır; Desktop'ın ikili veri uyarlamasındaki bozulma için yerel yardımcının sabit katalog uç noktaları kullanılır. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve yedi modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak. Yeni sağlayıcıların katalog/meta çıktıları JS çalışma ortamında kontrol ediliyor; Desktop arayüzünde bu katalogların sunulması ayrıca doğrulanacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -42,7 +42,8 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | DiziPalOriginal | JS portu; oturumlu config API, XOR/AES ve çoklu ses HLS kontrolü geçti |
 | Dizipod | JS portu; sezon/bölüm, AJAX ve Tyuopix/ArtPlayer HLS kontrolü geçti |
 | DiziYou | JS portu; orijinal/dublaj ve altyazılı akış geldi |
-| DominoTV | Taşınacak |
+| DomatesTV | Kaynak depoya yeni eklendi; taşınacak |
+| DominoTV | JS portu; gzip katalog/meta ve film HLS kontrolü geçti; örnek canlı kanal HLS listesi HTTP 200 |
 | FilmEkseni | JS portu; CSRF keşfet API, EksenLoad HLS ve kısa kontrol geçti |
 | FilmMakinesi | JS portu; CloseLoad çözümü ve kısa kontrol geçti |
 | FullHDFilm | JS portu; VidPapi üzerinden üç HLS akışı geldi |
@@ -60,6 +61,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | SezonlukDizi | JS portu; alternatif API, OK.ru/VidMoly akışları ve kısa kontrol geçti |
 | SinemaCX | JS portu; SinemaCC çoklu oyuncu ve kısa kontrol geçti |
 | TLCtr | JS portu; sezon/bölüm ve kısa kontrol geçti |
+| Trdiziizle | Kaynak depoya yeni eklendi; taşınacak |
 | Vavoo | JS portu; 300 canlı kanal, API çözümü ve canlı HLS yanıtı kontrolü geçti |
 | Watch2Movies | Katalog/meta hazır; dinamik oynatıcı çözümü sürüyor |
 | WebDramaTurkey | JS portu; UpNS/PlayerP2P şifreli API çözümü, yedi akışla kısa kontrol geçti |
@@ -74,4 +76,4 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 4. Canlı TV/spor sağlayıcılarını ayrı ele al; VOD yardımcısı canlı liste yenilemesinin yerine geçmez.
 5. Her sağlayıcıyı manifest kaydı, bir film veya birkaç farklı dizi bölümü, varsa ses/altyazı ve gerçek Desktop oynatma kontrolüyle yayımla.
 
-41 modülün tamamı henüz taşınmadı. Kısa katalog ve akış kontrolleri her grup için yapılır; son doğrulama ve kapsamlı testler tüm portlar tamamlandıktan sonra uygulanır.
+43 modülün tamamı henüz taşınmadı. Kısa katalog ve akış kontrolleri her grup için yapılır; son doğrulama ve kapsamlı testler tüm portlar tamamlandıktan sonra uygulanır.

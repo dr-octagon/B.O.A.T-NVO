@@ -1,5 +1,8 @@
 const http = require('node:http');
-const { randomUUID } = require('node:crypto');
+const { randomUUID, createHash } = require('node:crypto');
+const { readFileSync } = require('node:fs');
+const { gunzipSync } = require('node:zlib');
+const REVISION = createHash('sha256').update(readFileSync(__filename)).digest('hex');
 const isHls = text => typeof text === 'string' && /^\s*#EXTM3U\b/.test(text);
 
 const PORT = 18765;
@@ -20,6 +23,24 @@ function rewritePlaylist(text, base, urls) {
 
 function createBridge() {
     const sessions = new Map();
+    const catalogs = new Map();
+    const foldCatalogTitle = value => String(value || '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, ' ').trim();
+    const catalogBase = 'https://raw.githubusercontent.com/dr-octagon/Cloudstream-BronzeCloud/builds';
+    async function dominoCatalog(name) {
+        if (!['home_bundle', 'search', 'series_extra'].includes(name)) throw new Error('Unknown catalog');
+        if (!catalogs.has(name) || catalogs.get(name).expires < Date.now()) {
+            const promise = (async () => {
+                const response = await fetch(`${catalogBase}/dominotv_${name}.json.gz`, { signal: AbortSignal.timeout(15000) });
+                if (!response.ok) throw new Error(`Catalog HTTP ${response.status}`);
+                const bytes = Buffer.from(await response.arrayBuffer());
+                if (bytes.length > 16 * 1024 * 1024) throw new Error('Catalog size limit');
+                return JSON.parse((bytes[0] === 31 && bytes[1] === 139 ? gunzipSync(bytes, { maxOutputLength: 64 * 1024 * 1024 }) : bytes).toString('utf8'));
+            })();
+            catalogs.set(name, { promise, expires: Date.now() + 60 * 60 * 1000 });
+            promise.catch(() => catalogs.delete(name));
+        }
+        return catalogs.get(name).promise;
+    }
     const server = http.createServer(async (req, res) => {
         const send = (status, data) => {
             res.writeHead(status, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' });
@@ -27,9 +48,34 @@ function createBridge() {
         };
         // Native plugin requests have no Origin. Browsers must not register playlists.
         const route = (req.url || '').split('?')[0];
-        if (req.headers.origin && route === '/playlists') return send(403, { error: 'Native requests only' });
+        if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/'))) return send(403, { error: 'Native requests only' });
         for (const [key, session] of sessions) if (Date.now() - session.created > TTL) sessions.delete(key);
-        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 1 });
+        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 2, revision: REVISION });
+        if (req.method === 'GET' && route.startsWith('/catalog/domino/')) {
+            try {
+                const query = new URL(req.url, 'http://127.0.0.1').searchParams;
+                const kind = query.get('type') === 'series' ? 'series' : 'movie';
+                if (route === '/catalog/domino/section') {
+                    const data = await dominoCatalog('home_bundle'), key = query.get('section');
+                    const skip = Math.max(0, Number(query.get('skip')) || 0), ids = (data.sections[key] || []).slice(skip, skip + 20);
+                    const items = new Map((kind === 'movie' ? data.movies : data.series).map(item => [item.i, item]));
+                    return send(200, ids.map(id => items.get(id)).filter(Boolean));
+                }
+                if (route === '/catalog/domino/search') {
+                    const search = foldCatalogTitle(query.get('q'));
+                    const data = await dominoCatalog('search');
+                    return send(200, data.filter(item => foldCatalogTitle(item.t).includes(search) && item.t_type === (kind === 'series' ? 1 : 0)).slice(0, 50));
+                }
+                if (route === '/catalog/domino/item') {
+                    const id = Number(query.get('id')), data = await dominoCatalog('home_bundle');
+                    let item = (kind === 'movie' ? data.movies : data.series).find(item => item.i === id);
+                    if (kind === 'movie' && !item) item = (await dominoCatalog('search')).find(item => item.i === id && item.t_type === 0);
+                    if (kind === 'series' && !item?.eps?.length) item = (await dominoCatalog('series_extra')).find(item => item.i === id);
+                    return send(200, item || null);
+                }
+                return send(404, { error: 'Unknown catalog operation' });
+            } catch (error) { return send(502, { error: error.message }); }
+        }
         if (req.method === 'POST' && route === '/playlists') {
             try {
                 let size = 0;

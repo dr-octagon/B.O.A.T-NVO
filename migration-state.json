@@ -1,6 +1,6 @@
 {
   "sourceRepository": "Cloudstream-BronzeCloud-Source",
-  "totalModules": 41,
+  "totalModules": 43,
   "verificationPolicy": "Short native catalog/stream smoke during migration; comprehensive checks after every module is ported.",
   "modules": [
     {
@@ -146,10 +146,22 @@
       }
     },
     {
-      "module": "DominoTV",
+      "module": "DomatesTV",
       "providerId": null,
       "status": "pending",
       "checks": {}
+    },
+    {
+      "module": "DominoTV",
+      "providerId": "dominotv",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports",
+        "livePlaylistHttpStatus": 200
+      }
     },
     {
       "module": "FilmEkseni",
@@ -333,6 +345,12 @@
         "streamCount": 1,
         "fullValidation": "deferred-until-all-ports"
       }
+    },
+    {
+      "module": "Trdiziizle",
+      "providerId": null,
+      "status": "pending",
+      "checks": {}
     },
     {
       "module": "Vavoo",
