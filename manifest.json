@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -36,7 +36,14 @@
     "filmmakinesi:",
     "jetfilmizle:",
     "setfilmizle:",
-    "watch2movies:"
+    "watch2movies:",
+    "ddizi:",
+    "sezonlukdizi:",
+    "fullhdfilm:",
+    "hdfilmdelisi:",
+    "cizgimax:",
+    "webdramaturkey:",
+    "belgeselx:"
   ],
   "catalogs": [
     {
@@ -507,6 +514,177 @@
       "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
       "contentLanguage": [
         "en"
+      ]
+    },
+    {
+      "id": "ddizi",
+      "name": "Ddizi",
+      "description": "Ddizi — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/ddizi.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "sezonlukdizi",
+      "name": "SezonlukDizi",
+      "description": "SezonlukDizi — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/sezonlukdizi.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "fullhdfilm",
+      "name": "FullHDFilm",
+      "description": "FullHDFilm — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/fullhdfilm.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "hdfilmdelisi",
+      "name": "HDFilmDelisi",
+      "description": "HDFilmDelisi — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/hdfilmdelisi.js",
+      "supportedTypes": [
+        "movie"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "cizgimax",
+      "name": "CizgiMax",
+      "description": "CizgiMax — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/cizgimax.js",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "enabled": false,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "webdramaturkey",
+      "name": "WebDramaTurkey",
+      "description": "WebDramaTurkey — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/webdramaturkey.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "anime",
+        "tv"
+      ],
+      "enabled": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "belgeselx",
+      "name": "BelgeselX",
+      "description": "BelgeselX — Cloudstream JS portu",
+      "version": "1.0.0",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/belgeselx.js",
+      "supportedTypes": [
+        "series",
+        "movie",
+        "tv"
+      ],
+      "enabled": false,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "tr"
       ]
     }
   ]

@@ -23,9 +23,15 @@
     },
     {
       "module": "BelgeselX",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "belgeselx",
+      "status": "implemented-validation-pending",
+      "checks": {
+        "nativeDesktop": false,
+        "catalogEntries": 20,
+        "streamCount": 0,
+        "fullValidation": "deferred-until-all-ports",
+        "lastFailure": "First episode player API returned Google Photos links without usable public media metadata; invalid PHP thumbnail URL excluded"
+      }
     },
     {
       "module": "CineJoy",
@@ -41,15 +47,26 @@
     },
     {
       "module": "CizgiMax",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "cizgimax",
+      "status": "implemented-validation-pending",
+      "checks": {
+        "nativeDesktop": false,
+        "catalogEntries": 40,
+        "streamCount": 0,
+        "fullValidation": "deferred-until-all-ports",
+        "lastFailure": "First episode SibNet HTTP 403; another sample player HTTP 404. Catalog and metadata work; usable stream pending"
+      }
     },
     {
       "module": "Ddizi",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "ddizi",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 10,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "DiziBox",
@@ -134,9 +151,14 @@
     },
     {
       "module": "FullHDFilm",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "fullhdfilm",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 3,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "FullHDFilmizlesene",
@@ -157,9 +179,14 @@
     },
     {
       "module": "HDFilmDelisi",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "hdfilmdelisi",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "HDFilmcehennemiLand",
@@ -220,9 +247,14 @@
     },
     {
       "module": "SezonlukDizi",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "sezonlukdizi",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 33,
+        "streamCount": 2,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "SinemaCX",
@@ -271,9 +303,14 @@
     },
     {
       "module": "WebDramaTurkey",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "webdramaturkey",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 20,
+        "streamCount": 7,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "WebteIzle",
