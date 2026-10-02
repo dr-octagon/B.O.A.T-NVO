@@ -20,7 +20,7 @@ Bu eşleme mantıklı; otomatik satır satır çeviri yeterli değil. Android We
 
 ## Modül envanteri
 
-Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 14 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. İlk dokuz sağlayıcıya Ddizi, SezonlukDizi, FullHDFilm, HDFilmDelisi ve WebDramaTurkey eklendi. Watch2Movies, CizgiMax ve BelgeselX kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve 19 modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak.
+Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json` dosyasında tutuluyor. 19 yeni sağlayıcının JS katalog/meta/akış işlevleri yazıldı ve kurulu Desktop çalışma ortamında kısa katalog/akış kontrolleri geçti. İlk iki gruba FilmEkseni, Dizipod, Dizilla, DiziPal ve DiziPalOriginal eklendi. Watch2Movies, CizgiMax, BelgeselX ve WebteIzle kodları mevcut; kullanılabilir akış kontrolü geçmediği için devre dışılar. Beş eski sağlayıcının özellik eşitliği incelemesi ve 13 modülün taşıması bekliyor. Bu kayıtlar bütün kategorilerin/oynatıcıların doğrulandığı anlamına gelmiyor. Kullanıcının tercihiyle kapsamlı kontroller tüm modüller taşındıktan sonra yapılacak.
 
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
@@ -36,14 +36,14 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | CineStream | Taşınacak |
 | CizgiMax | Katalog/meta hazır; ilk SibNet kaynağı HTTP 403, diğer örnek oynatıcı HTTP 404 |
 | Ddizi | JS portu; tam bölüm Twitter HLS akışı ve kısa katalog kontrolü geçti |
-| Dizilla | Taşınacak |
+| Dizilla | JS portu; Next.js AES veri çözümü, Pichive HLS ve kısa kontrol geçti |
 | DiziMom | JS portu; kısa katalog/akış kontrolü geçti |
-| DiziPal | Taşınacak |
-| DiziPalOriginal | Taşınacak |
-| Dizipod | Taşınacak |
+| DiziPal | JS portu; güncel arama şeması, PBKDF2/AES ve DPlayer HLS kontrolü geçti |
+| DiziPalOriginal | JS portu; oturumlu config API, XOR/AES ve çoklu ses HLS kontrolü geçti |
+| Dizipod | JS portu; sezon/bölüm, AJAX ve Tyuopix/ArtPlayer HLS kontrolü geçti |
 | DiziYou | JS portu; orijinal/dublaj ve altyazılı akış geldi |
 | DominoTV | Taşınacak |
-| FilmEkseni | Taşınacak |
+| FilmEkseni | JS portu; CSRF keşfet API, EksenLoad HLS ve kısa kontrol geçti |
 | FilmMakinesi | JS portu; CloseLoad çözümü ve kısa kontrol geçti |
 | FullHDFilm | JS portu; VidPapi üzerinden üç HLS akışı geldi |
 | FullHDFilmizlesene | JS portu; RapidVid ve kısa kontrol geçti |
@@ -63,7 +63,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | Vavoo | Taşınacak |
 | Watch2Movies | Katalog/meta hazır; dinamik oynatıcı çözümü sürüyor |
 | WebDramaTurkey | JS portu; UpNS/PlayerP2P şifreli API çözümü, yedi akışla kısa kontrol geçti |
-| WebteIzle | Taşınacak |
+| WebteIzle | JS portu; katalog/meta geldi, ilk filmin iki dili reCAPTCHA gerektiriyor |
 | YabanciDizi | Taşınacak |
 
 ## Uygulama sırası

@@ -87,15 +87,25 @@
     },
     {
       "module": "DiziPal",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "dizipal",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 35,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "DiziPalOriginal",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "dizipaloriginal",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 24,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "DiziYou",
@@ -110,15 +120,25 @@
     },
     {
       "module": "Dizilla",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "dizilla",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 24,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "Dizipod",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "dizipod",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 6,
+        "streamCount": 2,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "DominoTV",
@@ -128,9 +148,14 @@
     },
     {
       "module": "FilmEkseni",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "filmekseni",
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogEntries": 24,
+        "streamCount": 1,
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "FilmMakinesi",
@@ -314,9 +339,15 @@
     },
     {
       "module": "WebteIzle",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "webteizle",
+      "status": "implemented-validation-pending",
+      "checks": {
+        "nativeDesktop": false,
+        "catalogEntries": 20,
+        "streamCount": 0,
+        "fullValidation": "deferred-until-all-ports",
+        "lastFailure": "Both language variants of first film require reCAPTCHA in dataEmbed.asp; catalog/meta work, protected player skipped"
+      }
     },
     {
       "module": "YabanciDizi",
