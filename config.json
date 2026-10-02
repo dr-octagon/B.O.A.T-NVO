@@ -58,7 +58,8 @@
         "player": "https://play2.pilavyerplay.top"
       },
       "hdfilmcehennemi": {
-        "base": "https://www.hdfilmcehennemi.nl"
+        "base": "https://www.hdfilmcehennemi.nl",
+        "land_base": "https://www.hdfilmcehennemi.land"
       },
       "hdfilmdelisi": {
         "base": "https://hdfilmdelisi.one",

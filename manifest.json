@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Nuvio Türkiye — BronzeCloud Süper Sağlayıcı, TMDB Türkçe Arayüz, B.O.A.T, FilmModu, Sinewix, HDFilmizle, HDFilmCehennemi & DiziBox",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -90,7 +90,7 @@
       "id": "bronzecloud",
       "name": "BronzeCloud (Tüm Türkçe Kaynaklar)",
       "description": "BronzeCloud — HDFilmCehennemi, FilmModu, Sinewix & DiziBox Akışlarını Tek Listede Toplar",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -115,7 +115,7 @@
       "id": "filmmodu",
       "name": "FilmModu",
       "description": "FilmModu — 4K UHD & 1080p Doğrudan HLS Akışları (Türkçe Dublaj & Altyazılı)",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie"
@@ -185,8 +185,8 @@
     {
       "id": "hdfilmcehennemi",
       "name": "HDFilmCehennemi",
-      "description": "HDFilmCehennemi — Türkçe Dublaj, Altyazı & ClipBox Hızlı Akış",
-      "version": "1.3.5",
+      "description": "HDFilmCehennemi — SetPlay / FastPlay, Türkçe Dublaj & Altyazı",
+      "version": "1.3.6",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -210,7 +210,7 @@
       "id": "dizibox",
       "name": "DiziBox",
       "description": "DiziBox — Yabancı Diziler, VidMoly 1080p Doğrudan Akış & King Player",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "series",
