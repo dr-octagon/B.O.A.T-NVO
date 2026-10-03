@@ -688,7 +688,7 @@
       "id": "belgeselx",
       "name": "BelgeselX",
       "description": "BelgeselX — Cloudstream JS portu",
-      "version": "1.10.2",
+      "version": "1.10.3",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/belgeselx.js",
       "supportedTypes": [

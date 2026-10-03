@@ -82,7 +82,12 @@
         "catalogEntries": 20,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "First episode player API returned Google Photos links without usable public media metadata; invalid PHP thumbnail URL excluded"
+        "lastFailure": "Player pages return 200, but Google Photos exposes no public video; alternate generated OK/Dailymotion embeds return 404 and the malformed Google video endpoint returns 400.",
+        "nativeMetadata": true,
+        "metadataSample": "Geleceğe Kalanlar",
+        "metadataEpisodes": 2,
+        "opaqueEpisodeRouting": "fixed: epId URLs retain episode identity when native season/episode arguments are supplied",
+        "nativePlayerRequestsReached": true
       }
     },
     {
@@ -786,7 +791,8 @@
         "catalogEntries": 40,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "First episode SibNet HTTP 403; another sample player HTTP 404. Catalog and metadata work; usable stream pending"
+        "lastFailure": "12 oz. Mouse metadata page currently returns HTTP 500; previous sample player wrappers and Sibnet returned HTTP 403.",
+        "latestNativeSample": "12 oz. Mouse"
       }
     },
     {
