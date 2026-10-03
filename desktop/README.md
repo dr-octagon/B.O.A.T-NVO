@@ -34,7 +34,7 @@ Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori s
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
 42 sağlayıcının 1025 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
-güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
+FilmModu'nun özgün ve güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
 sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
 DiziBox katalog/metadata kodu
 eklendi ancak site şu anda sunucu/VPN IP'lerine 403 döndüğü için canlı
