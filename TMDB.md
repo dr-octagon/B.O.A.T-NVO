@@ -1,5 +1,7 @@
 ## Mac, Android ve Windows üzerinde TMDB araması
 
+[Nuvio Türkiye kurulum sayfası](https://dr-octagon.github.io/Nuvio/) üzerinden **Aramayı Nuvio'ya ekle** ve **Ana ekranı Nuvio'ya ekle** düğmelerini kullanabilirsiniz. Uygulama açılmazsa aynı sayfadaki kopyalama düğmeleriyle aşağıdaki kurulumu yapın. Manifestin tarayıcıda görünmesi, Nuvio'ya kurulduğu anlamına gelmez.
+
 Nuvio'da **Ayarlar → Eklentiler → Eklenti ekle** bölümüne aşağıdaki manifest adresini yapıştırın (eklenti/Stremio adresi olarak; JS sağlayıcı deposu olarak değil):
 
 https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNoC6pWSGcWUAkgLYATAEa9BaTFjgpSFehgDCNOFAxoATAAYAvkA/manifest.json
