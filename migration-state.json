@@ -1165,12 +1165,21 @@
     {
       "module": "Watch2Movies",
       "providerId": "watch2movies",
-      "status": "implemented-validation-pending",
+      "status": "ported-smoke-passed",
       "checks": {
-        "nativeDesktop": false,
-        "catalogEntries": 24,
-        "streamCount": 0,
-        "fullValidation": "deferred-until-all-ports"
+        "nativeDesktop": true,
+        "catalogEntries": 11,
+        "streamCount": 3,
+        "fullValidation": "deferred-until-all-ports",
+        "nativeMetadata": true,
+        "sample": "The Matrix",
+        "livePlaylistHttpStatus": 200,
+        "releaseVersion": "1.10.4",
+        "verifiedPlayers": [
+          "0123movie.space",
+          "VidFast vRapid",
+          "VidFast vBlaze"
+        ]
       }
     },
     {

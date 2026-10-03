@@ -1,5 +1,5 @@
 {
-  "version": "1.10.3",
+  "version": "1.10.4",
   "providers": [
     {
       "id": "filmmodu",
@@ -1700,6 +1700,292 @@
         },
         {
           "id": "setfilmizle_western",
+          "name": "western",
+          "type": "series"
+        }
+      ]
+    },
+    {
+      "id": "watch2movies",
+      "name": "Watch2Movies",
+      "catalogs": [
+        {
+          "id": "watch2movies_action",
+          "name": "action",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_action",
+          "name": "action",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_action-adventure",
+          "name": "action-adventure",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_action-adventure",
+          "name": "action-adventure",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_adventure",
+          "name": "adventure",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_adventure",
+          "name": "adventure",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_animation",
+          "name": "animation",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_animation",
+          "name": "animation",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_biography",
+          "name": "biography",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_biography",
+          "name": "biography",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_comedy",
+          "name": "comedy",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_comedy",
+          "name": "comedy",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_crime",
+          "name": "crime",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_crime",
+          "name": "crime",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_documentary",
+          "name": "documentary",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_documentary",
+          "name": "documentary",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_drama",
+          "name": "drama",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_drama",
+          "name": "drama",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_family",
+          "name": "family",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_family",
+          "name": "family",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_fantasy",
+          "name": "fantasy",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_fantasy",
+          "name": "fantasy",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_history",
+          "name": "history",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_history",
+          "name": "history",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_horror",
+          "name": "horror",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_horror",
+          "name": "horror",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_kids",
+          "name": "kids",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_kids",
+          "name": "kids",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_music",
+          "name": "music",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_music",
+          "name": "music",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_mystery",
+          "name": "mystery",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_mystery",
+          "name": "mystery",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_news",
+          "name": "news",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_news",
+          "name": "news",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_reality",
+          "name": "reality",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_reality",
+          "name": "reality",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_romance",
+          "name": "romance",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_romance",
+          "name": "romance",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_sci-fi-fantasy",
+          "name": "sci-fi-fantasy",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_sci-fi-fantasy",
+          "name": "sci-fi-fantasy",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_science-fiction",
+          "name": "science-fiction",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_science-fiction",
+          "name": "science-fiction",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_soap",
+          "name": "soap",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_soap",
+          "name": "soap",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_talk",
+          "name": "talk",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_talk",
+          "name": "talk",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_thriller",
+          "name": "thriller",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_thriller",
+          "name": "thriller",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_tv-movie",
+          "name": "tv-movie",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_tv-movie",
+          "name": "tv-movie",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_war",
+          "name": "war",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_war",
+          "name": "war",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_war-politics",
+          "name": "war-politics",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_war-politics",
+          "name": "war-politics",
+          "type": "series"
+        },
+        {
+          "id": "watch2movies_western",
+          "name": "western",
+          "type": "movie"
+        },
+        {
+          "id": "watch2movies_western",
           "name": "western",
           "type": "series"
         }
