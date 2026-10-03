@@ -33,8 +33,7 @@ kişisel anahtarları günlüklere yazmaz.
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
-41 sağlayıcının 885 kategorisini tanımlar; BronzeCloud katalog
-tanımları bekliyor. FilmModu'nun özgün 28 kategorisi ve
+42 sağlayıcının 1025 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
 güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
 sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
 DiziBox katalog/metadata kodu

@@ -1352,6 +1352,24 @@
       "livePlaylistHttpStatus": 200,
       "siteIdentityPreserved": true,
       "fullValidation": "deferred-until-all-ports"
+    },
+    "bronzecloud": {
+      "status": "catalog-meta-stream-smoke-passed",
+      "releaseVersion": "1.10.6",
+      "nativeDesktop": true,
+      "catalogs": 140,
+      "sourceProviders": [
+        "hdfilmcehennemi",
+        "filmmodu",
+        "sinewix",
+        "dizibox",
+        "hdfilmizle"
+      ],
+      "siteOwnershipPreserved": true,
+      "nativeCatalogEntries": 20,
+      "nativeEpisodeCount": 15,
+      "streamCount": 1,
+      "fullValidation": "deferred-until-all-ports"
     }
   }
 }

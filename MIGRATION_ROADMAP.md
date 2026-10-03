@@ -79,3 +79,5 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 43 modülün tamamı henüz taşınmadı. Kısa katalog ve akış kontrolleri her grup için yapılır; son doğrulama ve kapsamlı testler tüm portlar tamamlandıktan sonra uygulanır.
 
 1.10.5: HDFilmizle için 26 gerçek site kategorisi, site URL kimliği, film metadata ve dizi sezon/bölüm yönlendirmesi eklendi. Desktop kısa kontrolde 20 + 20 katalog kartı, Avatar 15 bölüm ve Aile Planı Dual HLS listesi HTTP 200 geldi. ÇizgiMax imzalı yönlendirmelerinde özgün GET yöntemi korundu, 403 adresler kaynak sonucundan çıkarıldı; site metadata HTTP 500 nedeniyle sağlayıcı devre dışı kalıyor.
+
+1.10.6: BronzeCloud beş kaynak sağlayıcının gerçek kategorilerini ve iki TMDB trend kategorisini toplar (140 kategori). Kaynak kimliği/metadata/bölüm kimliği BronzeCloud altında korunur; site kimlikleri seçilen sağlayıcıya, harici IMDb/TMDB kimlikleri mevcut toplu aramaya gider. Desktop kısa kontrolde 20 kart, Avatar 15 bölüm ve Aile Planı Dual akışı geldi. Katalog envanteri 42 sağlayıcı/1025 kategori; katalog tanımı eksik sağlayıcı kalmadı.

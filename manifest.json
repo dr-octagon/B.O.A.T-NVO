@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.5",
+  "version": "1.10.6",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -129,7 +129,7 @@
       "id": "bronzecloud",
       "name": "BronzeCloud (Tüm Türkçe Kaynaklar)",
       "description": "BronzeCloud — HDFilmCehennemi, FilmModu, Sinewix & DiziBox Akışlarını Tek Listede Toplar",
-      "version": "1.10.2",
+      "version": "1.10.6",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
