@@ -14,7 +14,7 @@ const LIVE_REVISION = createHash('sha256').update(readFileSync(require.resolve('
 const CINESTREAM_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_cinestream_transport'))).digest('hex');
 const ROOT=path.resolve(__dirname,'..');
 const CATALOG_DESKTOP=existsSync(path.join(ROOT,'dist/desktop/catalog-inventory.json'))?path.join(ROOT,'dist/desktop'):path.join(ROOT,'desktop');
-const catalogFiles=[path.join(__dirname,'desktop_catalog_addon.js'),path.join(__dirname,'desktop_catalog_runtime.js'),path.join(CATALOG_DESKTOP,'catalog-inventory.json'),path.join(CATALOG_DESKTOP,'runtime_modules.cjs')];
+const catalogFiles=[path.join(__dirname,'desktop_catalog_addon.js'),path.join(__dirname,'desktop_catalog_runtime.js'),path.join(__dirname,'desktop_catalog_settings.js'),path.join(CATALOG_DESKTOP,'catalog-inventory.json'),path.join(CATALOG_DESKTOP,'runtime_modules.cjs')];
 const catalogHash=createHash('sha256');for(const file of catalogFiles)if(existsSync(file))catalogHash.update(readFileSync(file));
 const CATALOG_REVISION=catalogHash.digest('hex');
 const isHls = text => typeof text === 'string' && /^\s*#EXTM3U\b/.test(text);
@@ -68,7 +68,7 @@ function createBridge() {
         const route = (req.url || '').split('?')[0];
         if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/') || route.startsWith('/transport/') || route.startsWith('/addon/'))) return send(403, { error: 'Native requests only' });
         for (const [key, session] of sessions) if (Date.now() - session.created > TTL) sessions.delete(key);
-        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 7, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, cinestreamRevision:CINESTREAM_REVISION, catalogRevision:CATALOG_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live', 'simkl-json', 'runtime-timer', 'cinestream-fetch', ...(addon.manifest?['provider-catalogs']:[])] });
+        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 8, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, cinestreamRevision:CINESTREAM_REVISION, catalogRevision:CATALOG_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live', 'simkl-json', 'runtime-timer', 'cinestream-fetch', ...(addon.manifest?['provider-catalogs','plugin-settings']:[])] });
         if (req.method === 'POST' && route === '/transport/timer/cancel') {
             const token=new URL(req.url,'http://127.0.0.1').searchParams.get('token');
             runtimeTimers.get(token)?.(true);return send(200,{cancelled:true});

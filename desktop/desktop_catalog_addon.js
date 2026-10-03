@@ -35,7 +35,7 @@ function createCatalogAddon(options={}){
     const metaCache=new Map();
     async function meta(id,type){
         const provider=owner(id,type);if(!provider)return {meta:null};
-        const key=provider.id+'|'+type+'|'+id;
+        const key=provider.id+'|'+(runtime.settingsRevision?.(provider.id) || 0)+'|'+type+'|'+id;
         if(!metaCache.has(key)){
             const promise=Promise.resolve(runtime.load(provider.id).getMeta({id,type})).then(result=>{remember(result?.meta,provider);return result;});
             metaCache.set(key,promise);promise.catch(()=>metaCache.delete(key));

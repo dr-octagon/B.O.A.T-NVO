@@ -709,6 +709,23 @@
         "pendingExtractors": [],
         "extractorParity": "pending",
         "simklAccount": "pending",
+        "desktopCatalogSettings": {
+          "storage": "read-only native Java properties",
+          "liveRefresh": true,
+          "metadataCacheInvalidation": true,
+          "nativeStorageHashParity": ["cinestream", "filmmodu", "hdfilmcehennemi", "dizibox", "sinewix"],
+          "desktopHelperVersion": 8,
+          "installedLocally": true
+        },
+        "simklPersonalLibrary": {
+          "exportFormats": ["flat-items", "sync-all-items-object"],
+          "statusCategories": 13,
+          "pageSize": 10,
+          "nativeDesktop": true,
+          "verifiedTypes": ["movie", "series", "anime"],
+          "accountLogin": "pending",
+          "apiRequestIdentity": "client_id, app-name, app-version and descriptive User-Agent"
+        },
         "settingsUi": "native-layout-verified-visual-check-pending",
         "desktopCatalogUi": "pending",
         "malSyncRouting": "implemented-live-validation-pending",

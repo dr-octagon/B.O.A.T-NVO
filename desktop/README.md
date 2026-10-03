@@ -23,6 +23,13 @@ adresindedir. Bu adres Nuvio'nun eklenti ekleme ekranında normal katalog
 eklentisi olarak eklenir. Yardımcı, dağıtılmış sağlayıcıların kendi JS
 `getCatalog`, `getMeta` ve `getStreams` işlevlerini çalıştırır; kategori
 seçimi, arama, sayfalama ve kaynakların kendi içerik/bölüm kimlikleri korunur.
+Sürüm 8'de Windows katalog yardımcısı Nuvio'nun kaydettiği eklenti ayarlarını
+`%APPDATA%/Nuvio/nuvio_plugins.properties` dosyasından salt okunur biçimde
+yükler. Kaynak seçimleri ve kişisel kitaplık ayarları aynı sağlayıcının
+katalog, metadata ve oynatma çağrılarında kullanılır. Ayar değişince mevcut
+çalışma motoru güncellenir ve önceki ayarlara ait metadata önbelleği yenilenir.
+Bu dosyaya yazılmaz ve içeriği HTTP üzerinden sunulmaz. Ayar okuyucusu
+kişisel anahtarları günlüklere yazmaz.
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
