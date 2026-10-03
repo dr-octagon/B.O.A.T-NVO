@@ -137,6 +137,37 @@
         "season": 2,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xW9OE6KMDxModOcrCCTZwFPwJyA.png",
+    "cast": [
+      "Kevin Sussman",
+      "Lauren Lapkus",
+      "Brian Posehn",
+      "John Ross Bowie"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Kevin Sussman",
+          "character": "Stuart Bloom / Alternate Stuart Bloom",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tLqrE9uz6GKoeoDC7LU7cE6oF2Q.jpg"
+        },
+        {
+          "name": "Lauren Lapkus",
+          "character": "Denise / Alternate Denise",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zevTufkY38eRvWPslh5c1azdhQN.jpg"
+        },
+        {
+          "name": "Brian Posehn",
+          "character": "Bert Kibbler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kg93LNpDQaRoosR4gVt7SsA3oL1.jpg"
+        },
+        {
+          "name": "John Ross Bowie",
+          "character": "Barry Kripke",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/XAv1RilHZu7qiGGIOgikrLgHeD.jpg"
+        }
+      ]
+    }
   }
 }

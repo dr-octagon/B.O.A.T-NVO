@@ -935,6 +935,41 @@
         "season": 7,
         "episode": 13
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/sHF6y7btA03TqE1tVQJq3JJzQA3.svg",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Simon Baker",
+          "character": "Patrick Jane",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oay0Lo2zl0lJdguptxgx1BK9Xq7.jpg"
+        },
+        {
+          "name": "Robin Tunney",
+          "character": "Teresa Lisbon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vOmWyYNoVEaPPvoto4IW8dSXn7I.jpg"
+        },
+        {
+          "name": "Tim Kang",
+          "character": "Kimball Cho",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/Ae7qMN6fJTut145qpeSn1NOu8yx.jpg"
+        },
+        {
+          "name": "Rockmond Dunbar",
+          "character": "Dennis Abbott",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gim7zIrYkbKWsp2Kod7fp74fWyI.jpg"
+        },
+        {
+          "name": "Joe Adler",
+          "character": "Jason Wylie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bsle7zqj6HBs6NYstkwDwQY7EEf.jpg"
+        },
+        {
+          "name": "Josie Loren",
+          "character": "Michelle Vega",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vZJc51rwheOC0TCdUkA4KM1UfXu.jpg"
+        }
+      ]
+    }
   }
 }

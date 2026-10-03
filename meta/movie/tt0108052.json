@@ -25,7 +25,29 @@
       "יהונתן סגל",
       "Embeth Davidtz",
       "Malgorzata Gebel",
-      "שמוליק לוי"
+      "שמוליק לוי",
+      "מארק איווניר",
+      "Béatrice Macola",
+      "Andrzej Seweryn",
+      "Friedrich von Thun",
+      "Krzysztof Luft",
+      "Harry Nehring",
+      "Norbert Weisser",
+      "Adi Nitzan",
+      "Michael Schneider",
+      "Miri Fabian",
+      "Anna Mucha",
+      "Albert Misak",
+      "Michael Gordon",
+      "Aldona Grochal",
+      "Jacek Wójcicki",
+      "Beata Paluch",
+      "Piotr Polk",
+      "Ezra Dagan",
+      "Beata Deskur",
+      "רמי הויברגר",
+      "Leopold Kozłowski",
+      "Jerzy Nowak"
     ],
     "director": [
       "Steven Spielberg"
@@ -33,6 +55,156 @@
     "writer": [
       "Steven Zaillian"
     ],
-    "runtime": "195 dk"
+    "runtime": "195 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/2kl4nVs6HbqzEQNcx6Mfj4Y8TcL.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Liam Neeson",
+          "character": "Oskar Schindler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg"
+        },
+        {
+          "name": "Ben Kingsley",
+          "character": "Itzhak Stern",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k3Dmu49B2akwDvgqy52MOxznI59.jpg"
+        },
+        {
+          "name": "Ralph Fiennes",
+          "character": "Amon Goeth",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
+        },
+        {
+          "name": "Caroline Goodall",
+          "character": "Emilie Schindler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4cagGtMqACvkuw6Llq8Li8UJ1AR.jpg"
+        },
+        {
+          "name": "יהונתן סגל",
+          "character": "Poldek Pfefferberg",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/waxNDsgfw7CXXO3LH8EdKi8z7VV.jpg"
+        },
+        {
+          "name": "Embeth Davidtz",
+          "character": "Helen Hirsch",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nwsdu9lOsKJ5v9RwOCc7kAiuxSO.jpg"
+        },
+        {
+          "name": "Malgorzata Gebel",
+          "character": "Viktoria Klonowska",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7MYoXZKIuCAfMzTs1HBkaLB03z8.jpg"
+        },
+        {
+          "name": "שמוליק לוי",
+          "character": "Wilek Chilowicz",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eZDmJaS0Z0Fj2377wBul9xmm27S.jpg"
+        },
+        {
+          "name": "מארק איווניר",
+          "character": "Marcel Goldberg",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1kxGAsP4YRiR7LgmlM9KgtekMLk.jpg"
+        },
+        {
+          "name": "Béatrice Macola",
+          "character": "Ingrid",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dXdt4Ti4mbJilnsm0wtvwb13eny.jpg"
+        },
+        {
+          "name": "Andrzej Seweryn",
+          "character": "Julian Scherner",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uYohJvqAai28Piqa0eEs6zAeFer.jpg"
+        },
+        {
+          "name": "Friedrich von Thun",
+          "character": "Rolf Czurda",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iQuOeoD8mi4cZEa91mXLlpz6SJz.jpg"
+        },
+        {
+          "name": "Krzysztof Luft",
+          "character": "Herman Toffel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oxJZuqnpv1b2nnciFFeF33xZ0dP.jpg"
+        },
+        {
+          "name": "Harry Nehring",
+          "character": "Leo John"
+        },
+        {
+          "name": "Norbert Weisser",
+          "character": "Albert Hujar",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A2QeLaigXmj1dtJHVLl27N8qNFd.jpg"
+        },
+        {
+          "name": "Adi Nitzan",
+          "character": "Mila Pfefferberg"
+        },
+        {
+          "name": "Michael Schneider",
+          "character": "Juda Dresner"
+        },
+        {
+          "name": "Miri Fabian",
+          "character": "Chaja Dresner"
+        },
+        {
+          "name": "Anna Mucha",
+          "character": "Danka Dresner",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4MwlGzFNzVIwBJajjVxcd7VOnYh.jpg"
+        },
+        {
+          "name": "Albert Misak",
+          "character": "Mordecai Wulkan"
+        },
+        {
+          "name": "Michael Gordon",
+          "character": "Mr. Nussbaum",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oxgep8HN4rw6PBSDM70rcY5ELiy.jpg"
+        },
+        {
+          "name": "Aldona Grochal",
+          "character": "Mrs. Nussbaum",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k2K0yV3fTOKA5SDzR2F8cTwCoSU.jpg"
+        },
+        {
+          "name": "Jacek Wójcicki",
+          "character": "Henry Rosner",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eV9WtK1vub3RFcTV73xVG2D12pS.jpg"
+        },
+        {
+          "name": "Beata Paluch",
+          "character": "Manci Rosner",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mZRBpt1v6OJqcHxJIN8RJD1DdUb.jpg"
+        },
+        {
+          "name": "Piotr Polk",
+          "character": "Leo Rosner",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dMeA2banOBidRpLkBk25f1YfkNb.jpg"
+        },
+        {
+          "name": "Ezra Dagan",
+          "character": "Rabbi Menasha Lewartow",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4wEfV3uegO3o8tpKPQ4BWVZLe16.jpg"
+        },
+        {
+          "name": "Beata Deskur",
+          "character": "Rebecca Tannenbaum",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/habwENFmoyWax2OicUhZs51lm0L.jpg"
+        },
+        {
+          "name": "רמי הויברגר",
+          "character": "Josef Bau",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1PADvclr48hzDnosb2iwpA84Eq1.jpg"
+        },
+        {
+          "name": "Leopold Kozłowski",
+          "character": "Investor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f2zlLHnOxDV3g2aISE7mcocKSjV.jpg"
+        },
+        {
+          "name": "Jerzy Nowak",
+          "character": "Investor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5zFZcl8yeXcoQCQ59d6J9bph4eB.jpg"
+        }
+      ]
+    }
   }
 }

@@ -89,6 +89,40 @@
         "season": 1,
         "episode": 12
       }
-    ]
+    ],
+    "cast": [
+      "加藤祐梨",
+      "鈴城葉",
+      "岩中睦樹",
+      "狂々パーマ",
+      "中村桜"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "加藤祐梨",
+          "character": "Mio Fukatani (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zzYyP6i6FSgqiTmUNgHD4RptliF.jpg"
+        },
+        {
+          "name": "鈴城葉",
+          "character": "Takahide Kujo (voice)"
+        },
+        {
+          "name": "岩中睦樹",
+          "character": "Yukitaka Kujo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sf6pNjXI8uMUatZ5EhlZPWt8Xh5.jpg"
+        },
+        {
+          "name": "狂々パーマ",
+          "character": "Kiyotaka Kujo (voice)"
+        },
+        {
+          "name": "中村桜",
+          "character": "Shiori Kujo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hBiyY9sU7tw6pf2eaDIeyF1NOfq.jpg"
+        }
+      ]
+    }
   }
 }

@@ -25,7 +25,29 @@
       "Mykelti Williamson",
       "Michael Conner Humphreys",
       "Hanna Hall",
-      "Haley Joel Osment"
+      "Haley Joel Osment",
+      "Siobhan Fallon Hogan",
+      "Rebecca Williams",
+      "Bob Penny",
+      "Harold G. Herthum",
+      "George Kelly",
+      "John Randall",
+      "Sam Anderson",
+      "Margo Moorer",
+      "Ione M. Telech",
+      "Christine Seabrook",
+      "John Worsham",
+      "Peter Dobson",
+      "Alexander Zemeckis",
+      "Logan Livingston Gomez",
+      "Ben Waddel",
+      "Elizabeth Hanks",
+      "Tyler Long",
+      "Christopher Jones",
+      "Grady Bowman",
+      "Kevin Mangan",
+      "Fay Genens",
+      "Frank Geyer"
     ],
     "director": [
       "Robert Zemeckis"
@@ -33,6 +55,146 @@
     "writer": [
       "Eric Roth"
     ],
-    "runtime": "142 dk"
+    "runtime": "142 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/as10mpHSWebQVXwMbwQfWYfR27F.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Hanks",
+          "character": "Forrest Gump",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        },
+        {
+          "name": "Robin Wright",
+          "character": "Jenny Curran",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d3rIv0y2p0jMsQ7ViR7O1606NZa.jpg"
+        },
+        {
+          "name": "Gary Sinise",
+          "character": "Lieutenant Dan Taylor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/olRjiV8ZhBixQiTvrGwXhpVXxsV.jpg"
+        },
+        {
+          "name": "Sally Field",
+          "character": "Mrs. Gump",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iMeq1j9Xwvaf6PbTJ0FQz69fpuA.jpg"
+        },
+        {
+          "name": "Mykelti Williamson",
+          "character": "Bubba Blue",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dR16zD9AjnHWbeN5OVmJWE0vSax.jpg"
+        },
+        {
+          "name": "Michael Conner Humphreys",
+          "character": "Young Forrest Gump",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/irYRs3COggVHg91jL3CrlCIWmnx.jpg"
+        },
+        {
+          "name": "Hanna Hall",
+          "character": "Young Jenny Curran",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xkZ2Hwz1QLXvQCgGlWgVgx00Rtd.jpg"
+        },
+        {
+          "name": "Haley Joel Osment",
+          "character": "Forrest Junior",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2rnMTQB9Q3vLtmRyyUaenVwSgfY.jpg"
+        },
+        {
+          "name": "Siobhan Fallon Hogan",
+          "character": "School Bus Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5OExagnRsUcOYLMPTSrv4x2G95R.jpg"
+        },
+        {
+          "name": "Rebecca Williams",
+          "character": "Nurse at Park Bench"
+        },
+        {
+          "name": "Bob Penny",
+          "character": "Crony",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/28JAyf5kFHLSxI8Ny6HXMyU84nO.jpg"
+        },
+        {
+          "name": "Harold G. Herthum",
+          "character": "Doctor"
+        },
+        {
+          "name": "George Kelly",
+          "character": "Barber"
+        },
+        {
+          "name": "John Randall",
+          "character": "Crony"
+        },
+        {
+          "name": "Sam Anderson",
+          "character": "Principal Hancock",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AnSyGuhjALUwUzMfQFhYMSJp4ra.jpg"
+        },
+        {
+          "name": "Margo Moorer",
+          "character": "Louise",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9BqVk8t7Mw9RiY4FILgNfnwm2eD.jpg"
+        },
+        {
+          "name": "Ione M. Telech",
+          "character": "Elderly Woman"
+        },
+        {
+          "name": "Christine Seabrook",
+          "character": "Elderly Woman's Daughter"
+        },
+        {
+          "name": "John Worsham",
+          "character": "Southern Gentleman / Landowner"
+        },
+        {
+          "name": "Peter Dobson",
+          "character": "Young Elvis Presley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hvBUOf3hLnjUGbZuSwZWG5m76ur.jpg"
+        },
+        {
+          "name": "Alexander Zemeckis",
+          "character": "School Bus Boy"
+        },
+        {
+          "name": "Logan Livingston Gomez",
+          "character": "School Bus Boy"
+        },
+        {
+          "name": "Ben Waddel",
+          "character": "School Bus Boy"
+        },
+        {
+          "name": "Elizabeth Hanks",
+          "character": "School Bus Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hx4aVRRNEjbGmP0LMF1E8TSrQ7X.jpg"
+        },
+        {
+          "name": "Tyler Long",
+          "character": "Red Headed Boy"
+        },
+        {
+          "name": "Christopher Jones",
+          "character": "Boy with Cross",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2EuDwtnOIJgLlBZWwpWYia0rxz3.jpg"
+        },
+        {
+          "name": "Grady Bowman",
+          "character": "Fat Boy"
+        },
+        {
+          "name": "Kevin Mangan",
+          "character": "Jenny's Father"
+        },
+        {
+          "name": "Fay Genens",
+          "character": "Jenny's Grandmother"
+        },
+        {
+          "name": "Frank Geyer",
+          "character": "Police Chief"
+        }
+      ]
+    }
   }
 }

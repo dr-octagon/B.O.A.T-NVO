@@ -537,6 +537,41 @@
         "season": 1,
         "episode": 85
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bbMoSaLgiV7uSwlfrYSFsOcS18j.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Yusuke Kobayaşi",
+          "character": "Subaru Natsuki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y4ukKDSobZJNuB4H3k89hkrKCDC.jpg"
+        },
+        {
+          "name": "高橋李依",
+          "character": "Emilia (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aeB7z0cBTASdjKOjQriBAO6hYq4.jpg"
+        },
+        {
+          "name": "Yumi Uçiyama",
+          "character": "Puck (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg"
+        },
+        {
+          "name": "Rie Murakawa",
+          "character": "Ram (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pawIx7uhV1a2fAHjvTnrCP0KcHX.jpg"
+        },
+        {
+          "name": "水瀬いのり",
+          "character": "Rem (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cqOrQDUbbQLKpujzcK47YqjFdNp.jpg"
+        },
+        {
+          "name": "新井里美",
+          "character": "Beatrice (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v95wU1gpSLAOJS5yKFTxyheXAW2.jpg"
+        }
+      ]
+    }
   }
 }

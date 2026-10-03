@@ -66,6 +66,55 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/lI6zO2lw8pteZnIzm1DuucVGutG.png",
+    "cast": [
+      "Maria Sten",
+      "Greyston Holt",
+      "Adeline Rudolph",
+      "Matthew Del Negro",
+      "Damon Herriman",
+      "Jasper Jones",
+      "Emily Mitchell"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Maria Sten",
+          "character": "Frances Neagley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg"
+        },
+        {
+          "name": "Greyston Holt",
+          "character": "Detective Hudson Riley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/OefIUfHekZLHwGVjyZmFauUI5W.jpg"
+        },
+        {
+          "name": "Adeline Rudolph",
+          "character": "Renee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rkcZTtTTqTe8QK4UMIjHHVefdnN.jpg"
+        },
+        {
+          "name": "Matthew Del Negro",
+          "character": "Pierce Woodrow",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h3wcgMRunRmeFhFo16BJpKsqQQC.jpg"
+        },
+        {
+          "name": "Damon Herriman",
+          "character": "Lawrence Cole",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hzh9i0BlAEQDAhJxEgkEcBxMlJv.jpg"
+        },
+        {
+          "name": "Jasper Jones",
+          "character": "Keno",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9Zbyjx753eion9IqYMbCVfDdFs0.jpg"
+        },
+        {
+          "name": "Emily Mitchell",
+          "character": "Grace Kinney",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A6gzXB5KbLwnrMH07lX3i43Lahs.jpg"
+        }
+      ]
+    }
   }
 }

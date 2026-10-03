@@ -16,6 +16,190 @@
       "Suç",
       "Gerilim",
       "Dram"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mWk9mQwRbn1OvX8vafoiXP7y5Zj.png",
+    "cast": [
+      "Robert Pattinson",
+      "Skyler Gisondo",
+      "Merritt Wever",
+      "Phoebe Bridgers",
+      "Matthew Maher",
+      "Bokeem Woodbine",
+      "Alex Winter",
+      "Anna Faris",
+      "Eric Rahill",
+      "Bill Heck",
+      "Tony Revolori",
+      "Bob Ari",
+      "Jonathan Lipnicki",
+      "Matt Smith",
+      "Michael Chachere",
+      "Jessica Hecht",
+      "Creed Bratton",
+      "Franco Brocato",
+      "Luca Brocato",
+      "Jeff Zucker",
+      "Sean Bridgers",
+      "Jessica Blackmore",
+      "Mike Harkins",
+      "Daniel Garber",
+      "Christopher Berry",
+      "Ja'Quan Monroe-Henderson",
+      "David Rosenberg",
+      "Trey Burvant",
+      "Caroline Hebert",
+      "Brent Caballero"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Robert Pattinson",
+          "character": "Chris Hansen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+        },
+        {
+          "name": "Skyler Gisondo",
+          "character": "Dan Plumb",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vyalCuJUUP7Ht1vMWZQzhOrscXV.jpg"
+        },
+        {
+          "name": "Merritt Wever",
+          "character": "Andie Bender",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ldd1WntzQ72DVuNLoko8yMFHH7j.jpg"
+        },
+        {
+          "name": "Phoebe Bridgers",
+          "character": "Del",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9dbTNTH0fBYE1aDAHdhwDSPureF.jpg"
+        },
+        {
+          "name": "Matthew Maher",
+          "character": "Xavier Von Erck",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3RPEUaliXJ9lcoL5R5IbcAOwd5D.jpg"
+        },
+        {
+          "name": "Bokeem Woodbine",
+          "character": "Cortland Gunn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pnPyA5pJn94zUzuLWTNkGBNZxza.jpg"
+        },
+        {
+          "name": "Alex Winter",
+          "character": "Bill Conradt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2GM34tP0VZegydEXgCj541udTP9.jpg"
+        },
+        {
+          "name": "Anna Faris",
+          "character": "Mary Hansen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tptTb0BQwCpKWETNqzkZzzf5qSZ.jpg"
+        },
+        {
+          "name": "Eric Rahill",
+          "character": "Troy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zJGmDvV5avrr9cta8wkdkU7irRu.jpg"
+        },
+        {
+          "name": "Bill Heck",
+          "character": "Stone Phillips",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A41HLWt1Dy5dKDfxVqqusVIZ4zq.jpg"
+        },
+        {
+          "name": "Tony Revolori",
+          "character": "MarriedAndLookingForFun31313",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tSF6XmXDikrKZbFUeoDnafXxKjT.jpg"
+        },
+        {
+          "name": "Bob Ari",
+          "character": "RedBd",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/r3nwKEVVH7kDgklIx1Wg8CqJ3Fh.jpg"
+        },
+        {
+          "name": "Jonathan Lipnicki",
+          "character": "Crazyfrog73",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sCFCCqFNm5Xyl2eyhzoHH1L8zxF.jpg"
+        },
+        {
+          "name": "Matt Smith",
+          "character": "WrestlingDudeEastTX",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fKUYro4v4mX8CF46bURyM83wJo3.jpg"
+        },
+        {
+          "name": "Michael Chachere",
+          "character": "Michael Chachere",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z3GdHd9fJni93zvqpIyLJvKKH99.jpg"
+        },
+        {
+          "name": "Jessica Hecht",
+          "character": "Patty Patterson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5JVd1ZLnhdZVFInDy8Zut9M1M5C.jpg"
+        },
+        {
+          "name": "Creed Bratton",
+          "character": "Jim Christian",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/r1VWJSP2c29qSj5PA6wMOe7RdVz.jpg"
+        },
+        {
+          "name": "Franco Brocato",
+          "character": "Connor Hansen"
+        },
+        {
+          "name": "Luca Brocato",
+          "character": "Chase Hansen"
+        },
+        {
+          "name": "Jeff Zucker",
+          "character": "Jeff Zucker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a0fb87O31pqjgKgCvdV1lVdfDv0.jpg"
+        },
+        {
+          "name": "Sean Bridgers",
+          "character": "Lloyd",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iUxN34HqjjUMgtETexAvrocY0e1.jpg"
+        },
+        {
+          "name": "Jessica Blackmore",
+          "character": "Gail",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jEJzmYdZqf5PuwnylP78WAmYkUL.jpg"
+        },
+        {
+          "name": "Mike Harkins",
+          "character": "Editor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fkcwWCAJhlEHXFHLWRHvRgGTaN7.jpg"
+        },
+        {
+          "name": "Daniel Garber",
+          "character": "Associate Editor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wFFWGnjEp1wDSEQo43tnzwaOFGS.jpg"
+        },
+        {
+          "name": "Christopher Berry",
+          "character": "Cameraperson 1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8y2HybPVLxUabwnMPjdBREbitKZ.jpg"
+        },
+        {
+          "name": "Ja'Quan Monroe-Henderson",
+          "character": "Cameraperson 2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sQqkVUIyfu0lpr6XTvNNPsYkLGW.jpg"
+        },
+        {
+          "name": "David Rosenberg",
+          "character": "Sound Mixer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4QCA8oId6u7iKoVYmzjS8hiDL2V.jpg"
+        },
+        {
+          "name": "Trey Burvant",
+          "character": "Gator",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eJMfsxLvZEgGSSgy8g2KX778OgH.jpg"
+        },
+        {
+          "name": "Caroline Hebert",
+          "character": "Krystin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/un3ZS9OxeVFmFTCWxyHyz36Ytv8.jpg"
+        },
+        {
+          "name": "Brent Caballero",
+          "character": "Casting Director"
+        }
+      ]
+    }
   }
 }

@@ -15,6 +15,177 @@
     "genres": [
       "Gizem",
       "Gerilim"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8i9EzaVyRMtYW6WxcN7hK3RfDng.png",
+    "cast": [
+      "Dakota Johnson",
+      "Anne Hathaway",
+      "Josh Hartnett",
+      "Brady Wagner",
+      "Ismael Cruz Cordova",
+      "İrina Dvorovenko",
+      "Sienna Kulovitz",
+      "K.K. Moggie",
+      "Tom Galantich",
+      "Lou Martini Jr.",
+      "Michael Abbott Jr.",
+      "Clark Carmichael",
+      "Stephen Elrod",
+      "Nathan Tylutki",
+      "Thursday Farrar",
+      "Asel Swango",
+      "Daniel Echevarria",
+      "Wren Rivera",
+      "Emily McEnroe",
+      "Luke Klein",
+      "Tanya Lim",
+      "Colleen Hoover",
+      "Gayle King",
+      "Alex Cooper",
+      "Sean Evans",
+      "Michael Muniz",
+      "Ryan Speers",
+      "JustWhispy",
+      "ThatMob"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Dakota Johnson",
+          "character": "Lowen Ashleigh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qFek0KqpaPV5mVyHHNfAapDE9Tj.jpg"
+        },
+        {
+          "name": "Anne Hathaway",
+          "character": "Verity Crawford",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+        },
+        {
+          "name": "Josh Hartnett",
+          "character": "Jeremy Crawford",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+        },
+        {
+          "name": "Brady Wagner",
+          "character": "Crew Crawford",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9zwYF2aPqotnCknqXktEbZ9wdg7.jpg"
+        },
+        {
+          "name": "Ismael Cruz Cordova",
+          "character": "Corey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oXcrsQGndk60iFkNB8qFnMHlNzL.jpg"
+        },
+        {
+          "name": "İrina Dvorovenko",
+          "character": "Anna",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kVgnALw6PnmzTE5PeFIGfaZXo2j.jpg"
+        },
+        {
+          "name": "Sienna Kulovitz",
+          "character": "Harper Crawford"
+        },
+        {
+          "name": "K.K. Moggie",
+          "character": "Amanda Thomas",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hQvZKknETtr4eTuK5I27f6jdRUY.jpg"
+        },
+        {
+          "name": "Tom Galantich",
+          "character": "Barron Stephens",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5d1I6tyB1CnECYhos3rX3xOqH9R.jpg"
+        },
+        {
+          "name": "Lou Martini Jr.",
+          "character": "Limo Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/85s5KR0BA6dhMJtOrvtKGY8Bz8E.jpg"
+        },
+        {
+          "name": "Michael Abbott Jr.",
+          "character": "Sheriff Wilson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lL6epnepASAxQolqXeNve8hEcaR.jpg"
+        },
+        {
+          "name": "Clark Carmichael",
+          "character": "Deputy Ross",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rkk2AnclGlMPwGBwkSKvWrCKpNF.jpg"
+        },
+        {
+          "name": "Stephen Elrod",
+          "character": "Bartender"
+        },
+        {
+          "name": "Nathan Tylutki",
+          "character": "Bystander"
+        },
+        {
+          "name": "Thursday Farrar",
+          "character": "Bystander",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4AfMXbBm1SYCiAS8y1QxpjLYsgS.jpg"
+        },
+        {
+          "name": "Asel Swango",
+          "character": "Bystander"
+        },
+        {
+          "name": "Daniel Echevarria",
+          "character": "Bystander"
+        },
+        {
+          "name": "Wren Rivera",
+          "character": "Woman on Phone (voice)"
+        },
+        {
+          "name": "Emily McEnroe",
+          "character": "Olivia (Intern)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AfrmYHf4ulnNvLsvNJvj65jwy3a.jpg"
+        },
+        {
+          "name": "Luke Klein",
+          "character": "Cole",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t8EcepzLZIRkGsdZKTKelwtWkgr.jpg"
+        },
+        {
+          "name": "Tanya Lim",
+          "character": "Lucy"
+        },
+        {
+          "name": "Colleen Hoover",
+          "character": "Lin Murphy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1UVLH7yqLcDRQxmWOauVp36stCf.jpg"
+        },
+        {
+          "name": "Gayle King",
+          "character": "Herself",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8pgxwvySCYZ7XXtONVjpPHfSSQR.jpg"
+        },
+        {
+          "name": "Alex Cooper",
+          "character": "Herself",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s04BgPEHp6UN7ELegquaveJXo19.jpg"
+        },
+        {
+          "name": "Sean Evans",
+          "character": "Himself",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1UmSrK9vMuOsaudiDnpMu3VhXnx.jpg"
+        },
+        {
+          "name": "Michael Muniz",
+          "character": "Charity Gala Attendee (uncredited)"
+        },
+        {
+          "name": "Ryan Speers",
+          "character": "Charity Gala Attendee (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vSlUG6C8RXKJ9xURI5Sy5nGCvo7.jpg"
+        },
+        {
+          "name": "JustWhispy",
+          "character": "Verity"
+        },
+        {
+          "name": "ThatMob",
+          "character": "Himself"
+        }
+      ]
+    }
   }
 }

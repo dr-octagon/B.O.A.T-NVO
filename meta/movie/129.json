@@ -18,14 +18,36 @@
       "Fantastik"
     ],
     "cast": [
-      "柊瑠美",
+      "Rumi Hiiragi",
       "Miyu İrino",
       "Mari Natsuki",
-      "内藤剛志",
-      "沢口靖子",
-      "我修院達也",
+      "Takaşi Naito",
+      "Yasuko Savaguçi",
+      "Tatsuya Gaşuin",
       "Ryunosuke Kamiki",
-      "玉井夕海"
+      "Yumi Tamai",
+      "Yo Oizumi",
+      "Koba Hayaşi",
+      "Tsunehiko Kamijo",
+      "Takehiko Ono",
+      "Bunta Sugavara",
+      "Şigeru Vakita",
+      "Şiru Saytu",
+      "Miçiko Yamamoto",
+      "Keiko Tsukamoto",
+      "Akio Nakamura",
+      "Şinji Tokumaru",
+      "Kaori Yamagata",
+      "Tsuzuki Kayako",
+      "Masahiro Asano",
+      "Kazutaka Hayaşida",
+      "İkuko Yamamoto",
+      "Mina Meguro",
+      "Tetsuro İşibaşi",
+      "椎原克知",
+      "片渕忍",
+      "鬼頭典子",
+      "鍛治直人"
     ],
     "director": [
       "Hayao Miyazaki"
@@ -33,6 +55,161 @@
     "writer": [
       "Hayao Miyazaki"
     ],
-    "runtime": "125 dk"
+    "runtime": "125 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/w10L4L5dIQZItdjSfqNDotyMO0a.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Rumi Hiiragi",
+          "character": "Chihiro (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nTKM4GgfkrZvAOFL55uhEuckt7M.jpg"
+        },
+        {
+          "name": "Miyu İrino",
+          "character": "Haku (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg"
+        },
+        {
+          "name": "Mari Natsuki",
+          "character": "Yubaba / Zeniba (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/MIFzUc77Sx57FQOZsoiGWEbpH2.jpg"
+        },
+        {
+          "name": "Takaşi Naito",
+          "character": "Father (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xwsm0ygjG79jLIogutwo6r64igy.jpg"
+        },
+        {
+          "name": "Yasuko Savaguçi",
+          "character": "Mother (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rWspusb13VeJowmctnniXYYTcqq.jpg"
+        },
+        {
+          "name": "Tatsuya Gaşuin",
+          "character": "Aogaeru (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fLqIdkShknsJmZy4EfBWuWyHN4C.jpg"
+        },
+        {
+          "name": "Ryunosuke Kamiki",
+          "character": "Boh (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ut7ewXjdgUmgkhJ1EtbOo9tbc7s.jpg"
+        },
+        {
+          "name": "Yumi Tamai",
+          "character": "Rin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x9Td7e5F21cK9S1FCkobfqiJZ1c.jpg"
+        },
+        {
+          "name": "Yo Oizumi",
+          "character": "Bandai Frog (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/806zNzkNveoqqa6l4Qp7n8eArrl.jpg"
+        },
+        {
+          "name": "Koba Hayaşi",
+          "character": "River Spirit (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ceQ58tRgqMZ9gePHg8xkKarZm0M.jpg"
+        },
+        {
+          "name": "Tsunehiko Kamijo",
+          "character": "Chichiyaku (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v2poQi0qYEWdTaMf2pVTWmcdwZp.jpg"
+        },
+        {
+          "name": "Takehiko Ono",
+          "character": "Aniyaku (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8gcT8znk0l3YVZKvL7eVxYublTl.jpg"
+        },
+        {
+          "name": "Bunta Sugavara",
+          "character": "Kamaji (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lHPLlP8zNwGMmcUI8rGks5vp8Vn.jpg"
+        },
+        {
+          "name": "Şigeru Vakita",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6iFm0U12QGmKDizbn08WqO1WXCU.jpg"
+        },
+        {
+          "name": "Şiru Saytu",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yJSrzULl9EuXI25E8REdIPY1Lkm.jpg"
+        },
+        {
+          "name": "Miçiko Yamamoto",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cV4irDcmf4biTjTGaU1oPmFO7KR.jpg"
+        },
+        {
+          "name": "Keiko Tsukamoto",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/50AMEWXz2HUt3RFKoEuJk3Xl84k.jpg"
+        },
+        {
+          "name": "Akio Nakamura",
+          "character": "Kaonashi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z7GzSvEkb3vhA77FFS6JnkpEEbv.jpg"
+        },
+        {
+          "name": "Şinji Tokumaru",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rYRs9Fbe5Cd0bJwxbM4bZp5MrKX.jpg"
+        },
+        {
+          "name": "Kaori Yamagata",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bhtFlZCoBxhq1FeNwx7ODNOZ73R.jpg"
+        },
+        {
+          "name": "Tsuzuki Kayako",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9lKIm8V4yU3LztYj3B6LlOF9FyN.jpg"
+        },
+        {
+          "name": "Masahiro Asano",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1FczbddfHUGlKg3z3opoV04pBZE.jpg"
+        },
+        {
+          "name": "Kazutaka Hayaşida",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qxSLhaJLstgBm9DkWpD5AW4Va8A.jpg"
+        },
+        {
+          "name": "İkuko Yamamoto",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ybMkOM1ztKz8vHH2SKlMb4RgkZ6.jpg"
+        },
+        {
+          "name": "Mina Meguro",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mx1n8cmUTMT0oZH4zyqo3zx84MN.jpg"
+        },
+        {
+          "name": "Tetsuro İşibaşi",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lMTfxLJEOSNFk0MgpA3RsoqxEdn.jpg"
+        },
+        {
+          "name": "椎原克知",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o8Wcta86QK2uHURyDqjTAxEajsj.jpg"
+        },
+        {
+          "name": "片渕忍",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gYMuEq00H2ESNnSNfGmBNSjld7T.jpg"
+        },
+        {
+          "name": "鬼頭典子",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hHtABHbBeTHA9ZGF2uX0zyWvS4H.jpg"
+        },
+        {
+          "name": "鍛治直人",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6fzuj6fYwrogkJ62sPAp5BMrFMw.jpg"
+        }
+      ]
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.9",
+  "version": "1.10.10",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -71,31 +71,31 @@
     {
       "type": "movie",
       "id": "tmdb_trending_movies",
-      "name": "🔥 Trend Filmler (TMDB)",
+      "name": "Trend Filmler",
       "extra": []
     },
     {
       "type": "movie",
       "id": "tmdb_now_playing",
-      "name": "🎬 Vizyondaki Filmler (TMDB)",
+      "name": "Vizyondaki Filmler",
       "extra": []
     },
     {
       "type": "series",
       "id": "tmdb_popular_series",
-      "name": "📺 Popüler Diziler (TMDB)",
+      "name": "Popüler Diziler",
       "extra": []
     },
     {
       "type": "movie",
       "id": "tmdb_top_movies",
-      "name": "⭐ En Çok Beğenilen Filmler",
+      "name": "En Çok Beğenilen Filmler",
       "extra": []
     },
     {
       "type": "series",
       "id": "tmdb_anime",
-      "name": "⛩️ Popüler Animeler",
+      "name": "Popüler Animeler",
       "extra": []
     }
   ],

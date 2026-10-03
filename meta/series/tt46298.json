@@ -912,6 +912,31 @@
         "season": 3,
         "episode": 12
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jTzF5T8Ob6oZRinUCnhbLqrxFsM.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Megumi Han",
+          "character": "Gon (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cwnwrPg1YvB19TbfouC4ShGPmbQ.jpg"
+        },
+        {
+          "name": "Mariya İse",
+          "character": "Killua (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uMHWTKGolzzjXCiv20F0n8h2Pqu.jpg"
+        },
+        {
+          "name": "二又一成",
+          "character": "Narrator (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cZoRqxuTrEDwmMmgbFtgdRO27pQ.jpg"
+        },
+        {
+          "name": "Keiji Fujiwara",
+          "character": "Leorio (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hbfBiFiEvD8u3vikl6hUNLKF7Lv.jpg"
+        }
+      ]
+    }
   }
 }

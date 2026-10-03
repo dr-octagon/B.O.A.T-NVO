@@ -1141,6 +1141,31 @@
         "season": 9,
         "episode": 23
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/17TS3YFxsAFbhyt3pp2TmAa6LR0.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Rainn Wilson",
+          "character": "Dwight Schrute",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yRTElSeC3q9nBqBuleI6OODlDMS.jpg"
+        },
+        {
+          "name": "John Krasinski",
+          "character": "Jim Halpert",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pmVGDb6Yl6OyFcHVGbu1EYNfyFK.jpg"
+        },
+        {
+          "name": "Jenna Fischer",
+          "character": "Pam Beesly",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mfKRbOHTPNi9jFSthtjl4FGVZv6.jpg"
+        },
+        {
+          "name": "Ed Helms",
+          "character": "Andy Bernard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gPZ8tZaNQGAc3KZRIPp9rgGbEnN.jpg"
+        }
+      ]
+    }
   }
 }

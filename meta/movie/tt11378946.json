@@ -24,7 +24,29 @@
       "KeiLyn Durrel Jones",
       "Miles Teller",
       "Larenz Tate",
-      "Laura Harrier"
+      "Laura Harrier",
+      "Mike Myers",
+      "Kendrick Sampson",
+      "Trey Horton",
+      "Rhyan Hill",
+      "Joseph David-Jones",
+      "Jessica Sula",
+      "Deon Cole",
+      "Judah Edwards",
+      "Jayden Harville",
+      "Jaylen Hunter",
+      "Nathaniel Logan McIntyre",
+      "Liv Symone",
+      "Jamal Henderson",
+      "Michael Andrew Baker",
+      "Zach Kenney",
+      "Tiago Martinez",
+      "Amaya Mendoza",
+      "Angela Elayne Gibbs",
+      "Albie Selznick",
+      "Paul Hipp",
+      "Anna Carini",
+      "Misha Suvorov"
     ],
     "director": [
       "Antoine Fuqua"
@@ -32,6 +54,160 @@
     "writer": [
       "John Logan"
     ],
-    "runtime": "128 dk"
+    "runtime": "128 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wJHlHY0t6iBq6JRyCZNCH7cKzl1.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jaafar Jackson",
+          "character": "Michael",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tVSzFjQxOrLOcvnzFto0772Q9Bw.jpg"
+        },
+        {
+          "name": "Colman Domingo",
+          "character": "Joseph Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t0cgfvtA7Thxnrtj5baRi656zlc.jpg"
+        },
+        {
+          "name": "Nia Long",
+          "character": "Katherine Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/heVQkCGKUuKKRjRJaZIBrEKGhYA.jpg"
+        },
+        {
+          "name": "Juliano Krue Valdi",
+          "character": "Young Michael",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1rQYmcxdPD1IwHpa78DcfVEu1EN.jpg"
+        },
+        {
+          "name": "KeiLyn Durrel Jones",
+          "character": "Bill Bray",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4wDO3Zt9KJg9CARCEgjuVdhWa8x.jpg"
+        },
+        {
+          "name": "Miles Teller",
+          "character": "John Branca",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kDf3sW3USjEBDQ3Ua7lbwOfwty6.jpg"
+        },
+        {
+          "name": "Larenz Tate",
+          "character": "Berry Gordy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6BWajF1sbuwsvXHmdQDxP5MfZ5R.jpg"
+        },
+        {
+          "name": "Laura Harrier",
+          "character": "Suzanne de Passe",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hYS8z1DxP6jvsBNXMRALiSI3nhw.jpg"
+        },
+        {
+          "name": "Mike Myers",
+          "character": "Walter Yetnikoff",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gjfDl52Kk02MPgUYFjs9bOy33OY.jpg"
+        },
+        {
+          "name": "Kendrick Sampson",
+          "character": "Quincy Jones",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AoZGTujNZEfabaXR5kUwmDUmxfe.jpg"
+        },
+        {
+          "name": "Trey Horton",
+          "character": "Marlon Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bS5tAhkEYanomvhQURQTMnOjg79.jpg"
+        },
+        {
+          "name": "Rhyan Hill",
+          "character": "Tito Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iPNBMJL9kKtUYmqJzbarQfQcPp4.jpg"
+        },
+        {
+          "name": "Joseph David-Jones",
+          "character": "Jackie Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qwX7ciIV8jwssmIqHv1eyzzqEvh.jpg"
+        },
+        {
+          "name": "Jessica Sula",
+          "character": "LaToya Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2lLET7EhRy98ad5Mgc9jMk4Sb0S.jpg"
+        },
+        {
+          "name": "Deon Cole",
+          "character": "Don King",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3QTNxodSEL6HLDuv7Ub3vQzcNij.jpg"
+        },
+        {
+          "name": "Judah Edwards",
+          "character": "Young Tito Jackso",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jnAlGbdduksL3eLOat2v0TxcB78.jpg"
+        },
+        {
+          "name": "Jayden Harville",
+          "character": "Young Jermaine Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7FKp7a9jL5reRJCwn6InsbgMOKz.jpg"
+        },
+        {
+          "name": "Jaylen Hunter",
+          "character": "Young Marlon Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1OtOhjLCqwItHh2pnknqw2wsFCZ.jpg"
+        },
+        {
+          "name": "Nathaniel Logan McIntyre",
+          "character": "Young Jackie Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ijhDtOElLvBX1KRGKZKnv6cettW.jpg"
+        },
+        {
+          "name": "Liv Symone",
+          "character": "Gladys Knight",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/se7SG9FipyCogPeqA4ZChzAJCJW.jpg"
+        },
+        {
+          "name": "Jamal Henderson",
+          "character": "Jermaine Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8yI9c3utD4EcEteNwHlFkdR8Rhv.jpg"
+        },
+        {
+          "name": "Michael Andrew Baker",
+          "character": "Record Company Excecutive",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yww1ArQy1dRZFu5w7iwpT7AhSfe.jpg"
+        },
+        {
+          "name": "Zach Kenney",
+          "character": "Record Company Excecutive",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zN9dryizSVlUrwlQmjbyj1pDeRa.jpg"
+        },
+        {
+          "name": "Tiago Martinez",
+          "character": "Brandon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hqbi17NIqvNmBhI2KiazHtdpS8j.jpg"
+        },
+        {
+          "name": "Amaya Mendoza",
+          "character": "Young LaToya Jackson"
+        },
+        {
+          "name": "Angela Elayne Gibbs",
+          "character": "Nurse Bernadette",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a4Bz73bOzU1WiiID4SHaA26h96Q.jpg"
+        },
+        {
+          "name": "Albie Selznick",
+          "character": "Plastic Surgeon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cmFOMosIw8YscvocYMLXKFzUFRM.jpg"
+        },
+        {
+          "name": "Paul Hipp",
+          "character": "Commercial Director",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dcWkHEeX7hojjLvs7qevpUgTolB.jpg"
+        },
+        {
+          "name": "Anna Carini",
+          "character": "Toy Store Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aP1vMEMlUjgV90fS60MMjiEfnHi.jpg"
+        },
+        {
+          "name": "Misha Suvorov",
+          "character": "Animal Handler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8o1GBP6pppz1BFO5rY7IIWYFYFU.jpg"
+        }
+      ]
+    }
   }
 }

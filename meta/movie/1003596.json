@@ -15,6 +15,193 @@
       "Bilim Kurgu",
       "Aksiyon",
       "Macera"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/ncgHqZlYPObQ0y6fMoh1ibQnqgt.png",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Pedro Pascal",
+      "Paul Rudd",
+      "Anthony Mackie",
+      "Florence Pugh",
+      "Vanessa Kirby",
+      "Ebon Moss-Bachrach",
+      "Wyatt Russell",
+      "Channing Tatum",
+      "Simu Liu",
+      "Ian McKellen",
+      "Hayley Atwell",
+      "Tom Hiddleston",
+      "James Marsden",
+      "Patrick Stewart",
+      "Joseph Quinn",
+      "Sebastian Stan",
+      "David Harbour",
+      "Letitia Wright",
+      "Lewis Pullman",
+      "Kelsey Grammer",
+      "Kathryn Newton",
+      "Danny Ramirez",
+      "Winston Duke",
+      "Alan Cumming",
+      "Hannah John-Kamen",
+      "Rebecca Romijn",
+      "Mabel Cadena"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Robert Downey Jr.",
+          "character": "Victor von Doom  / Doctor Doom",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "name": "Chris Evans",
+          "character": "Steve Rogers",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+        },
+        {
+          "name": "Chris Hemsworth",
+          "character": "Thor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+        },
+        {
+          "name": "Pedro Pascal",
+          "character": "Reed Richards / Mister Fantastic",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg"
+        },
+        {
+          "name": "Paul Rudd",
+          "character": "Scott Lang / Ant-Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg"
+        },
+        {
+          "name": "Anthony Mackie",
+          "character": "Sam Wilson / Captain America",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vecvTm7SimizluJkyIwBxeLbvRm.jpg"
+        },
+        {
+          "name": "Florence Pugh",
+          "character": "Yelena Belova",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+        },
+        {
+          "name": "Vanessa Kirby",
+          "character": "Sue Storm / Invisible Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a8a9U00KL2JJkkekzhNnueIGKKF.jpg"
+        },
+        {
+          "name": "Ebon Moss-Bachrach",
+          "character": "Ben Grimm / The Thing",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xD8GVNayMpiTZxLfahy2DseYcQq.jpg"
+        },
+        {
+          "name": "Wyatt Russell",
+          "character": "John Walker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zIldBzXdBWskPZB7x35G2hYEVDo.jpg"
+        },
+        {
+          "name": "Channing Tatum",
+          "character": "Gambit",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4TpgnS6l8YUXSne9Av9nda6mjxY.jpg"
+        },
+        {
+          "name": "Simu Liu",
+          "character": "Shaun / Shang-Chi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg"
+        },
+        {
+          "name": "Ian McKellen",
+          "character": "Magneto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+        },
+        {
+          "name": "Hayley Atwell",
+          "character": "Peggy Carter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x57wXHexIjD2ywly9cRA4rov7cu.jpg"
+        },
+        {
+          "name": "Tom Hiddleston",
+          "character": "Loki",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+        },
+        {
+          "name": "James Marsden",
+          "character": "Scott Summers / Cyclops",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lf7OnfKZnMgNh9b98764tqSocGK.jpg"
+        },
+        {
+          "name": "Patrick Stewart",
+          "character": "Professor Charles Xavier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ufqtnLh3JJjPbEgxEag3MM5nZyv.jpg"
+        },
+        {
+          "name": "Joseph Quinn",
+          "character": "Johnny Storm / Human Torch",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zshhuioZaH8S5ZKdMcojzWi1ntl.jpg"
+        },
+        {
+          "name": "Sebastian Stan",
+          "character": "Bucky Barnes / Winter Soldier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v20RLWst39klatsqUgSrwHxhwee.jpg"
+        },
+        {
+          "name": "David Harbour",
+          "character": "Alexei Shostakov",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg"
+        },
+        {
+          "name": "Letitia Wright",
+          "character": "Shuri",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f7PevpEeBqwzACPhoZ8K3ktrKvE.jpg"
+        },
+        {
+          "name": "Lewis Pullman",
+          "character": "Robert Reynolds",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/i2wJQ2eaVuTPaA84jzxNtxs54mO.jpg"
+        },
+        {
+          "name": "Kelsey Grammer",
+          "character": "Dr. Henry 'Hank' McCoy / Beast",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5zik4VJim6YTSWDjC7tkp13wxUp.jpg"
+        },
+        {
+          "name": "Kathryn Newton",
+          "character": "Cassie Lang",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3mos4oK6bps0uhQzW1L7nj5O0Gd.jpg"
+        },
+        {
+          "name": "Danny Ramirez",
+          "character": "Joaquin Torres",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7ZvcfWA5O5ULiupbHZtGGEPwnpI.jpg"
+        },
+        {
+          "name": "Winston Duke",
+          "character": "M'Baku",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/MhBiZbryibwuoEtPL9Ns8pYHC1.jpg"
+        },
+        {
+          "name": "Alan Cumming",
+          "character": "Kurt Wagner / Nightcrawler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/axil8ufunARfqyU4ceZNh36fkVQ.jpg"
+        },
+        {
+          "name": "Hannah John-Kamen",
+          "character": "Ava Starr",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2fqNQQW3B7upH4rBubhxXkIIoGk.jpg"
+        },
+        {
+          "name": "Rebecca Romijn",
+          "character": "Raven Darkholme / Mystique",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg"
+        },
+        {
+          "name": "Mabel Cadena",
+          "character": "Namora",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z0kAf1LBESLPj4zUaXSngKH7cwg.jpg"
+        }
+      ]
+    }
   }
 }

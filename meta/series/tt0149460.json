@@ -1002,6 +1002,61 @@
         "season": 11,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/6jNQtbazLLAu5gLzW46FP8EGePb.png",
+    "cast": [
+      "Billy West",
+      "Katey Sagal",
+      "John DiMaggio",
+      "Tress MacNeille",
+      "Maurice LaMarche",
+      "Lauren Tom",
+      "Phil LaMarr",
+      "David Herman"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Billy West",
+          "character": "Fry / Professor Farnsworth / Zoidberg / Zapp Brannigan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iNQtBsgV4wr3z5CEEFhR5U4Yedk.jpg"
+        },
+        {
+          "name": "Katey Sagal",
+          "character": "Leela (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jdnBWdXlQG2Q2F6v9MPJkaWQ9Vd.jpg"
+        },
+        {
+          "name": "John DiMaggio",
+          "character": "Bender (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qcbQe71nSlULDsP1OxTqltEKFbl.jpg"
+        },
+        {
+          "name": "Tress MacNeille",
+          "character": "Mom (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gI2LsgByvSffQY34vabVnPmrHzw.jpg"
+        },
+        {
+          "name": "Maurice LaMarche",
+          "character": "Morbo / Kif Kroker (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qCiL3EYAhLcNo0rNj5pczWo9MwG.jpg"
+        },
+        {
+          "name": "Lauren Tom",
+          "character": "Amy Wong (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fTKFspRRQ275AkzvtPERLZnXe0n.jpg"
+        },
+        {
+          "name": "Phil LaMarr",
+          "character": "Hermes Conrad (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg"
+        },
+        {
+          "name": "David Herman",
+          "character": "Scruffy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wexIWmxk2uigMRLJ1WXYHroODuU.jpg"
+        }
+      ]
+    }
   }
 }

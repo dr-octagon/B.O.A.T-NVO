@@ -25,7 +25,29 @@
       "Park So-dam",
       "Lee Jung-eun",
       "Jang Hye-jin",
-      "Park Myung-hoon"
+      "Park Myung-hoon",
+      "Jung Zi-so",
+      "Jung Hyeon-jun",
+      "Park Keun-rok",
+      "Jung Yi-seo",
+      "Cho Jae-myung",
+      "Jeong İk-han",
+      "Kim Kyu-baek",
+      "Lee Dong-yong",
+      "Ahn Seong-bong",
+      "Yoon Young-woo",
+      "Park Jae-wook",
+      "Jeon Eun-mi",
+      "Kim Geon",
+      "Lee Joo-hyung",
+      "Kim Yeong-jo",
+      "Kim Jung-woo",
+      "Baek Seung-hwan",
+      "Je Seung-hyun",
+      "Park Hye-sook",
+      "Choi Ji-won",
+      "Lee Sang-kyung",
+      "Kim Ha-eon"
     ],
     "director": [
       "Bong Joon-ho"
@@ -34,6 +56,157 @@
       "Bong Joon-ho",
       "Han Jin-won"
     ],
-    "runtime": "133 dk"
+    "runtime": "133 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/cbHNS7pw6bAXuRvIIxxzafs5kO0.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Song Kang-ho",
+          "character": "Kim Ki-taek",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kBM9UTPYXUA2RNk210DXhztLFns.jpg"
+        },
+        {
+          "name": "Lee Sun-kyun",
+          "character": "Park Dong-ik",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nHFBbSFohzOUOvMxPVwe3Es2nJw.jpg"
+        },
+        {
+          "name": "Cho Yeo-jeong",
+          "character": "Yeon-kyo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5MgWM8pkUiYkj9MEaEpO0Ir1FD9.jpg"
+        },
+        {
+          "name": "Choi Woo-shik",
+          "character": "Ki-woo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9mZ9DNopxpCLUjXd0rLd42TLamw.jpg"
+        },
+        {
+          "name": "Park So-dam",
+          "character": "Ki-jung",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fGVOikpvivopeATDy6ZzLdKYXDu.jpg"
+        },
+        {
+          "name": "Lee Jung-eun",
+          "character": "Moon-gwang",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4r3K47UpSmzZ5t9cyTRRqRl9rdz.jpg"
+        },
+        {
+          "name": "Jang Hye-jin",
+          "character": "Chung-sook",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pZiQXSWwo9F4gncHfa1yw0CQjxk.jpg"
+        },
+        {
+          "name": "Park Myung-hoon",
+          "character": "Geun-se",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5SucrxkigHss7UuJKrkfAZX5MXz.jpg"
+        },
+        {
+          "name": "Jung Zi-so",
+          "character": "Da-hye",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jsUPFmY1HlML92ubVtSE8L8ovz6.jpg"
+        },
+        {
+          "name": "Jung Hyeon-jun",
+          "character": "Da-song",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vZadA6ip6V2kh0VZW9RwnLcYFgW.jpg"
+        },
+        {
+          "name": "Park Keun-rok",
+          "character": "Driver Yoon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/j3AEOJskfSm7nhR8RnDm6njRN3W.jpg"
+        },
+        {
+          "name": "Jung Yi-seo",
+          "character": "Pizza Manager",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o6Nfe0BiZs6CCSm8BigPshbu0px.jpg"
+        },
+        {
+          "name": "Cho Jae-myung",
+          "character": "Pizza Man"
+        },
+        {
+          "name": "Jeong İk-han",
+          "character": "Neighbor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wiX9IsqQNYfBrpZWGfdGdAB4Fst.jpg"
+        },
+        {
+          "name": "Kim Kyu-baek",
+          "character": "Drunk 1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lx16EMlOb2XNRZHLDMpWVLjplfY.jpg"
+        },
+        {
+          "name": "Lee Dong-yong",
+          "character": "Drunk 2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yxdefB0pVcXO0chjuECy9xliZb2.jpg"
+        },
+        {
+          "name": "Ahn Seong-bong",
+          "character": "Street Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/auBLxp6DtvOsY9OoQZXi45613cS.jpg"
+        },
+        {
+          "name": "Yoon Young-woo",
+          "character": "Benz Dealer"
+        },
+        {
+          "name": "Park Jae-wook",
+          "character": "VR Specialist"
+        },
+        {
+          "name": "Jeon Eun-mi",
+          "character": "Mart Cashier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/okWk1awhHTG9FdULmL4u8wRFTyD.jpg"
+        },
+        {
+          "name": "Kim Geon",
+          "character": "Party Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nh0Q2azMprrDPJwcmvP2g0tIn0Z.jpg"
+        },
+        {
+          "name": "Lee Joo-hyung",
+          "character": "Party Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bgZnH52HYws4XWiEZdyvRyGGWYE.jpg"
+        },
+        {
+          "name": "Kim Yeong-jo",
+          "character": "Party Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7N4lrHGjOCxRKEglfQ2Cknka8C7.jpg"
+        },
+        {
+          "name": "Kim Jung-woo",
+          "character": "Party Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/csAAjpkDehFPlbmW9Bm43sLwrWp.jpg"
+        },
+        {
+          "name": "Baek Seung-hwan",
+          "character": "Party Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cymDJO0cs6mNSJXeY9uyObEVegy.jpg"
+        },
+        {
+          "name": "Je Seung-hyun",
+          "character": "Party Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hkre6gTMO01KMYovP7Nco9ZsDwX.jpg"
+        },
+        {
+          "name": "Park Hye-sook",
+          "character": "Party Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pQAr1b0Qw0nV3voABNp68pQTcp9.jpg"
+        },
+        {
+          "name": "Choi Ji-won",
+          "character": "Party Woman"
+        },
+        {
+          "name": "Lee Sang-kyung",
+          "character": "Party Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6yXUvfFX7K3olXOEqtR6D0XBvQ1.jpg"
+        },
+        {
+          "name": "Kim Ha-eon",
+          "character": "Party Kid",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o0YUZrFdpyFWlraQdKEc2QjHW3s.jpg"
+        }
+      ]
+    }
   }
 }

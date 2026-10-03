@@ -17,6 +17,160 @@
       "Macera",
       "Fantastik",
       "Aksiyon"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xq2m2dGb9SyJ28RBpQpiV2Zcu6C.png",
+    "cast": [
+      "Eric Nam",
+      "Dave Bautista",
+      "Jessica Matten",
+      "Román Zaragoza",
+      "Steven Yeun",
+      "Dionne Quan",
+      "Dee Bradley Baker",
+      "Freida Pinto",
+      "Ke Huy Quan",
+      "Taika Waititi",
+      "Geraldine Viswanathan",
+      "Peta Sergeant",
+      "Jonathan Ohye",
+      "Vic Chao",
+      "François Chau",
+      "Sander Argabrite",
+      "Ronny Chieng",
+      "Keone Young",
+      "Tim Dang",
+      "Ken Jeong",
+      "Isis Celilo Rogers",
+      "Talon Proc Alford",
+      "Wacinyeya Iwasaka Yracheta",
+      "Miller Tai",
+      "Rita Rani Ahuja"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Eric Nam",
+          "character": "Aang (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gEH0b5q9tupL49dmUFkjm9dnxP2.jpg"
+        },
+        {
+          "name": "Dave Bautista",
+          "character": "Tagah (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+        },
+        {
+          "name": "Jessica Matten",
+          "character": "Katara (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/EQsPxsav8AZmaeT3mpU3Evilee.jpg"
+        },
+        {
+          "name": "Román Zaragoza",
+          "character": "Sokka (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uWkOkSLqj2POMqkeLk5E5UJzebv.jpg"
+        },
+        {
+          "name": "Steven Yeun",
+          "character": "Zuko (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg"
+        },
+        {
+          "name": "Dionne Quan",
+          "character": "Toph (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vGe0bMTfYDX1Wcw9ZCfY3YCSgai.jpg"
+        },
+        {
+          "name": "Dee Bradley Baker",
+          "character": "Appa / Momo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg"
+        },
+        {
+          "name": "Freida Pinto",
+          "character": "Avatar Sonam (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tub18dfDNMxlempVIuPXh8fmZVs.jpg"
+        },
+        {
+          "name": "Ke Huy Quan",
+          "character": "Avatar Xian (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iestHyn7PLuVowj5Jaa1SGPboQ4.jpg"
+        },
+        {
+          "name": "Taika Waititi",
+          "character": "Gorillavark (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ww6L2ksfJNMbuiIdDuvVKndUHsv.jpg"
+        },
+        {
+          "name": "Geraldine Viswanathan",
+          "character": "Kallik (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mZ1dKqL2ymRipGEudzr8TQliB52.jpg"
+        },
+        {
+          "name": "Peta Sergeant",
+          "character": "Jie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/owkSN29t7P6hpazZKsUMt7FybrP.jpg"
+        },
+        {
+          "name": "Jonathan Ohye",
+          "character": "Yuddah (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gaFjRHZaVPdtbr1N8NwCwQTPnXm.jpg"
+        },
+        {
+          "name": "Vic Chao",
+          "character": "Hong (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pPI9e95fOcLR3nGsIIRZsDokHJT.jpg"
+        },
+        {
+          "name": "François Chau",
+          "character": "Monk Gyatso (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fRKnZpGoUBJAEx9gEOkN1bG21D8.jpg"
+        },
+        {
+          "name": "Sander Argabrite",
+          "character": "Young Aang (voice)"
+        },
+        {
+          "name": "Ronny Chieng",
+          "character": "Fire Nation Messenger (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yRUGjqALyg1LcJO75cO58cVJ2ud.jpg"
+        },
+        {
+          "name": "Keone Young",
+          "character": "Avatar Roku (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hHtr7OzP2I2U7FfA2hj8rPtAt8z.jpg"
+        },
+        {
+          "name": "Tim Dang",
+          "character": "Grand Chamberlain (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u2Cf0NdPsPYYPXptxVYEMSWlhpi.jpg"
+        },
+        {
+          "name": "Ken Jeong",
+          "character": "Cabbage Merchant (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dfuDZ2m2A8nBb0TdyeqmlPOobJA.jpg"
+        },
+        {
+          "name": "Isis Celilo Rogers",
+          "character": "Water Tribe Kid (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tBbQTC0R3et7jKOilHwZf5ja9IP.jpg"
+        },
+        {
+          "name": "Talon Proc Alford",
+          "character": "Water Tribe Kid (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vcbhPYGMAiFkjgwN6uawFMItEhB.jpg"
+        },
+        {
+          "name": "Wacinyeya Iwasaka Yracheta",
+          "character": "Water Tribe Kid (voice)"
+        },
+        {
+          "name": "Miller Tai",
+          "character": "Ho Tun (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oN0qcXoiFYbMvxgTu2nLmI6ywe2.jpg"
+        },
+        {
+          "name": "Rita Rani Ahuja",
+          "character": "Avatar of the Past (voice)"
+        }
+      ]
+    }
   }
 }

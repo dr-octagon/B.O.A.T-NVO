@@ -72,6 +72,40 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jdP9Ax0d54Uo4o0T1qfQiR0QcDc.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "空賀花",
+          "character": "Akari Himeno (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ey0VHk0gFfhhSEvdNcCMm0xAh6.jpg"
+        },
+        {
+          "name": "Şizuka İto",
+          "character": "Kaede Shiina (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n47YvFPlJzl8HnsoDBtM8SUqG8q.jpg"
+        },
+        {
+          "name": "桐村まり",
+          "character": "Aki Kokonoe (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g8GqBelCDQGv3ki4UYn95RvionP.jpg"
+        },
+        {
+          "name": "澁谷果歩",
+          "character": "Yui Kurumizawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/olt8zwxGNTJz0F0acOeTPH5AuHq.jpg"
+        },
+        {
+          "name": "立花慎之介",
+          "character": "Kumazawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uPw2IDfXyndFDQ8vtdA69WDSnrz.jpg"
+        },
+        {
+          "name": "志藤春道",
+          "character": "Itsuki Sonomiya"
+        }
+      ]
+    }
   }
 }

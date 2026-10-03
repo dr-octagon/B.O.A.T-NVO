@@ -18,6 +18,185 @@
       "Fantastik",
       "Komedi",
       "Aile"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/barJMlk3d6jiiMy3AbqjhBPH0Yw.png",
+    "cast": [
+      "H.E.R.",
+      "Liza Soberano",
+      "Dave Franco",
+      "Jenny Slate",
+      "Manny Jacinto",
+      "Lea Salonga",
+      "Dolly de Leon",
+      "Jo Koy",
+      "Ronny Chieng",
+      "Kevin McCann",
+      "Kailey Crawford",
+      "Kayla Teruel",
+      "Amielynn Abellera",
+      "Eugene Cordero",
+      "Eric Bauza",
+      "Nico Santos",
+      "Januel Mercado",
+      "Tania Gunadi",
+      "Tiffany Ford",
+      "Amelie Francisco",
+      "Quincy Cordero",
+      "Jasmine Rodriguez",
+      "Zoë Crawford",
+      "Riley Crawford",
+      "Kristin Villanueva",
+      "Monique Burias Shi",
+      "Nurse John",
+      "Philippe Tayag",
+      "Damon Fung",
+      "Jordan Roberto Chien"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "H.E.R.",
+          "character": "Jo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4q6d02AWIYCgwYNzFeseEyzwvOX.jpg"
+        },
+        {
+          "name": "Liza Soberano",
+          "character": "Raissa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xsgT139b39OHdLkY87yIabNLi5Y.jpg"
+        },
+        {
+          "name": "Dave Franco",
+          "character": "Raww (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/to7ee1xcCOpDSKMXjBIRuYEfbEc.jpg"
+        },
+        {
+          "name": "Jenny Slate",
+          "character": "Batiba (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mMxsNO6r966ut0sordYzj2iDOb6.jpg"
+        },
+        {
+          "name": "Manny Jacinto",
+          "character": "Bungi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jMbNV4nr5647r6CZJbT6nsnspMz.jpg"
+        },
+        {
+          "name": "Lea Salonga",
+          "character": "Manang (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cA8lv5GCU5DkZMEeplaVgttrlXr.jpg"
+        },
+        {
+          "name": "Dolly de Leon",
+          "character": "Lola Fatima (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fwwvPAJaJA3F8P35MYGf8MmYfe8.jpg"
+        },
+        {
+          "name": "Jo Koy",
+          "character": "Datu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rbD9UnkYFYsmewSn2YFPI8lL5UI.jpg"
+        },
+        {
+          "name": "Ronny Chieng",
+          "character": "King Truffle Wuffle (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yRUGjqALyg1LcJO75cO58cVJ2ud.jpg"
+        },
+        {
+          "name": "Kevin McCann",
+          "character": "Prince Mermahn (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tY9R5lQyA0vI7Bz6COiyyzOtkqJ.jpg"
+        },
+        {
+          "name": "Kailey Crawford",
+          "character": "Young Jo / Classroom Kid 1 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qWRa5Ewo7P6yrUqOWhvzFJpG8I8.jpg"
+        },
+        {
+          "name": "Kayla Teruel",
+          "character": "Young Raissa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bMgrPLCEv5vmZqD7vgfvwEl95B7.jpg"
+        },
+        {
+          "name": "Amielynn Abellera",
+          "character": "Jane Molina (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/65epo4rlzK95b8oTFyhCQszMppp.jpg"
+        },
+        {
+          "name": "Eugene Cordero",
+          "character": "Barondo / Mr. Lopez (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/waruLSR8lXBjhAFL0J6ihuVY62d.jpg"
+        },
+        {
+          "name": "Eric Bauza",
+          "character": "Gen. Button Wutton / Sarangay (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg"
+        },
+        {
+          "name": "Nico Santos",
+          "character": "Starfish Pastie 1 / Starfish Pastie 2 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e96iYbxaqC9zGaFPxZ2fH82MBNu.jpg"
+        },
+        {
+          "name": "Januel Mercado",
+          "character": "Manny Molina / Dry Mermahn (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kRgA9405XoklQG9RbuzjOnoRp6x.jpg"
+        },
+        {
+          "name": "Tania Gunadi",
+          "character": "Zippy the Potion Fairy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fEaHf8xUc9lzFuUuTWhCYzWBPoA.jpg"
+        },
+        {
+          "name": "Tiffany Ford",
+          "character": "Bungina / Anime Princess (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/62mfDEdpmktdAh3NCbqoodg4Wsx.jpg"
+        },
+        {
+          "name": "Amelie Francisco",
+          "character": "Baronda (voice)"
+        },
+        {
+          "name": "Quincy Cordero",
+          "character": "Tondo (voice)"
+        },
+        {
+          "name": "Jasmine Rodriguez",
+          "character": "Agnes / Older Tita (voice)"
+        },
+        {
+          "name": "Zoë Crawford",
+          "character": "Young Reynaldo / Classroom Kid 2 (voice)"
+        },
+        {
+          "name": "Riley Crawford",
+          "character": "Reynaldo (voice)"
+        },
+        {
+          "name": "Kristin Villanueva",
+          "character": "Tita 1 / Tita 3 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eWBC6D2NuqJobskGH3QkZBsoGZ.jpg"
+        },
+        {
+          "name": "Monique Burias Shi",
+          "character": "Tita 2 / Bride / Merchant (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nDzX7QOrNk8BMr4CoH8ao6BBHlh.jpg"
+        },
+        {
+          "name": "Nurse John",
+          "character": "Tinikling Tito (voice)"
+        },
+        {
+          "name": "Philippe Tayag",
+          "character": "Manager / Trike Passenger / Escrima Customer (voice)"
+        },
+        {
+          "name": "Damon Fung",
+          "character": "Boy Party Kid 1 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9kqkZfpNW5Z8S2eFI5QlSkCEqv.jpg"
+        },
+        {
+          "name": "Jordan Roberto Chien",
+          "character": "Boy Party Kid 2 (voice)"
+        }
+      ]
+    }
   }
 }

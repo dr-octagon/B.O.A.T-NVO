@@ -25,7 +25,26 @@
       "Shin Hyun-been",
       "Go Soo",
       "Lee Joong-ok",
-      "Kim Jong-tae"
+      "Kim Jong-tae",
+      "Hwang Jae-yeol",
+      "Lee Dam-hee",
+      "Chae Seo-eun",
+      "Kim Sung",
+      "Kim Jae-rok",
+      "Oh Kyung-hwa",
+      "Choi Gwang-il",
+      "Kim Hyeong-mook",
+      "Hong Seok-bin",
+      "Lee Hyun-kyun",
+      "Lee Kang-wook",
+      "Jeong Ae-hwa",
+      "Kim Min-chae",
+      "Kim Seung-hoon",
+      "Choi Woo-jin",
+      "Seo Suk-kyu",
+      "Lee Dong-kyu",
+      "Ha Seung-yeon",
+      "Agung Bagus"
     ],
     "director": [
       "Yeon Sang-ho"
@@ -34,6 +53,145 @@
       "Yeon Sang-ho",
       "Choi Gyu-seok"
     ],
-    "runtime": "122 dk"
+    "runtime": "122 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hCK5tVvTG2c0SrOaPCWMlbMj69A.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jun Ji-hyun",
+          "character": "Kwon Se-jeong",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qejOQBdIzN18e69yRcsiD0JQi4c.jpg"
+        },
+        {
+          "name": "Koo Kyo-hwan",
+          "character": "Seo Young-cheol",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aFwCpSKPGFqoiTStY6ljXnD5CwH.jpg"
+        },
+        {
+          "name": "Ji Chang-wook",
+          "character": "Choi Hyun-seok",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sBmHrO5Tn27Ot5hy0yAKniROmNb.jpg"
+        },
+        {
+          "name": "Kim Shin-rok",
+          "character": "Choi Hyun-hee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x4zo2mSbehnQY80PbuldAZ7ruGm.jpg"
+        },
+        {
+          "name": "Shin Hyun-been",
+          "character": "Kong Seol-hee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lU0yMFh5KgOEWZRThLYbB6ZI1hE.jpg"
+        },
+        {
+          "name": "Go Soo",
+          "character": "Han Kyu-seong",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/77209yRtUHOEk3ILJY1rG3X3VUj.jpg"
+        },
+        {
+          "name": "Lee Joong-ok",
+          "character": "Lee Bong-seok",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fMkBpHRElwNatevfGinSv248bYg.jpg"
+        },
+        {
+          "name": "Kim Jong-tae",
+          "character": "Kang Woo-cheol",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vf3R5QU7UCVEr3dOGt3bdFbypzu.jpg"
+        },
+        {
+          "name": "Hwang Jae-yeol",
+          "character": "Citizen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cyEibdvqNRurcNC63gqDSvX1qzE.jpg"
+        },
+        {
+          "name": "Lee Dam-hee",
+          "character": "Lee So-eun",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wGiJAT7w7r3VBZdTXClfEQZ9IOV.jpg"
+        },
+        {
+          "name": "Chae Seo-eun",
+          "character": "Bully Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gwEVDlcIO5kGrKbhyDcTiL95zaO.jpg"
+        },
+        {
+          "name": "Kim Sung",
+          "character": "Bully Boy"
+        },
+        {
+          "name": "Kim Jae-rok",
+          "character": "Old Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xnjecfDGleNuOMi6dzMJJoyZy2U.jpg"
+        },
+        {
+          "name": "Oh Kyung-hwa",
+          "character": "Sushi Restaurant Employee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iOHLq24nLRnrsgdRtDxBw8xpOsr.jpg"
+        },
+        {
+          "name": "Choi Gwang-il",
+          "character": "Minister",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6vkA8s4XDPwZBRzNhN9xSLzb3II.jpg"
+        },
+        {
+          "name": "Kim Hyeong-mook",
+          "character": "Chief of Staff",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iFDFDCActOFrsdUbdv1xlLEh2yr.jpg"
+        },
+        {
+          "name": "Hong Seok-bin",
+          "character": "Chief Police",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mg96cgjopaO2fB30ZU7x5vXgAtk.jpg"
+        },
+        {
+          "name": "Lee Hyun-kyun",
+          "character": "Ju Cheol-min",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hxKnznyiPGFM7AuXwCcWBdORLBo.jpg"
+        },
+        {
+          "name": "Lee Kang-wook",
+          "character": "Lee Hynn-min",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k1BbWIYEWOyZBTPefcYO1dxAVdf.jpg"
+        },
+        {
+          "name": "Jeong Ae-hwa",
+          "character": "Seol-hee's Mother",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aVbDwsoncmkt1RwMlI4TTZQU27v.jpg"
+        },
+        {
+          "name": "Kim Min-chae",
+          "character": "Han Ji-hye",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vSA2YE24mBT34aYEg3S6A5S7c8t.jpg"
+        },
+        {
+          "name": "Kim Seung-hoon",
+          "character": "Seo Gyeong-seok",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oj6MLCRPbMiQyUwqRIIrvaztVJw.jpg"
+        },
+        {
+          "name": "Choi Woo-jin",
+          "character": "Young Seo Young-cheol",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p2HCRzLkSdjqP505T0TzrGbCh7c.jpg"
+        },
+        {
+          "name": "Seo Suk-kyu",
+          "character": "Reporter Kim Seong-il",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/otD7AbTlnU2wASORzKWsEB0LbGh.jpg"
+        },
+        {
+          "name": "Lee Dong-kyu",
+          "character": "News Anchor 1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/idCZj9rvteQKVFskwMdqj3NsFpF.jpg"
+        },
+        {
+          "name": "Ha Seung-yeon",
+          "character": "Sign Language Interpreter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7HZXdrqr7NQZdFNoyWNHfqe8Pq8.jpg"
+        },
+        {
+          "name": "Agung Bagus",
+          "character": "Infected (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iVD3sXOTrpvH8EbajI3gPTtEAJt.jpg"
+        }
+      ]
+    }
   }
 }

@@ -25,7 +25,25 @@
       "Hidekatsu Şibata",
       "Koiçi Toçika",
       "Masaşi Ebara",
-      "Yoiçi Masukava"
+      "Yoiçi Masukava",
+      "Yukari Tamura",
+      "Ryoka Yuzuki",
+      "Şovtaro Morikubo",
+      "Kentaro İto",
+      "Şinji Kavada",
+      "Nana Mizuki",
+      "Kohsuke Toriumi",
+      "Hideo İşikava",
+      "Tomoyuki Dan",
+      "Toşihiko Seki",
+      "Nobutoşi Canna",
+      "Kujira",
+      "Hoçu Otsuka",
+      "Keiko Nemoto",
+      "Romi Park",
+      "Jurota Kosugi",
+      "Masako Katsuki",
+      "Rumi Oçiai"
     ],
     "videos": [
       {
@@ -1348,6 +1366,141 @@
         "season": 4,
         "episode": 62
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kaZ99sfclCKWnUgmW7AYrok03Am.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Junko Takeuçi",
+          "character": "Naruto Uzumaki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zNjrblq3xS1idpCsmSl5P5eTon7.jpg"
+        },
+        {
+          "name": "Noriaki Sugiyama",
+          "character": "Sasuke Uchiha (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/szqqQ8T0gzuSxjU2rnWcthsaSJT.jpg"
+        },
+        {
+          "name": "Çie Nakamura",
+          "character": "Sakura Haruno (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/evB6vKUbm0CKgBcgikPeFXdwd29.jpg"
+        },
+        {
+          "name": "Kazuhiko İnue",
+          "character": "Kakashi Hatake (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3BpYtYRiLAmTNbCm2LXlXnkMRit.jpg"
+        },
+        {
+          "name": "Hidekatsu Şibata",
+          "character": "Hiruzen Sarutobi (3º Hokage) (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hnKQe1GpuLAZY8pDnJc6eXIQzfv.jpg"
+        },
+        {
+          "name": "Koiçi Toçika",
+          "character": "Neji Hyuga (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wZYe5RmOLYIhpesKEaFIxz7YN7G.jpg"
+        },
+        {
+          "name": "Masaşi Ebara",
+          "character": "Might Guy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xJPCatQLQi75zc9YfWZo0gSpynq.jpg"
+        },
+        {
+          "name": "Yoiçi Masukava",
+          "character": "Rock Lee (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sE664CcqM1pvoWsYsca7szlIzl5.jpg"
+        },
+        {
+          "name": "Yukari Tamura",
+          "character": "Tenten (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AigHQPetpcKee62ekHsYFSpQeWE.jpg"
+        },
+        {
+          "name": "Ryoka Yuzuki",
+          "character": "Ino Yamanaka (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kRiagleTO13MWYXl77xGDBDerxM.jpg"
+        },
+        {
+          "name": "Şovtaro Morikubo",
+          "character": "Shikamaru Nara (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mSTqMg8fls9pJO3Qwe47nawJ4vX.jpg"
+        },
+        {
+          "name": "Kentaro İto",
+          "character": "Choji Akimichi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fIoreUBVEWcRLZanJlHUSQAjpeE.jpg"
+        },
+        {
+          "name": "Şinji Kavada",
+          "character": "Shino Aburame (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bynL2ngE9ieW8tSDRUuQM8NmRAE.jpg"
+        },
+        {
+          "name": "Nana Mizuki",
+          "character": "Hinata Hyuga (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rQBo7HyjTIqeB7hIofb7uJFhiVs.jpg"
+        },
+        {
+          "name": "Kohsuke Toriumi",
+          "character": "Kiba Inuzuka (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vlRQ77taCCKh7itCZn3IWJUiYQr.jpg"
+        },
+        {
+          "name": "Hideo İşikava",
+          "character": "Itachi Uchiha (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gEjEDNGt3CHsyzFQdNqewZVbh0.jpg"
+        },
+        {
+          "name": "Tomoyuki Dan",
+          "character": "Kisame Hoshigaki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mFCd6V5j9x6hZsepGBm1LUg9MJM.jpg"
+        },
+        {
+          "name": "Toşihiko Seki",
+          "character": "Iruka Umino (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7jUPvx4hxWZWZJgyiCwd8KxWuvI.jpg"
+        },
+        {
+          "name": "Nobutoşi Canna",
+          "character": "Kabuto Yakushi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oYexnQo5k8MY2iYztDlr403H8rx.jpg"
+        },
+        {
+          "name": "Kujira",
+          "character": "Orochimaru (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dL2u3VyRBswwTEW4E8lbsHbqzeZ.jpg"
+        },
+        {
+          "name": "Hoçu Otsuka",
+          "character": "Jiraiya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3RHQcrsWnAFK6AifSis1lMq08cR.jpg"
+        },
+        {
+          "name": "Keiko Nemoto",
+          "character": "Shizune (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xaWKZMr93brbPKMCjz1LT8WIgt4.jpg"
+        },
+        {
+          "name": "Romi Park",
+          "character": "Temari (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fl9vyA3HEkOyTiZBJBhAR3OSmrO.jpg"
+        },
+        {
+          "name": "Jurota Kosugi",
+          "character": "Asuma Sarutobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/em3Zh1IzkTDSdaoGBVLx89u6GuI.jpg"
+        },
+        {
+          "name": "Masako Katsuki",
+          "character": "Tsunade (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oIBGCgHbMy0UeFHOASKugyPHGNx.jpg"
+        },
+        {
+          "name": "Rumi Oçiai",
+          "character": "Kurenai Yuhi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2sci4UaLt32wustdoYe8eiWBcPX.jpg"
+        }
+      ]
+    }
   }
 }

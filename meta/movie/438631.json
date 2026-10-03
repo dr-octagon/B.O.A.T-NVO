@@ -24,7 +24,29 @@
       "Stellan Skarsgård",
       "Stephen McKinley Henderson",
       "Josh Brolin",
-      "Javier Bardem"
+      "Javier Bardem",
+      "Sharon Duncan-Brewster",
+      "Çang Çen",
+      "Dave Bautista",
+      "David Dastmalchian",
+      "Zendaya",
+      "Charlotte Rampling",
+      "Babs Olusanmokun",
+      "Benjamin Clementine",
+      "Souad Faress",
+      "Golda Rosheuvel",
+      "Roger Yuan",
+      "Seun Shote",
+      "Neil Bell",
+      "Oliver Ryan",
+      "Stephen Collins",
+      "Charlie Rawes",
+      "Richard Carter",
+      "Benjamin Dilloway",
+      "Elmi Rashid Elmi",
+      "Tachia Newall",
+      "Gloria Obianyo",
+      "Fehinti Balogun"
     ],
     "director": [
       "Deni Vilenüv"
@@ -34,6 +56,161 @@
       "Eric Roth",
       "Jon Spaihts"
     ],
-    "runtime": "155 dk"
+    "runtime": "155 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/woifx7xduIyJYq8ktCiN36zt9Xu.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Timothee Chalamet",
+          "character": "Paul Atreides",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+        },
+        {
+          "name": "Rebecca Ferguson",
+          "character": "Lady Jessica Atreides",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ra53cM1aNmdH0aFhj8yBqPOj2fb.jpg"
+        },
+        {
+          "name": "Oscar Isaac",
+          "character": "Duke Leto Atreides",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dW5U5yrIIPmMjRThR9KT2xH6nTz.jpg"
+        },
+        {
+          "name": "Jason Momoa",
+          "character": "Duncan Idaho",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+        },
+        {
+          "name": "Stellan Skarsgård",
+          "character": "Baron Vladimir Harkonnen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg"
+        },
+        {
+          "name": "Stephen McKinley Henderson",
+          "character": "Thufir Hawat",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z2weSPo4sdMNj47tP5o0me41r2z.jpg"
+        },
+        {
+          "name": "Josh Brolin",
+          "character": "Gurney Halleck",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+        },
+        {
+          "name": "Javier Bardem",
+          "character": "Stilgar",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+        },
+        {
+          "name": "Sharon Duncan-Brewster",
+          "character": "Dr. Liet Kynes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gp5h6rOrqBrIGgID4AMd58O6Ow6.jpg"
+        },
+        {
+          "name": "Çang Çen",
+          "character": "Dr. Wellington Yueh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4BOQ5pJXdsArkMHvyVhrV8Ditnr.jpg"
+        },
+        {
+          "name": "Dave Bautista",
+          "character": "Beast Rabban Harkonnen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+        },
+        {
+          "name": "David Dastmalchian",
+          "character": "Piter de Vries",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nER1Vzhk51pGHb60KBF1Ja5tEXA.jpg"
+        },
+        {
+          "name": "Zendaya",
+          "character": "Chani",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+        },
+        {
+          "name": "Charlotte Rampling",
+          "character": "Reverend Mother Mohiam",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/Htvl9mN6mlf2a18RAFzNXF3RiG.jpg"
+        },
+        {
+          "name": "Babs Olusanmokun",
+          "character": "Jamis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bqycmpUrpISeLzQniiYwAZ5X1RN.jpg"
+        },
+        {
+          "name": "Benjamin Clementine",
+          "character": "Herald of the Change",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/johpHbzqrue6XDG63vapfugGbnn.jpg"
+        },
+        {
+          "name": "Souad Faress",
+          "character": "Bene Gesserit Sister",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aEGdIch9eRzJcsAGbF7mAZPUiXt.jpg"
+        },
+        {
+          "name": "Golda Rosheuvel",
+          "character": "Shadout Mapes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nlSIvTWzMEzZGljKYgpZxGcsJtv.jpg"
+        },
+        {
+          "name": "Roger Yuan",
+          "character": "Lieutenant Lanville",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jHdxbT6n3ToYKw0DVFIUkva86SO.jpg"
+        },
+        {
+          "name": "Seun Shote",
+          "character": "Arrakeen Residency Gardener",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/33szNjKtUsTxlwV039Gec2PKQS2.jpg"
+        },
+        {
+          "name": "Neil Bell",
+          "character": "Sardaukar Bashar",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3K3dDytqtTSaGrDZ3qOHYpJUGea.jpg"
+        },
+        {
+          "name": "Oliver Ryan",
+          "character": "Hawat Specialist",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/S0YPiYOSikfqjR6HMuxoFDzh0f.jpg"
+        },
+        {
+          "name": "Stephen Collins",
+          "character": "Harkonnen Trooper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/86LlKrbvYVmR4Ca9fARwUoY5TgJ.jpg"
+        },
+        {
+          "name": "Charlie Rawes",
+          "character": "Harkonnen Trooper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zsARROMEHNANOAI8wntYcn3BpOM.jpg"
+        },
+        {
+          "name": "Richard Carter",
+          "character": "Harkonnen Trooper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vwMG8213y9UiCDXBPIUwzhVxUcX.jpg"
+        },
+        {
+          "name": "Benjamin Dilloway",
+          "character": "Sardaukar Assassin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/reXJcitDu5hsCO7Hlra2ZFzr6Nn.jpg"
+        },
+        {
+          "name": "Elmi Rashid Elmi",
+          "character": "Shamir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kMH7mX7rzVrrPuWL0qVeYExXVcx.jpg"
+        },
+        {
+          "name": "Tachia Newall",
+          "character": "Tanat",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ywvojfXK3uzw0IgVEVg3j00GPuy.jpg"
+        },
+        {
+          "name": "Gloria Obianyo",
+          "character": "Female Fremen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8vRsNhtxFzYsHQItIKwcMW9flts.jpg"
+        },
+        {
+          "name": "Fehinti Balogun",
+          "character": "Male Fremen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lNpDOJn9wMkMg8XLqTvdwxDcztL.jpg"
+        }
+      ]
+    }
   }
 }

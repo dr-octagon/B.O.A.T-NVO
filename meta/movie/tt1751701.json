@@ -25,7 +25,13 @@
       "Stephanie Ramlose",
       "Lee-Ann Dirks",
       "James Crompton",
-      "Moehau Hodges-Tai"
+      "Moehau Hodges-Tai",
+      "Lisa Zhang",
+      "Karlton Laing",
+      "David Tiko",
+      "Carolyn Deng",
+      "Sean O'Connor",
+      "Radostin Radev"
     ],
     "director": [
       "Michiel Rensen",
@@ -34,6 +40,72 @@
     "writer": [
       "Michiel Rensen"
     ],
-    "runtime": "95 dk"
+    "runtime": "95 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bawc5X40uHOJdpucMXKVFyezeMu.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Michiel Rensen",
+          "character": "Ethan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jkIHfyr0t9jGc3GRt9IInVvU1Bo.jpg"
+        },
+        {
+          "name": "Maxie Li",
+          "character": "Jessie"
+        },
+        {
+          "name": "Riki Antonievich",
+          "character": "Jack"
+        },
+        {
+          "name": "Will Clague",
+          "character": "Connor"
+        },
+        {
+          "name": "Stephanie Ramlose",
+          "character": "Elle"
+        },
+        {
+          "name": "Lee-Ann Dirks",
+          "character": "Sophie"
+        },
+        {
+          "name": "James Crompton",
+          "character": "Religious Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o9ByykxXcYjHGg60hB07zi8MYtL.jpg"
+        },
+        {
+          "name": "Moehau Hodges-Tai",
+          "character": "Desmond"
+        },
+        {
+          "name": "Lisa Zhang",
+          "character": "Madeline",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9HXBAZK1ktbzkEQgL0HHd33Tmym.jpg"
+        },
+        {
+          "name": "Karlton Laing",
+          "character": "Phillip",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/venyMNccSODFjBYPouUQIYDwx5U.jpg"
+        },
+        {
+          "name": "David Tiko",
+          "character": "John",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yYm5ECmpNWpUhPwb1b3fotmvqIQ.jpg"
+        },
+        {
+          "name": "Carolyn Deng",
+          "character": "Brie Harrison"
+        },
+        {
+          "name": "Sean O'Connor",
+          "character": "News Anchor"
+        },
+        {
+          "name": "Radostin Radev",
+          "character": "Gordon Barnes NASA Spokesperson"
+        }
+      ]
+    }
   }
 }

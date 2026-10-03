@@ -167,6 +167,31 @@
         "season": 2,
         "episode": 12
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xR84VONOy1YsaVjaxNFl9mjsExb.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "坂泰斗",
+          "character": "Amane Fujimiya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pSExEOVmjAujKUyJJJSxC1WEzOM.jpg"
+        },
+        {
+          "name": "石見舞菜香",
+          "character": "Mahiru Shiina (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/leKMaCBswXG8u4mfQNQ7J3y6Xow.jpg"
+        },
+        {
+          "name": "八代拓",
+          "character": "Itsuki Akazawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eVdB6myaNJ4h38UU9hHHlsaCWHn.jpg"
+        },
+        {
+          "name": "Haruka Şiraişi",
+          "character": "Chitose Shirakawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hrQxTVNGLi3jXC7v4kETArpA0dV.jpg"
+        }
+      ]
+    }
   }
 }

@@ -466,6 +466,26 @@
         "season": 3,
         "episode": 24
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7WmBNHUH5ZFFpIxBvHvG937fDMi.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Asami Seto",
+          "character": "Chihaya Ayase (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iKKCPgKrNd4pJ0iBOC1SBZy2Y4Y.jpg"
+        },
+        {
+          "name": "Mamoru Miyano",
+          "character": "Taichi Mashima (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg"
+        },
+        {
+          "name": "Yoşimasa Hosoya",
+          "character": "Arata Wataya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lUR5oN1LrqGgp25IOcI1qOH1Ud5.jpg"
+        }
+      ]
+    }
   }
 }

@@ -24,7 +24,29 @@
       "Gloria Foster",
       "Joe Pantoliano",
       "Marcus Chong",
-      "Julian Arahanga"
+      "Julian Arahanga",
+      "Matt Doran",
+      "Belinda McClory",
+      "Anthony Ray Parker",
+      "Paul Goddard",
+      "Robert Taylor",
+      "David Aston",
+      "Marc Aden Gray",
+      "Ada Nicodemou",
+      "Deni Gordon",
+      "Rowan Witt",
+      "Eleanor Witt",
+      "Tamara Brown",
+      "Janaya Pender",
+      "Adryn White",
+      "Natalie Tjen",
+      "Bill Young",
+      "David O'Connor",
+      "Jeremy Ball",
+      "Fiona Johnson",
+      "Harry Lawrence",
+      "Steve Dodd",
+      "Luke Quinton"
     ],
     "director": [
       "Lana Wachowski",
@@ -34,6 +56,154 @@
       "Lana Wachowski",
       "Lilly Wachowski"
     ],
-    "runtime": "136 dk"
+    "runtime": "136 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/iWxxHjuJ1vCLQcg3iiOMucvbrF1.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Keanu Reeves",
+          "character": "Neo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+        },
+        {
+          "name": "Laurence Fishburne",
+          "character": "Morpheus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg"
+        },
+        {
+          "name": "Carrie-Anne Moss",
+          "character": "Trinity",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9zya72vRZYBQILfetACsnmCBgdj.jpg"
+        },
+        {
+          "name": "Hugo Weaving",
+          "character": "Agent Smith",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lSC8Et0PYi5zeQb3IpPkFje7hgR.jpg"
+        },
+        {
+          "name": "Gloria Foster",
+          "character": "Oracle",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AriGXtC9fjBOia9Zr8CZjn4o3rx.jpg"
+        },
+        {
+          "name": "Joe Pantoliano",
+          "character": "Cypher",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3OHUI3nX4SYGGItDk3xqeIvWtIf.jpg"
+        },
+        {
+          "name": "Marcus Chong",
+          "character": "Tank",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q9HQttibTj2MoXVtLjq2kKqmPrE.jpg"
+        },
+        {
+          "name": "Julian Arahanga",
+          "character": "Apoc",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g2YkF3PWSJU1vTKuURBH0DOMblm.jpg"
+        },
+        {
+          "name": "Matt Doran",
+          "character": "Mouse",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4HtMShAbsZ2AyFtq5z3bOVrvw2s.jpg"
+        },
+        {
+          "name": "Belinda McClory",
+          "character": "Switch",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wfTCwkIDJjH5k5DtuvcjP52PrLc.jpg"
+        },
+        {
+          "name": "Anthony Ray Parker",
+          "character": "Dozer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k03O1ClFvGRSedUnK0sAjTkrogX.jpg"
+        },
+        {
+          "name": "Paul Goddard",
+          "character": "Agent Brown",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z6XP6Xhkh5ZE88gBOz2FnVQaKuf.jpg"
+        },
+        {
+          "name": "Robert Taylor",
+          "character": "Agent Jones",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wjeEGFarZNyvrqLL4W52eXnAnXe.jpg"
+        },
+        {
+          "name": "David Aston",
+          "character": "Rhineheart",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/98TG57IaWdMGBG41NHsUIWtecPX.jpg"
+        },
+        {
+          "name": "Marc Aden Gray",
+          "character": "Choi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/veXu6ByX3OKooI9WBX6dg9U75B5.jpg"
+        },
+        {
+          "name": "Ada Nicodemou",
+          "character": "Dujour",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n3KziDmCiKdaPfk0A88LN8kyf6Y.jpg"
+        },
+        {
+          "name": "Deni Gordon",
+          "character": "Priestess"
+        },
+        {
+          "name": "Rowan Witt",
+          "character": "Spoon Boy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2DBXtPC8HUL9pvxNhkdPbHA93kj.jpg"
+        },
+        {
+          "name": "Eleanor Witt",
+          "character": "Potential"
+        },
+        {
+          "name": "Tamara Brown",
+          "character": "Potential",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2H6dMpJy2Zw9tC3jt9ztPE9hwVB.jpg"
+        },
+        {
+          "name": "Janaya Pender",
+          "character": "Potential"
+        },
+        {
+          "name": "Adryn White",
+          "character": "Potential"
+        },
+        {
+          "name": "Natalie Tjen",
+          "character": "Potential"
+        },
+        {
+          "name": "Bill Young",
+          "character": "Lieutenant",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5FQC1XSeuIGE8r4vj0sFhY4zPCq.jpg"
+        },
+        {
+          "name": "David O'Connor",
+          "character": "FedEx Man"
+        },
+        {
+          "name": "Jeremy Ball",
+          "character": "Businessman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rBtgBZ66Uzf3nEJrNWMttBLIWah.jpg"
+        },
+        {
+          "name": "Fiona Johnson",
+          "character": "Woman in Red",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oa1EOs4o8Pe0MI3PGbLDPPPwtcw.jpg"
+        },
+        {
+          "name": "Harry Lawrence",
+          "character": "Old Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nfX9l6YYK1z8BRsyEw1HVanI9Eb.jpg"
+        },
+        {
+          "name": "Steve Dodd",
+          "character": "Blind Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3H4Lqrs2j2OYsDagB8Vd29H5DaX.jpg"
+        },
+        {
+          "name": "Luke Quinton",
+          "character": "Security Guard"
+        }
+      ]
+    }
   }
 }

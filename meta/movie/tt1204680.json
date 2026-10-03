@@ -25,7 +25,29 @@
       "Martha Kelly",
       "Luis Guzmán",
       "P.J. Byrne",
-      "John Early"
+      "John Early",
+      "Nancy Linehan Charles",
+      "Kenneth Choi",
+      "Ernie Vigil",
+      "Eric Bauza",
+      "Candi Milo",
+      "Jim Cummings",
+      "Hayes Hargrove",
+      "Phuong Kubacki",
+      "Dani Payne",
+      "Eddie Garcia",
+      "Amy Rauch",
+      "Laura Love Tode",
+      "Aimee McGuire",
+      "Doug Montoya",
+      "Bennie Taylor",
+      "Crista Benavidez",
+      "Carl Savering",
+      "Rachel Hroncich",
+      "Ryan Begay",
+      "Kelsey Leos Montoya",
+      "Kristin K. Berg",
+      "Paul Julian"
     ],
     "director": [
       "Dave Green"
@@ -33,6 +55,158 @@
     "writer": [
       "Samy Burch"
     ],
-    "runtime": "103 dk"
+    "runtime": "103 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kQlPI6mMY1GjzY3jjDdJXwH8pu4.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Will Forte",
+          "character": "Kevin Avery",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4VEzbkL3HwHTUZAPA5PyypFG2U.jpg"
+        },
+        {
+          "name": "Lana Condor",
+          "character": "Paige Avery",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg"
+        },
+        {
+          "name": "John Cena",
+          "character": "Buddy Crane",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg"
+        },
+        {
+          "name": "Tone Bell",
+          "character": "Sal Maltese",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fB06Xj5FgwvHcZESsNGMupGBTyY.jpg"
+        },
+        {
+          "name": "Martha Kelly",
+          "character": "Dottie Jones",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ac7HoARDIHdYNqpzgJBzpmKHXHR.jpg"
+        },
+        {
+          "name": "Luis Guzmán",
+          "character": "Judge Troppogrosso",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg"
+        },
+        {
+          "name": "P.J. Byrne",
+          "character": "Bill Pellicanos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1JVBaxRy3OxkHymD3nwBd5kVWWL.jpg"
+        },
+        {
+          "name": "John Early",
+          "character": "Henry Heslop",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gQ0nZXm11wnB7kvk4Oz2zIeisLx.jpg"
+        },
+        {
+          "name": "Nancy Linehan Charles",
+          "character": "Cherry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AtQXl4YnDBRsJF57AjGEMMEa0Gk.jpg"
+        },
+        {
+          "name": "Kenneth Choi",
+          "character": "Oscar Jeon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3606Uo4fiUtV9Y6eOwpM48qpSgJ.jpg"
+        },
+        {
+          "name": "Ernie Vigil",
+          "character": "Talon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mQ4C1xgvXWhc3LgT9wbxZwJBsia.jpg"
+        },
+        {
+          "name": "Eric Bauza",
+          "character": "Foghorn Leghorn / Bugs Bunny / Daffy Duck / Porky Pig / Elmer Fudd / Tweety / Road Runner / Dr. Lorre (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/afOlsVPQxbtkom604MeCemjlwEV.jpg"
+        },
+        {
+          "name": "Candi Milo",
+          "character": "Granny / Miss Prissy / Witch Hazel (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tUjXMG2118Oagj7IjWJDEdmtCRW.jpg"
+        },
+        {
+          "name": "Jim Cummings",
+          "character": "Tasmanian Devil (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg"
+        },
+        {
+          "name": "Hayes Hargrove",
+          "character": "Big Time Reporter #1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4MF1Tkpe2XoGfcT7yGWPOuo7not.jpg"
+        },
+        {
+          "name": "Phuong Kubacki",
+          "character": "Big Time Reporter #2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uUgZ9EhaUJaxWhHoqPBZp3mGAhz.jpg"
+        },
+        {
+          "name": "Dani Payne",
+          "character": "Big Time Reporter #3",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eUxGE2UOs0y2eMgmOKlB5A4bckT.jpg"
+        },
+        {
+          "name": "Eddie Garcia",
+          "character": "Local Reporter #1"
+        },
+        {
+          "name": "Amy Rauch",
+          "character": "Nurse",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sKzboSNaDcspcIX18cKuGqlS3oy.jpg"
+        },
+        {
+          "name": "Laura Love Tode",
+          "character": "Stenographer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m6X879qQIf3ivm296Wiy9ps33Gq.jpg"
+        },
+        {
+          "name": "Aimee McGuire",
+          "character": "Assistant #1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sIREb6I8KPpppIjmgqGFTwGihzh.jpg"
+        },
+        {
+          "name": "Doug Montoya",
+          "character": "Assistant #2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8p0URm9b9wTGfKb2wVwY9RKYKz7.jpg"
+        },
+        {
+          "name": "Bennie Taylor",
+          "character": "Piano & Boulder Mover",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dFGThwEI8aGjqMSLHZQJ80sjmrm.jpg"
+        },
+        {
+          "name": "Crista Benavidez",
+          "character": "Congresswoman Hokum"
+        },
+        {
+          "name": "Carl Savering",
+          "character": "Congressman Bluffer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/r1MMdtH3zPf7fnCNceDWRYIvCtH.jpg"
+        },
+        {
+          "name": "Rachel Hroncich",
+          "character": "Forensics Expert"
+        },
+        {
+          "name": "Ryan Begay",
+          "character": "Metal Detector Security Guard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oIzcJxPs0gcW5Ne6beuwaXKTZrJ.jpg"
+        },
+        {
+          "name": "Kelsey Leos Montoya",
+          "character": "Screaming ACME Employee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oPafmakrQzxesLSdnSeLf5SJHov.jpg"
+        },
+        {
+          "name": "Kristin K. Berg",
+          "character": "Courtroom Reporter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5gSBMH95JDLFRqNs7JOF67SKQxY.jpg"
+        },
+        {
+          "name": "Paul Julian",
+          "character": "Road Runner (voice) (archive sound) (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/twa68PDAF7DcBYM8Vo6QRzC4Cg8.jpg"
+        }
+      ]
+    }
   }
 }

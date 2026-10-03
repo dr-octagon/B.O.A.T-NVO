@@ -69,6 +69,26 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/42HDkLq91Mvm87dL67q6WG4WZZu.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "門脇舞以",
+          "character": "Kotone Shirakawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jb3fSusebJ0yDTZ6bB9ckL3mAvu.jpg"
+        },
+        {
+          "name": "民安ともえ",
+          "character": "Ayane Shirakawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3uFDYmj2TM2F59DQTku5RQ5XRLw.jpg"
+        },
+        {
+          "name": "佐田直啓",
+          "character": "Kazushi Sudou (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hWGD8d1llQFJbjyWOVL44FNyliy.jpg"
+        }
+      ]
+    }
   }
 }

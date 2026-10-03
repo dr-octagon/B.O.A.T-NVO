@@ -1236,6 +1236,79 @@
         "season": 8,
         "episode": 14
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/64fDf1oGCIHYyqE9oMvUHokBrTv.png",
+    "cast": [
+      "國分優香里",
+      "ニーコ",
+      "Takaşi Kondo",
+      "Toshinobu Iida",
+      "Kenjiro Tsuda",
+      "寺崎裕香",
+      "Junko Takeuçi",
+      "明坂聡美",
+      "井上優",
+      "木内秀信",
+      "Daisuke Namikava"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "國分優香里",
+          "character": "Tsunayoshi Sawada (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/62oCBhq366fTpsOojdOW01QGs75.jpg"
+        },
+        {
+          "name": "ニーコ",
+          "character": "Reborn (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pSZhnghRr7k8WOiOUaCCGyorzWg.jpg"
+        },
+        {
+          "name": "Takaşi Kondo",
+          "character": "Kyoya Hibari (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9KRXSp1m4fofxJKtoEzsYFnai46.jpg"
+        },
+        {
+          "name": "Toshinobu Iida",
+          "character": "Mukuro Rokudo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ycMjrKbKrP7FDlvI0GBpcZ8iOq7.jpg"
+        },
+        {
+          "name": "Kenjiro Tsuda",
+          "character": "Adult Lambo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oR8djetguDl0xVWXH2LGwDYFTg6.jpg"
+        },
+        {
+          "name": "寺崎裕香",
+          "character": "Basil (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hMorHtbCmbDkznBr6P71qHk2rSL.jpg"
+        },
+        {
+          "name": "Junko Takeuçi",
+          "character": "Lambo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zNjrblq3xS1idpCsmSl5P5eTon7.jpg"
+        },
+        {
+          "name": "明坂聡美",
+          "character": "Chrome Dokuro (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lzNjOMm9jomHb7XlVsjJy53a4CC.jpg"
+        },
+        {
+          "name": "井上優",
+          "character": "Takeshi Yamamoto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6u9GYi4Sje17oRKRCqMh9UcbAtq.jpg"
+        },
+        {
+          "name": "木内秀信",
+          "character": "Ryohei Sasagawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d7MW4HQjMsZnX3cy2dF8QJETCbf.jpg"
+        },
+        {
+          "name": "Daisuke Namikava",
+          "character": "Giotto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg"
+        }
+      ]
+    }
   }
 }

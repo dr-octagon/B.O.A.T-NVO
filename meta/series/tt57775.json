@@ -10163,6 +10163,103 @@
         "season": 2,
         "episode": 1549
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/mpnTd6A6UxhohCgLteU1EAHEfUN.png",
+    "cast": [
+      "TARAKO",
+      "水谷優子",
+      "屋良有作",
+      "一龍斎貞友",
+      "青野武",
+      "佐々木優子",
+      "渡辺菜生子",
+      "Masami Kikuchi",
+      "Nobuo Tobita",
+      "山本圭子",
+      "浦和めぐみ",
+      "折笠愛",
+      "Miki Narahashi",
+      "Çafurin",
+      "キートン山田"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "TARAKO",
+          "character": "Momoko 'Maruko' Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dIju4JSkZem6Yaep5RYLWfTmp1P.jpg"
+        },
+        {
+          "name": "水谷優子",
+          "character": "Sakiko Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wjuj1u5aqjHEGqDo6FMScwWFKqP.jpg"
+        },
+        {
+          "name": "屋良有作",
+          "character": "Hiroshi Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/73cpMM1uWJiiZ1u4BymUQmTb22j.jpg"
+        },
+        {
+          "name": "一龍斎貞友",
+          "character": "Sumire Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/23NrErvp0tFXWJxKMumfDKhR0Ms.jpg"
+        },
+        {
+          "name": "青野武",
+          "character": "Tomozo Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e3IaulH39g31sTIZuiUsXXc5iZj.jpg"
+        },
+        {
+          "name": "佐々木優子",
+          "character": "Kotake Sakura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/acaWGcmtdPC1Q0NmHcy7fvdjmUO.jpg"
+        },
+        {
+          "name": "渡辺菜生子",
+          "character": "Tamae Honami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wgX2xT2y21Tv0eKIMSyMXf6CC0U.jpg"
+        },
+        {
+          "name": "Masami Kikuchi",
+          "character": "Kazuhiko Hanawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/K04o1MqKbw5Vxjwe2WoKKCsrcV.jpg"
+        },
+        {
+          "name": "Nobuo Tobita",
+          "character": "Sueo Maruo / Ichiro (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8p47dHvcEvr7CPYIHpxlQcpZmtm.jpg"
+        },
+        {
+          "name": "山本圭子",
+          "character": "Shota Yamada (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4w3OVUdjzN0EpIij0gDYvnbOXx.jpg"
+        },
+        {
+          "name": "浦和めぐみ",
+          "character": "Hiromi Maeda (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d02D5dxz8bmAuIkG8GrUabKvBW7.jpg"
+        },
+        {
+          "name": "折笠愛",
+          "character": "Maruo's Mother (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6ztt20jMc4oprKbixp2sNrR2ykK.jpg"
+        },
+        {
+          "name": "Miki Narahashi",
+          "character": "Hanako Migiwa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wxiSwjEDMjgRH41PUiGzLplTBqA.jpg"
+        },
+        {
+          "name": "Çafurin",
+          "character": "Kimio Nagasawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kiPG7EtYWxkj78US35gnTIMq5Dn.jpg"
+        },
+        {
+          "name": "キートン山田",
+          "character": "Narration (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ixosd9g54Bn7hMQhcpbrrqUGICN.jpg"
+        }
+      ]
+    }
   }
 }

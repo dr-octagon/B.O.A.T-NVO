@@ -41,6 +41,91 @@
         "season": 1,
         "episode": 4
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/d8tzaz0NntdGIErI687FEv8Nwe8.png",
+    "cast": [
+      "Jose Coronado",
+      "María Valverde",
+      "Martiño Rivas",
+      "Maribel Verdú",
+      "Gonzalo de Castro",
+      "Cristina Kovani",
+      "José Condessa",
+      "Pepón Nieto",
+      "Daniel Holguín",
+      "Michael Stobbe",
+      "Yaiza Guimaré",
+      "Almudena Salort",
+      "Paloma Bloyd"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jose Coronado",
+          "character": "Basil",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9xo68HzH8n78Xv6gMzKK7XnjtHd.jpg"
+        },
+        {
+          "name": "María Valverde",
+          "character": "Adela Figueora",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8taDDUCiyggIWhq8wGy2v0b9Nt8.jpg"
+        },
+        {
+          "name": "Martiño Rivas",
+          "character": "Foxá",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4qc8bF4OPmoJI8BcAz6HOdI3Xf1.jpg"
+        },
+        {
+          "name": "Maribel Verdú",
+          "character": "Raquel Auslander",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7hxTsW5CKi2lkz5yGMWShki7DOo.jpg"
+        },
+        {
+          "name": "Gonzalo de Castro",
+          "character": "Fonseca",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/24FPQXdyBtOPbSQRTkE8fXEef4I.jpg"
+        },
+        {
+          "name": "Cristina Kovani",
+          "character": "Vicky",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q4QqK8lmLllrLAjzekYsbuq97k5.jpg"
+        },
+        {
+          "name": "José Condessa",
+          "character": "Toni",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lgk2AcJPb9Jy2sCXauguX8EqxPf.jpg"
+        },
+        {
+          "name": "Pepón Nieto",
+          "character": "Seruya",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9UZ9SJ0e1M6vlzkCBFJAe32XakS.jpg"
+        },
+        {
+          "name": "Daniel Holguín",
+          "character": "Gerard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lIAcqBdXAu8UoZ6CUz9tVMGYbBR.jpg"
+        },
+        {
+          "name": "Michael Stobbe",
+          "character": "Señor Klemmer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wGrA8GMbaA7KQIOqjWl1fZ4bBS.jpg"
+        },
+        {
+          "name": "Yaiza Guimaré",
+          "character": "Señora Klemmer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xzBntzY40BW0f2kSb3QGzdq1e35.jpg"
+        },
+        {
+          "name": "Almudena Salort",
+          "character": "Catalina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uOzklEnqc9mSVhYNybKQ5TzBmYb.jpg"
+        },
+        {
+          "name": "Paloma Bloyd",
+          "character": "Elisa",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1MBEPN0Y4YvIJAw3WOqBOeALDFT.jpg"
+        }
+      ]
+    }
   }
 }

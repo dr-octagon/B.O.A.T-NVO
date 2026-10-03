@@ -24,7 +24,27 @@
       "Milana Vayntrub",
       "Ken Leung",
       "Priya Kansara",
-      "Mia Soteriou"
+      "Mia Soteriou",
+      "Annelle Olaleye",
+      "Maya Eva Hosein",
+      "Bastian Antonio Fuentes",
+      "Alice Brittain",
+      "Michael Akinsulire",
+      "Travis Jay",
+      "Geoffrey Lumb",
+      "Paul Lambert",
+      "Orion Lee",
+      "Aaron Neil",
+      "Michelle Greenidge",
+      "Bernhard Schütz",
+      "Amira Ghazalla",
+      "Malachi Kirby",
+      "Liz Kingsman",
+      "Piotr Baumann",
+      "Eunice Huthart",
+      "Damien de Froberville",
+      "Ray Porter",
+      "Meryl Streep"
     ],
     "director": [
       "Phil Lord",
@@ -33,6 +53,151 @@
     "writer": [
       "Drew Goddard"
     ],
-    "runtime": "157 dk"
+    "runtime": "157 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/lixvawzAl8DSQvFFxPUxaUItcNq.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Ryan Gosling",
+          "character": "Ryland Grace",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+        },
+        {
+          "name": "Sandra Hüller",
+          "character": "Eva Stratt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jQfKXVCPTH9KEnzHHU4QemCnlMe.jpg"
+        },
+        {
+          "name": "James Ortiz",
+          "character": "Rocky (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/unzBwVsoq8rAH8BAYlPR1zsWQ4E.jpg"
+        },
+        {
+          "name": "Lionel Boyce",
+          "character": "Carl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hpIxX5nkfA3pWCW8rYkEUCSBVyS.jpg"
+        },
+        {
+          "name": "Milana Vayntrub",
+          "character": "Olesya Ilyukhina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/i5Cou9ExwTZvRRtl79V75CsI7oC.jpg"
+        },
+        {
+          "name": "Ken Leung",
+          "character": "Yao",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+        },
+        {
+          "name": "Priya Kansara",
+          "character": "Mary (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zv9kpaQ8AVBfjI2LAAZV58NeVQg.jpg"
+        },
+        {
+          "name": "Mia Soteriou",
+          "character": "Dr. Browne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bU4Twfk4as290gPFouByj7Wjd2.jpg"
+        },
+        {
+          "name": "Annelle Olaleye",
+          "character": "Olivia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/V0UqW30EQaHjGhwDnb6dT0AWmz.jpg"
+        },
+        {
+          "name": "Maya Eva Hosein",
+          "character": "Rekha",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lDHbsnyUoBzmtbMevNl4F2n8B8B.jpg"
+        },
+        {
+          "name": "Bastian Antonio Fuentes",
+          "character": "Parker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u7SDAocZ7ZCMOCejLRZtZFdb2Bl.jpg"
+        },
+        {
+          "name": "Alice Brittain",
+          "character": "Hardware Store Cashier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qOlSX2GtTU1Rhn5iYf4K0bqQJgu.jpg"
+        },
+        {
+          "name": "Michael Akinsulire",
+          "character": "Air Force Officer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9bW2Cd86NjKX5qxkRzYOQbY0gNy.jpg"
+        },
+        {
+          "name": "Travis Jay",
+          "character": "Tilt-A-Whirl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uVSPp04qhtO01b3qYMJTXlRKJ8i.jpg"
+        },
+        {
+          "name": "Geoffrey Lumb",
+          "character": "Aircraft Carrier Officer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c2xgAokzGEVtDMzSy9Y4eusw2x0.jpg"
+        },
+        {
+          "name": "Paul Lambert",
+          "character": "Dr. Scyther",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6hynQERnQfZOeTOmnopEGonhFR5.jpg"
+        },
+        {
+          "name": "Orion Lee",
+          "character": "Dr. Li",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jHz7papyoOAFvMql64cXQVQqKYu.jpg"
+        },
+        {
+          "name": "Aaron Neil",
+          "character": "Narender",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k1fgcLv6ZPvAGWcxZgEQY5GTnFq.jpg"
+        },
+        {
+          "name": "Michelle Greenidge",
+          "character": "Chimamanda",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/to5tGfkCVdVnl49vZXOUhbJkAxV.jpg"
+        },
+        {
+          "name": "Bernhard Schütz",
+          "character": "Voigt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h3sRpqPmAHkcG5ifYfiRvArEV46.jpg"
+        },
+        {
+          "name": "Amira Ghazalla",
+          "character": "Dr. Lokken",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pYOVA7yWtosslFgNh8lVivaNdT7.jpg"
+        },
+        {
+          "name": "Malachi Kirby",
+          "character": "DuBois",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8v1anxRcmDRDaVS7Cpk4KCoGPK4.jpg"
+        },
+        {
+          "name": "Liz Kingsman",
+          "character": "Shapiro",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sNCFfAVWGe4d4SLlUiNWvLk1Vwe.jpg"
+        },
+        {
+          "name": "Piotr Baumann",
+          "character": "Piotr",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2oRCCXy5gcNK7yuWfe2ghYACa7b.jpg"
+        },
+        {
+          "name": "Eunice Huthart",
+          "character": "Rejected Rocky Voice (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8OowlelunJvuiEebU7olJuv6PCQ.jpg"
+        },
+        {
+          "name": "Damien de Froberville",
+          "character": "Rejected Rocky Voice (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vwlptE197B8BI8jKXc2Y9lQB4lQ.jpg"
+        },
+        {
+          "name": "Ray Porter",
+          "character": "Rejected Rocky Voice (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AsTrRNAZzYYF0nYkZzGiO0kAGbr.jpg"
+        },
+        {
+          "name": "Meryl Streep",
+          "character": "Rejected Rocky Voice (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pSyM9cteYYWUBDalJzMPLH0SLgB.jpg"
+        }
+      ]
+    }
   }
 }

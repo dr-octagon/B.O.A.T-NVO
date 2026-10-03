@@ -25,7 +25,29 @@
       "Scarlett Johansson",
       "Jeremy Renner",
       "Josh Brolin",
-      "Don Cheadle"
+      "Don Cheadle",
+      "Paul Rudd",
+      "Benedict Cumberbatch",
+      "Chadwick Boseman",
+      "Brie Larson",
+      "Tom Holland",
+      "Karen Gillan",
+      "Zoe Saldaña",
+      "Evangeline Lilly",
+      "Tessa Thompson",
+      "Rene Russo",
+      "Elizabeth Olsen",
+      "Anthony Mackie",
+      "Sebastian Stan",
+      "Tom Hiddleston",
+      "Danai Gurira",
+      "Benedict Wong",
+      "Pom Klementieff",
+      "Dave Bautista",
+      "Letitia Wright",
+      "John Slattery",
+      "Tilda Swinton",
+      "Jon Favreau"
     ],
     "director": [
       "Anthony Russo",
@@ -35,6 +57,161 @@
       "Christopher Markus",
       "Stephen McFeely"
     ],
-    "runtime": "182 dk"
+    "runtime": "182 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4pJWlICBeiHsou1BjYx48aAQqEG.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Robert Downey Jr.",
+          "character": "Tony Stark / Iron Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+          "name": "Chris Evans",
+          "character": "Steve Rogers / Captain America",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+        },
+        {
+          "name": "Mark Ruffalo",
+          "character": "Bruce Banner / Hulk",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+        },
+        {
+          "name": "Chris Hemsworth",
+          "character": "Thor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+        },
+        {
+          "name": "Scarlett Johansson",
+          "character": "Natasha Romanoff / Black Widow",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tgxYh3jMs5bY2Ub4d2dcp9iaz1R.jpg"
+        },
+        {
+          "name": "Jeremy Renner",
+          "character": "Clint Barton / Hawkeye",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yB84D1neTYXfWBaV0QOE9RF2VCu.jpg"
+        },
+        {
+          "name": "Josh Brolin",
+          "character": "Thanos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+        },
+        {
+          "name": "Don Cheadle",
+          "character": "James Rhodes / War Machine",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/umhTmcVF26qZKEpSfG1ZNpcbs9D.jpg"
+        },
+        {
+          "name": "Paul Rudd",
+          "character": "Scott Lang / Ant-Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg"
+        },
+        {
+          "name": "Benedict Cumberbatch",
+          "character": "Doctor Strange",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+        },
+        {
+          "name": "Chadwick Boseman",
+          "character": "T'Challa / Black Panther",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nL16SKfyP1b7Hk6LsuWiqMfbdb8.jpg"
+        },
+        {
+          "name": "Brie Larson",
+          "character": "Carol Danvers / Captain Marvel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iqZ5uKJWbwSITCK4CqdlUHZTnXD.jpg"
+        },
+        {
+          "name": "Tom Holland",
+          "character": "Peter Parker / Spider-Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+        },
+        {
+          "name": "Karen Gillan",
+          "character": "Nebula",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qYx8CflXVq48nGKX1IJsDrAj0sT.jpg"
+        },
+        {
+          "name": "Zoe Saldaña",
+          "character": "Gamora",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg"
+        },
+        {
+          "name": "Evangeline Lilly",
+          "character": "Hope Van Dyne / Wasp",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pJHX2jd7ytre3NQbF9nlyWUqxH3.jpg"
+        },
+        {
+          "name": "Tessa Thompson",
+          "character": "Valkyrie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/19ze60jXlb2j7dXc2UpA3MujXA8.jpg"
+        },
+        {
+          "name": "Rene Russo",
+          "character": "Frigga",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yWPSqrv3nfPPKC6I2S0sRTWZ5Yi.jpg"
+        },
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / Scarlet Witch",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wIU675y4dofIDVuhaNWPizJNtep.jpg"
+        },
+        {
+          "name": "Anthony Mackie",
+          "character": "Sam Wilson / Falcon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vecvTm7SimizluJkyIwBxeLbvRm.jpg"
+        },
+        {
+          "name": "Sebastian Stan",
+          "character": "Bucky Barnes / Winter Soldier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v20RLWst39klatsqUgSrwHxhwee.jpg"
+        },
+        {
+          "name": "Tom Hiddleston",
+          "character": "Loki",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+        },
+        {
+          "name": "Danai Gurira",
+          "character": "Okoye",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z7H7QeQvr24vskGlANQhG43vozQ.jpg"
+        },
+        {
+          "name": "Benedict Wong",
+          "character": "Wong",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg"
+        },
+        {
+          "name": "Pom Klementieff",
+          "character": "Mantis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hfUKAI2kXTMMWjno0i4sLPJud5N.jpg"
+        },
+        {
+          "name": "Dave Bautista",
+          "character": "Drax",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/snk6JiXOOoRjPtHU5VMoy6qbd32.jpg"
+        },
+        {
+          "name": "Letitia Wright",
+          "character": "Shuri",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f7PevpEeBqwzACPhoZ8K3ktrKvE.jpg"
+        },
+        {
+          "name": "John Slattery",
+          "character": "Howard Stark",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tm7g84OWD5gQRoyfG4hduBphP1j.jpg"
+        },
+        {
+          "name": "Tilda Swinton",
+          "character": "The Ancient One",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dzjT4LKgs7eOma84GsPy78DsGNH.jpg"
+        },
+        {
+          "name": "Jon Favreau",
+          "character": "Happy Hogan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tnx7iMVydPQXGOoLsxXl84PXtbA.jpg"
+        }
+      ]
+    }
   }
 }

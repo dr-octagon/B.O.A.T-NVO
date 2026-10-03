@@ -25,7 +25,20 @@
       "Johnno Wilson",
       "Shaun W. Loeser",
       "Zach Cregger",
-      "Emily Piggford"
+      "Emily Piggford",
+      "Will Merrick",
+      "Zoé Bellas",
+      "Chris Lew Kum Hoi",
+      "Griffin Newman",
+      "Magdalena Šittová",
+      "Andrea Miltner",
+      "Sara Paxton",
+      "Karel Dobrý",
+      "Devon Deshaun Stewart",
+      "Kellen Goff",
+      "Isla McRae",
+      "James Beaumont",
+      "Jo Martin"
     ],
     "director": [
       "Zach Cregger"
@@ -34,6 +47,116 @@
       "Shay Hatten",
       "Zach Cregger"
     ],
-    "runtime": "95 dk"
+    "runtime": "95 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/gUcYDYaMhNppEhu3v2wnb8R23HW.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Austin Abrams",
+          "character": "Bryan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+        },
+        {
+          "name": "Paul Walter Hauser",
+          "character": "Paul",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hXjjbYg1Ah8mFf5ZcaakyXzDKMx.jpg"
+        },
+        {
+          "name": "Kali Reis",
+          "character": "Maxine",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ruLDXHnKA4aHEQCcFGDAJ7bLTdt.jpg"
+        },
+        {
+          "name": "Zach Cherry",
+          "character": "Carl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg"
+        },
+        {
+          "name": "Johnno Wilson",
+          "character": "Officer Wilson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eZtBoBE0F7Qb9ZyNpacMOQtmWnM.jpg"
+        },
+        {
+          "name": "Shaun W. Loeser",
+          "character": "Puker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pMV7kzy7OHk4X93uRGbrdvuFgQB.jpg"
+        },
+        {
+          "name": "Zach Cregger",
+          "character": "Intercom (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bpFGFfWYIrZVK7WjwkVLwIoMKEb.jpg"
+        },
+        {
+          "name": "Emily Piggford",
+          "character": "Dr. Maria Stokes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ruijvaNNXzGXqGphQXsoHts1Ovc.jpg"
+        },
+        {
+          "name": "Will Merrick",
+          "character": "Dave",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zqyH01TJ9WW6TaAULCG2ChSbNwI.jpg"
+        },
+        {
+          "name": "Zoé Bellas",
+          "character": "Birdie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3nw4EhStA4IcJQxz4Yevm25u5ov.jpg"
+        },
+        {
+          "name": "Chris Lew Kum Hoi",
+          "character": "Stanley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7kHYxjhnRErXDRNYaSRemLCx9J7.jpg"
+        },
+        {
+          "name": "Griffin Newman",
+          "character": "Wade",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vRnjx2UGdMhvFn5coYZJLKHVWbq.jpg"
+        },
+        {
+          "name": "Magdalena Šittová",
+          "character": "Agatha",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6QDtKNoL6DXwJHpzDrvWG3rKSwa.jpg"
+        },
+        {
+          "name": "Andrea Miltner",
+          "character": "Pedestrian",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oBdyio9RROvtUgauXJH6kE2dWEY.jpg"
+        },
+        {
+          "name": "Sara Paxton",
+          "character": "Michelle (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/DWrjFhjSLY4EFanCMKNPrUmP2p.jpg"
+        },
+        {
+          "name": "Karel Dobrý",
+          "character": "Farmer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mcvTqsqIPTVZiT4saALPljNUQ5B.jpg"
+        },
+        {
+          "name": "Devon Deshaun Stewart",
+          "character": "Additional Voices (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qZ5BMtEva7XEEdO3BpB9pCPzqMx.jpg"
+        },
+        {
+          "name": "Kellen Goff",
+          "character": "Additional Voices (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3HWEo27RznochUzqPYsffYPzC8A.jpg"
+        },
+        {
+          "name": "Isla McRae",
+          "character": "RV Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t39ROabYVn1fmcA8TUWWyfDy6xN.jpg"
+        },
+        {
+          "name": "James Beaumont",
+          "character": "Surgeon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8r0hnzq1U6YJizyM1qEAxB2Oqx7.jpg"
+        },
+        {
+          "name": "Jo Martin",
+          "character": "Andrea Vasquez",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/laBhqkm8ME6dE0BHgla42m9DyQT.jpg"
+        }
+      ]
+    }
   }
 }

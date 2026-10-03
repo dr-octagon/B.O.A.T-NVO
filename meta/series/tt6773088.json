@@ -64,6 +64,72 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/o3ajqMXZpDydLwvpZ9sdtMq9UEX.png",
+    "cast": [
+      "Matthew McConaughey",
+      "Woody Harrelson",
+      "Natalie Martinez",
+      "Brittany Ishibashi",
+      "Nolan Almeida",
+      "Ella Grace Helton",
+      "Noah Carganilla",
+      "Highdee Kuan",
+      "Oona Yaffe",
+      "Holland Taylor"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "character": "Matthew McConaughey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lCySuYjhXix3FzQdS4oceDDrXKI.jpg"
+        },
+        {
+          "name": "Woody Harrelson",
+          "character": "Woody Harrelson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+        },
+        {
+          "name": "Natalie Martinez",
+          "character": "Valentina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cFn0OI9c8aypx20hm3XpTqkrMEx.jpg"
+        },
+        {
+          "name": "Brittany Ishibashi",
+          "character": "Joy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qIBMA7pQi4wnukwbTIn0YgzVMPn.jpg"
+        },
+        {
+          "name": "Nolan Almeida",
+          "character": "Wyatt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iOZRVnGed3F3jOHmCsHJGosli1z.jpg"
+        },
+        {
+          "name": "Ella Grace Helton",
+          "character": "Clara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/px2Ixt87atJ82O62XykyV4ZyobE.jpg"
+        },
+        {
+          "name": "Noah Carganilla",
+          "character": "River"
+        },
+        {
+          "name": "Highdee Kuan",
+          "character": "Olive",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6g9a5LEdPp8ju4qRMIJbRIjjOqS.jpg"
+        },
+        {
+          "name": "Oona Yaffe",
+          "character": "Kai",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xZBwtJ2fR01TWRHUR5aBiQizZYW.jpg"
+        },
+        {
+          "name": "Holland Taylor",
+          "character": "Ma Mac",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jt9yFB3nLfZQ0c1DcnvvcfA11gB.jpg"
+        }
+      ]
+    }
   }
 }

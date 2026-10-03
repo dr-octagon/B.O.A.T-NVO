@@ -5701,6 +5701,16 @@
         "season": 7,
         "episode": 112
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/zrN1VVNCH27vFdYVvqwqxGDnS0p.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Kelly Clarkson",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mfqjGz99cMbZLLg1eHwU2OUsOjK.jpg"
+        }
+      ]
+    }
   }
 }

@@ -220,6 +220,41 @@
         "season": 4,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/2YkCVT6opPxKh2ogEqxVrCiFgsr.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Alan Ritchson",
+          "character": "Jack Reacher",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/92YNEEpCyugkTzPprJwZpvVtvuK.jpg"
+        },
+        {
+          "name": "Agnez Mo",
+          "character": "Lila Hoth",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7GuBJxf5szQRCKLk3iG2ztfCo39.jpg"
+        },
+        {
+          "name": "Sydelle Noel",
+          "character": "Tamara Green",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fCOlRtkZVMOMDRPYhdRLeKqymVa.jpg"
+        },
+        {
+          "name": "Anggun",
+          "character": "Amisha Hoth",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4WxHGTehDvZudrunxTZmnR66CBi.jpg"
+        },
+        {
+          "name": "Christopher Rodriguez Marquette",
+          "character": "Jacob Merrick",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8AL7UPXM4sVkOMgTHIxNdRi2SXP.jpg"
+        },
+        {
+          "name": "Kevin Corrigan",
+          "character": "Shaun Docherty",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/obSUGc68mQDvFONalMg25Xw5GZM.jpg"
+        }
+      ]
+    }
   }
 }

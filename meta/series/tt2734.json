@@ -3618,6 +3618,46 @@
         "season": 28,
         "episode": 4
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/szjLl0J8n1ZWZC6UVJ4M20QPsgo.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Mariska Hargitay",
+          "character": "Olivia Benson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mF5BMaACeb1rlqp9Fz0f5z7N69H.jpg"
+        },
+        {
+          "name": "Ice-T",
+          "character": "Odafin 'Fin' Tutuola",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/96TdPckI16ggfHcPrSFf6bHYLLe.jpg"
+        },
+        {
+          "name": "Kelli Giddish",
+          "character": "Amanda Rollins",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3zcqEyAguRhYofePyJehWm19uUX.jpg"
+        },
+        {
+          "name": "Peter Scanavino",
+          "character": "Dominick 'Sonny' Carisi Jr.",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kQzX89Ar4rEC1wwHcuDMr0YxUve.jpg"
+        },
+        {
+          "name": "Aimé Donna Kelly",
+          "character": "Renee Curry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jVf2XzJeFbzEopz5LGS3yIRPUoP.jpg"
+        },
+        {
+          "name": "Kevin Kane",
+          "character": "Terry Bruno",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e0yDVCropmYrjJxHaVX0gxCiYiL.jpg"
+        },
+        {
+          "name": "Corey Cott",
+          "character": "Jake Griffin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/308ot27uQ7tSCJCPYgZR0L5XApe.jpg"
+        }
+      ]
+    }
   }
 }

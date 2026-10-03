@@ -11024,6 +11024,16 @@
         "season": 14,
         "episode": 7
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/meaUZYwTQpDpre8tbI8bXme9niX.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Seth Meyers",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nCcvpJFHWYHfu5oPxTOyA1uSdqA.jpg"
+        }
+      ]
+    }
   }
 }

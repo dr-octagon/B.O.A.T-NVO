@@ -25,7 +25,23 @@
       "Jordan Alexa Davis",
       "P.J. Byrne",
       "Hudson Meek",
-      "Anne Gee Byrd"
+      "Anne Gee Byrd",
+      "Emily Kuroda",
+      "Simms May",
+      "Grayson Thorne Kilpatrick",
+      "Pilot Bunch",
+      "Walker Russell",
+      "Hugo Silver",
+      "Michael-Christian Moore",
+      "David Alexander Kaplan",
+      "Christopher A. Martin",
+      "Denitra Isler",
+      "Isabella Aparicio",
+      "Marian Green",
+      "Scott Deal",
+      "Callie McClincy",
+      "Andrea Frankle",
+      "Bethany Anne Lind"
     ],
     "director": [
       "David Robert Mitchell"
@@ -33,6 +49,127 @@
     "writer": [
       "David Robert Mitchell"
     ],
-    "runtime": "100 dk"
+    "runtime": "100 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7mzbOliQLRVMwy3V7KS4JjWYO0k.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Anne Hathaway",
+          "character": "Denise Platt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+        },
+        {
+          "name": "Ewan McGregor",
+          "character": "Greg Platt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q2UDxfwWnmXTB7khOUF3J9puBVP.jpg"
+        },
+        {
+          "name": "Maisy Stella",
+          "character": "Audrey Platt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dlnP0Yzbr9EEbVg6M0PQVQ7pwUF.jpg"
+        },
+        {
+          "name": "Christian Convery",
+          "character": "Brian Platt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tOR2tSrvHPVDltE4jBDEva3GNqY.jpg"
+        },
+        {
+          "name": "Jordan Alexa Davis",
+          "character": "Jeannette Christiansen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/itz31u3sG9hAlwuFZ6FWz1KhY1R.jpg"
+        },
+        {
+          "name": "P.J. Byrne",
+          "character": "Mel Jacobs",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1JVBaxRy3OxkHymD3nwBd5kVWWL.jpg"
+        },
+        {
+          "name": "Hudson Meek",
+          "character": "Kaden Tucker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/29S5mIoO18vNbOs0qrLC2XRVNlV.jpg"
+        },
+        {
+          "name": "Anne Gee Byrd",
+          "character": "Mrs. Huddleston",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yNqUNepmVQ462yoTnZOWVbudKeG.jpg"
+        },
+        {
+          "name": "Emily Kuroda",
+          "character": "Mrs. Valcourt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yaZhAxSsElEaX0az2U6FUBN38ET.jpg"
+        },
+        {
+          "name": "Simms May",
+          "character": "Zachary",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jfOkBcfi07i4xl9ayjwcOZgerhe.jpg"
+        },
+        {
+          "name": "Grayson Thorne Kilpatrick",
+          "character": "Buddy #1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/17xq5SJh6GTr9a2nRmDhxH3TUZ7.jpg"
+        },
+        {
+          "name": "Pilot Bunch",
+          "character": "Buddy #2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uSoUAVnJtIv214gWJ0FRHySPwKp.jpg"
+        },
+        {
+          "name": "Walker Russell",
+          "character": "Mason"
+        },
+        {
+          "name": "Hugo Silver",
+          "character": "Fergus"
+        },
+        {
+          "name": "Michael-Christian Moore",
+          "character": "Ashon"
+        },
+        {
+          "name": "David Alexander Kaplan",
+          "character": "Charles Tucker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9TcsDzwifQ1yZ2AAghv32z4lgLp.jpg"
+        },
+        {
+          "name": "Christopher A. Martin",
+          "character": "Leon"
+        },
+        {
+          "name": "Denitra Isler",
+          "character": "Mrs. Rey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gIIubxZEMjZiz9mTtfAlpQETjaw.jpg"
+        },
+        {
+          "name": "Isabella Aparicio",
+          "character": "Young Family Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ri3lMvtxsRNYOwx2SxWGCNgul0N.jpg"
+        },
+        {
+          "name": "Marian Green",
+          "character": "Neighbor Woman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zQmlJ1hMRMLjzK78vAjEbxDYuM2.jpg"
+        },
+        {
+          "name": "Scott Deal",
+          "character": "Older Neighbor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vHoPRy7kbMbryI4JcnQ7cgZYIxz.jpg"
+        },
+        {
+          "name": "Callie McClincy",
+          "character": "Katie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pWSm8nHypY1s0JTnkHOYWIRJenf.jpg"
+        },
+        {
+          "name": "Andrea Frankle",
+          "character": "Female Neighbor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k1xBQPnsPZNe6lX4Y8lZOVZGJZ8.jpg"
+        },
+        {
+          "name": "Bethany Anne Lind",
+          "character": "Mary Bagrowski (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d0FjeKbWYhbTzFSimCnC9K1Maza.jpg"
+        }
+      ]
+    }
   }
 }

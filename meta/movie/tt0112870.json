@@ -22,10 +22,28 @@
       "Şah Ruh Han",
       "Amrish Puri",
       "Feride Celal",
-      "Anupam Kher",
+      "अनुपम खेर",
       "Pooja Ruparel",
       "Parmeet Sethi",
-      "Satish Shah"
+      "Satish Shah",
+      "Mandira Bedi",
+      "Achala Sachdev",
+      "Himani Shivpuri",
+      "Karan Johar",
+      "Arjun Sablok",
+      "Anaita Shroff Adajania",
+      "Uday Chopra",
+      "Hemlata Deepak",
+      "Lalit Tiwari",
+      "Baby Raashi",
+      "Baby Nupur",
+      "Shanker Iyer",
+      "Rajesh Bhatija",
+      "Govind Khatri",
+      "Mansoor Merchant",
+      "Mohit Kumar",
+      "Damyanti Puri",
+      "Surendra Rahi"
     ],
     "director": [
       "Aditya Chopra"
@@ -33,6 +51,123 @@
     "writer": [
       "Aditya Chopra"
     ],
-    "runtime": "190 dk"
+    "runtime": "190 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uC8dvR3Cy1eJZ0Hfl6WWLGVw4Kp.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "काजोल",
+          "character": "Simran Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h4m0TkDuEMCUNaPrQxMRyFb2AQ7.jpg"
+        },
+        {
+          "name": "Şah Ruh Han",
+          "character": "Raj Malhotra",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gc3Ul6EtVYKgjBuYAaD8U2qIcSl.jpg"
+        },
+        {
+          "name": "Amrish Puri",
+          "character": "Chaudhry Baldev Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uhMGFS7tuG71LDv2wk9LfZZ4EG6.jpg"
+        },
+        {
+          "name": "Feride Celal",
+          "character": "Lajwanti 'Lajjo' Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tJdqL4BRSAWVFX1W6cmwxFs9IFh.jpg"
+        },
+        {
+          "name": "अनुपम खेर",
+          "character": "Dharamvir Malhotra",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kgU5Ap1Kf9RnicB5DMcXEZqed2f.jpg"
+        },
+        {
+          "name": "Pooja Ruparel",
+          "character": "Rajeshwari \"Chutki\" Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/evHnj6s0Z2sbV1Mq0dfXxQQU8Mf.jpg"
+        },
+        {
+          "name": "Parmeet Sethi",
+          "character": "Kuljeet Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/paTrHCbnwMxBZREfoGcfY5TlvyY.jpg"
+        },
+        {
+          "name": "Satish Shah",
+          "character": "Ajit Singh, Kuljeet's Father",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AaXbQI0fAoTW4Qjg4dAtC5xkK1G.jpg"
+        },
+        {
+          "name": "Mandira Bedi",
+          "character": "Preeti Singh, Kuljeet's Sister",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l50tq0OwzIxE4Z5JXDUSQvqCltN.jpg"
+        },
+        {
+          "name": "Achala Sachdev",
+          "character": "Simran's Grandmother",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6kgq6Mnmd01HZzvbsEDQAFBurog.jpg"
+        },
+        {
+          "name": "Himani Shivpuri",
+          "character": "Simran's Aunt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iEgl4ME7OfMJ8CVKxpeMiC4Wv5w.jpg"
+        },
+        {
+          "name": "Karan Johar",
+          "character": "Rocky, Raj's friend",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zip1x7OXOBxXxcdYvKOgw6MnAWm.jpg"
+        },
+        {
+          "name": "Arjun Sablok",
+          "character": "Roby, Raj's friend"
+        },
+        {
+          "name": "Anaita Shroff Adajania",
+          "character": "Sheena",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yLDxdFAcESXvsfgZKv8ob8TSWvw.jpg"
+        },
+        {
+          "name": "Uday Chopra",
+          "character": "Man on Bike (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bHmH00vJNavpf5BgSuBeUSPB9bj.jpg"
+        },
+        {
+          "name": "Hemlata Deepak",
+          "character": "Simran's Friend"
+        },
+        {
+          "name": "Lalit Tiwari",
+          "character": "Simran's Uncle",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1xYZleqJRLOVXlpryd65SEEJpeJ.jpg"
+        },
+        {
+          "name": "Baby Raashi"
+        },
+        {
+          "name": "Baby Nupur"
+        },
+        {
+          "name": "Shanker Iyer"
+        },
+        {
+          "name": "Rajesh Bhatija"
+        },
+        {
+          "name": "Govind Khatri",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gHU7PTDrcGzHhdKVPescqTdWDTs.jpg"
+        },
+        {
+          "name": "Mansoor Merchant"
+        },
+        {
+          "name": "Mohit Kumar"
+        },
+        {
+          "name": "Damyanti Puri"
+        },
+        {
+          "name": "Surendra Rahi",
+          "character": "Guest in the song Mehendi Laga Ke Rakhna (uncredited)"
+        }
+      ]
+    }
   }
 }

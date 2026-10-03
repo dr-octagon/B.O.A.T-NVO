@@ -25,7 +25,29 @@
       "Maggie Gyllenhaal",
       "Gary Oldman",
       "Morgan Freeman",
-      "Monique Gabriela Curnen"
+      "Monique Gabriela Curnen",
+      "Ron Dean",
+      "Cillian Murphy",
+      "Chin Han",
+      "Nestor Carbonell",
+      "Eric Roberts",
+      "Ritchie Coster",
+      "Anthony Michael Hall",
+      "Keith Szarabajka",
+      "Colin McFarlane",
+      "Joshua Harto",
+      "Melinda McGraw",
+      "Nathan Gamble",
+      "Michael Vieau",
+      "Michael Stoyanov",
+      "William Smillie",
+      "Danny Goldring",
+      "Michael Jai White",
+      "Matthew O'Neill",
+      "William Fichtner",
+      "Olumiji Olawumi",
+      "Greg Beam",
+      "Erik Hellman"
     ],
     "director": [
       "Christopher Nolan"
@@ -34,6 +56,156 @@
       "Christopher Nolan",
       "Jonathan Nolan"
     ],
-    "runtime": "152 dk"
+    "runtime": "152 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/nO5Uix3Qr4WjOyU1BMPv0okyNWm.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Christian Bale",
+          "character": "Bruce Wayne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7Pxez9J8fuPd2Mn9kex13YALrCQ.jpg"
+        },
+        {
+          "name": "Heath Ledger",
+          "character": "Joker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AdWKVqyWpkYSfKE5Gb2qn8JzHni.jpg"
+        },
+        {
+          "name": "Aaron Eckhart",
+          "character": "Harvey Dent",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u5JjnRMr9zKEVvOP7k3F6gdcwT6.jpg"
+        },
+        {
+          "name": "Michael Caine",
+          "character": "Alfred",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg"
+        },
+        {
+          "name": "Maggie Gyllenhaal",
+          "character": "Rachel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg"
+        },
+        {
+          "name": "Gary Oldman",
+          "character": "Gordon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yhaSM5habNNI1Tf4ALRwRk3VvSZ.jpg"
+        },
+        {
+          "name": "Morgan Freeman",
+          "character": "Lucius Fox",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+        },
+        {
+          "name": "Monique Gabriela Curnen",
+          "character": "Ramirez",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lJgLQs7cfM49m8VzVviwxIByz76.jpg"
+        },
+        {
+          "name": "Ron Dean",
+          "character": "Wuertz",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mgqdr4VFrTVZatkki2suNLYxeDG.jpg"
+        },
+        {
+          "name": "Cillian Murphy",
+          "character": "Scarecrow",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg"
+        },
+        {
+          "name": "Chin Han",
+          "character": "Lau",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3XJXmYm6r4Hvm3izOArU58fhQrT.jpg"
+        },
+        {
+          "name": "Nestor Carbonell",
+          "character": "Mayor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4Xn03t2qDEMR2ecM7BtLwpvs3J0.jpg"
+        },
+        {
+          "name": "Eric Roberts",
+          "character": "Maroni",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/NiWg1TaUcal7xn1ZQeyA2dLd5F.jpg"
+        },
+        {
+          "name": "Ritchie Coster",
+          "character": "Chechen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s0QLFPGEbZkyKBqpbM4upC2jMgk.jpg"
+        },
+        {
+          "name": "Anthony Michael Hall",
+          "character": "Engel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nLthzoCuNxxd3KteIrnnMg1066G.jpg"
+        },
+        {
+          "name": "Keith Szarabajka",
+          "character": "Stephens",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z45Goe7lfBvs3cBP5igsCE8ISWG.jpg"
+        },
+        {
+          "name": "Colin McFarlane",
+          "character": "Loeb",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tCLiWpKooSQJfyC260qNeNYTe9S.jpg"
+        },
+        {
+          "name": "Joshua Harto",
+          "character": "Reese",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4UHIM6hTWCC5uS1drjw4JbbHuNu.jpg"
+        },
+        {
+          "name": "Melinda McGraw",
+          "character": "Barbara Gordon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/negqs0C6FVhBTTjuZDteecw2WYg.jpg"
+        },
+        {
+          "name": "Nathan Gamble",
+          "character": "James Gordon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/99diPhRX8CH23Ja2rdrk0NNVcQX.jpg"
+        },
+        {
+          "name": "Michael Vieau",
+          "character": "Rossi"
+        },
+        {
+          "name": "Michael Stoyanov",
+          "character": "Dopey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n5JFaeyI6EYOnXFgzTjb7ObQlC.jpg"
+        },
+        {
+          "name": "William Smillie",
+          "character": "Happy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tDQ1cWAbzOUWcCb4EMoeadHed12.jpg"
+        },
+        {
+          "name": "Danny Goldring",
+          "character": "Grumpy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6XjNzhcuUPL6gdHpExl8WwcOhD.jpg"
+        },
+        {
+          "name": "Michael Jai White",
+          "character": "Gambol",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/YPoHYuzR37wFpPpwEXZYQlhLln.jpg"
+        },
+        {
+          "name": "Matthew O'Neill",
+          "character": "Chuckles"
+        },
+        {
+          "name": "William Fichtner",
+          "character": "Bank Manager",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg"
+        },
+        {
+          "name": "Olumiji Olawumi",
+          "character": "Drug Dealer"
+        },
+        {
+          "name": "Greg Beam",
+          "character": "Drug Buyer"
+        },
+        {
+          "name": "Erik Hellman",
+          "character": "Junkie"
+        }
+      ]
+    }
   }
 }

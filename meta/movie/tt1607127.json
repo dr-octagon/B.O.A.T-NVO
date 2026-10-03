@@ -24,7 +24,27 @@
       "Kane Kosugi",
       "Neil Linpow",
       "Ray Fearon",
-      "Tom Dunne"
+      "Tom Dunne",
+      "Michel Curiel",
+      "Tom Leigh",
+      "Jack Trueman",
+      "Sofian Francis",
+      "Stewart Alexander",
+      "Greg Austin",
+      "Jess Khan-Lee",
+      "Lois Baglin",
+      "Jill Winternitz",
+      "Rhys Hayhurst",
+      "Cassidy Little",
+      "Jim Meskimen",
+      "Gabriela Gibbs",
+      "Craig Russell",
+      "Olivia Bernstone",
+      "Isaac Beechey",
+      "Jamie B. Chambers",
+      "Lee Shone",
+      "Dan Styles",
+      "Marta Svetek"
     ],
     "director": [
       "James Nunn"
@@ -32,6 +52,146 @@
     "writer": [
       "Jamie Russell"
     ],
-    "runtime": "98 dk"
+    "runtime": "98 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/eUfI2sn6ZYlKfjFxNY7EKIGJIa9.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Scott Adkins",
+          "character": "Jake Harris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9NRr2a1riIn5CWn5McZLJlk4vxR.jpg"
+        },
+        {
+          "name": "Steven Cree",
+          "character": "Elliot Carter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oH9uSQMJPdFHeVggqvMwheW7nZl.jpg"
+        },
+        {
+          "name": "Hannah Ware",
+          "character": "Elena Torres",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vQqZkQsGZnikCk0QfJFW7OBuQ07.jpg"
+        },
+        {
+          "name": "Dolph Lundgren",
+          "character": "Admiral Mulholland",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fB1tOws6Gav0xE8LYlELEb82hJt.jpg"
+        },
+        {
+          "name": "Kane Kosugi",
+          "character": "Lee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wqMaPmNgrtqwZDktG0WFeKcqzJx.jpg"
+        },
+        {
+          "name": "Neil Linpow",
+          "character": "Long",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1be5xAB1L4gCdo6cd01pYfSZMc0.jpg"
+        },
+        {
+          "name": "Ray Fearon",
+          "character": "Robinson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ou2cqhqdhfQoKVEBpIh0P3sKZti.jpg"
+        },
+        {
+          "name": "Tom Dunne",
+          "character": "Greene",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uxjZmYJ231RwfZsFQI2cksvz2jJ.jpg"
+        },
+        {
+          "name": "Michel Curiel",
+          "character": "Perez",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ml4NqwB24Vr0PpRXiKjelUAWab5.jpg"
+        },
+        {
+          "name": "Tom Leigh",
+          "character": "Jericho",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z54gxrnWeFTDrxIfEkkU1RQLmTV.jpg"
+        },
+        {
+          "name": "Jack Trueman",
+          "character": "Phillips",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/97FIP23vtxyazLplDmJFg4CLZe9.jpg"
+        },
+        {
+          "name": "Sofian Francis",
+          "character": "Flynn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iWFEG28z0hiFRPQHfeVWs54aVVp.jpg"
+        },
+        {
+          "name": "Stewart Alexander",
+          "character": "General McManus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/najx2f4DAKt7DtQkPEyNXJURyNe.jpg"
+        },
+        {
+          "name": "Greg Austin",
+          "character": "Tyler",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ugxmrZZy4SmD7t2VqdafW5Abqpk.jpg"
+        },
+        {
+          "name": "Jess Khan-Lee",
+          "character": "Lori Jin"
+        },
+        {
+          "name": "Lois Baglin",
+          "character": "Cynthia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/smzeoh64MUD3ZPB81w8n0abeYFL.jpg"
+        },
+        {
+          "name": "Jill Winternitz",
+          "character": "Kelly Harris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bBfmth2C93OkyYir6w8qxjmHpiR.jpg"
+        },
+        {
+          "name": "Rhys Hayhurst",
+          "character": "Max"
+        },
+        {
+          "name": "Cassidy Little",
+          "character": "Barnes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1HOWJWl3Q6IZ0OkFakU1Bv9grJk.jpg"
+        },
+        {
+          "name": "Jim Meskimen",
+          "character": "Director Finch",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/18eXUo8DfTwannhq8FOwgVdFs9Y.jpg"
+        },
+        {
+          "name": "Gabriela Gibbs",
+          "character": "Martha Johnson"
+        },
+        {
+          "name": "Craig Russell",
+          "character": "Brooks",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/itm2zeDEg0hMNQK6JaXyYuBYKtu.jpg"
+        },
+        {
+          "name": "Olivia Bernstone",
+          "character": "FBI Tech Agent Hamilton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7rQGrzEHEZ7iBIrlVzbBDIIhnvP.jpg"
+        },
+        {
+          "name": "Isaac Beechey",
+          "character": "Ford"
+        },
+        {
+          "name": "Jamie B. Chambers",
+          "character": "Peters",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gwapY5ip8JJrHxijQm8C21SoLYC.jpg"
+        },
+        {
+          "name": "Lee Shone",
+          "character": "Blackburn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fwyqQSUdS7YpVgdLD8gPbK2EvIz.jpg"
+        },
+        {
+          "name": "Dan Styles",
+          "character": "Daniels"
+        },
+        {
+          "name": "Marta Svetek",
+          "character": "Lead PSB",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8z6m4jODbzAunsDNPLWY73PZ1jn.jpg"
+        }
+      ]
+    }
   }
 }

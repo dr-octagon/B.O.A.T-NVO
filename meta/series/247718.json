@@ -137,6 +137,103 @@
         "season": 2,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/a9YLMuK3MoQr1Au5SJPVp4dMn3o.png",
+    "cast": [
+      "Tom Hardy",
+      "Pierce Brosnan",
+      "Paddy Considine",
+      "Joanne Froggatt",
+      "Lara Pulver",
+      "Anson Boon",
+      "Mandeep Dhillon",
+      "Jasmine Jobson",
+      "Teddie Allen",
+      "Emmett J. Scanlan",
+      "Johnny Flynn",
+      "Ophelia Lovibond",
+      "Janet McTeer",
+      "Toby Jones",
+      "Helen Mirren"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Hardy",
+          "character": "Harry Da Souza",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+        },
+        {
+          "name": "Pierce Brosnan",
+          "character": "Conrad Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg"
+        },
+        {
+          "name": "Paddy Considine",
+          "character": "Kevin Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yFDFSlF4J1m9P0kVwBTKIHB8LYk.jpg"
+        },
+        {
+          "name": "Joanne Froggatt",
+          "character": "Jan Da Souza",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eL6B9OTjeRALm5uUfMmy74Wu9Sr.jpg"
+        },
+        {
+          "name": "Lara Pulver",
+          "character": "Isabella 'Bella' Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uacMDTL4YnuJD6frGF35CHLFh43.jpg"
+        },
+        {
+          "name": "Anson Boon",
+          "character": "Eddie Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e1Fffuy99j5TSi0Qbyt1N6adlOI.jpg"
+        },
+        {
+          "name": "Mandeep Dhillon",
+          "character": "Seraphina Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rVlSWINjaCMFWqkHpkjYy3zECka.jpg"
+        },
+        {
+          "name": "Jasmine Jobson",
+          "character": "Zosia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3nPjCQdAUofg6qlfWomTVPaFLEu.jpg"
+        },
+        {
+          "name": "Teddie Allen",
+          "character": "Gina Da Souza",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mt0bs8fgtQXNuO3ntyaKI6cJbnB.jpg"
+        },
+        {
+          "name": "Emmett J. Scanlan",
+          "character": "Paul",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1NmZuOXJ9XXLU5Yez5iedoEZWRp.jpg"
+        },
+        {
+          "name": "Johnny Flynn",
+          "character": "Frankie Cooper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tS3HIDFJbD8uSLAvaxZfrPc3aM0.jpg"
+        },
+        {
+          "name": "Ophelia Lovibond",
+          "character": "DCI Kavanagh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oH5fas23dQpLN5wrYcL02Nn0YmD.jpg"
+        },
+        {
+          "name": "Janet McTeer",
+          "character": "Dr. Katherine 'Kat' McAllister",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qOKAI6aunD4J5MXiwwomAhI3jI2.jpg"
+        },
+        {
+          "name": "Toby Jones",
+          "character": "Colin Tattersall",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
+        },
+        {
+          "name": "Helen Mirren",
+          "character": "Maeve Harrigan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1reKRrsdsHXJaRVHVyOEg4oPTcZ.jpg"
+        }
+      ]
+    }
   }
 }

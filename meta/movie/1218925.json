@@ -17,6 +17,181 @@
       "Aksiyon",
       "Romantik",
       "Fantastik"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/zLyOxg32q3DcMAgABXcKLWIXxTH.png",
+    "cast": [
+      "戸谷菊之介",
+      "Şiori İzava",
+      "楠木ともり",
+      "Reina Ueda",
+      "坂田将吾",
+      "Fairouz Ai",
+      "高橋花林",
+      "Natsuki Hanae",
+      "内田夕夜",
+      "Maaya Uchida",
+      "Kenjiro Tsuda",
+      "高橋英則",
+      "赤羽根健治",
+      "Kenji Nomura",
+      "喜多村英梨",
+      "Marina İnue",
+      "小野健一",
+      "Yuhko Kaida",
+      "白石兼斗",
+      "木内太郎",
+      "峰晃弘",
+      "酒井美沙乃",
+      "元井健雄",
+      "碧海光",
+      "木村隼人",
+      "西谷亮",
+      "鷲見昂大",
+      "一木千洋"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "戸谷菊之介",
+          "character": "Denji (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tSAHe7tjN7luUD1Tx5yPSCuCnuD.jpg"
+        },
+        {
+          "name": "Şiori İzava",
+          "character": "Pochita (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f9V38OeDvRGevWuKc4dN6LB62TH.jpg"
+        },
+        {
+          "name": "楠木ともり",
+          "character": "Makima (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iiGJPsLAnOoqmkNjLWCvbbDJw50.jpg"
+        },
+        {
+          "name": "Reina Ueda",
+          "character": "Reze (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2WV61uVU7y6XGYqNHLMpP0sApdu.jpg"
+        },
+        {
+          "name": "坂田将吾",
+          "character": "Aki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fRRPNBz3OCNRdmLdUTdpq7dGqxM.jpg"
+        },
+        {
+          "name": "Fairouz Ai",
+          "character": "Power (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/coFu6WOVBZvqd1fw89vbHkiC0zB.jpg"
+        },
+        {
+          "name": "高橋花林",
+          "character": "Kobeni (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/40eynav2SoYcfd0McfiF46Hu16o.jpg"
+        },
+        {
+          "name": "Natsuki Hanae",
+          "character": "Beam (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/alTb0DlcPIbcwM08WSmxFai58sd.jpg"
+        },
+        {
+          "name": "内田夕夜",
+          "character": "The Violence Fiend (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4xLLQGEDWtmLWUapo0UnfvCdsXp.jpg"
+        },
+        {
+          "name": "Maaya Uchida",
+          "character": "Angel Devil (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lrcxZXkIgHU55dMs8C4DKkUohqJ.jpg"
+        },
+        {
+          "name": "Kenjiro Tsuda",
+          "character": "Kishibe (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oR8djetguDl0xVWXH2LGwDYFTg6.jpg"
+        },
+        {
+          "name": "高橋英則",
+          "character": "Vice Captain (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uwtvViVOTBpqjgv90YSls2xoQy7.jpg"
+        },
+        {
+          "name": "赤羽根健治",
+          "character": "Nomo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sBduxft8NwdbASvtL14bMx86cPq.jpg"
+        },
+        {
+          "name": "Kenji Nomura",
+          "character": "Mysterious Man (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rmTziYxlPje4PiKhPgqMEHu9Axd.jpg"
+        },
+        {
+          "name": "喜多村英梨",
+          "character": "Typhoon Devil (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oZuKOoiqUsZZcgO5wqlUoZQUPfw.jpg"
+        },
+        {
+          "name": "Marina İnue",
+          "character": "Child Denji (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f7PuEx1h2g4FLgMzk9wCrWuS9Eu.jpg"
+        },
+        {
+          "name": "小野健一",
+          "character": "Owner of Crossroads (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rCp0kZslK2BJPxjtLrYioHJXFCF.jpg"
+        },
+        {
+          "name": "Yuhko Kaida",
+          "character": "Fox Devil (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wttsRGyYySLPfNcDtAbNLVizHLx.jpg"
+        },
+        {
+          "name": "白石兼斗",
+          "character": "Kato (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kQheInTNjl06xWak4kGQjPGzr4h.jpg"
+        },
+        {
+          "name": "木内太郎",
+          "character": "Tanabe (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wzLSYTwQGIXdfaSeXtDZ7FfMBFt.jpg"
+        },
+        {
+          "name": "峰晃弘",
+          "character": "Masaki Ando (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sC2ZAcINt14YqWLhHMLN71GL0Qg.jpg"
+        },
+        {
+          "name": "酒井美沙乃",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7Uhp1kL5eB1NrAswvK82YBTMGUE.jpg"
+        },
+        {
+          "name": "元井健雄",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f2V1FtSfxlWIJV7FcQQijrLcOKH.jpg"
+        },
+        {
+          "name": "碧海光",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gipPfIa3pZ9n4fERT0gHHgEeNso.jpg"
+        },
+        {
+          "name": "木村隼人",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zUsWnIq72NBk71XZCvU5NtZwKlQ.jpg"
+        },
+        {
+          "name": "西谷亮",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uof8C892Lm3sKty12f1s5trrXsR.jpg"
+        },
+        {
+          "name": "鷲見昂大",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iHjM0MjIjbWOGG4YK1TqlB9H9yI.jpg"
+        },
+        {
+          "name": "一木千洋",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pnCnDFiQB51ECymVXYsz1gaLhAz.jpg"
+        }
+      ]
+    }
   }
 }

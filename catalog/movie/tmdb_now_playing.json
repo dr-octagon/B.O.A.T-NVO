@@ -13,7 +13,8 @@
         "Korku",
         "Bilim-Kurgu",
         "Macera"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/gUcYDYaMhNppEhu3v2wnb8R23HW.png"
     },
     {
       "id": "tt33764258",
@@ -28,7 +29,8 @@
         "Macera",
         "Aksiyon",
         "Fantastik"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qgkhDpCvIcCP6O3SSba44Y8I3cb.png"
     },
     {
       "id": "tt27165187",
@@ -43,7 +45,8 @@
         "Bilim-Kurgu",
         "Gizem",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7mzbOliQLRVMwy3V7KS4JjWYO0k.png"
     },
     {
       "id": "tt22526100",
@@ -57,7 +60,8 @@
       "genres": [
         "Romantik",
         "Komedi"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8ssILR5oZvd5nJ0eduT1gF9QR4v.png"
     },
     {
       "id": "tt1756855",
@@ -72,7 +76,8 @@
         "Komedi",
         "Macera",
         "Aile"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kQlPI6mMY1GjzY3jjDdJXwH8pu4.png"
     },
     {
       "id": "tt36809539",
@@ -87,7 +92,8 @@
         "Bilim-Kurgu",
         "Dram",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bawc5X40uHOJdpucMXKVFyezeMu.png"
     },
     {
       "id": "tt9601292",
@@ -101,7 +107,8 @@
       "genres": [
         "Aksiyon",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/e8GdKxhgIBVR06z1Xar4g2RHrN7.png"
     },
     {
       "id": "tt32338669",
@@ -115,7 +122,8 @@
       "genres": [
         "Aksiyon",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/1fBG0oBuRyPq5omo7H4DlvC66Aq.png"
     },
     {
       "id": "tt34385135",
@@ -130,7 +138,8 @@
         "Korku",
         "Aksiyon",
         "Bilim-Kurgu"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hCK5tVvTG2c0SrOaPCWMlbMj69A.png"
     },
     {
       "id": "tt7526136",
@@ -144,7 +153,8 @@
       "genres": [
         "Macera",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bAc9Fw1jFEFaGfxIs2vlo0KTEPD.png"
     },
     {
       "id": "tt6933238",
@@ -159,7 +169,8 @@
         "Gerilim",
         "Dram",
         "Suç"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uzfKF1RAAbKEgQXaSl0x14zAfIN.png"
     },
     {
       "id": "tt31349844",
@@ -173,7 +184,8 @@
       "genres": [
         "Aksiyon",
         "Komedi"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/pAnbApoi6DHwXzoKBfQU4M5Wr8t.png"
     },
     {
       "id": "tt37971717",
@@ -187,7 +199,8 @@
       "genres": [
         "Aksiyon",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/eUfI2sn6ZYlKfjFxNY7EKIGJIa9.png"
     },
     {
       "id": "tt37287335",
@@ -201,7 +214,8 @@
       "genres": [
         "Korku",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/2y6qVk9YIPxTzO43anxUQ9iTuh4.png"
     },
     {
       "id": "tt36980377",
@@ -215,7 +229,8 @@
       "genres": [
         "Aksiyon",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jd9GlqNP86mV7W3x5XWXdKTlOJa.png"
     },
     {
       "id": "tt36893729",
@@ -230,7 +245,8 @@
         "Komedi",
         "Korku",
         "Gerilim"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/f77iVu86Yfvwx1IdsLjJZsS7hzc.png"
     },
     {
       "id": "tt31450459",
@@ -244,7 +260,8 @@
       "genres": [
         "Komedi",
         "Dram"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wmC7xZW3uKschOwMSo2opJiSGI7.png"
     },
     {
       "id": "tt4154796",
@@ -259,7 +276,8 @@
         "Macera",
         "Bilim-Kurgu",
         "Aksiyon"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4pJWlICBeiHsou1BjYx48aAQqEG.png"
     },
     {
       "id": "tt30887701",
@@ -274,7 +292,8 @@
         "Korku",
         "Fantastik",
         "Gizem"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/6UTRob4DLNbfGZz1QRZkj0ktGvx.png"
     },
     {
       "id": "tt35298123",
@@ -289,7 +308,8 @@
         "Komedi",
         "Korku",
         "Romantik"
-      ]
+      ],
+      "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bmC6rpqpEPhFCeydLsKpULkDTGM.png"
     }
   ]
 }

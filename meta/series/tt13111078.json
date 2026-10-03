@@ -24,7 +24,14 @@
       "LaMonica Garrett",
       "James Jordan",
       "Genesis Rodriguez",
-      "Michael Kelly"
+      "Michael Kelly",
+      "Austin Hébert",
+      "Jonah Wharton",
+      "Hannah Love Lanier",
+      "Nicole Kidman",
+      "Morgan Freeman",
+      "Ian Bohen",
+      "Thad Luckinbill"
     ],
     "director": [
       "Taylor Sheridan"
@@ -174,6 +181,86 @@
         "season": 3,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/cUDpX6aqZ7LNIquPHZAWiN0v9FS.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Zoe Saldaña",
+          "character": "Joe McNamara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vQBwmsSOAd0JDaEcZ5p43J9xzsY.jpg"
+        },
+        {
+          "name": "Laysla De Oliveira",
+          "character": "Cruz Manuelos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3hWOSY5ZXoyzp94OzGaooURK9hn.jpg"
+        },
+        {
+          "name": "Dave Annable",
+          "character": "Neal McNamara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5DXu9ZiB4dfqNmHIOGnhXMBouPP.jpg"
+        },
+        {
+          "name": "Jill Wagner",
+          "character": "Bobby",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gFtPDkS14CoDqNGnHsxNmaXZcGj.jpg"
+        },
+        {
+          "name": "LaMonica Garrett",
+          "character": "Tucker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yE5TBZ2qC5LAPDduBQAERo7EF3r.jpg"
+        },
+        {
+          "name": "James Jordan",
+          "character": "Two Cups",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8flzkBpcrl0QqjDnXhbg52rsNOY.jpg"
+        },
+        {
+          "name": "Genesis Rodriguez",
+          "character": "Captain Josephina 'Josie' Carrillo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gUI9KADVjfHiI8nMc87hkeaWEF3.jpg"
+        },
+        {
+          "name": "Michael Kelly",
+          "character": "Byron Westfield",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6MI8HhX1GWbcrWG8DiHffzmqaVm.jpg"
+        },
+        {
+          "name": "Austin Hébert",
+          "character": "Randy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vOuRMtOtPVd8vuNCCxxavQSdGIC.jpg"
+        },
+        {
+          "name": "Jonah Wharton",
+          "character": "Tex",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4wisMOLFgPPQxm7gQO9wSI72O08.jpg"
+        },
+        {
+          "name": "Hannah Love Lanier",
+          "character": "Kate McNamara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9Jwa7ko0GoMi1TPRgwmrPUXWRuO.jpg"
+        },
+        {
+          "name": "Nicole Kidman",
+          "character": "Kaitlyn Meade",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4KSQDodyBtTDMaREYgMdWD1LbH1.jpg"
+        },
+        {
+          "name": "Morgan Freeman",
+          "character": "Secretary of State Edwin Mullins",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+        },
+        {
+          "name": "Ian Bohen",
+          "character": "Grady",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qEi3UXB3rx9vithYZPtqW3U5e3L.jpg"
+        },
+        {
+          "name": "Thad Luckinbill",
+          "character": "Kyle",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7zBnpYTwwxKT6OHcycqacGQwQT8.jpg"
+        }
+      ]
+    }
   }
 }

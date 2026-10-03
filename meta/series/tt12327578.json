@@ -257,6 +257,67 @@
         "season": 4,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/oTwnbowXtY08Ck9XnmaYoG7V5tI.png",
+    "cast": [
+      "Anson Mount",
+      "Ethan Peck",
+      "Jess Bush",
+      "Christina Chong",
+      "Celia Rose Gooding",
+      "Melissa Navia",
+      "Babs Olusanmokun",
+      "Martin Quinn",
+      "Rebecca Romijn"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Anson Mount",
+          "character": "Captain Christopher Pike",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A4YBdwnzJKRcZXfodjT4UalHOK9.jpg"
+        },
+        {
+          "name": "Ethan Peck",
+          "character": "Spock",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9KaxSgpbx9Zj827xXLML3bWknNV.jpg"
+        },
+        {
+          "name": "Jess Bush",
+          "character": "Christine Chapel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qAsdLipL5Gd54IHd813lN5HQFwn.jpg"
+        },
+        {
+          "name": "Christina Chong",
+          "character": "La'An Noonien-Singh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h2uyfyfLVShJpW7rUCtethhZcT1.jpg"
+        },
+        {
+          "name": "Celia Rose Gooding",
+          "character": "Nyota Uhura",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vIk0g2FnDGmBGEAX7veFCOg0hM1.jpg"
+        },
+        {
+          "name": "Melissa Navia",
+          "character": "Erica Ortegas",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/b8qF20FtJby02fGAeWSp9XJDHbw.jpg"
+        },
+        {
+          "name": "Babs Olusanmokun",
+          "character": "Dr. Joseph M'Benga",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bqycmpUrpISeLzQniiYwAZ5X1RN.jpg"
+        },
+        {
+          "name": "Martin Quinn",
+          "character": "Lieutenant Montgomery Scott",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pkLdyDbcPpWuFWaWB5lniFw9zx6.jpg"
+        },
+        {
+          "name": "Rebecca Romijn",
+          "character": "Una Chin-Riley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/doqFBHNbNhoLF9RX9SYPqwu1mvd.jpg"
+        }
+      ]
+    }
   }
 }

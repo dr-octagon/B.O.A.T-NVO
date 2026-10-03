@@ -25,7 +25,29 @@
       "Sarah Abbott",
       "Benjamin Byron Davis",
       "Karen Cliche",
-      "Dylan Hawco"
+      "Dylan Hawco",
+      "Eli Roth",
+      "Lorenzo Antonucci",
+      "Luke Dietz",
+      "Eli Massillon",
+      "Carina Battrick",
+      "Ivano DiCaro",
+      "Sonam Kalsang",
+      "Charlie Storey",
+      "Rodrigo Fernandez-Stoll",
+      "Andriah Bryan",
+      "Darrin Baker",
+      "Amanda Barker",
+      "Kole Parks",
+      "Michèle Kaye",
+      "Ryan Allen",
+      "Alex Armbruster",
+      "Lynne Griffin",
+      "Lochlan Ray Miller",
+      "Tyler Ronald",
+      "Steffi DiDomenicantonio",
+      "Baeyen Hoffman",
+      "Jordan Poole"
     ],
     "director": [
       "Eli Roth"
@@ -34,6 +56,155 @@
       "Eli Roth",
       "Noah Belson"
     ],
-    "runtime": "86 dk"
+    "runtime": "86 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/f77iVu86Yfvwx1IdsLjJZsS7hzc.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Ari Millen",
+          "character": "The Ice Cream Man / Jonathan Smiley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x2hFdgnrJ1er0VpteRcqTr8aWTT.jpg"
+        },
+        {
+          "name": "Charlie Zeltzer",
+          "character": "Jared",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ytbrQ4R1iiRD3I0qdAddVfgooD7.jpg"
+        },
+        {
+          "name": "Shiloh O’Reilly",
+          "character": "Tommy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ogT1ycS4CoOassN1GeCaS7qVcgO.jpg"
+        },
+        {
+          "name": "Kiori Mirza Waldman",
+          "character": "Mia"
+        },
+        {
+          "name": "Sarah Abbott",
+          "character": "Lizzie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/riLNrHSQNFL2jgT3IRhIYOiBCXG.jpg"
+        },
+        {
+          "name": "Benjamin Byron Davis",
+          "character": "The Priest",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5WHDh9l9Ylsbf5ZKt3nQ4FRweUi.jpg"
+        },
+        {
+          "name": "Karen Cliche",
+          "character": "Alison",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fVXdJyDRVDo7C5tTHauDm9zDvi9.jpg"
+        },
+        {
+          "name": "Dylan Hawco",
+          "character": "Chris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/scuhT7GDRFIXP2Iw7Yz2Mplq7oW.jpg"
+        },
+        {
+          "name": "Eli Roth",
+          "character": "Marty",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qQTkpxzh1FlBGL1HD5hzdUMxv49.jpg"
+        },
+        {
+          "name": "Lorenzo Antonucci",
+          "character": "Terry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rUPpfC8HwWdwB8NNP1m1zLPIhlH.jpg"
+        },
+        {
+          "name": "Luke Dietz",
+          "character": "Elliot",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3JsnxWS7wIsdplyDLtzr2PS6sgM.jpg"
+        },
+        {
+          "name": "Eli Massillon",
+          "character": "Myles",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/px6dbImEiHQrDQdmrg5NvHqg2DF.jpg"
+        },
+        {
+          "name": "Carina Battrick",
+          "character": "Marcella",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pVpmyGnkTCUuUNMRbHpdqOpSZK6.jpg"
+        },
+        {
+          "name": "Ivano DiCaro",
+          "character": "Hank"
+        },
+        {
+          "name": "Sonam Kalsang",
+          "character": "Sebastian"
+        },
+        {
+          "name": "Charlie Storey",
+          "character": "Piper"
+        },
+        {
+          "name": "Rodrigo Fernandez-Stoll",
+          "character": "Mr. Hamlin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n7Py821noR7f7y99Rad2yOKhLtB.jpg"
+        },
+        {
+          "name": "Andriah Bryan",
+          "character": "Mrs. Valentine"
+        },
+        {
+          "name": "Darrin Baker",
+          "character": "Principal Maloney",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jZxcxDEyIeg9x3zvycnnOatCgdf.jpg"
+        },
+        {
+          "name": "Amanda Barker",
+          "character": "Heather Henderson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aAIGBMacq63TQes2GrwWI9RciMK.jpg"
+        },
+        {
+          "name": "Kole Parks",
+          "character": "Benji",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aDfVA0VYWtaFyzKrc6xyoBV0Gcd.jpg"
+        },
+        {
+          "name": "Michèle Kaye",
+          "character": "Benji's Mom",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1Tgev3DfKRhdGW0ogx4WjPzXU4s.jpg"
+        },
+        {
+          "name": "Ryan Allen",
+          "character": "Officer Salinger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/99O5NjoOmO4uCmTYaQhipj1qMNx.jpg"
+        },
+        {
+          "name": "Alex Armbruster",
+          "character": "Jogger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m3qv0sxwsMohW4kK6hf8gYuGll7.jpg"
+        },
+        {
+          "name": "Lynne Griffin",
+          "character": "Old Lady",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l7qCksQ9W59XCYEACiPmCeCU4hw.jpg"
+        },
+        {
+          "name": "Lochlan Ray Miller",
+          "character": "Boy with Pennies #1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yHgvyIz2sFcUl8HuoqJe6GQc6bF.jpg"
+        },
+        {
+          "name": "Tyler Ronald",
+          "character": "SSE Kid Force Fed Ice Cream"
+        },
+        {
+          "name": "Steffi DiDomenicantonio",
+          "character": "Terrified Teacher",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vC3bhYiw0msN1ZWDOXbqnIbzNyq.jpg"
+        },
+        {
+          "name": "Baeyen Hoffman",
+          "character": "Myles' Son",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f8HVV1zHCAFWTCIGnicL1gHSPWd.jpg"
+        },
+        {
+          "name": "Jordan Poole",
+          "character": "Umpire",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t0ZDti0AIOqqTd3uFQEpLp4Fwj0.jpg"
+        }
+      ]
+    }
   }
 }

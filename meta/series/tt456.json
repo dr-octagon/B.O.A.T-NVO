@@ -4864,6 +4864,41 @@
         "season": 38,
         "episode": 5
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kyE83l2648IXArRQOOQJlirQ76b.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Dan Castellaneta",
+          "character": "Homer Simpson / Abe Simpson / Barney Gumble / Krusty the Clown / Groundskeeper Willie / Mayor Quimby (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg"
+        },
+        {
+          "name": "Julie Kavner",
+          "character": "Marge Simpson / Patty Bouvier / Selma Bouvier / Jacqueline Bouvier (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg"
+        },
+        {
+          "name": "Nancy Cartwright",
+          "character": "Bart Simpson / Maggie Simpson / Nelson Muntz / Ralph Wiggum (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kJQEz3NAwHGdb2sQzAnBf1RmMV4.jpg"
+        },
+        {
+          "name": "Yeardley Smith",
+          "character": "Lisa Simpson / Maggie Simpson (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9AjPwbb3uz4GfgOPBYsy2ILvwkB.jpg"
+        },
+        {
+          "name": "Hank Azaria",
+          "character": "Moe Szyslak / Chief Wiggum / Apu / Comic Book Guy / Carl Carlson / Superintendent Chalmers (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yFDw4b0jucuFWNnGcBPfpYUtn16.jpg"
+        },
+        {
+          "name": "Harry Shearer",
+          "character": "Ned Flanders / Mr. Burns / Smithers / Principal Skinner / Lenny Leonard (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wZpovXxQQqP7kxXPy2yj6QMbM55.jpg"
+        }
+      ]
+    }
   }
 }

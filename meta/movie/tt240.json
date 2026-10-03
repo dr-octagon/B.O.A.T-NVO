@@ -24,7 +24,29 @@
       "John Cazale",
       "Talia Shire",
       "Lee Strasberg",
-      "Michael V. Gazzo"
+      "Michael V. Gazzo",
+      "G.D. Spradlin",
+      "Richard Bright",
+      "Gastone Moschin",
+      "Tom Rosqui",
+      "Bruno Kirby",
+      "Frank Sivero",
+      "Francesca De Sapio",
+      "Morgana King",
+      "Marianna Hill",
+      "Leopoldo Trieste",
+      "Dominic Chianese",
+      "Amerigo Tot",
+      "Troy Donahue",
+      "John Aprea",
+      "Joe Spinell",
+      "Abe Vigoda",
+      "Tere Livrano",
+      "Gianni Russo",
+      "Maria Carta",
+      "Oreste Baldini",
+      "Giuseppe Sillato",
+      "Mario Cotone"
     ],
     "director": [
       "Francis Ford Coppola"
@@ -33,6 +55,159 @@
       "Mario Puzo",
       "Francis Ford Coppola"
     ],
-    "runtime": "202 dk"
+    "runtime": "202 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/gEfwCTLbcX7jvIHLTXfVW1idZby.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Al Pacino",
+          "character": "Don Michael Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m8HAAjq1T75JypKk0v1FFQn4ysZ.jpg"
+        },
+        {
+          "name": "Robert Duvall",
+          "character": "Tom Hagen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3tcKxC5Sc3DJ6XPDKKC2EAomEWn.jpg"
+        },
+        {
+          "name": "Diane Keaton",
+          "character": "Kay Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A8B3BsFgbmw2WEmJuQX38qeU9eR.jpg"
+        },
+        {
+          "name": "Robert De Niro",
+          "character": "Vito Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+        },
+        {
+          "name": "John Cazale",
+          "character": "Frederico 'Fredo' Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/41wXX1FBalyIuf5eaA4S43Y8IfZ.jpg"
+        },
+        {
+          "name": "Talia Shire",
+          "character": "Constanzia 'Connie' Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oktJmlLeyYKBCWPNjHskDwAfjct.jpg"
+        },
+        {
+          "name": "Lee Strasberg",
+          "character": "Hyman Roth",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/niSM7ejzddgaTcxjgJMYEFCr9Y2.jpg"
+        },
+        {
+          "name": "Michael V. Gazzo",
+          "character": "Frank Pentangeli",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cTY2Hlf6sIR9xLI95bBir7eI0N.jpg"
+        },
+        {
+          "name": "G.D. Spradlin",
+          "character": "Senator Pat Geary",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pWNa9H3ABB3Ug9CwTfVNtHsCFjV.jpg"
+        },
+        {
+          "name": "Richard Bright",
+          "character": "Al Neri",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/potMaJ2u5PRjXZb7qF9lSW1ldNZ.jpg"
+        },
+        {
+          "name": "Gastone Moschin",
+          "character": "Don Fanucci",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dU58seqJs1NDkNodjwCbGZg3nqT.jpg"
+        },
+        {
+          "name": "Tom Rosqui",
+          "character": "Rocco Lampone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/idbeKhpuNbc6J6r4LftLhZXIY6r.jpg"
+        },
+        {
+          "name": "Bruno Kirby",
+          "character": "Young Clemenza",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rCYOMk34rqf28KusLKi002RNbFg.jpg"
+        },
+        {
+          "name": "Frank Sivero",
+          "character": "Genco Abbandando",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eqvhj0iNtcsN6EJhd21Goqi1DSq.jpg"
+        },
+        {
+          "name": "Francesca De Sapio",
+          "character": "Young Mama Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/r4lBoLEBwFv1q5BFoqKJX7xQyDm.jpg"
+        },
+        {
+          "name": "Morgana King",
+          "character": "Mama Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1zzGZpZqedECtHMwfFIqd51nncM.jpg"
+        },
+        {
+          "name": "Marianna Hill",
+          "character": "Deanna Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2Exz1SqtPkbM0EkkAKOk6I5OTg6.jpg"
+        },
+        {
+          "name": "Leopoldo Trieste",
+          "character": "Signor Roberto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rPvCj39OY7LClFh9CG2OXFKxioB.jpg"
+        },
+        {
+          "name": "Dominic Chianese",
+          "character": "Johnny Ola",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9OCAByYHjY6yO0s5ipBH3roaQpy.jpg"
+        },
+        {
+          "name": "Amerigo Tot",
+          "character": "Michael's Bodyguard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/typSNLyasFnAn0uAEJDcmk0SKTQ.jpg"
+        },
+        {
+          "name": "Troy Donahue",
+          "character": "Merle Johnson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uA02pDqGnuISqTXmsmLMiNWcl8h.jpg"
+        },
+        {
+          "name": "John Aprea",
+          "character": "Young Tessio",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hZ8Wlv3WaRMqNrRtWZBkw4lcjJj.jpg"
+        },
+        {
+          "name": "Joe Spinell",
+          "character": "William 'Willie' Cicci",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rdDEi8SJSx9OwVJQaHNa3VfZBRM.jpg"
+        },
+        {
+          "name": "Abe Vigoda",
+          "character": "Salvatore 'Sal' Tessio",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/luWKPNb58IgJ2ovrtgPAzHGLLYL.jpg"
+        },
+        {
+          "name": "Tere Livrano",
+          "character": "Theresa Hagen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zQo1Q7B3oLO9trJS0TTUKutiW27.jpg"
+        },
+        {
+          "name": "Gianni Russo",
+          "character": "Carlo Rizzi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jfeGnQfXMzKXsuSPm9oTxm6FOuz.jpg"
+        },
+        {
+          "name": "Maria Carta",
+          "character": "Mrs. Andolini",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ifWc3ofLuTWwnC3oMcBU5ceUBFp.jpg"
+        },
+        {
+          "name": "Oreste Baldini",
+          "character": "Young Vito",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sRP0Pmhpi9NkTXHZfqrd5wiXi9x.jpg"
+        },
+        {
+          "name": "Giuseppe Sillato",
+          "character": "Don Francesco Ciccio"
+        },
+        {
+          "name": "Mario Cotone",
+          "character": "Don Tommasino"
+        }
+      ]
+    }
   }
 }

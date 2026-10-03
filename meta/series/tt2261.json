@@ -22685,6 +22685,16 @@
         "season": 31,
         "episode": 74
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/73hWRLKQ7aJsxikwaDkw02ULkJk.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Johnny Carson",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sSltRe7S82Zw29lMRGLeEoL2PUu.jpg"
+        }
+      ]
+    }
   }
 }

@@ -25,7 +25,29 @@
       "Avan Jogia",
       "Donal Logue",
       "Neal McDonough",
-      "Lily Gao"
+      "Lily Gao",
+      "Chad Rook",
+      "Marina Mazepa",
+      "Nathan Dales",
+      "Josh Cruddas",
+      "Pat Thornton",
+      "Holly de Barros",
+      "Janet Porter",
+      "Lily Gail Reid",
+      "Daxton Gujral",
+      "Dylan Taylor",
+      "Sammy Azero",
+      "Jenny Young",
+      "Stephannie Hawkins",
+      "Nathaniel McParland",
+      "Pamela MacDonald",
+      "Heloise Catherine Pead Galvin",
+      "Sophia Ann Pead Galvin",
+      "Kalie Hunter",
+      "Andrea Ciacci",
+      "Kelly Reich",
+      "Robert Chaumont",
+      "Matthew MacCallum"
     ],
     "director": [
       "Johannes Roberts"
@@ -33,6 +55,156 @@
     "writer": [
       "Johannes Roberts"
     ],
-    "runtime": "107 dk"
+    "runtime": "107 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/1zTSQ5QqgX9w22QZTK8qT0JTl4y.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Kaya Scodelario",
+          "character": "Claire Redfield",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qmtXUabwXw0RvyK6R0la6CmvGxr.jpg"
+        },
+        {
+          "name": "Hannah John-Kamen",
+          "character": "Jill Valentine",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2fqNQQW3B7upH4rBubhxXkIIoGk.jpg"
+        },
+        {
+          "name": "Robbie Amell",
+          "character": "Chris Redfield",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5MPx1TEdgPs9UEXV65nd80JikSH.jpg"
+        },
+        {
+          "name": "Tom Hopper",
+          "character": "Albert Wesker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4Bx09xFBXIWIhptQ10yJEPbB1HI.jpg"
+        },
+        {
+          "name": "Avan Jogia",
+          "character": "Leon Kennedy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7BX0Lg39bHlgtvWZpszTr1YjTAW.jpg"
+        },
+        {
+          "name": "Donal Logue",
+          "character": "Chief Irons",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5Rj850yVkIqsgCihtZLbkNSHbFb.jpg"
+        },
+        {
+          "name": "Neal McDonough",
+          "character": "William Birkin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3mI3i1CpjATSCta1Tb2qsyl1KCh.jpg"
+        },
+        {
+          "name": "Lily Gao",
+          "character": "Ada Wong",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qCNsTSz3g70M9PNaNxWw5uRepQy.jpg"
+        },
+        {
+          "name": "Chad Rook",
+          "character": "Richard Aiken",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ingigcFjpB56O4WpOMADH1pwk8k.jpg"
+        },
+        {
+          "name": "Marina Mazepa",
+          "character": "Lisa Trevor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5ehZVW7MX9nuR7e7NGIeUG05q0L.jpg"
+        },
+        {
+          "name": "Nathan Dales",
+          "character": "Vickers",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zTnljHyjgfDUtUTLlKe8MMHgCs6.jpg"
+        },
+        {
+          "name": "Josh Cruddas",
+          "character": "Ben Bertolucci",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wYnmRqmQaKhaymCRoF02ZSjCWsh.jpg"
+        },
+        {
+          "name": "Pat Thornton",
+          "character": "Truck Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A113d3wCZlueoz6eFHlOizTzKq7.jpg"
+        },
+        {
+          "name": "Holly de Barros",
+          "character": "Sherry Birkin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sffoRkppo4iGb7q5MBicmtElckY.jpg"
+        },
+        {
+          "name": "Janet Porter",
+          "character": "Annette Birkin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4dgZ2QZHUPoLwnkhrKFe4ACmTZ0.jpg"
+        },
+        {
+          "name": "Lily Gail Reid",
+          "character": "Young Claire",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1LaYvNqikcQUS3W1GnpmuBPV8YW.jpg"
+        },
+        {
+          "name": "Daxton Gujral",
+          "character": "Young Chris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/KYL0yu3A319BU8ahobRdsaPlt3.jpg"
+        },
+        {
+          "name": "Dylan Taylor",
+          "character": "Kevin Dooley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kXboHqwzfsoi1V7PO5yQ6BGtp89.jpg"
+        },
+        {
+          "name": "Sammy Azero",
+          "character": "Enrico Marini",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eJab6x8vqg8bxCs22ul6DXGSxrc.jpg"
+        },
+        {
+          "name": "Jenny Young",
+          "character": "Waitress / Louise"
+        },
+        {
+          "name": "Stephannie Hawkins",
+          "character": "Sickly Mother",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ctKR7bZAwuhODcSferVQLmnVeh4.jpg"
+        },
+        {
+          "name": "Nathaniel McParland",
+          "character": "Sickly Boy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a8sDxMeFeRtFogAB3nTPO47MdVy.jpg"
+        },
+        {
+          "name": "Pamela MacDonald",
+          "character": "Nurse",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gN3YavIyc4DX5ccDivnOd2WJ2NT.jpg"
+        },
+        {
+          "name": "Heloise Catherine Pead Galvin",
+          "character": "Ashford Twin #1"
+        },
+        {
+          "name": "Sophia Ann Pead Galvin",
+          "character": "Ashford Twin #2"
+        },
+        {
+          "name": "Kalie Hunter",
+          "character": "Chernobyl Zombie #1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n9PRDrSeWYQfUaQiJHPDVFTKlSK.jpg"
+        },
+        {
+          "name": "Andrea Ciacci",
+          "character": "Chernobyl Zombie #2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fkjPl7rlgXdLlq4qhFd676TAYl.jpg"
+        },
+        {
+          "name": "Kelly Reich",
+          "character": "Female in Crowd (RCPD)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vjWRNHm6vyceNozGInMv55FJ1sJ.jpg"
+        },
+        {
+          "name": "Robert Chaumont",
+          "character": "Man in Crowd (RCPD)"
+        },
+        {
+          "name": "Matthew MacCallum",
+          "character": "Labcoat Zombie / Dining Hall Chernobyl Zombie #1"
+        }
+      ]
+    }
   }
 }

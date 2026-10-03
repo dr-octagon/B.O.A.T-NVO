@@ -888,6 +888,73 @@
         "season": 13,
         "episode": 13
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/7CHU6cuoRLZyumxd0UX1aT633jy.png",
+    "cast": [
+      "Sarah Paulson",
+      "Evan Peters",
+      "Angela Bassett",
+      "Kathy Bates",
+      "Emma Roberts",
+      "Billie Lourd",
+      "Gabourey Sidibe",
+      "Leslie Grossman",
+      "Joey Pollari",
+      "Jessica Lange"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Sarah Paulson",
+          "character": "Cordelia Goode / Sally McKenna / Ms. Wilhemina Venable / Tuberculosis Karen / Mamie Eisenhower",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tJnhBV516yrekR3hTDUw15UMbxS.jpg"
+        },
+        {
+          "name": "Evan Peters",
+          "character": "Tate Langdon / James Patrick March / Kai Anderson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m9okq20ca2Md38i2ekJeKs3vTwa.jpg"
+        },
+        {
+          "name": "Angela Bassett",
+          "character": "Marie Laveau",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tKnuviliyeKNGlo26IU5gIrJAtd.jpg"
+        },
+        {
+          "name": "Kathy Bates",
+          "character": "Delphine LaLaurie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qZRTzTjV4OC1Ii9a0n8QBS9zMOd.jpg"
+        },
+        {
+          "name": "Emma Roberts",
+          "character": "Madison Montgomery",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rUK616pPe8VGvAK0qmKOEbA3iIx.jpg"
+        },
+        {
+          "name": "Billie Lourd",
+          "character": "Mallory / Winter Anderson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1u8bZL6ZXu5iDbPO3Z0Spetyt34.jpg"
+        },
+        {
+          "name": "Gabourey Sidibe",
+          "character": "Queenie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d0p0MGqM1GrrnBw4b3V9uM6HCl2.jpg"
+        },
+        {
+          "name": "Leslie Grossman",
+          "character": "Coco St. Pierre Vanderbilt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zvFXKr0U6hFrOEkV7ZFVNhJ9m9X.jpg"
+        },
+        {
+          "name": "Joey Pollari",
+          "character": "Ben DeSoto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vr5e0bM95A0zQ9FnQ3CS0wUPQlV.jpg"
+        },
+        {
+          "name": "Jessica Lange",
+          "character": "Constance Langdon / Sister Jude Martin / Fiona Goode / Elsa Mars",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aWcO6trggSWsglUOdTVzjG4LSh3.jpg"
+        }
+      ]
+    }
   }
 }

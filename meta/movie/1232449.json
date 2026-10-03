@@ -15,6 +15,176 @@
     "genres": [
       "Dram",
       "Romantik"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/lBIuv7m28lDgoNSH25cv9v4yvQS.png",
+    "cast": [
+      "Lou Goossens",
+      "Marius De Saeger",
+      "Geert Van Rampelberg",
+      "Emilie De Roo",
+      "Dirk van Dijck",
+      "Jul Goossens",
+      "Ezra van Dongen",
+      "Olivier Englebert",
+      "Olga De Saeger",
+      "Wim Opbrouck",
+      "Florence Hebbelynck",
+      "La Diva",
+      "Saar Rogiers",
+      "Jill Malfroot",
+      "Cassie Alcendor",
+      "Samba Thiam",
+      "Sam Michiels",
+      "Marie Gevaert",
+      "Bert Dobbelaere",
+      "Stephen Harrisson",
+      "Tristan Versteven",
+      "Johann Hallet",
+      "Michèle Caucheteux",
+      "Tom Beyaert",
+      "Ester DeKoning",
+      "Hadassa DeKoning",
+      "Frank Bracquené",
+      "Staf de Neve",
+      "Briek Goorman",
+      "Olivier Debaere"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Lou Goossens",
+          "character": "Elias",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kY8eifhCPvjTE6JJclrrWO7Zr9L.jpg"
+        },
+        {
+          "name": "Marius De Saeger",
+          "character": "Alexander",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kSAjzHdvHSY2ZAh3OBt65P7UfTB.jpg"
+        },
+        {
+          "name": "Geert Van Rampelberg",
+          "character": "Luk",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jECzjJvrJdBrh6xf3aRpTOu3Qxi.jpg"
+        },
+        {
+          "name": "Emilie De Roo",
+          "character": "Nathalie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jXiZjMF86JKoVlfdub8GR4NGgiV.jpg"
+        },
+        {
+          "name": "Dirk van Dijck",
+          "character": "Fred",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AhvtRHc6faulpEznoK8PsF8Kap6.jpg"
+        },
+        {
+          "name": "Jul Goossens",
+          "character": "Maxime",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ouM6MdO3gc9vTgnI5Hrwf3uE5En.jpg"
+        },
+        {
+          "name": "Ezra van Dongen",
+          "character": "Line"
+        },
+        {
+          "name": "Olivier Englebert",
+          "character": "Marc",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ejkFPLL2MGwTENQm4SxORh6swwV.jpg"
+        },
+        {
+          "name": "Olga De Saeger",
+          "character": "Ella"
+        },
+        {
+          "name": "Wim Opbrouck",
+          "character": "Tony",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vXbbkDJOgmQKpRnJ7CKwMXl4EWv.jpg"
+        },
+        {
+          "name": "Florence Hebbelynck",
+          "character": "Pia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v0hUGlTwIckMbdsTRmGbB1FY1K5.jpg"
+        },
+        {
+          "name": "La Diva",
+          "character": "Lady Lana"
+        },
+        {
+          "name": "Saar Rogiers",
+          "character": "Valerie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sXx8bo8R0OVJhMalS5FwQcJbsYi.jpg"
+        },
+        {
+          "name": "Jill Malfroot",
+          "character": "Lukas"
+        },
+        {
+          "name": "Cassie Alcendor",
+          "character": "Lize"
+        },
+        {
+          "name": "Samba Thiam",
+          "character": "Matteo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8gfpM6MGyAQ2RkjXxn7Rq7xws5v.jpg"
+        },
+        {
+          "name": "Sam Michiels",
+          "character": "Mieke"
+        },
+        {
+          "name": "Marie Gevaert",
+          "character": "Lore"
+        },
+        {
+          "name": "Bert Dobbelaere",
+          "character": "Mr. Van Daele"
+        },
+        {
+          "name": "Stephen Harrisson",
+          "character": "PE Teacher"
+        },
+        {
+          "name": "Tristan Versteven",
+          "character": "Andre"
+        },
+        {
+          "name": "Johann Hallet",
+          "character": "Photographer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kdvlnoLsWrArRiWROPI0BpYJyiB.jpg"
+        },
+        {
+          "name": "Michèle Caucheteux",
+          "character": "Hotel Manager"
+        },
+        {
+          "name": "Tom Beyaert",
+          "character": "Groomsman"
+        },
+        {
+          "name": "Ester DeKoning",
+          "character": "Band Luk Montero"
+        },
+        {
+          "name": "Hadassa DeKoning",
+          "character": "Band Luk Montero"
+        },
+        {
+          "name": "Frank Bracquené",
+          "character": "Band Luk Montero"
+        },
+        {
+          "name": "Staf de Neve",
+          "character": "Bully"
+        },
+        {
+          "name": "Briek Goorman",
+          "character": "Bully"
+        },
+        {
+          "name": "Olivier Debaere",
+          "character": "Bully",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1UVK7IxaTzQ97bPZK89YVhXnUdh.jpg"
+        }
+      ]
+    }
   }
 }

@@ -21,7 +21,7 @@
     "cast": [
       "木内秀信",
       "佐々木望",
-      "能登麻美子",
+      "Mamiko Noto",
       "磯部勉"
     ],
     "videos": [
@@ -469,6 +469,31 @@
         "season": 1,
         "episode": 74
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/yaAkIxxDL3oOMfYxakttj3pxMdD.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "木内秀信",
+          "character": "Tenma (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d7MW4HQjMsZnX3cy2dF8QJETCbf.jpg"
+        },
+        {
+          "name": "佐々木望",
+          "character": "Johan Liebert (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg"
+        },
+        {
+          "name": "Mamiko Noto",
+          "character": "Nina Fortner (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wCSD7Umgzc66p8VGXrrMZtSLSuS.jpg"
+        },
+        {
+          "name": "磯部勉",
+          "character": "Lunge (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qP5vQMIbLNvSsSFkEMLZRVt4ZW5.jpg"
+        }
+      ]
+    }
   }
 }

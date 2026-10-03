@@ -25,7 +25,29 @@
       "Himesh Patel",
       "Charlize Theron",
       "John Leguizamo",
-      "Travis Scott"
+      "Travis Scott",
+      "Corey Hawkins",
+      "Jarreth J. Merz",
+      "Niko Nicotera",
+      "Elliot Page",
+      "Shiloh Fernandez",
+      "Rafi Gavron",
+      "Elyes Gabel",
+      "Iddo Goldberg",
+      "Jamie Harris",
+      "John Ales",
+      "Raimy Lang",
+      "Mason Cufari",
+      "Mia Goth",
+      "Ryan Hurst",
+      "Kate Fuglei",
+      "Benny Safdie",
+      "Adam Croasdell",
+      "Mickey Shilowich",
+      "Katerina Antemel",
+      "Jovan Adepo",
+      "Andrew Howard",
+      "Josh Stewart"
     ],
     "director": [
       "Christopher Nolan"
@@ -33,6 +55,159 @@
     "writer": [
       "Christopher Nolan"
     ],
-    "runtime": "173 dk"
+    "runtime": "173 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/qgkhDpCvIcCP6O3SSba44Y8I3cb.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Matt Damon",
+          "character": "Odysseus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
+        },
+        {
+          "name": "Tom Holland",
+          "character": "Telemachus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+        },
+        {
+          "name": "Anne Hathaway",
+          "character": "Penelope",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+        },
+        {
+          "name": "Robert Pattinson",
+          "character": "Antinous",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+        },
+        {
+          "name": "Himesh Patel",
+          "character": "Eurylochus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/icqsXLmU0FxBGTv63kkA0GcrecO.jpg"
+        },
+        {
+          "name": "Charlize Theron",
+          "character": "Calypso",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg"
+        },
+        {
+          "name": "John Leguizamo",
+          "character": "Eumaeus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg"
+        },
+        {
+          "name": "Travis Scott",
+          "character": "Bard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eBdm7HQS6lLGg4BocgfoJ5qB9yp.jpg"
+        },
+        {
+          "name": "Corey Hawkins",
+          "character": "Polybus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wRt0Bc0chN5BSjvYzmg2evgqNzp.jpg"
+        },
+        {
+          "name": "Jarreth J. Merz",
+          "character": "Leodes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ze8WDEujZmTXdCLcUy0IaymwlcS.jpg"
+        },
+        {
+          "name": "Niko Nicotera",
+          "character": "Peisander",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ffSAiwXMmvQP1vJuPguLznNpPOI.jpg"
+        },
+        {
+          "name": "Elliot Page",
+          "character": "Sinon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wSdlM4Qyoi5AGj5eIIp8Bm0Sfkz.jpg"
+        },
+        {
+          "name": "Shiloh Fernandez",
+          "character": "First Trojan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ug0p4QtE1Am7JySNClm7u8iISOB.jpg"
+        },
+        {
+          "name": "Rafi Gavron",
+          "character": "Second Trojan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/avCWoO9fLwEhbT6cvu0TJcSj49g.jpg"
+        },
+        {
+          "name": "Elyes Gabel",
+          "character": "Elatus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z9IqYTYxhVR9ADxaksbPQwiYQns.jpg"
+        },
+        {
+          "name": "Iddo Goldberg",
+          "character": "Amphimedon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dJGHbLmYKxLy87jduKGm5jDtBnR.jpg"
+        },
+        {
+          "name": "Jamie Harris",
+          "character": "Agelus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iqc9RropHWLe2wLCgUHtZZDJ7w.jpg"
+        },
+        {
+          "name": "John Ales",
+          "character": "Beggar in Ithaca",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rASQsyvYk1VD8hvo2Pi1Tq3Wwlm.jpg"
+        },
+        {
+          "name": "Raimy Lang",
+          "character": "Teenage Antinous",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/blAgz5a4IRmwycftKnrRMfWCYF3.jpg"
+        },
+        {
+          "name": "Mason Cufari",
+          "character": "Teenage Sinon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9o9bNDomtugse7iHQtPfVY6S6LM.jpg"
+        },
+        {
+          "name": "Mia Goth",
+          "character": "Melantho",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rwko7XVaKFcJH1dtAIIsrgLMzHb.jpg"
+        },
+        {
+          "name": "Ryan Hurst",
+          "character": "Mentor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/467wpYYeeDyF4MeoDMuNp4bwgzH.jpg"
+        },
+        {
+          "name": "Kate Fuglei",
+          "character": "Eurycleia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tm9IbjrFfOe3ueImBuHiBYrRIo2.jpg"
+        },
+        {
+          "name": "Benny Safdie",
+          "character": "Agamemnon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u10A5DpUYRB1zMF7YoGYcyvhois.jpg"
+        },
+        {
+          "name": "Adam Croasdell",
+          "character": "Antinous' Father",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vTScKZOLq9xPmkbNdOSb5p5kYB8.jpg"
+        },
+        {
+          "name": "Mickey Shilowich",
+          "character": "Infant Telemachus"
+        },
+        {
+          "name": "Katerina Antemel",
+          "character": "Iphigenia"
+        },
+        {
+          "name": "Jovan Adepo",
+          "character": "Elpenor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aJcuEbYru85meNGzM0oSeW3nsd6.jpg"
+        },
+        {
+          "name": "Andrew Howard",
+          "character": "Polites",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kba1JeCUYHufjB933G5xPRhO8lV.jpg"
+        },
+        {
+          "name": "Josh Stewart",
+          "character": "Antiphates",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/prgoT9fq5Z2ZCGmC1rrSZkq4wH9.jpg"
+        }
+      ]
+    }
   }
 }

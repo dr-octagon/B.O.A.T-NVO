@@ -24,7 +24,29 @@
       "Arnas Fedaravičius",
       "Jason Wong",
       "Adrian Lester",
-      "Chaneil Kular"
+      "Chaneil Kular",
+      "Andrew John Tait",
+      "Simon Kluth",
+      "Andrei Nova",
+      "Donking Rongavilla",
+      "Eugénie Richet",
+      "Tiffany Soithongsuk",
+      "Tayme Thapthimthong",
+      "Marvin Berrembou",
+      "Marvin Campbell",
+      "Rumi Sutton",
+      "Miryn Phang",
+      "Isky Fay",
+      "Ben Cartwright",
+      "Benjamin Sarpong-Broni",
+      "Dacio Caballero",
+      "Lee Charles",
+      "Steven Blades",
+      "Tom Christian",
+      "Matthew Acton",
+      "Godefroy Ryckewaert",
+      "Dom Dumaresq",
+      "Mark Archer"
     ],
     "director": [
       "Jean-François Richet"
@@ -33,6 +55,152 @@
       "Lindsay Michel",
       "J.P. Davis"
     ],
-    "runtime": "96 dk"
+    "runtime": "96 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/1fBG0oBuRyPq5omo7H4DlvC66Aq.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jason Statham",
+          "character": "Cole Reed",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8l6lmrmKFDvhDjMJPj6tBpJdhaA.jpg"
+        },
+        {
+          "name": "Annabelle Wallis",
+          "character": "Angie Ellis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg"
+        },
+        {
+          "name": "Roland Møller",
+          "character": "Captain Marko Madsen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bF7wrJ5mrIhSwyi6ylhyQWj9BoN.jpg"
+        },
+        {
+          "name": "Ramon Tikaram",
+          "character": "Tibu Campallo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wtBLiI8tzeqPLMB9uswkyFhChva.jpg"
+        },
+        {
+          "name": "Arnas Fedaravičius",
+          "character": "Mateo Pineda",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7WfcGugvkuPqEzu0cUJBeJPt1lD.jpg"
+        },
+        {
+          "name": "Jason Wong",
+          "character": "Taran",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tt3D1PAoB8Yf4jPCovnhlP4pvL3.jpg"
+        },
+        {
+          "name": "Adrian Lester",
+          "character": "Captain Adam Spencer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xyRB9aykTFtI42Ce8xFKZDCsHYd.jpg"
+        },
+        {
+          "name": "Chaneil Kular",
+          "character": "Kameron Campallo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/b6TmM2wcVntDMJGZWQM3ftshhIi.jpg"
+        },
+        {
+          "name": "Andrew John Tait",
+          "character": "BK Lobby Businessman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zwRwArmNyMTjXTJQopegK0kL439.jpg"
+        },
+        {
+          "name": "Simon Kluth",
+          "character": "Jaran Daniles",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tk4Iwjm5z3G4bQRebSOpGopx6f0.jpg"
+        },
+        {
+          "name": "Andrei Nova",
+          "character": "BK Party Businessman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qW4RfbmHffTdiwmuEIQv3oyJ8YA.jpg"
+        },
+        {
+          "name": "Donking Rongavilla",
+          "character": "Employee of Jaran Daniles"
+        },
+        {
+          "name": "Eugénie Richet",
+          "character": "Violette Ellis"
+        },
+        {
+          "name": "Tiffany Soithongsuk",
+          "character": "Reporter #1"
+        },
+        {
+          "name": "Tayme Thapthimthong",
+          "character": "BK Detective",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/Aq9AHZ7wSRFbdPZnPOupAAAHUnV.jpg"
+        },
+        {
+          "name": "Marvin Berrembou",
+          "character": "Josef",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s7uRgWET3heeIHjft82jKkLaIe8.jpg"
+        },
+        {
+          "name": "Marvin Campbell",
+          "character": "Simon",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dhyz21RdYRVnAYIY7NkfXcCjdmy.jpg"
+        },
+        {
+          "name": "Rumi Sutton",
+          "character": "Seng"
+        },
+        {
+          "name": "Miryn Phang",
+          "character": "Boon"
+        },
+        {
+          "name": "Isky Fay",
+          "character": "Dara"
+        },
+        {
+          "name": "Ben Cartwright",
+          "character": "Lieutenant Underwood",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/et81kCfsFf4kHCPgLfg96eX9Bok.jpg"
+        },
+        {
+          "name": "Benjamin Sarpong-Broni",
+          "character": "Petty Officer Yates",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uNE66Iu8nKTbYt6FZyrqhojwTyH.jpg"
+        },
+        {
+          "name": "Dacio Caballero",
+          "character": "Diego",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/55HjSWPW7zs86jPhMTbf93Jfay3.jpg"
+        },
+        {
+          "name": "Lee Charles",
+          "character": "Padraig",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hPcEeF8mG9PiOJmnduVjq9yH9jD.jpg"
+        },
+        {
+          "name": "Steven Blades",
+          "character": "Commander Tully",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sTHhPX0woMGrEAu4dnrQHK5NSYd.jpg"
+        },
+        {
+          "name": "Tom Christian",
+          "character": "Bertus",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iI7CamrahYTLKBLBjsi9xmBIJ74.jpg"
+        },
+        {
+          "name": "Matthew Acton",
+          "character": "Radar Officer Turner"
+        },
+        {
+          "name": "Godefroy Ryckewaert",
+          "character": "Engineers Mate"
+        },
+        {
+          "name": "Dom Dumaresq",
+          "character": "Lead Crewman"
+        },
+        {
+          "name": "Mark Archer",
+          "character": "Radar Officer Jupiter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ozj8zq3crSY4hJktS6iSAJ7bFm8.jpg"
+        }
+      ]
+    }
   }
 }

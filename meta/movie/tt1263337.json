@@ -29,6 +29,36 @@
     "writer": [
       "Cameron Alexander"
     ],
-    "runtime": "101 dk"
+    "runtime": "101 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bAc9Fw1jFEFaGfxIs2vlo0KTEPD.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Brad Pitt",
+          "character": "James Belmont",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
+        },
+        {
+          "name": "J.K. Simmons",
+          "character": "Watkins",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+        },
+        {
+          "name": "Anna Lambe",
+          "character": "Amber",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cKm5ZnAOVc6nD8KAgSDMJdZclYH.jpg"
+        },
+        {
+          "name": "Justin Melnick",
+          "character": "Military Soldier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sE5W8tononGWHKH2Z6GLeUHXeyP.jpg"
+        },
+        {
+          "name": "Shaun DeZern",
+          "character": "Military Soldier",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iORM61n9AM6ldFm7C4t8dm9pRLq.jpg"
+        }
+      ]
+    }
   }
 }

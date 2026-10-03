@@ -66,6 +66,31 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4EKgjKdhuFV2PpRAu7bhEUTukYS.png",
+    "cast": [
+      "Kyle Chandler",
+      "Aaron Pierre",
+      "Kelly Macdonald"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Kyle Chandler",
+          "character": "Hal Jordan / Halogram",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/66n7XNj1dyYkzCBWR3Lq8Vz4PJ1.jpg"
+        },
+        {
+          "name": "Aaron Pierre",
+          "character": "John Stewart",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg"
+        },
+        {
+          "name": "Kelly Macdonald",
+          "character": "Sheriff Kerry Kane",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k0yVocTnTMWlNdaeOO7YRViCdhO.jpg"
+        }
+      ]
+    }
   }
 }

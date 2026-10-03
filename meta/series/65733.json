@@ -27,8 +27,19 @@
       "Tomokazu Seki",
       "Subaru Kimura",
       "千秋",
-      "三石琴乃",
-      "松本保典"
+      "Kotono Mitsuişi",
+      "Yasunori Matsumoto",
+      "萩野志保子",
+      "Vataru Takagi",
+      "山崎バニラ",
+      "Hideyuki Tanaka",
+      "Minami Takayama",
+      "竹内都子",
+      "辻親八",
+      "田原アルノ",
+      "折笠愛",
+      "宝亀克寿",
+      "松本さち"
     ],
     "videos": [
       {
@@ -8815,6 +8826,105 @@
         "season": 1,
         "episode": 1464
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4PyFYwHjmD85jynyTwMKbKiZjZG.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "大原めぐみ",
+          "character": "Nobita Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zelZQmq65MaiSeDIiqEpZOINIxd.jpg"
+        },
+        {
+          "name": "水田わさび",
+          "character": "Doraemon (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sJ4kytbg2XiERgch3k2k82FXK2B.jpg"
+        },
+        {
+          "name": "かかずゆみ",
+          "character": "Shizuka Minamoto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sVIBofobg32jmGmL0gjEDVsJdaz.jpg"
+        },
+        {
+          "name": "Tomokazu Seki",
+          "character": "Suneo Honekawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg"
+        },
+        {
+          "name": "Subaru Kimura",
+          "character": "Takeshi Gouda (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8o24ix4Lk9WduRXFDI6Nmip5Deq.jpg"
+        },
+        {
+          "name": "千秋",
+          "character": "Dorami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yKpXkoOsLWPCO8SGD1vWwj9krov.jpg"
+        },
+        {
+          "name": "Kotono Mitsuişi",
+          "character": "Tamako Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dRqbE5D3uqfKnAPsHp9etsvO1Gg.jpg"
+        },
+        {
+          "name": "Yasunori Matsumoto",
+          "character": "Nobisuke Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/12vPpqoppN12i3Zk313dwQsUQYi.jpg"
+        },
+        {
+          "name": "萩野志保子",
+          "character": "Hidetoshi Dekisugi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kELyFSKlrhZwZmEsoF6KhcD1THE.jpg"
+        },
+        {
+          "name": "Vataru Takagi",
+          "character": "Sensei (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/amccLvyTl5JP7T9F05BojgQedNw.jpg"
+        },
+        {
+          "name": "山崎バニラ",
+          "character": "Jaiko Goda (voice)"
+        },
+        {
+          "name": "Hideyuki Tanaka",
+          "character": "Mr. Honekawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1D1PmELZexM6aod77gbh9GwvvGG.jpg"
+        },
+        {
+          "name": "Minami Takayama",
+          "character": "Mrs. Honekawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4Gunxt2UWnAX74ZoXKtqK2rI0e.jpg"
+        },
+        {
+          "name": "竹内都子",
+          "character": "Mrs. Goda (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6opGnzwn8DjpK052SJsq6Na28bz.jpg"
+        },
+        {
+          "name": "辻親八",
+          "character": "Mr. Goda (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/af5ILJbixauO84bsuLOr8XSU9yd.jpg"
+        },
+        {
+          "name": "田原アルノ",
+          "character": "Mr. Minamoto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/osOiAm0LbZWx6uHrH6noSwThB1r.jpg"
+        },
+        {
+          "name": "折笠愛",
+          "character": "Michiko Minamoto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6ztt20jMc4oprKbixp2sNrR2ykK.jpg"
+        },
+        {
+          "name": "宝亀克寿",
+          "character": "Kaminari / “Mr. Rumbleton” (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/stuUwLrSOmQhOmNpO4kCrlu3ALF.jpg"
+        },
+        {
+          "name": "松本さち",
+          "character": "Sewashi Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dNxFZhtMHkKbcfwli0bhs4wifTG.jpg"
+        }
+      ]
+    }
   }
 }

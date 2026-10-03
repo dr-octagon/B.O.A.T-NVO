@@ -2764,6 +2764,41 @@
         "season": 24,
         "episode": 15
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/d0qh15QxRMBigvAnuZ8bSaN02jS.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Seth MacFarlane",
+          "character": "Peter Griffin / Brian Griffin / Stewie Griffin / Glenn Quagmire (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg"
+        },
+        {
+          "name": "Alex Borstein",
+          "character": "Lois Griffin / Tricia Takanawa / Loretta Brown / Barbara Pewterschmidt (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/evbCnRe5Yfuy0B41PONLTIcvbem.jpg"
+        },
+        {
+          "name": "Mila Kunis",
+          "character": "Meg Griffin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cJAHQWX9hVadDFx5WTSBIW0VjvP.jpg"
+        },
+        {
+          "name": "Seth Green",
+          "character": "Chris Griffin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg"
+        },
+        {
+          "name": "Patrick Warburton",
+          "character": "Joe Swanson (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nDoOii5HaGwPxYa28xFC2sDkF8y.jpg"
+        },
+        {
+          "name": "Arif Zahir",
+          "character": "Cleveland Brown (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/b8tKuHh132LcOFKC4Nd2fCJDGMt.jpg"
+        }
+      ]
+    }
   }
 }

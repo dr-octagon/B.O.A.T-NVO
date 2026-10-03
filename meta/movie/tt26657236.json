@@ -16,6 +16,154 @@
       "Korku",
       "Gizem",
       "Bilim Kurgu"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/g0PswKqAFJdwGK3d1fKvj8LGnrW.png",
+    "cast": [
+      "Chiwetel Ejiofor",
+      "Renate Reinsve",
+      "Finn Bennett",
+      "Lukita Maxwell",
+      "Mark Duplass",
+      "Avan Jogia",
+      "Robert Bobroczkyi",
+      "Ember Ambrose",
+      "Krista Kosonen",
+      "Philip Granger",
+      "Katharine Isabelle",
+      "Peter New",
+      "Sarah Hayward",
+      "Natalie Moon",
+      "Calix Fraser",
+      "Sawyer Fraser",
+      "Patrick Baynham",
+      "Rhiannon Roberts",
+      "Dana Mahmood",
+      "Matthew Patrick Savage",
+      "Ramona Kim",
+      "Milana Wan",
+      "Kelly Craig",
+      "Mel Kostas"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Chiwetel Ejiofor",
+          "character": "Clark",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg"
+        },
+        {
+          "name": "Renate Reinsve",
+          "character": "Mary",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q0ljTd4fyFSJKxPgmcrKtdg3HKo.jpg"
+        },
+        {
+          "name": "Finn Bennett",
+          "character": "Bobby",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p4ya77nmLlhS2cyPKUZi9zVD4Mu.jpg"
+        },
+        {
+          "name": "Lukita Maxwell",
+          "character": "Kat",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g5g6XxUAtSdPfsJrSoFkl7vH51d.jpg"
+        },
+        {
+          "name": "Mark Duplass",
+          "character": "Phil",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lRDf99rAfcdqt8Cqk4LsIT7XSD2.jpg"
+        },
+        {
+          "name": "Avan Jogia",
+          "character": "Naren Warne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7BX0Lg39bHlgtvWZpszTr1YjTAW.jpg"
+        },
+        {
+          "name": "Robert Bobroczkyi",
+          "character": "Pirate Clark",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3SK7NuuBKR5PSJwsQ7HO4qHIM9C.jpg"
+        },
+        {
+          "name": "Ember Ambrose",
+          "character": "Young Mary",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/w7h6l4ltuWaMYanGgzwyhAHGL2y.jpg"
+        },
+        {
+          "name": "Krista Kosonen",
+          "character": "Nora",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7iW2mxbxBgV5sX2y0fSY78lewW4.jpg"
+        },
+        {
+          "name": "Philip Granger",
+          "character": "Meterman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bkrnrtSiUnumWVpAOy5QDcOePiA.jpg"
+        },
+        {
+          "name": "Katharine Isabelle",
+          "character": "Robin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c9db3Cq3BQhWXCmVthyGQBN1W95.jpg"
+        },
+        {
+          "name": "Peter New",
+          "character": "Big Wayne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bT71ieZH2qhgxLNTPyorMlVp3PN.jpg"
+        },
+        {
+          "name": "Sarah Hayward",
+          "character": "Nurse",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qJUXnOYb9pAyjf8h0Jjp4gbY2w9.jpg"
+        },
+        {
+          "name": "Natalie Moon",
+          "character": "Phil's Wife",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cumEKvK8Nnw4wzJdrnyPoxfBL40.jpg"
+        },
+        {
+          "name": "Calix Fraser",
+          "character": "Phil's Child",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ddtaOOITYnRQatdxdjsaxnYHHzQ.jpg"
+        },
+        {
+          "name": "Sawyer Fraser",
+          "character": "Phil's Child",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2Zz11ogqWhsofmSAFvHd0oXfUE3.jpg"
+        },
+        {
+          "name": "Patrick Baynham",
+          "character": "Bearded Still Life",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oa7qvjQOVCAiZimvn2uriwPypxe.jpg"
+        },
+        {
+          "name": "Rhiannon Roberts",
+          "character": "Redheaded Still Life",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uu8k7wfW82jIrEey2qnyhCozHIV.jpg"
+        },
+        {
+          "name": "Dana Mahmood",
+          "character": "Archibald Leland Sutter Still Life"
+        },
+        {
+          "name": "Matthew Patrick Savage",
+          "character": "Homeless Man"
+        },
+        {
+          "name": "Ramona Kim",
+          "character": "Party Attendant Mother",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3Nfx8JMwPPHPliARMmqqZz6uRlH.jpg"
+        },
+        {
+          "name": "Milana Wan",
+          "character": "Party Attendant Daughter"
+        },
+        {
+          "name": "Kelly Craig",
+          "character": "Barbara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AeXj9nfhm05e0HgIVkPlf3SJVC1.jpg"
+        },
+        {
+          "name": "Mel Kostas",
+          "character": "Rival Customer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qSIRx5Rrkihpd5du3zi6hOK9KT3.jpg"
+        }
+      ]
+    }
   }
 }

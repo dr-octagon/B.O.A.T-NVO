@@ -65,6 +65,55 @@
         "season": 1,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/guQ5AyQeyT3gxcAoR3KVF8TLb3b.png",
+    "cast": [
+      "Ella Beatty",
+      "Vicky Krieps",
+      "Sarah Paulson",
+      "Charlie Hunnam",
+      "Rebecca Hall",
+      "Billie Lourd",
+      "Jessica Barden"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Ella Beatty",
+          "character": "Lizzie Borden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ksWqDRv0knHs9vFffeRD0c28UKH.jpg"
+        },
+        {
+          "name": "Vicky Krieps",
+          "character": "Bridget Sullivan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9laK3w40qBnE5UY41wJfnUAYMmC.jpg"
+        },
+        {
+          "name": "Sarah Paulson",
+          "character": "Aileen Wuornos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tJnhBV516yrekR3hTDUw15UMbxS.jpg"
+        },
+        {
+          "name": "Charlie Hunnam",
+          "character": "Andrew Borden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5WIDrnY25Ps2RYu0zIzHSVuSt5n.jpg"
+        },
+        {
+          "name": "Rebecca Hall",
+          "character": "Abby Borden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/coC58ANiDbqRIyle5zEl9QDektf.jpg"
+        },
+        {
+          "name": "Billie Lourd",
+          "character": "Emma Borden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1u8bZL6ZXu5iDbPO3Z0Spetyt34.jpg"
+        },
+        {
+          "name": "Jessica Barden",
+          "character": "Nance O'Neil",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yff76hxi2Y2yjezWZQ7jAWmbeGk.jpg"
+        }
+      ]
+    }
   }
 }

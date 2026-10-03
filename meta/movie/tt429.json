@@ -23,7 +23,29 @@
       "Luigi Pistilli",
       "Rada Rassimov",
       "Enzo Petito",
-      "Claudio Scarchilli"
+      "Claudio Scarchilli",
+      "Antonio Casale",
+      "Livio Lorenzon",
+      "Sandro Scarchilli",
+      "Benito Stefanelli",
+      "Angelo Novi",
+      "Antonio Casas",
+      "Aldo Sambrell",
+      "Al Mulock",
+      "Sergio Mendizábal",
+      "Antonio Molino Rojo",
+      "Lorenzo Robledo",
+      "Mario Brega",
+      "Chelo Alonso",
+      "Fortunato Arena",
+      "Román Ariznavarreta",
+      "Silvana Bacci",
+      "Joseph Bradley",
+      "Frank Braña",
+      "Amerigo Castrighella",
+      "Saturno Cerra",
+      "William Conroy",
+      "Axel Darna"
     ],
     "director": [
       "Sergio Leone"
@@ -34,6 +56,157 @@
       "Age",
       "Scarpelli"
     ],
-    "runtime": "161 dk"
+    "runtime": "161 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/lsWpgoZ5SUfmcssShExi4F1mr9Y.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Clint Eastwood",
+          "character": "Blondie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8TwdCfeOZH7ucRlfLZ6wObxa7cO.jpg"
+        },
+        {
+          "name": "Eli Wallach",
+          "character": "Tuco Ramirez",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/egLe8r2PwbTx9ocwS1Zu2vsYC9v.jpg"
+        },
+        {
+          "name": "Lee Van Cleef",
+          "character": "Sentenza / Angel Eyes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/prcDQR2pp0b92j0G8rnX5kQeQk0.jpg"
+        },
+        {
+          "name": "Aldo Giuffrè",
+          "character": "Alcoholic Union Captain",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aT6eECl1R3YGYL4KatyIQrq0zG8.jpg"
+        },
+        {
+          "name": "Luigi Pistilli",
+          "character": "Father Pablo Ramirez",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bH5vmD2CMBHzJyBe0P0bL6iTUNL.jpg"
+        },
+        {
+          "name": "Rada Rassimov",
+          "character": "Maria",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xJhnSHn2vKp0MJ2KZaihrgqq0Mc.jpg"
+        },
+        {
+          "name": "Enzo Petito",
+          "character": "Storekeeper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6CYnAdcOg1pns5TKI8Pj6VjefT1.jpg"
+        },
+        {
+          "name": "Claudio Scarchilli",
+          "character": "Tuco Henchman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bOSIxQUHXkSHevhWsIp9I6j5b8d.jpg"
+        },
+        {
+          "name": "Antonio Casale",
+          "character": "Bill Carson / Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uAhNOD1ZA9Gh1CmCWkb4RRI1OKd.jpg"
+        },
+        {
+          "name": "Livio Lorenzon",
+          "character": "Baker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AkIJIeGG2w0RIWejf6QoReu3ZhB.jpg"
+        },
+        {
+          "name": "Sandro Scarchilli",
+          "character": "Tuco Henchman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9QXMXMqQ3eEY2k5N6U2q4wzCJrS.jpg"
+        },
+        {
+          "name": "Benito Stefanelli",
+          "character": "Member of Angel Eyes' Gang",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g8wrcKWLuxq3Rmtp3LXItaGVLoQ.jpg"
+        },
+        {
+          "name": "Angelo Novi",
+          "character": "Monk"
+        },
+        {
+          "name": "Antonio Casas",
+          "character": "Stevens",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x3CWO3b5ZlJiAXWtMvnF5n3ntwB.jpg"
+        },
+        {
+          "name": "Aldo Sambrell",
+          "character": "Member of Angel Eyes' Gang",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lJsoZtOeNaer5jZSydSjONL32xp.jpg"
+        },
+        {
+          "name": "Al Mulock",
+          "character": "One-Armed Bounty Hunter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kpKA0KjiyQMdXaT7syWfYg7MDVS.jpg"
+        },
+        {
+          "name": "Sergio Mendizábal",
+          "character": "Blonde Bounty Hunter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/57EwNl2OEj0tTfoDqx5f6Mtm7ti.jpg"
+        },
+        {
+          "name": "Antonio Molino Rojo",
+          "character": "Captain Harper",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xcihEJspCPThRwNhEA9dg3JNiXW.jpg"
+        },
+        {
+          "name": "Lorenzo Robledo",
+          "character": "Clem",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p82MoYURVN95wwIJnX7aO1xZc6I.jpg"
+        },
+        {
+          "name": "Mario Brega",
+          "character": "Corporal Wallace",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qZvFBxipsL1znAmtohKQHsTq9GN.jpg"
+        },
+        {
+          "name": "Chelo Alonso",
+          "character": "Stevens' Wife (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3jN80sYYxEd88mYpgQC5OALbECM.jpg"
+        },
+        {
+          "name": "Fortunato Arena",
+          "character": "1st Sombrero Onlooker at Tuco's 1st Hanging (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3NzdwyHNAW6y3d2UnYjZmt7eYJi.jpg"
+        },
+        {
+          "name": "Román Ariznavarreta",
+          "character": "Bounty Hunter (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/djT0FucpJlNvdzXET5Z1mhkY4Wv.jpg"
+        },
+        {
+          "name": "Silvana Bacci",
+          "character": "Mexican Woman with Blondie (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cWCliMHwmwpLnTASdQBkAOafMn.jpg"
+        },
+        {
+          "name": "Joseph Bradley",
+          "character": "Old Soldier (uncredited)"
+        },
+        {
+          "name": "Frank Braña",
+          "character": "Bounty Hunter #2 (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cVl6735BB319Xm8q2N39upkN177.jpg"
+        },
+        {
+          "name": "Amerigo Castrighella",
+          "character": "2nd Sombrero Onlooker at Tuco's 1st Hanging (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/i5xPp42yiACwMXgbL6DdcVOMaZw.jpg"
+        },
+        {
+          "name": "Saturno Cerra",
+          "character": "Bounty Hunter (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hhZ896B9SL7AsHRkj4h3AkWopoE.jpg"
+        },
+        {
+          "name": "William Conroy",
+          "character": "Confederate Soldier (uncredited)"
+        },
+        {
+          "name": "Axel Darna",
+          "character": "Dying Confederate Soldier (uncredited)"
+        }
+      ]
+    }
   }
 }

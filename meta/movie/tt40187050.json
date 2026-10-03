@@ -15,6 +15,116 @@
     "genres": [
       "Komedi",
       "Romantik"
-    ]
+    ],
+    "cast": [
+      "Angelique Boyer",
+      "Bárbara de Regil",
+      "Diego Klein",
+      "Lucía Uribe",
+      "Isabella Camil",
+      "Gabriela Platas",
+      "Laura Flores",
+      "Elena Pérez",
+      "César Rodríguez",
+      "Rolando Breme",
+      "Cecilia de los Santos Vargas",
+      "Tomihuatzi Xelhuantzi",
+      "Rubén Carpinteiro",
+      "Margarita Chavarría",
+      "Valentina Bouchot",
+      "Πατρίτσια Περιστέρη",
+      "Anna Cepinska",
+      "Daria Alicia"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Angelique Boyer",
+          "character": "Alexa Hernández",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c73CU85L1sHganTpVUHnjw3gbba.jpg"
+        },
+        {
+          "name": "Bárbara de Regil",
+          "character": "Regina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2Oy7SFBIUtj4Qe2O6Ys9Bf8LJ86.jpg"
+        },
+        {
+          "name": "Diego Klein",
+          "character": "Roy / Sebastián Benavides / Erick López",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zUSgyUwiQVMqX5iuVrqXCtbdC7F.jpg"
+        },
+        {
+          "name": "Lucía Uribe",
+          "character": "Claudia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zyuMAnbyG2a48B4602eoFI094pT.jpg"
+        },
+        {
+          "name": "Isabella Camil",
+          "character": "Leticia Letram",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jpRcrulEFlsy1ZMb1U9SY5ZPv0w.jpg"
+        },
+        {
+          "name": "Gabriela Platas",
+          "character": "Majo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kU9Qpq7uLHsEQR4ECZsl3D0KsXD.jpg"
+        },
+        {
+          "name": "Laura Flores",
+          "character": "Paty",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rJqyCEBqB4ua2SjQ7PlDvzjlsby.jpg"
+        },
+        {
+          "name": "Elena Pérez",
+          "character": "Nadia Letram"
+        },
+        {
+          "name": "César Rodríguez",
+          "character": "Moncho",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jDClj2dOXVaMNl1ky8FO8K3bsg8.jpg"
+        },
+        {
+          "name": "Rolando Breme",
+          "character": "Ratero",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iCGyKDH0ogBxf7Ha5VBDwlbIn36.jpg"
+        },
+        {
+          "name": "Cecilia de los Santos Vargas",
+          "character": "Olivia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hfbQ8W1v2axJSX1XmB1iihn2z9d.jpg"
+        },
+        {
+          "name": "Tomihuatzi Xelhuantzi",
+          "character": "Don Onofre",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nmWEjGTnyqExEb8QYku88sGhBve.jpg"
+        },
+        {
+          "name": "Rubén Carpinteiro",
+          "character": "Valet"
+        },
+        {
+          "name": "Margarita Chavarría",
+          "character": "Leticia"
+        },
+        {
+          "name": "Valentina Bouchot",
+          "character": "Carla"
+        },
+        {
+          "name": "Πατρίτσια Περιστέρη",
+          "character": "Anna",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mLr9Stra8TE139gp0LjRkkiqnSA.jpg"
+        },
+        {
+          "name": "Anna Cepinska",
+          "character": "Sabrina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aT8Qe5Kx1IsQYggpXS3eutjl4f0.jpg"
+        },
+        {
+          "name": "Daria Alicia",
+          "character": "Dani",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h8EejKQoKmqHdFip68gF9ITsw3J.jpg"
+        }
+      ]
+    }
   }
 }

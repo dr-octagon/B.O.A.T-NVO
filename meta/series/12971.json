@@ -25,7 +25,29 @@
       "龍田直樹",
       "Ryusei Nakao",
       "八奈見乗児",
-      "渡辺菜生子"
+      "渡辺菜生子",
+      "Hirotaka Suzuoki",
+      "伊藤美紀",
+      "皆口裕子",
+      "江森浩子",
+      "荘真由美",
+      "古谷徹",
+      "鈴木富子",
+      "小山茉美",
+      "青森伸",
+      "宮内幸平",
+      "塩屋浩三",
+      "西尾徳",
+      "野本礼三",
+      "大友龍三郎",
+      "小林優子",
+      "増岡弘",
+      "向井真理子",
+      "川浪葉子",
+      "草尾毅",
+      "Hikaru Midorikava",
+      "青野武",
+      "永井一郎"
     ],
     "videos": [
       {
@@ -1774,6 +1796,160 @@
         "season": 9,
         "episode": 38
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/yMoktMFgvqnsQ1Pii9xwturAHx4.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "野沢雅子",
+          "character": "Son Goku / Son Gohan / Son Goten (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg"
+        },
+        {
+          "name": "堀川りょう",
+          "character": "Vegeta (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vZ69WQJfR5D2xow5FkddduRjq6c.jpg"
+        },
+        {
+          "name": "古川登志夫",
+          "character": "Piccolo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zZjO0NxIbEhYW3507gXVnvWeRkG.jpg"
+        },
+        {
+          "name": "田中真弓",
+          "character": "Krillin / Uranai Baba (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/by4t1tYtEXsfbFj9TvOjozBmQla.jpg"
+        },
+        {
+          "name": "龍田直樹",
+          "character": "Oolong / Karin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hgQOOPATD48vqos1YnRwqDTV2ab.jpg"
+        },
+        {
+          "name": "Ryusei Nakao",
+          "character": "Freeza (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fsxlwNIWj7taqpXRYETmXFk0x1P.jpg"
+        },
+        {
+          "name": "八奈見乗児",
+          "character": "Dr. Briefs (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/khkGvegnYvx50pAEF1lms7ZKBqy.jpg"
+        },
+        {
+          "name": "渡辺菜生子",
+          "character": "Puar / Chi-Chi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wgX2xT2y21Tv0eKIMSyMXf6CC0U.jpg"
+        },
+        {
+          "name": "Hirotaka Suzuoki",
+          "character": "Tien Shinhan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pgFcxD6dazHWy3KFobU6gDz0iCJ.jpg"
+        },
+        {
+          "name": "伊藤美紀",
+          "character": "Android 18 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6osSzjWq1MZ0XznG3UZHpB81lJF.jpg"
+        },
+        {
+          "name": "皆口裕子",
+          "character": "Videl, Pan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bEv0ho89VNgWkCCmT2GdNjMAuvZ.jpg"
+        },
+        {
+          "name": "江森浩子",
+          "character": "Mama / Chaozu / Bulma / Bulla (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/igA6ftYG0lxckcsxH40cZ9y4zh2.jpg"
+        },
+        {
+          "name": "荘真由美",
+          "character": "Chi-Chi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5dqhj93xYSOIoIORLYCRMUxU66N.jpg"
+        },
+        {
+          "name": "古谷徹",
+          "character": "Yamcha (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2et31Lo8I0gRbyYFaOu3TBRby7U.jpg"
+        },
+        {
+          "name": "鈴木富子",
+          "character": "Marron (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wngJTGZ4I0jiK6RyL1RvLqGIDRv.jpg"
+        },
+        {
+          "name": "小山茉美",
+          "character": "Lunch (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4KjDxYsa7mMh8gbqSKCV2DixDAx.jpg"
+        },
+        {
+          "name": "青森伸",
+          "character": "Kibit (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6Ij6wDZWWcduM7e3N8GT2s73Nto.jpg"
+        },
+        {
+          "name": "宮内幸平",
+          "character": "Master Roshi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zmA0Pf53wW2VbaBT54NDtGCPQNQ.jpg"
+        },
+        {
+          "name": "塩屋浩三",
+          "character": "Majin Buu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2IVg74G3MVGIhd3ImlAlo7IvE1P.jpg"
+        },
+        {
+          "name": "西尾徳",
+          "character": "Mr. Popo (voice)"
+        },
+        {
+          "name": "野本礼三",
+          "character": "Rō Kaiōshin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4kdO7dnvRcYGN6ByGpB3esva1fY.jpg"
+        },
+        {
+          "name": "大友龍三郎",
+          "character": "Dabura (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fk3ebYlTjILTXkzJNvOi3SRUNb6.jpg"
+        },
+        {
+          "name": "小林優子",
+          "character": "Marron (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3Dq7JUi9x1kVwCf6l056Ji26nPN.jpg"
+        },
+        {
+          "name": "増岡弘",
+          "character": "Master Roshi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bLa1MWREDrt29C8uKZxewnnUedE.jpg"
+        },
+        {
+          "name": "向井真理子",
+          "character": "Mama (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cknk5BCDPGkarJOyEntrRL97UF5.jpg"
+        },
+        {
+          "name": "川浪葉子",
+          "character": "Mama (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7zTFepqY7YX7xcQRVacC4xp5qn2.jpg"
+        },
+        {
+          "name": "草尾毅",
+          "character": "Trunks (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gDiYLUdl9zXXJmhE0bAuB1Jm3FJ.jpg"
+        },
+        {
+          "name": "Hikaru Midorikava",
+          "character": "Android 16 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pvzfUDE9UruEhRBrONVFk83o6Zh.jpg"
+        },
+        {
+          "name": "青野武",
+          "character": "Kami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e3IaulH39g31sTIZuiUsXXc5iZj.jpg"
+        },
+        {
+          "name": "永井一郎",
+          "character": "Karin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d5LuqwoIjMIqKvKmEk5y6AZY1Ww.jpg"
+        }
+      ]
+    }
   }
 }

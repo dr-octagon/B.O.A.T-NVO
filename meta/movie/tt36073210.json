@@ -24,7 +24,17 @@
       "Joaquín Ferreira",
       "Zoe Bonafonte",
       "Majo Gámez",
-      "João Bettencourt"
+      "João Bettencourt",
+      "Leander Vyvey",
+      "Eric Masip",
+      "Luka Peroš",
+      "Inge Ladd",
+      "Alessia Yoko Fontana",
+      "Jorge Valder",
+      "Lissette Lebron",
+      "Pablo Otero",
+      "Molly Malcolm",
+      "Catalina Bang"
     ],
     "director": [
       "Óscar Pedraza"
@@ -32,6 +42,100 @@
     "writer": [
       "Sofía Cuenca"
     ],
-    "runtime": "104 dk"
+    "runtime": "104 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/fBv0EtPSrKRNzwsNSZ6QIolJ1w6.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Ester Expósito",
+          "character": "Marfil",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xoktRKmZQbNokVRIk9Ff1XJXMEg.jpg"
+        },
+        {
+          "name": "Hugo Diego Garcia",
+          "character": "Sebastian",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mC0Aly8hHgNIYvZSa1SZmYU47pn.jpg"
+        },
+        {
+          "name": "Pablo Molinero",
+          "character": "Alejandro Cortés",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mtoRws2DEpETuGJGmvI5DALUcce.jpg"
+        },
+        {
+          "name": "Lluís Homar",
+          "character": "Logan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p1AFBzyZRbHzA6S8q3RWw0YXoAf.jpg"
+        },
+        {
+          "name": "Joaquín Ferreira",
+          "character": "Ray",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dGpDGDPMtvsZpc4ZMMgjy1DOGpU.jpg"
+        },
+        {
+          "name": "Zoe Bonafonte",
+          "character": "Gabriela",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pwjNbRQP4GXVREfB96SuzHh2hqq.jpg"
+        },
+        {
+          "name": "Majo Gámez",
+          "character": "Tami",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zjgbcRy2IQH30AySeXa3H0MkUUZ.jpg"
+        },
+        {
+          "name": "João Bettencourt",
+          "character": "Liam",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a0wqnZmewxpNIXi1ol9fii2CzWJ.jpg"
+        },
+        {
+          "name": "Leander Vyvey",
+          "character": "Wilson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dTKoYDKqU8vPx7tzbOEcjHKeYRb.jpg"
+        },
+        {
+          "name": "Eric Masip",
+          "character": "Iván",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2JmF1hJ40a3k3oyeiAoITiX1CKI.jpg"
+        },
+        {
+          "name": "Luka Peroš",
+          "character": "Marcus Kozel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lfh7959EpR9gAvrjObNGXaUg2qF.jpg"
+        },
+        {
+          "name": "Inge Ladd",
+          "character": "Profesora Fonteyn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2dM7bk6nAKPzLLOlYs2EBoeVMIm.jpg"
+        },
+        {
+          "name": "Alessia Yoko Fontana",
+          "character": "Lucille",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dfjc5axF2R021rySFLeXuYXtzMG.jpg"
+        },
+        {
+          "name": "Jorge Valder",
+          "character": "Agente Rivera",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cRFtMvil0Bp4tHPF7k61gYJ0PKn.jpg"
+        },
+        {
+          "name": "Lissette Lebron",
+          "character": "Lisa",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mFEr6fPUxMzl6vuZBNfi5ZIvimo.jpg"
+        },
+        {
+          "name": "Pablo Otero",
+          "character": "Robert",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lRr61QrdG0RChV8nJ7slAiuvU7j.jpg"
+        },
+        {
+          "name": "Molly Malcolm",
+          "character": "Médico",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3S7OPQsiMDQKxuTUyIQbqxJvIfP.jpg"
+        },
+        {
+          "name": "Catalina Bang",
+          "character": "Bailarina"
+        }
+      ]
+    }
   }
 }

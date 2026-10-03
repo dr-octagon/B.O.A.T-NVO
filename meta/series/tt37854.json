@@ -7098,6 +7098,85 @@
         "season": 23,
         "episode": 25
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
+    "cast": [
+      "田中真弓",
+      "Kazuya Nakai",
+      "矢口真里",
+      "岡村明美",
+      "Kappei Yamaguçi",
+      "Hiroaki Hirata",
+      "İkue Otani",
+      "Yuriko Yamaguchi",
+      "矢尾一樹",
+      "宝亀克寿",
+      "Ço",
+      "Hideyuki Tanaka"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "田中真弓",
+          "character": "Monkey D. Luffy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/by4t1tYtEXsfbFj9TvOjozBmQla.jpg"
+        },
+        {
+          "name": "Kazuya Nakai",
+          "character": "Roronoa Zoro (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cOHSa0FBrG3u9P6g8A56sInkvod.jpg"
+        },
+        {
+          "name": "矢口真里",
+          "character": "Yoko (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/edjVzlYS9elEzDHJdAunceWhkWR.jpg"
+        },
+        {
+          "name": "岡村明美",
+          "character": "Nami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg"
+        },
+        {
+          "name": "Kappei Yamaguçi",
+          "character": "Usopp (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg"
+        },
+        {
+          "name": "Hiroaki Hirata",
+          "character": "Sanji (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg"
+        },
+        {
+          "name": "İkue Otani",
+          "character": "Tony Tony Chopper (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/my8LBLQ4MsK4hRz1PAATIqtieaI.jpg"
+        },
+        {
+          "name": "Yuriko Yamaguchi",
+          "character": "Nico Robin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/14hV8oOMkZddPpvdpVSODRwVPgv.jpg"
+        },
+        {
+          "name": "矢尾一樹",
+          "character": "Franky (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kjETB1FaDaGozGjdq4Hu1UjrQDf.jpg"
+        },
+        {
+          "name": "宝亀克寿",
+          "character": "Jinbe (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/stuUwLrSOmQhOmNpO4kCrlu3ALF.jpg"
+        },
+        {
+          "name": "Ço",
+          "character": "Brook (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/70OZtKOHEGvbuMQAbQ01cGxrUDO.jpg"
+        },
+        {
+          "name": "Hideyuki Tanaka",
+          "character": "Donquixote Doflamingo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1D1PmELZexM6aod77gbh9GwvvGG.jpg"
+        }
+      ]
+    }
   }
 }

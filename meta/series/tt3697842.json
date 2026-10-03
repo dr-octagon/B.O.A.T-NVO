@@ -10910,6 +10910,16 @@
         "season": 11,
         "episode": 118
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wdjsrCJWXtwNpW9NmtpcTJqOCNY.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Stephen Colbert",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zQ6pvfqIqYiV4TB7lDoaJL52H93.jpg"
+        }
+      ]
+    }
   }
 }

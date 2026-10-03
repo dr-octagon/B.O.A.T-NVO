@@ -16,6 +16,178 @@
       "Aksiyon",
       "Dram",
       "Romantik"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/5RT3gWqna1GqmUHigoG3sjg7gwB.png",
+    "cast": [
+      "พิมพ์ชนก ลือวิเศษไพบูลย์",
+      "ธนภพ ลีรัตนขจร",
+      "ศิวกร อดุลสุทธิกุล",
+      "ชาตโยดม หิรัญยัติ",
+      "ธีรชัย วิมลชัยฤกษ์",
+      "Teerawat Mulvilai",
+      "Dan Chupong",
+      "เกศริน เอกธวัชกุล",
+      "ชนุดม สุขสถิตย์",
+      "Nikorn Saetang",
+      "Namo Benedict Rebillet",
+      "วิน สกุลแสงประภา",
+      "Natthaya Ongsritragul",
+      "อัยภณ เล็กพิทยา",
+      "Tananis Saksupawee",
+      "Ross James Cain",
+      "Valentin Draganov Velkov",
+      "Egor Kalinin",
+      "Nanthathep Srikhandpur",
+      "Annop Vorapanya",
+      "Pisarn Pattanapeeradej",
+      "Chalanthorn Menakongka",
+      "Sarayut Phetsamrit",
+      "Nguyen Thi Thu Thao",
+      "ปัชชุน หิรัณประทีป",
+      "Nisit Nimmanvoradit",
+      "Kateryna Streltsova",
+      "Victoria Masoma",
+      "Denis Krylyshkin",
+      "Agung Bagus"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "พิมพ์ชนก ลือวิเศษไพบูลย์",
+          "character": "Lhan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1dAa0G7gG3KbeF66HOof4DPXrpX.jpg"
+        },
+        {
+          "name": "ธนภพ ลีรัตนขจร",
+          "character": "Pran",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zZCYpbtAe4axyySy0TYS8eICujw.jpg"
+        },
+        {
+          "name": "ศิวกร อดุลสุทธิกุล",
+          "character": "M",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tbE7j3kwPCW6Yj3WQPZFtL9EasR.jpg"
+        },
+        {
+          "name": "ชาตโยดม หิรัญยัติ",
+          "character": "Poh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/srsQcBSRLjjyIhSdS72xNPlHhUZ.jpg"
+        },
+        {
+          "name": "ธีรชัย วิมลชัยฤกษ์",
+          "character": "Pruek",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s4NJCN5jvx3xx7lrJvGdQH5mouf.jpg"
+        },
+        {
+          "name": "Teerawat Mulvilai",
+          "character": "Lhek",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p67Fm2px5Cs2iBBPrXzS45Ly893.jpg"
+        },
+        {
+          "name": "Dan Chupong",
+          "character": "Deaw",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hl3Xhzbf5Vpxfx9bcdDPsdlXmWB.jpg"
+        },
+        {
+          "name": "เกศริน เอกธวัชกุล",
+          "character": "Ja",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1IffgogYt2XbkWB2YloZL9PsLxp.jpg"
+        },
+        {
+          "name": "ชนุดม สุขสถิตย์",
+          "character": "Chaba",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wBHSK4gROmspHSb4cUIbtv35kNJ.jpg"
+        },
+        {
+          "name": "Nikorn Saetang",
+          "character": "Doctor Der"
+        },
+        {
+          "name": "Namo Benedict Rebillet",
+          "character": "Blue",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c4EGl2uotVhLUntcIeKS01M1pTO.jpg"
+        },
+        {
+          "name": "วิน สกุลแสงประภา",
+          "character": "Young Pran",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zqHDX9EoQFNeo9Ol9yjKWPwfDsg.jpg"
+        },
+        {
+          "name": "Natthaya Ongsritragul",
+          "character": "Young Lhan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/i2EefIqNyCdAn7smey8rxYxOmgj.jpg"
+        },
+        {
+          "name": "อัยภณ เล็กพิทยา",
+          "character": "Young M",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gEyYsicMrDek48kB3JI8DigwnMP.jpg"
+        },
+        {
+          "name": "Tananis Saksupawee",
+          "character": "Michelle"
+        },
+        {
+          "name": "Ross James Cain",
+          "character": "Doctor"
+        },
+        {
+          "name": "Valentin Draganov Velkov",
+          "character": "The Wealthy Man"
+        },
+        {
+          "name": "Egor Kalinin",
+          "character": "First Aurum Blood Donor"
+        },
+        {
+          "name": "Nanthathep Srikhandpur",
+          "character": "Indian Agent"
+        },
+        {
+          "name": "Annop Vorapanya",
+          "character": "Vinyl Collector Customer"
+        },
+        {
+          "name": "Pisarn Pattanapeeradej",
+          "character": "Target"
+        },
+        {
+          "name": "Chalanthorn Menakongka",
+          "character": "Artist"
+        },
+        {
+          "name": "Sarayut Phetsamrit",
+          "character": "Lhan's Father"
+        },
+        {
+          "name": "Nguyen Thi Thu Thao",
+          "character": "Lhan's Mother"
+        },
+        {
+          "name": "ปัชชุน หิรัณประทีป",
+          "character": "Lhan's Son",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e1n64he0PV17bhJVmxQLU4Ula1.jpg"
+        },
+        {
+          "name": "Nisit Nimmanvoradit",
+          "character": "Chinese Translator"
+        },
+        {
+          "name": "Kateryna Streltsova",
+          "character": "Nurse"
+        },
+        {
+          "name": "Victoria Masoma",
+          "character": "Nurse"
+        },
+        {
+          "name": "Denis Krylyshkin",
+          "character": "Nurse"
+        },
+        {
+          "name": "Agung Bagus",
+          "character": "Thug",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iVD3sXOTrpvH8EbajI3gPTtEAJt.jpg"
+        }
+      ]
+    }
   }
 }

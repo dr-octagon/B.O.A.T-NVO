@@ -24,7 +24,29 @@
       "Andy Richter",
       "Haley Fitzgerald",
       "Darin Toonder",
-      "Anthony Pavone"
+      "Anthony Pavone",
+      "Justice",
+      "Anthony Casabianca",
+      "Chloe Breen",
+      "Malcolm Kelner",
+      "Charles Santa Cruz",
+      "Alex Maystrik",
+      "Mariana Silva",
+      "Kyle Blumenthal",
+      "Jorge Luquin",
+      "Jose Herrera",
+      "Emilio Flores",
+      "Manny Liotta",
+      "Mai Chi Nguyen",
+      "Tim Robinson",
+      "Evan Brown",
+      "Maddi Hulburt",
+      "Jacob Stephens",
+      "Skyler Zurn",
+      "Danielle Krett",
+      "Dylan Michael Searle",
+      "Matthew Jackson",
+      "Itzel Ximena Gonzalez"
     ],
     "director": [
       "Curry Barker"
@@ -32,6 +54,146 @@
     "writer": [
       "Curry Barker"
     ],
-    "runtime": "109 dk"
+    "runtime": "109 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/2y6qVk9YIPxTzO43anxUQ9iTuh4.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Michael Johnston",
+          "character": "Bear",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fbpcCkBzu43kMdlXxEAMuLhseL8.jpg"
+        },
+        {
+          "name": "Inde Navarrette",
+          "character": "Nikki",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qlNBUGON8FebgzcqVhhRSVFYSa5.jpg"
+        },
+        {
+          "name": "Cooper Tomlinson",
+          "character": "Ian",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vBMQbYT1DyWPCUp11dIiqZR9zhd.jpg"
+        },
+        {
+          "name": "Megan Lawless",
+          "character": "Sarah",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6qW63YEgB1qro01sM7T2HvhtFkh.jpg"
+        },
+        {
+          "name": "Andy Richter",
+          "character": "Carter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5Qr7N6TzC8cI0ULxDm6EC5GpZ4C.jpg"
+        },
+        {
+          "name": "Haley Fitzgerald",
+          "character": "Viola",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xbKqZ5Epz0IaSCPLXDnByDACw2X.jpg"
+        },
+        {
+          "name": "Darin Toonder",
+          "character": "Harry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bD7Y9T7Y6XwDXjGJ8Suabyt1ZGo.jpg"
+        },
+        {
+          "name": "Anthony Pavone",
+          "character": "Reggie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hxiqY9gHgwXGYnXSD11Wacm5Nmi.jpg"
+        },
+        {
+          "name": "Justice",
+          "character": "Joe",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/YFxKf2HHJvyavQf54NO5wXFOJX.jpg"
+        },
+        {
+          "name": "Anthony Casabianca",
+          "character": "Chris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xNJUKqKQhMeyZ74erQvETr3AqV0.jpg"
+        },
+        {
+          "name": "Chloe Breen",
+          "character": "Ruthie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oKBTQeGcQBM5aHNHwAqVWPjDVfz.jpg"
+        },
+        {
+          "name": "Malcolm Kelner",
+          "character": "Bartender",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xlojlX1dlu1OY0Vf2owDWv5PV3l.jpg"
+        },
+        {
+          "name": "Charles Santa Cruz",
+          "character": "Background"
+        },
+        {
+          "name": "Alex Maystrik",
+          "character": "Background"
+        },
+        {
+          "name": "Mariana Silva",
+          "character": "Background"
+        },
+        {
+          "name": "Kyle Blumenthal",
+          "character": "Background"
+        },
+        {
+          "name": "Jorge Luquin",
+          "character": "Background"
+        },
+        {
+          "name": "Jose Herrera",
+          "character": "Background"
+        },
+        {
+          "name": "Emilio Flores",
+          "character": "Background",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/j5HG24bZUjr7Nw8NtB4dGENelWx.jpg"
+        },
+        {
+          "name": "Manny Liotta",
+          "character": "Background",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sMOebSAJzglALejW2rNuPI0ii5r.jpg"
+        },
+        {
+          "name": "Mai Chi Nguyen",
+          "character": "Background"
+        },
+        {
+          "name": "Tim Robinson",
+          "character": "Background"
+        },
+        {
+          "name": "Evan Brown",
+          "character": "Background"
+        },
+        {
+          "name": "Maddi Hulburt",
+          "character": "Background"
+        },
+        {
+          "name": "Jacob Stephens",
+          "character": "Background"
+        },
+        {
+          "name": "Skyler Zurn",
+          "character": "Background"
+        },
+        {
+          "name": "Danielle Krett",
+          "character": "Background"
+        },
+        {
+          "name": "Dylan Michael Searle",
+          "character": "Background",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iY6FI27HnsKs09Tmcio4tZHcqy6.jpg"
+        },
+        {
+          "name": "Matthew Jackson",
+          "character": "Background"
+        },
+        {
+          "name": "Itzel Ximena Gonzalez",
+          "character": "Background"
+        }
+      ]
+    }
   }
 }

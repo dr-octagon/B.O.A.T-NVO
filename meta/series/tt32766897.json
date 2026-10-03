@@ -173,6 +173,26 @@
         "season": 1,
         "episode": 25
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wDODKGlKxdCT36J4oS1uwtmWQRB.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Kappei Yamaguçi",
+          "character": "Ranma Saotome (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg"
+        },
+        {
+          "name": "Megumi Hayaşibara",
+          "character": "Ranma (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3Alm4pmBIxpeeh0Sdippxdbkpne.jpg"
+        },
+        {
+          "name": "日髙のり子",
+          "character": "Akane Tendo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/43OuwsjqGf7JxpFpUvB75OdDDXQ.jpg"
+        }
+      ]
+    }
   }
 }

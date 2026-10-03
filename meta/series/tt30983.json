@@ -26,7 +26,11 @@
       "神谷明",
       "Rikiya Koyama",
       "Megumi Hayaşibara",
-      "緒方賢一"
+      "緒方賢一",
+      "岩居由希子",
+      "Vataru Takagi",
+      "İkue Otani",
+      "Çafurin"
     ],
     "videos": [
       {
@@ -7325,6 +7329,71 @@
         "season": 1,
         "episode": 1216
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/vX0VEwZViadujTUGcL0EU5orV8p.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Minami Takayama",
+          "character": "Conan Edogawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4Gunxt2UWnAX74ZoXKtqK2rI0e.jpg"
+        },
+        {
+          "name": "Kappei Yamaguçi",
+          "character": "Shinichi Kudo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg"
+        },
+        {
+          "name": "Vakana Yamazaki",
+          "character": "Ran Mouri (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1hBk3w3v1p1VuAHs5On9nvL2rX2.jpg"
+        },
+        {
+          "name": "岡村明美",
+          "character": "Ran Mouri (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg"
+        },
+        {
+          "name": "神谷明",
+          "character": "Kogoro Mouri (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tJRMwbWFObv03KhATALs0Xbbgq7.jpg"
+        },
+        {
+          "name": "Rikiya Koyama",
+          "character": "Kogoro Mouri (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hsZm87BORLpzhaycBaWOD5xpjVC.jpg"
+        },
+        {
+          "name": "Megumi Hayaşibara",
+          "character": "Ai Haibara (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3Alm4pmBIxpeeh0Sdippxdbkpne.jpg"
+        },
+        {
+          "name": "緒方賢一",
+          "character": "Hiroshi Agasa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iQLEawIP2593yrGy22GzLSpnfgl.jpg"
+        },
+        {
+          "name": "岩居由希子",
+          "character": "Ayumi Yoshida (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9JpPkRCd4eYzMDUex8LZtSvEbUm.jpg"
+        },
+        {
+          "name": "Vataru Takagi",
+          "character": "Genta Kojima (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/amccLvyTl5JP7T9F05BojgQedNw.jpg"
+        },
+        {
+          "name": "İkue Otani",
+          "character": "Mitsuhiko Tsuburaya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/my8LBLQ4MsK4hRz1PAATIqtieaI.jpg"
+        },
+        {
+          "name": "Çafurin",
+          "character": "Juzo Megure (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kiPG7EtYWxkj78US35gnTIMq5Dn.jpg"
+        }
+      ]
+    }
   }
 }

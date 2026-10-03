@@ -14553,6 +14553,21 @@
         "season": 14,
         "episode": 8
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jK2LRtBWvv0w97L9Kp6qMPvmSsf.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jimmy Fallon",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h9kYouEP6VrM8GkS2jl7jMDKbwu.jpg"
+        },
+        {
+          "name": "Steve Higgins",
+          "character": "Self - Announcer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yia3GOqqCVfiNISWFjcqih88f1j.jpg"
+        }
+      ]
+    }
   }
 }

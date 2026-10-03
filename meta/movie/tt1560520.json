@@ -17,6 +17,144 @@
       "Aksiyon",
       "Macera",
       "Dram"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/yH9NHHGZx4H5Zt7dZtCJqbUdViN.png",
+    "cast": [
+      "Anson Mount",
+      "Michael Mando",
+      "Pablo Schreiber",
+      "Jeff Bennett",
+      "Luis Bermudez",
+      "Bruce Boxleitner",
+      "Jessica Camacho",
+      "Anthony Crivello",
+      "David Dastmalchian",
+      "Jason Flemyng",
+      "Jack Griffo",
+      "Jason Hightower",
+      "Adriana Isabel",
+      "Noah Mendes",
+      "Max Mittelman",
+      "Andrew Morgado",
+      "Bayardo De Murguia",
+      "Toks Olagundoye",
+      "Stephen Oyoung",
+      "Bill Rogers",
+      "Simon Templeman",
+      "Mick Wingert"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Anson Mount",
+          "character": "Batman / Bruce Wayne (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A4YBdwnzJKRcZXfodjT4UalHOK9.jpg"
+        },
+        {
+          "name": "Michael Mando",
+          "character": "Bane (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg"
+        },
+        {
+          "name": "Pablo Schreiber",
+          "character": "Jean-Paul Valley / Azrael (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/trKW3kwhwx4UeCNZg43A1x1h4Uv.jpg"
+        },
+        {
+          "name": "Jeff Bennett",
+          "character": "Ventriloquist / Scarface / Vincent (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6Fq3Q1e0Oz0j2J2fnFSl7fKCHd9.jpg"
+        },
+        {
+          "name": "Luis Bermudez",
+          "character": "Catman / Doctor / Guard (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cn1yzMsCrUatAqjDEIxTb8h38X9.jpg"
+        },
+        {
+          "name": "Bruce Boxleitner",
+          "character": "Commissioner Jim Gordon (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1x99F4oJTFAFY2HR4PbQdxiGyMH.jpg"
+        },
+        {
+          "name": "Jessica Camacho",
+          "character": "Renee Montoya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rmms55MpLdBWRDX8LLDTctgXUuA.jpg"
+        },
+        {
+          "name": "Anthony Crivello",
+          "character": "Franco Bertinelli / Priest / Prisoner (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AmeKWIanHlHYEDXpDfySEk95Myo.jpg"
+        },
+        {
+          "name": "David Dastmalchian",
+          "character": "The Riddler (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nER1Vzhk51pGHb60KBF1Ja5tEXA.jpg"
+        },
+        {
+          "name": "Jason Flemyng",
+          "character": "Mad Hatter (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nYl0180ACnLzVlGbaAfuPtdGr9K.jpg"
+        },
+        {
+          "name": "Jack Griffo",
+          "character": "Robin / Tim Drake (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tPXgQ7FRoN2SOxkDncLOjwSiPdH.jpg"
+        },
+        {
+          "name": "Jason Hightower",
+          "character": "The Riddler Henchman / Behemoth / Prisoner (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wdNUd3qVk66VunB2wH9iYLqgxhk.jpg"
+        },
+        {
+          "name": "Adriana Isabel",
+          "character": "Bane's Mother (voice)"
+        },
+        {
+          "name": "Noah Mendes",
+          "character": "Boy Bane (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9kgtQm9p5aj1FcvEjNi5XKb1mtR.jpg"
+        },
+        {
+          "name": "Max Mittelman",
+          "character": "Jason Todd / Cop (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zQqiIgestpxssPrUXQXkY2Sq0y8.jpg"
+        },
+        {
+          "name": "Andrew Morgado",
+          "character": "Victor Zsasz / Book Man / Cop (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/or0uFYnXsFs5td9GYRukUN56sRy.jpg"
+        },
+        {
+          "name": "Bayardo De Murguia",
+          "character": "Warden / Henchman (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lk9A9gi6l1jqPh6gA52NleRil3q.jpg"
+        },
+        {
+          "name": "Toks Olagundoye",
+          "character": "Shondra Kinsolving (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2tKnfTA0gh6QnTcHb18hj8o70uG.jpg"
+        },
+        {
+          "name": "Stephen Oyoung",
+          "character": "Chen (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oMdNxSd8cSZaYhpaDkaYQ40Z5o0.jpg"
+        },
+        {
+          "name": "Bill Rogers",
+          "character": "Gino / Tony / Guard (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bXxSUzXNSV5WR46ZL2bGmX7leSM.jpg"
+        },
+        {
+          "name": "Simon Templeman",
+          "character": "Alfred Pennyworth (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g0c8inA8Kboiqr6uGRq4gcesrK5.jpg"
+        },
+        {
+          "name": "Mick Wingert",
+          "character": "Harvey Bullock / Prisoner (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2Apga68BihekhCSPHNk5pXqC5Gq.jpg"
+        }
+      ]
+    }
   }
 }

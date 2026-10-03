@@ -24,7 +24,11 @@
       "Song Ji-hyo",
       "양세찬",
       "지예은",
-      "전소민"
+      "전소민",
+      "이광수",
+      "강개리",
+      "Song Joong-ki",
+      "박수영"
     ],
     "director": [
       "Jo Hyo-jin",
@@ -4981,6 +4985,71 @@
         "season": 1,
         "episode": 824
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xSWfVTk92R5UJwFZRk4jbwOBCcZ.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Yu Jae-seok",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1uktAM7R2Hgc3dynIXvzfACOmnW.jpg"
+        },
+        {
+          "name": "지석진",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mB3mQ3FOqFR5dIrbtyEpvckhCib.jpg"
+        },
+        {
+          "name": "김종국",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/56y9LaL65dbeaWZJt9dB7ifAUhR.jpg"
+        },
+        {
+          "name": "하하",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/i3vcj3GI3TCmDlnI3aLA7pWKIuN.jpg"
+        },
+        {
+          "name": "Song Ji-hyo",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f3QRDGEqHkeLBQZfWe3GbmHeuuX.jpg"
+        },
+        {
+          "name": "양세찬",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/odyq0zKjgZjX9o9OWZDImsBCDHQ.jpg"
+        },
+        {
+          "name": "지예은",
+          "character": "Self",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fTJfTdEvOjeKpO4Q4sbFxS7fy6E.jpg"
+        },
+        {
+          "name": "전소민",
+          "character": "Self – Former Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eKTdMgKkvMGrrb7Xj8U1EH8ooYu.jpg"
+        },
+        {
+          "name": "이광수",
+          "character": "Self – Former Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eqjZXCV4EutnoVxZwOveK6Nl5W9.jpg"
+        },
+        {
+          "name": "강개리",
+          "character": "Self – Former Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1VmcIXECCCXvn4hxHobxFpDplxu.jpg"
+        },
+        {
+          "name": "Song Joong-ki",
+          "character": "Self – Former Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kgjb5OppOVTh5tz3hhnfDVnTvDv.jpg"
+        },
+        {
+          "name": "박수영",
+          "character": "Self – Former Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lLI3jc288AfCphhNyo8gFsery2V.jpg"
+        }
+      ]
+    }
   }
 }

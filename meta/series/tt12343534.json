@@ -372,6 +372,11 @@
         "season": 1,
         "episode": 59
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/gPflM950uYjpJ20Pu1QMVBwkpBn.svg",
+    "cast": [],
+    "app_extras": {
+      "cast": []
+    }
   }
 }

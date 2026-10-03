@@ -26,7 +26,19 @@
       "Justina Machado",
       "Nate Torrence",
       "Camden Brooks",
-      "Táta Vega"
+      "Táta Vega",
+      "Ambika Mod",
+      "Lolly Adefope",
+      "John Ratzenberger",
+      "Kari Wahlgren",
+      "Fred Tatasciore",
+      "Zemo Tatasciore",
+      "David Lodge",
+      "Johnny Williams",
+      "Maven Morgan",
+      "Nathan Greno",
+      "Tim Mertens",
+      "Luna Hamilton"
     ],
     "director": [
       "Nathan Greno"
@@ -36,6 +48,109 @@
       "Robert Snow",
       "John Whittington"
     ],
-    "runtime": "102 dk"
+    "runtime": "102 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xDFelZppMJin1QmfQMMzZEc0fRZ.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Michael B. Jordan",
+          "character": "Ollie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sMBpav8cK7t7Nk0yf4tuNOqNUyW.jpg"
+        },
+        {
+          "name": "Juno Temple",
+          "character": "Ivy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vwCjlWQLQWbmcUT2Lwn9G0O8r2.jpg"
+        },
+        {
+          "name": "Tracy Morgan",
+          "character": "Boogle / Firewolf (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ec0OJVbs6NZKMbS1yiCAJKjeoJf.jpg"
+        },
+        {
+          "name": "Cedric the Entertainer",
+          "character": "Caloo (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s6UrY5uofyxXsU5PydWBoLFReK0.jpg"
+        },
+        {
+          "name": "Justina Machado",
+          "character": "Calli (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/j5FaJXoyhMHlqv1l6TBdt1CH1oO.jpg"
+        },
+        {
+          "name": "Nate Torrence",
+          "character": "Lodd (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yT9o149xPygdY0NsF9sNgiQwuru.jpg"
+        },
+        {
+          "name": "Camden Brooks",
+          "character": "Young Ollie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ge9FgIjRERhyylebW2Np9YwkqqR.jpg"
+        },
+        {
+          "name": "Táta Vega",
+          "character": "Grandma / Mrs. Dung Beetle (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9SdaK2vly0Gx5yvI5rrTszh31vt.jpg"
+        },
+        {
+          "name": "Ambika Mod",
+          "character": "Violet (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jN9HhFYPNMYIupFt6GzGnHAW88c.jpg"
+        },
+        {
+          "name": "Lolly Adefope",
+          "character": "Lily (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qPS57Mw1vjydSSfSYoMw8u81waI.jpg"
+        },
+        {
+          "name": "John Ratzenberger",
+          "character": "Elder Javan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
+        },
+        {
+          "name": "Kari Wahlgren",
+          "character": "Female Pookoo / Nurse Javan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kc0BOnSdzCfq8w9qoNVEm5K12x1.jpg"
+        },
+        {
+          "name": "Fred Tatasciore",
+          "character": "Elder Javan 2 / Rock Bear (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xodxYKRC9mdvgquTdqpmYldliJ3.jpg"
+        },
+        {
+          "name": "Zemo Tatasciore",
+          "character": "Wolf Pup (voice)"
+        },
+        {
+          "name": "David Lodge",
+          "character": "Wolf Father (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1SVIavAalm6lwKjuHQoMggHH180.jpg"
+        },
+        {
+          "name": "Johnny Williams",
+          "character": "Mr. Dung Beetle (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mQNhYK7SCzj6TY6m764ROposuRY.jpg"
+        },
+        {
+          "name": "Maven Morgan",
+          "character": "Pinecone Hedgehog (voice)"
+        },
+        {
+          "name": "Nathan Greno",
+          "character": "Snake 1 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eFE9odW9uzWAGomGFmmusxJT1Ee.jpg"
+        },
+        {
+          "name": "Tim Mertens",
+          "character": "Snake 2 (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x8wRcwmplL0i9J1J31SgNulfLVG.jpg"
+        },
+        {
+          "name": "Luna Hamilton",
+          "character": "Baby Bird (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rlQwbuPvFUXSIe8fFQIYVIkB4pP.jpg"
+        }
+      ]
+    }
   }
 }

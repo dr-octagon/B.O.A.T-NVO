@@ -25,7 +25,29 @@
       "James Cromwell",
       "Michael Jeter",
       "Graham Greene",
-      "Doug Hutchison"
+      "Doug Hutchison",
+      "Sam Rockwell",
+      "Barry Pepper",
+      "Jeffrey DeMunn",
+      "Patricia Clarkson",
+      "Harry Dean Stanton",
+      "Dabbs Greer",
+      "Eve Brent",
+      "William Sadler",
+      "Mack Miles",
+      "Rai Tasco",
+      "Edrie Warner",
+      "Paula Malcomson",
+      "Christopher Joel Ives",
+      "Evanne Drucker",
+      "Bailey Drucker",
+      "Brian Libby",
+      "Brent Briscoe",
+      "Bill McKinney",
+      "Gary Sinise",
+      "Rachel Singer",
+      "Scotty Leavenworth",
+      "Katelyn Leavenworth"
     ],
     "director": [
       "Frank Darabont"
@@ -33,6 +55,155 @@
     "writer": [
       "Frank Darabont"
     ],
-    "runtime": "189 dk"
+    "runtime": "189 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/6Ih3XDWEG00qaQnbBpRMdpdwlcS.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Hanks",
+          "character": "Paul Edgecomb",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        },
+        {
+          "name": "David Morse",
+          "character": "Brutus 'Brutal' Howell",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A6zGbkFjM3uajIakgsSeNTmSKqY.jpg"
+        },
+        {
+          "name": "Bonnie Hunt",
+          "character": "Jan Edgecomb",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+        },
+        {
+          "name": "Michael Clarke Duncan",
+          "character": "John Coffey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3RX8OBqt3gbvFwKYZqiom4O3Ta6.jpg"
+        },
+        {
+          "name": "James Cromwell",
+          "character": "Warden Hal Moores",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg"
+        },
+        {
+          "name": "Michael Jeter",
+          "character": "Eduard Delacroix",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pNBf8X56wCOHH7cArsMYJuke4fO.jpg"
+        },
+        {
+          "name": "Graham Greene",
+          "character": "Arlen Bitterbuck",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ubX9pwrzQqnR41gAGyY1GoSZr1G.jpg"
+        },
+        {
+          "name": "Doug Hutchison",
+          "character": "Percy Wetmore",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a32hLANC5LIqT0Pk2nyV7dGdh23.jpg"
+        },
+        {
+          "name": "Sam Rockwell",
+          "character": "'Wild Bill' Wharton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/afYhNpLwpa65Yy0Q0g00FNFhzx5.jpg"
+        },
+        {
+          "name": "Barry Pepper",
+          "character": "Dean Stanton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xBvW4dMoz496rItLQU6TGteYCEP.jpg"
+        },
+        {
+          "name": "Jeffrey DeMunn",
+          "character": "Harry Terwilliger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/70bkLdlkBB7x2NztuJAh4pjdyxy.jpg"
+        },
+        {
+          "name": "Patricia Clarkson",
+          "character": "Melinda Moores",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rHHM9G83fpBAcFathbSyV4Tot5j.jpg"
+        },
+        {
+          "name": "Harry Dean Stanton",
+          "character": "Toot-Toot",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9zOTpVMwMHNjPFBNoPy9vOBT1NC.jpg"
+        },
+        {
+          "name": "Dabbs Greer",
+          "character": "Old Paul Edgecomb",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7hWClK3p8gYZgTBJJSkZP3iJEew.jpg"
+        },
+        {
+          "name": "Eve Brent",
+          "character": "Elaine Connelly",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3TctvAVPmpYs5tQSPOkPijc0RdV.jpg"
+        },
+        {
+          "name": "William Sadler",
+          "character": "Klaus Detterick",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg"
+        },
+        {
+          "name": "Mack Miles",
+          "character": "Orderly Hector",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z4WVgPpOvUFkS5VCn8rOeuCMh5O.jpg"
+        },
+        {
+          "name": "Rai Tasco",
+          "character": "Man in Nursing Home"
+        },
+        {
+          "name": "Edrie Warner",
+          "character": "Lady in Nursing Home"
+        },
+        {
+          "name": "Paula Malcomson",
+          "character": "Marjorie Detterick",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9lJy6ze86ZfVcBcyBK9UZq8FJiC.jpg"
+        },
+        {
+          "name": "Christopher Joel Ives",
+          "character": "Howie Detterick"
+        },
+        {
+          "name": "Evanne Drucker",
+          "character": "Kathe Detterick"
+        },
+        {
+          "name": "Bailey Drucker",
+          "character": "Cora Detterick"
+        },
+        {
+          "name": "Brian Libby",
+          "character": "Sheriff McGee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sumWxPgIbCpnp1v1exfJWIt43i3.jpg"
+        },
+        {
+          "name": "Brent Briscoe",
+          "character": "Bill Dodge",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4N7ZjV0Tb2EwwRzOBGp7h01oXVu.jpg"
+        },
+        {
+          "name": "Bill McKinney",
+          "character": "Jack Van Hay",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bXGJNizj5SbEFPjeBupnRxgwPq0.jpg"
+        },
+        {
+          "name": "Gary Sinise",
+          "character": "Burt Hammersmith",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/olRjiV8ZhBixQiTvrGwXhpVXxsV.jpg"
+        },
+        {
+          "name": "Rachel Singer",
+          "character": "Cynthia Hammersmith",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o4Hzvy1VRa3IILMrI45Ia08pstK.jpg"
+        },
+        {
+          "name": "Scotty Leavenworth",
+          "character": "Hammersmith's Son",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9BIHEHn2woFz998IsXh6Ntb2BmV.jpg"
+        },
+        {
+          "name": "Katelyn Leavenworth",
+          "character": "Hammersmith's Daughter"
+        }
+      ]
+    }
   }
 }

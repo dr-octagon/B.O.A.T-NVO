@@ -24,7 +24,29 @@
       "Richard S. Castellano",
       "Diane Keaton",
       "Talia Shire",
-      "Gianni Russo"
+      "Gianni Russo",
+      "Sterling Hayden",
+      "John Marley",
+      "Richard Conte",
+      "Al Lettieri",
+      "Abe Vigoda",
+      "John Cazale",
+      "Rudy Bond",
+      "Al Martino",
+      "Morgana King",
+      "Lenny Montana",
+      "John Martino",
+      "Salvatore Corsitto",
+      "Richard Bright",
+      "Alex Rocco",
+      "Tony Giorgio",
+      "Vito Scotti",
+      "Tere Livrano",
+      "Victor Rendina",
+      "Jeannie Linero",
+      "Julie Gregg",
+      "Ardell Sheridan",
+      "Simonetta Stefanelli"
     ],
     "director": [
       "Francis Ford Coppola"
@@ -33,6 +55,160 @@
       "Mario Puzo",
       "Francis Ford Coppola"
     ],
-    "runtime": "175 dk"
+    "runtime": "175 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kysDTCloxUPJ1BILI4f8gs74fcr.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Marlon Brando",
+          "character": "Don Vito Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fuTEPMsBtV1zE98ujPONbKiYDc2.jpg"
+        },
+        {
+          "name": "Al Pacino",
+          "character": "Michael Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m8HAAjq1T75JypKk0v1FFQn4ysZ.jpg"
+        },
+        {
+          "name": "James Caan",
+          "character": "Sonny Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z2Lz3rtxZ7aJjzBUkCnExvo8stn.jpg"
+        },
+        {
+          "name": "Robert Duvall",
+          "character": "Tom Hagen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3tcKxC5Sc3DJ6XPDKKC2EAomEWn.jpg"
+        },
+        {
+          "name": "Richard S. Castellano",
+          "character": "Clemenza",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1vr75BdHWret81vuSJ3ugiCBkxw.jpg"
+        },
+        {
+          "name": "Diane Keaton",
+          "character": "Kay Adams",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A8B3BsFgbmw2WEmJuQX38qeU9eR.jpg"
+        },
+        {
+          "name": "Talia Shire",
+          "character": "Connie Corleone Rizzi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oktJmlLeyYKBCWPNjHskDwAfjct.jpg"
+        },
+        {
+          "name": "Gianni Russo",
+          "character": "Carlo Rizzi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jfeGnQfXMzKXsuSPm9oTxm6FOuz.jpg"
+        },
+        {
+          "name": "Sterling Hayden",
+          "character": "Captain McCluskey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dCTe6BsGSp9QTcva2Pz4wbxxYMY.jpg"
+        },
+        {
+          "name": "John Marley",
+          "character": "Jack Woltz",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xyzwd0CiBjXfowH3HcPhvuWcV5B.jpg"
+        },
+        {
+          "name": "Richard Conte",
+          "character": "Barzini",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bDegodf4dYGXMejdm4T6XgOJwlr.jpg"
+        },
+        {
+          "name": "Al Lettieri",
+          "character": "Sollozzo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fE5mEWPkkVJlCji0EoKht8PYw89.jpg"
+        },
+        {
+          "name": "Abe Vigoda",
+          "character": "Sal Tessio",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/luWKPNb58IgJ2ovrtgPAzHGLLYL.jpg"
+        },
+        {
+          "name": "John Cazale",
+          "character": "Fredo Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/41wXX1FBalyIuf5eaA4S43Y8IfZ.jpg"
+        },
+        {
+          "name": "Rudy Bond",
+          "character": "Cuneo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bd3YONpGsvQrpz6MkhsqsiPSaOD.jpg"
+        },
+        {
+          "name": "Al Martino",
+          "character": "Johnny Fontane",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jrxnZxAOBVXZaDr9r0nYpMnQwiU.jpg"
+        },
+        {
+          "name": "Morgana King",
+          "character": "Mama Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1zzGZpZqedECtHMwfFIqd51nncM.jpg"
+        },
+        {
+          "name": "Lenny Montana",
+          "character": "Luca Brasi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3R52Zh3MBCaSPqmcyWcD1Y0N4wo.jpg"
+        },
+        {
+          "name": "John Martino",
+          "character": "Paulie Gatto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3c8BOgJ8UdHi5x5BS3lYnFngxB5.jpg"
+        },
+        {
+          "name": "Salvatore Corsitto",
+          "character": "Bonasera",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/79OfgwtdP5qsR1UX6ERkrdmRT8c.jpg"
+        },
+        {
+          "name": "Richard Bright",
+          "character": "Neri",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/potMaJ2u5PRjXZb7qF9lSW1ldNZ.jpg"
+        },
+        {
+          "name": "Alex Rocco",
+          "character": "Moe Greene",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uAG4qvYhYHuCyyXGm3lqC4o6ujc.jpg"
+        },
+        {
+          "name": "Tony Giorgio",
+          "character": "Bruno Tattaglia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1uhgwgjoX7WaakEOBmtBRJKtgEB.jpg"
+        },
+        {
+          "name": "Vito Scotti",
+          "character": "Nazorine",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zDGtXkASxpo3DzMNz6OI3NOp9v0.jpg"
+        },
+        {
+          "name": "Tere Livrano",
+          "character": "Theresa Hagen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zQo1Q7B3oLO9trJS0TTUKutiW27.jpg"
+        },
+        {
+          "name": "Victor Rendina",
+          "character": "Philip Tattaglia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vuNdsjDpgom80WBdB2WBTWuEIuM.jpg"
+        },
+        {
+          "name": "Jeannie Linero",
+          "character": "Lucy Mancini",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dhHy17fMADYBdLnEzcaCG7tbP7P.jpg"
+        },
+        {
+          "name": "Julie Gregg",
+          "character": "Sandra Corleone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8Kx71BnZNtpzb86jH7fcArWhJBh.jpg"
+        },
+        {
+          "name": "Ardell Sheridan",
+          "character": "Mrs. Clemenza"
+        },
+        {
+          "name": "Simonetta Stefanelli",
+          "character": "Apollonia - Sicilian Sequence",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qcBJaSf8Rs6ka5zBP5STEs8hKf1.jpg"
+        }
+      ]
+    }
   }
 }

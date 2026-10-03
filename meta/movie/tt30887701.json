@@ -25,7 +25,29 @@
       "Jack Art Gray",
       "Robert Englund",
       "Emma Tate",
-      "Toni Olabanji"
+      "Toni Olabanji",
+      "Luca Marandola",
+      "Karolina Ugrenyuk",
+      "Mya Brown",
+      "Scott Chambers",
+      "Belinda Fenty",
+      "Kelly Rian Sanson",
+      "Jay Robertson",
+      "Amanda Jane York",
+      "Charlotte Coleman",
+      "Andrew Rolfe",
+      "Peter DeSouza-Feighoney",
+      "Elliott Spilling",
+      "Ardy Yusuf",
+      "Alex Butler",
+      "Marcus Massey",
+      "Holly Robertson",
+      "Liliana Polkowska",
+      "Rohan Kit Johnson",
+      "William Turnbull",
+      "Hector Baldwin",
+      "Thomas Blower",
+      "Mila Bohan"
     ],
     "director": [
       "Rhys Frake-Waterfield"
@@ -33,6 +55,157 @@
     "writer": [
       "Rhys Frake-Waterfield"
     ],
-    "runtime": "82 dk"
+    "runtime": "82 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/6UTRob4DLNbfGZz1QRZkj0ktGvx.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Jude Evan Lloyd",
+          "character": "Pinocchio (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vBbtBNsGKOZPvmdlyG6lUUkcNwF.jpg"
+        },
+        {
+          "name": "Cameron Bell",
+          "character": "James",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4pHVLu11DmVMJDgGo1X5rZH53Uh.jpg"
+        },
+        {
+          "name": "Richard Brake",
+          "character": "Geppetto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/JwsiErANShzPSdYsNoiNYdrSg1.jpg"
+        },
+        {
+          "name": "Jessica Balmer",
+          "character": "Mia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fhb5Oj719yH7z5f2lYU2r8Lyu46.jpg"
+        },
+        {
+          "name": "Jack Art Gray",
+          "character": "Dudley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7C9o6X4g3lj9OsrD24ztL01GxVL.jpg"
+        },
+        {
+          "name": "Robert Englund",
+          "character": "Cricket (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cjGEkiavinHa1dnetDvnEhlD2Wm.jpg"
+        },
+        {
+          "name": "Emma Tate",
+          "character": "Woodmother (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/in8SZAA5dG6wW1LBCU10j1J7W8V.jpg"
+        },
+        {
+          "name": "Toni Olabanji",
+          "character": "Trey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/48XYJ3UBF2uIeeAO2e12vHg37yX.jpg"
+        },
+        {
+          "name": "Luca Marandola",
+          "character": "Logan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9u9WsKV69ijFZD1gKiz4TIpFZeh.jpg"
+        },
+        {
+          "name": "Karolina Ugrenyuk",
+          "character": "Amanda",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AqyQiGLHKDjXrAL1kjqU0t9h3wZ.jpg"
+        },
+        {
+          "name": "Mya Brown",
+          "character": "Georgia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/upVZnHxevcVoqFNM8I0U4tBARQ9.jpg"
+        },
+        {
+          "name": "Scott Chambers",
+          "character": "Christopher Robin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pANsw8kWaQzSwuVmr1Em5di9u4o.jpg"
+        },
+        {
+          "name": "Belinda Fenty",
+          "character": "Dentist",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9iElvEBifuzwUzBgdAualy5Iivm.jpg"
+        },
+        {
+          "name": "Kelly Rian Sanson",
+          "character": "Miss Daniels",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bx6qQl6mF5tQB8cL4BMq7nnNnUs.jpg"
+        },
+        {
+          "name": "Jay Robertson",
+          "character": "Drunk Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y27syRUKC9Wgvoa6Eww1J7SPgY6.jpg"
+        },
+        {
+          "name": "Amanda Jane York",
+          "character": "Drunk Driver’s Wife",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mMtaAgBiRR5ObzrXEGNMUGEmLic.jpg"
+        },
+        {
+          "name": "Charlotte Coleman",
+          "character": "Nurse",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hLMhHjT8T3jtxtXcH9NTSVzPrgL.jpg"
+        },
+        {
+          "name": "Andrew Rolfe",
+          "character": "Doctor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hroH0eAiwUYopzBhCg2MXGV4vcy.jpg"
+        },
+        {
+          "name": "Peter DeSouza-Feighoney",
+          "character": "Michael Darling",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/reYy9iCjdmOEdKpTkhxD4quNNMP.jpg"
+        },
+        {
+          "name": "Elliott Spilling",
+          "character": "Zach",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rvKSHfmz73gLdUHBnidYYhAPqCx.jpg"
+        },
+        {
+          "name": "Ardy Yusuf",
+          "character": "Joey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/BhR2J0mLFjt9xUZjsFC5ndNmNP.jpg"
+        },
+        {
+          "name": "Alex Butler",
+          "character": "Patient",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bsX3iYEz4EsgYabM0s93ey9o7XK.jpg"
+        },
+        {
+          "name": "Marcus Massey",
+          "character": "Documentary Narrator (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zc9ZKD32JPDLabXWraX43O6BN4c.jpg"
+        },
+        {
+          "name": "Holly Robertson",
+          "character": "School Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cuDnxJzxjDGCytKOlQwZYaDBYoQ.jpg"
+        },
+        {
+          "name": "Liliana Polkowska",
+          "character": "School Girl with Teddy Bear",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hfrYEVQv7AGueiKPDet4dsTY6pr.jpg"
+        },
+        {
+          "name": "Rohan Kit Johnson",
+          "character": "School Boy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bHMvNg44OPRjTYbNnL0AzOzc8Aq.jpg"
+        },
+        {
+          "name": "William Turnbull",
+          "character": "Brian"
+        },
+        {
+          "name": "Hector Baldwin",
+          "character": "School Boy"
+        },
+        {
+          "name": "Thomas Blower",
+          "character": "School Boy"
+        },
+        {
+          "name": "Mila Bohan",
+          "character": "School Girl"
+        }
+      ]
+    }
   }
 }

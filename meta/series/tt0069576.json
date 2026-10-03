@@ -28,7 +28,8 @@
       "野村道子",
       "よこざわけい子",
       "たてかべ和也",
-      "佐久間レイ"
+      "佐久間レイ",
+      "白川澄子"
     ],
     "videos": [
       {
@@ -11047,6 +11048,55 @@
         "season": 27,
         "episode": 28
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8dmJ8qiSYyPvVysbKQah5te16dB.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "大山のぶ代",
+          "character": "Doraemon (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/b2NCEjqTtTmEFsFYLaGDbWQ4xAK.jpg"
+        },
+        {
+          "name": "小原乃梨子",
+          "character": "Nobita Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u5dvWzckBXvZw8Oexn5VN08vW7G.jpg"
+        },
+        {
+          "name": "千々松幸子",
+          "character": "Tamako Nobi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dvbUCXa6Umz1iZYEYbxohwzFyj7.jpg"
+        },
+        {
+          "name": "肝付 兼太",
+          "character": "Suneo Honekawa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mhD9BtpNFg3tDdd9QwTiRVClKf2.jpg"
+        },
+        {
+          "name": "野村道子",
+          "character": "Shizuka Minamoto (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u4aVFRfu91gxI59XETf9oMnQBrz.jpg"
+        },
+        {
+          "name": "よこざわけい子",
+          "character": "Dorami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f2xbRCbjvFcCl4ogeXEcHKBxdIZ.jpg"
+        },
+        {
+          "name": "たてかべ和也",
+          "character": "Takeshi Gouda (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5pzSZurxYttq8OjfHR3DGEh2UHZ.jpg"
+        },
+        {
+          "name": "佐久間レイ",
+          "character": "mini-Dora (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6M6zQtO0reIv97oKUrVT084FUKv.jpg"
+        },
+        {
+          "name": "白川澄子",
+          "character": "Hidetoshi Dekisugi (voice)"
+        }
+      ]
+    }
   }
 }

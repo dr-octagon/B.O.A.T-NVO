@@ -2521,6 +2521,36 @@
         "season": 2,
         "episode": 50
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jEImh4O7mcYuwuAeryGZo3G6hg6.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Masakazu Morita",
+          "character": "Ichigo Kurosaki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2INsHYbx9gEhhzXPHdqBDdvHjFt.jpg"
+        },
+        {
+          "name": "Fumiko Orikasa",
+          "character": "Rukia Kuchiki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f5d1J13fksa1hK8u7AS95aO8b9.jpg"
+        },
+        {
+          "name": "Hiroki Yasumoto",
+          "character": "Yasutora Sado (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg"
+        },
+        {
+          "name": "Yuki Matsuoka",
+          "character": "Orihime Inoue (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/e8rNkMM9O7ULA1RJtLbvkN9789v.jpg"
+        },
+        {
+          "name": "Noriaki Sugiyama",
+          "character": "Uryu Ishida (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/szqqQ8T0gzuSxjU2rnWcthsaSJT.jpg"
+        }
+      ]
+    }
   }
 }

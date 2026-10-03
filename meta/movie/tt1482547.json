@@ -29,6 +29,35 @@
     "writer": [
       "Tom Boyle"
     ],
-    "runtime": "95 dk"
+    "runtime": "95 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/jd9GlqNP86mV7W3x5XWXdKTlOJa.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "MyAnna Buring",
+          "character": "Amy Watson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/boC5LKewKpz8zhtUmPScHfkSAlV.jpg"
+        },
+        {
+          "name": "Joseph Millson",
+          "character": "Evan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pd5iENRPBpybR935qv8C2TVtGNL.jpg"
+        },
+        {
+          "name": "Saffron Burrows",
+          "character": "Donaldson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2qMLZh9XWquBt7TZF9wmDiOtJdm.jpg"
+        },
+        {
+          "name": "Michael Amariah",
+          "character": "Robert",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mWsW3cdo2gFsvymHSoefrRBHGuq.jpg"
+        },
+        {
+          "name": "Silvia Presente",
+          "character": "Chloe"
+        }
+      ]
+    }
   }
 }

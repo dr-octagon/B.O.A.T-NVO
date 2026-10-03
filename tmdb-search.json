@@ -1,0 +1,11 @@
+{
+  "name": "TMDB Türkçe Arama",
+  "manifestUrl": "https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNoC6pWSGcWUAkgLYATAEa9BaTFjgpSFehgDCNOFAxoATAAYAvkA/manifest.json",
+  "settings": {
+    "language": "tr-TR",
+    "catalogs": [],
+    "returnImdbId": "true",
+    "castCount": 20
+  },
+  "note": "Install this URL as a Stremio addon in Nuvio on each device. Search-only catalogs do not duplicate the home rows. No account login or local Windows service is needed."
+}

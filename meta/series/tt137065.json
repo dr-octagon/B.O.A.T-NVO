@@ -174,6 +174,193 @@
         "season": 3,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/dxdzlJVYgpcr8uGbtrjKJTflrbX.png",
+    "cast": [
+      "甲斐田ゆき",
+      "Tomoyo Kurosava",
+      "Atsumi Tanezaki",
+      "Ayane Sakura",
+      "Risa Taneda",
+      "Yoko Hikasa",
+      "麻倉もも",
+      "Çiaki Kobayaşi",
+      "浅川悠",
+      "藤田咲",
+      "Ai Kakuma",
+      "米内佑希",
+      "中原麻衣",
+      "福圓美里",
+      "Takaşi Matsuyama",
+      "千葉進歩",
+      "Yui Ogura",
+      "沼倉愛美",
+      "山中真尋",
+      "石見舞菜香",
+      "ルゥティン",
+      "Ayumi Tsunematsu",
+      "Yoşimasa Hosoya",
+      "豊崎愛生",
+      "石上静香",
+      "安野希世乃",
+      "徳井青空",
+      "伊藤かな恵",
+      "Koiçi Yamadera",
+      "日髙のり子"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "甲斐田ゆき",
+          "character": "Doctor (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ha1k44zoFz1Vlf7LIQBcWYMuCGI.jpg"
+        },
+        {
+          "name": "Tomoyo Kurosava",
+          "character": "Amiya (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eSRnva88YVcUXlDHdVrhier2SGU.jpg"
+        },
+        {
+          "name": "Atsumi Tanezaki",
+          "character": "Dobermann (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg"
+        },
+        {
+          "name": "Ayane Sakura",
+          "character": "Nearl (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yPbTmntASE9psPIMhNGU5oo6vIH.jpg"
+        },
+        {
+          "name": "Risa Taneda",
+          "character": "Meteorite (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cuUqpOqZyzfJLzRa6syhOLUCvNW.jpg"
+        },
+        {
+          "name": "Yoko Hikasa",
+          "character": "Kal'tsit (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mP3bj0s1gqJ6tCKFLhu4b1CkJj7.jpg"
+        },
+        {
+          "name": "麻倉もも",
+          "character": "Medic (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gdzYEujO3I5nZCyAx95Mo47fZ86.jpg"
+        },
+        {
+          "name": "Çiaki Kobayaşi",
+          "character": "Guard (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o0XZFXc50z28ICUpvfZ1QcTL2Yt.jpg"
+        },
+        {
+          "name": "浅川悠",
+          "character": "Priestess (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2n7pYsUrUq4qg4VtQemndzIpOlb.jpg"
+        },
+        {
+          "name": "藤田咲",
+          "character": "Yato (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pTHZZTerlaIHXOJkIzodMr1cfH0.jpg"
+        },
+        {
+          "name": "Ai Kakuma",
+          "character": "Frostleaf / Franka (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o3tQSeeJAeafJNvQs2IKvpKY7av.jpg"
+        },
+        {
+          "name": "米内佑希",
+          "character": "Phal (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/f7fJNoIm6pzF7jK6XdDERP9nc0h.jpg"
+        },
+        {
+          "name": "中原麻衣",
+          "character": "Blaze (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s8DBmM540SRlRzUplaapMaDo8vV.jpg"
+        },
+        {
+          "name": "福圓美里",
+          "character": "GreyThroat (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wM5ei7qFIvm07dEBDv6HVRU5bDF.jpg"
+        },
+        {
+          "name": "Takaşi Matsuyama",
+          "character": "ACE (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fBufEEFKgnEirPWJoGOpnJsZUjn.jpg"
+        },
+        {
+          "name": "千葉進歩",
+          "character": "Scout (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3nUZrr5ghmqGxBgEfgX0wVMeUnN.jpg"
+        },
+        {
+          "name": "Yui Ogura",
+          "character": "Rosmontis (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vUuyLWde2CEd5G0oqeEzzFE6qqA.jpg"
+        },
+        {
+          "name": "沼倉愛美",
+          "character": "Closure (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eDbMXgeTCA2D6i7894Ag43RADrk.jpg"
+        },
+        {
+          "name": "山中真尋",
+          "character": "Elysium (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zTZ9dQS3SlTuHvYFzCbsLLMZPvC.jpg"
+        },
+        {
+          "name": "石見舞菜香",
+          "character": "Warfarin / Exusiai (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/leKMaCBswXG8u4mfQNQ7J3y6Xow.jpg"
+        },
+        {
+          "name": "ルゥティン",
+          "character": "Firewatch (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5LKFfs3wBspK9JwpQDWBGhLGnaN.jpg"
+        },
+        {
+          "name": "Ayumi Tsunematsu",
+          "character": "Ines (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dJzYagwkIjHcCJoB247DzgUtUuh.jpg"
+        },
+        {
+          "name": "Yoşimasa Hosoya",
+          "character": "Hoederer (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lUR5oN1LrqGgp25IOcI1qOH1Ud5.jpg"
+        },
+        {
+          "name": "豊崎愛生",
+          "character": "Bagpipe (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/crZpbb0ILJnH7mIYZV2l4uqQx1J.jpg"
+        },
+        {
+          "name": "石上静香",
+          "character": "Ch'en (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kXTYBI7skkVSjQ4eg49iEGblt3f.jpg"
+        },
+        {
+          "name": "安野希世乃",
+          "character": "Hoshiguma (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n9TvLOSIqi6Pi4GlvH3fddNNsEG.jpg"
+        },
+        {
+          "name": "徳井青空",
+          "character": "Swire (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sd14FAVQmJSfnSgIml6OH8new5a.jpg"
+        },
+        {
+          "name": "伊藤かな恵",
+          "character": "Lin (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/te4l0fzbfhtKWqNHPYdGZBXMmxt.jpg"
+        },
+        {
+          "name": "Koiçi Yamadera",
+          "character": "Wei Yenwu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/biov5jENp2XYfehkcdnRvi796Wi.jpg"
+        },
+        {
+          "name": "日髙のり子",
+          "character": "Fumizuki (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/43OuwsjqGf7JxpFpUvB75OdDDXQ.jpg"
+        }
+      ]
+    }
   }
 }

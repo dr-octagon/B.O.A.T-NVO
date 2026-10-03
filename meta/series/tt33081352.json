@@ -77,6 +77,49 @@
         "season": 1,
         "episode": 10
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/btPU2DsXixzuZfvseRi1mYgcCPV.svg",
+    "cast": [
+      "Maleah Joi Moon",
+      "Alijah Kai",
+      "Chibuikem Uche",
+      "Cornell Young IV",
+      "Jordan Aaron Hall",
+      "Kennedi Reece"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Maleah Joi Moon",
+          "character": "Deborah Wayne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kNk8SbGl6kNE1CSBqrlU32qAweQ.jpg"
+        },
+        {
+          "name": "Alijah Kai",
+          "character": "Rashida",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4Zm8bN7rL1JGRcoQQ1JY0eZdWX7.jpg"
+        },
+        {
+          "name": "Chibuikem Uche",
+          "character": "Kojo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mnFbtkw3CahJez70swDCkq0IcUl.jpg"
+        },
+        {
+          "name": "Cornell Young IV",
+          "character": "Shaquille",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pRy7ZJkjlLnejySjoT9ENQNAWoZ.jpg"
+        },
+        {
+          "name": "Jordan Aaron Hall",
+          "character": "Amir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/70wXromowEycW1SN88xzzwuzwk7.jpg"
+        },
+        {
+          "name": "Kennedi Reece",
+          "character": "Hazel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5QILjyyv0Kn4cE3WBZ1ZmJIRC4e.jpg"
+        }
+      ]
+    }
   }
 }

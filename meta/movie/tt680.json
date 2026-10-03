@@ -25,7 +25,29 @@
       "Ving Rhames",
       "Harvey Keitel",
       "Eric Stoltz",
-      "Tim Roth"
+      "Tim Roth",
+      "Amanda Plummer",
+      "Maria de Medeiros",
+      "Quentin Tarantino",
+      "Christopher Walken",
+      "Rosanna Arquette",
+      "Peter Greene",
+      "Duane Whitaker",
+      "Angela Jones",
+      "Phil LaMarr",
+      "Steve Buscemi",
+      "Bronagh Gallagher",
+      "Laura Lovelace",
+      "Frank Whaley",
+      "Burr Steers",
+      "Paul Calderon",
+      "Jerome Patrick Hoban",
+      "Michael Gilden",
+      "Gary Shorelle",
+      "Susan Griffiths",
+      "Eric Clark",
+      "Joseph Pilato",
+      "Brad Blumenthal"
     ],
     "director": [
       "Quentin Tarantino"
@@ -33,6 +55,158 @@
     "writer": [
       "Quentin Tarantino"
     ],
-    "runtime": "154 dk"
+    "runtime": "154 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/kfkL8AFOxXEkKGXKY46BVkHrHMj.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "John Travolta",
+          "character": "Vincent Vega",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ap8eEYfBKTLixmVVpRlq4NslDD5.jpg"
+        },
+        {
+          "name": "Samuel L. Jackson",
+          "character": "Jules Winnfield",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg"
+        },
+        {
+          "name": "Uma Thurman",
+          "character": "Mia Wallace",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
+        },
+        {
+          "name": "Bruce Willis",
+          "character": "Butch Coolidge",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg"
+        },
+        {
+          "name": "Ving Rhames",
+          "character": "Marsellus Wallace",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tOVDvu1EQP78AwaUw6uh1wN818E.jpg"
+        },
+        {
+          "name": "Harvey Keitel",
+          "character": "The Wolf",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7P30hza1neYWW3r7rSQOC736K2Z.jpg"
+        },
+        {
+          "name": "Eric Stoltz",
+          "character": "Lance",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/idFuM00MeVmwGAiqvDaJcBiLAmD.jpg"
+        },
+        {
+          "name": "Tim Roth",
+          "character": "Pumpkin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qSizF2i9gz6c6DbAC5RoIq8sVqX.jpg"
+        },
+        {
+          "name": "Amanda Plummer",
+          "character": "Honey Bunny",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wEwyajjePFVVn2wFdH1NH7z9Qn5.jpg"
+        },
+        {
+          "name": "Maria de Medeiros",
+          "character": "Fabienne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v53G55qSYaVRvbgUZ2uch4gVHT6.jpg"
+        },
+        {
+          "name": "Quentin Tarantino",
+          "character": "Jimmie Dimmick",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg"
+        },
+        {
+          "name": "Christopher Walken",
+          "character": "Captain Koons",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg"
+        },
+        {
+          "name": "Rosanna Arquette",
+          "character": "Jody",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qfS5G5VHW2gz2sYGDhIYRBoy3vY.jpg"
+        },
+        {
+          "name": "Peter Greene",
+          "character": "Zed",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n49XdJsMwNRdc4qT9XVAGb3fIQW.jpg"
+        },
+        {
+          "name": "Duane Whitaker",
+          "character": "Maynard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/83nCcAaMYim24qWRwJcC1ZvfgK5.jpg"
+        },
+        {
+          "name": "Angela Jones",
+          "character": "Esmarelda Villalobos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jO5ULvqa6CeilVGLdVK6kVvlVsv.jpg"
+        },
+        {
+          "name": "Phil LaMarr",
+          "character": "Marvin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xP2kNlsmXtzXq0geutflO4K9mSE.jpg"
+        },
+        {
+          "name": "Steve Buscemi",
+          "character": "Buddy Holly",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/n0pZumkrcZrAPMoPq684RhYnjPV.jpg"
+        },
+        {
+          "name": "Bronagh Gallagher",
+          "character": "Trudi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4GQfAVOeQxkxvvByUxfoCdf4xLY.jpg"
+        },
+        {
+          "name": "Laura Lovelace",
+          "character": "Waitress",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1MLB30laQt2k80i15kdn0X7Zn5U.jpg"
+        },
+        {
+          "name": "Frank Whaley",
+          "character": "Brett",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ugs5aGtFvqVBgT8rcKEi1LyFur4.jpg"
+        },
+        {
+          "name": "Burr Steers",
+          "character": "Roger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k9rAVWornL0SUIykpjd3K3IfSll.jpg"
+        },
+        {
+          "name": "Paul Calderon",
+          "character": "Paul",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xIORhcIDmFMlaS3ZS3em1QiTkt5.jpg"
+        },
+        {
+          "name": "Jerome Patrick Hoban",
+          "character": "Ed Sullivan"
+        },
+        {
+          "name": "Michael Gilden",
+          "character": "Page for Phillip Morris",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rZk317gtqOAF6MgImnJ6l5j9RQL.jpg"
+        },
+        {
+          "name": "Gary Shorelle",
+          "character": "Ricky Nelson"
+        },
+        {
+          "name": "Susan Griffiths",
+          "character": "Marilyn Monroe",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9qfVueDuicLOLTjlTcUtInbcFBl.jpg"
+        },
+        {
+          "name": "Eric Clark",
+          "character": "James Dean"
+        },
+        {
+          "name": "Joseph Pilato",
+          "character": "Dean Martin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aghmVStaoMR8vmK57eG0EATrKQy.jpg"
+        },
+        {
+          "name": "Brad Blumenthal",
+          "character": "Jerry Lewis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3MjdkSDoNurWzrQaKFfvglDT3x8.jpg"
+        }
+      ]
+    }
   }
 }

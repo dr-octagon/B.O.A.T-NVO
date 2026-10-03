@@ -255,6 +255,41 @@
         "season": 1,
         "episode": 38
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/yQuc8JcBxRWXfRHrNUSM47gCXOo.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Atsumi Tanezaki",
+          "character": "Frieren (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg"
+        },
+        {
+          "name": "市ノ瀬加那",
+          "character": "Fern (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hBJx5tpLA2vkXqfkPZosGjW4e8C.jpg"
+        },
+        {
+          "name": "Çiaki Kobayaşi",
+          "character": "Stark (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o0XZFXc50z28ICUpvfZ1QcTL2Yt.jpg"
+        },
+        {
+          "name": "Nobuhiko Okamoto",
+          "character": "Himmel (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7s1K2yQVF5iIWILaOfG7QrMZkXA.jpg"
+        },
+        {
+          "name": "Hiroki Tuçi",
+          "character": "Heiter (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bU2vogWmnTWiQEwUADWlnBqAPhJ.jpg"
+        },
+        {
+          "name": "Yoji Ueda",
+          "character": "Eisen (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fHvIfE0Q7ab0DFlkNVFcXvTKX9y.jpg"
+        }
+      ]
+    }
   }
 }

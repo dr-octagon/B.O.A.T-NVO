@@ -15,6 +15,90 @@
       "Korku",
       "Gerilim",
       "Bilim Kurgu"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uipmm0Nhv6dzdgDLNyblPRSFLLF.png",
+    "cast": [
+      "Tom Rhys Harries",
+      "Naomi Ackie",
+      "Eddie Marsan",
+      "Max Minghella",
+      "David Dencik",
+      "Francesca Corney",
+      "Ruby Sear",
+      "Wil Coban",
+      "Joshua James",
+      "Jake Curran",
+      "Nancy Carroll",
+      "Olivia-Mai Barrett",
+      "Sonita Henry",
+      "Adam Silver"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Rhys Harries",
+          "character": "Matt Hagen / Clayface",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/elxvpHPqOxGcKe6U2hcArIcpyWo.jpg"
+        },
+        {
+          "name": "Naomi Ackie",
+          "character": "Caitlyn Corr",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dijwuTAEZUzQtoJfK49S4X80fQw.jpg"
+        },
+        {
+          "name": "Eddie Marsan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9atfOgIxhfOKvv2be8HEp6SzOct.jpg"
+        },
+        {
+          "name": "Max Minghella",
+          "character": "John Borrelli",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AhVDxsOOoAnwwVBL7ZY8W0mGsYJ.jpg"
+        },
+        {
+          "name": "David Dencik",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q5wLADc6yYd3owxSEG8VKbf7YWV.jpg"
+        },
+        {
+          "name": "Francesca Corney",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p2B2dYAvl0TMUtbrZxzOdNgBbSE.jpg"
+        },
+        {
+          "name": "Ruby Sear",
+          "character": "Theresa",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hNlLm6NaHPjakDJhPEY1suGcxKi.jpg"
+        },
+        {
+          "name": "Wil Coban",
+          "character": "Bones",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/73REwJckTBMNJoiGIrrGhcCdTqf.jpg"
+        },
+        {
+          "name": "Joshua James",
+          "character": "Corey Bowery",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jw1n2Pzi2LJvyu6OkXTHMXPV7Q4.jpg"
+        },
+        {
+          "name": "Jake Curran",
+          "character": "Patches",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pC6ozticiOmovaPpwqKVOMhn0b9.jpg"
+        },
+        {
+          "name": "Nancy Carroll",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lXTNopDRBsDLTlXTREvuBT3KMIt.jpg"
+        },
+        {
+          "name": "Olivia-Mai Barrett",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gWZRzvOnUxZmvdzHuxBvIS0BEJP.jpg"
+        },
+        {
+          "name": "Sonita Henry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oIBILFSVqHT2warKlXSPDML3llI.jpg"
+        },
+        {
+          "name": "Adam Silver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jE3zEMEYflS3adHtF11YqLAwlVI.jpg"
+        }
+      ]
+    }
   }
 }

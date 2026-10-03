@@ -3097,6 +3097,46 @@
         "season": 24,
         "episode": 4
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/i25t4OpgxgXcoSyFWkf6a4T4p0S.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Sean Murray",
+          "character": "Timothy McGee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1RlMqC3qL5gKlfqyAR2xzgKjWrN.jpg"
+        },
+        {
+          "name": "Wilmer Valderrama",
+          "character": "Nick Torres",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uohkEwMGIGCq4k8P2AiomuKQwYv.jpg"
+        },
+        {
+          "name": "Katrina Law",
+          "character": "Jessica Knight",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y7LzCN8BaoPPSXDBo0UwPQ4UwSB.jpg"
+        },
+        {
+          "name": "Brian Dietzen",
+          "character": "Jimmy Palmer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/njOHd9yWWGQrTS7btmp2vbMbQjE.jpg"
+        },
+        {
+          "name": "Diona Reasonover",
+          "character": "Kasie Hines",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eor8QzQjERWozp1iv7Tgw6TYnAG.jpg"
+        },
+        {
+          "name": "Gary Cole",
+          "character": "Alden Parker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uWsqIlfHbyxkmBJLmq2mR93musF.jpg"
+        },
+        {
+          "name": "Michael Weatherly",
+          "character": "Anthony DiNozzo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o4UqLl3mx7SvFhr9xrpFv7VLpCS.jpg"
+        }
+      ]
+    }
   }
 }

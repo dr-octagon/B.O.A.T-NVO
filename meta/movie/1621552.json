@@ -16,6 +16,124 @@
       "Suç",
       "Aksiyon",
       "Gerilim"
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/9yls9LaV1YTO5i79ELUFSVwwFcf.png",
+    "cast": [
+      "Alfonso Herrera",
+      "Noé Hernández",
+      "Héctor Kotsifakis",
+      "Paola Fernández",
+      "Gerardo Trejoluna",
+      "Fernando Cuautle",
+      "Alejandra Vázquez De León",
+      "Santiago Colores",
+      "Berenice Mastretta",
+      "Regina Arroyo",
+      "Juan Pablo Cruz García",
+      "Antonio Fortier",
+      "Allan Durell",
+      "Isaac Bravo",
+      "Regis Arroyo",
+      "Daniela Torres",
+      "Marcos Duarte",
+      "Ingrid Usuga",
+      "Ricardo Aguirre Loera",
+      "Estefanía Verdin"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Alfonso Herrera",
+          "character": "Carmona",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/54KLFvt8iMDFmam2tsb5wk3AIcv.jpg"
+        },
+        {
+          "name": "Noé Hernández",
+          "character": "Rosales",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l3NXUy1x5buKHawSw4xye5JW8pl.jpg"
+        },
+        {
+          "name": "Héctor Kotsifakis",
+          "character": "El Chapo Guzmán",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/IE5KgMI1bE0LcloTHNVsk3kldk.jpg"
+        },
+        {
+          "name": "Paola Fernández",
+          "character": "Isaura",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kRfjEVZULgJNf8XC5PJETkoc7bx.jpg"
+        },
+        {
+          "name": "Gerardo Trejoluna",
+          "character": "Valladares",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fJzcjj3JrARh3iQEx5lMbCEfRKq.jpg"
+        },
+        {
+          "name": "Fernando Cuautle",
+          "character": "Lagarto",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yxGoMBPVvieHrSkA2A0LACWcr68.jpg"
+        },
+        {
+          "name": "Alejandra Vázquez De León",
+          "character": "Joana",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9nKUBLk0rkJ6U1xQqgdP72PMGfn.jpg"
+        },
+        {
+          "name": "Santiago Colores",
+          "character": "Sapo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ohFw8S6Ff7lY8x26DMktBoZdifL.jpg"
+        },
+        {
+          "name": "Berenice Mastretta",
+          "character": "Chabela",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xK35EiEqQMtqzZmDJ55l8O663ry.jpg"
+        },
+        {
+          "name": "Regina Arroyo",
+          "character": "Liz",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9uBC4fhSMCrbxYSCk3S2tDkqKPa.jpg"
+        },
+        {
+          "name": "Juan Pablo Cruz García",
+          "character": "Cholo Iván"
+        },
+        {
+          "name": "Antonio Fortier",
+          "character": "Barraza"
+        },
+        {
+          "name": "Allan Durell",
+          "character": "Ortega"
+        },
+        {
+          "name": "Isaac Bravo",
+          "character": "Foco"
+        },
+        {
+          "name": "Regis Arroyo",
+          "character": "Liz"
+        },
+        {
+          "name": "Daniela Torres",
+          "character": "Bere"
+        },
+        {
+          "name": "Marcos Duarte",
+          "character": "Capitán"
+        },
+        {
+          "name": "Ingrid Usuga",
+          "character": "Reina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lHRepTED55RiFjM3PH2TwxaLK9e.jpg"
+        },
+        {
+          "name": "Ricardo Aguirre Loera",
+          "character": "Extra Sicario"
+        },
+        {
+          "name": "Estefanía Verdin",
+          "character": "Conductora asaltada"
+        }
+      ]
+    }
   }
 }

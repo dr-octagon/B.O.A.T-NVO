@@ -24,7 +24,29 @@
       "Nicholas Duvernay",
       "Arty Froushan",
       "Jeananne Goossen",
-      "Aladeen Tawfeek"
+      "Aladeen Tawfeek",
+      "Kenny Wong",
+      "Daniel Brochu",
+      "Alexandra Petrachuk",
+      "Howard Bilerman",
+      "Amber Jonas",
+      "Sierra Pompey",
+      "Rahul Gandhi",
+      "Marie-Ève Beauregard",
+      "Ines Feghouli Bozon",
+      "Fatima Lopez",
+      "Massimo Diem",
+      "Aadi Mahj",
+      "Martyne Musau",
+      "Prerna Nehta",
+      "Emmy Doody",
+      "Michael McNally-Sylla",
+      "Noah Labranche",
+      "Pei Yao Xu",
+      "Laura Paolillo",
+      "Isaiah Gero-Marsman",
+      "Patrice Beauchesne",
+      "Kate MacLellan"
     ],
     "director": [
       "Claire Scanlon"
@@ -32,6 +54,154 @@
     "writer": [
       "Sarah Rothschild"
     ],
-    "runtime": "112 dk"
+    "runtime": "112 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8ssILR5oZvd5nJ0eduT1gF9QR4v.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Lili Reinhart",
+          "character": "Olive Smith",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sJcuQAJdIv3mnh9M9p5sQWhWSRN.jpg"
+        },
+        {
+          "name": "Tom Bateman",
+          "character": "Dr. Adam Carlsen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6elQzmY4EJHlLvHsaeoeo2dXOQ1.jpg"
+        },
+        {
+          "name": "Rachel Marsh",
+          "character": "Anh Pham",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6R0pDuQuSf4CEtZHCRnZkqc2EAN.jpg"
+        },
+        {
+          "name": "Jaboukie Young-White",
+          "character": "Malcolm Browne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8OYI8OqsMUpBZica4lM2odjgVH6.jpg"
+        },
+        {
+          "name": "Nicholas Duvernay",
+          "character": "Jeremy Langley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4uwcWYbXxrxyhJbCPXshTQXQQKi.jpg"
+        },
+        {
+          "name": "Arty Froushan",
+          "character": "Dr. Tom Benton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zYNvzONSgyfnC4efHXh6zcrVj4d.jpg"
+        },
+        {
+          "name": "Jeananne Goossen",
+          "character": "Dr. Juliet Aslan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/akdvZgJskCELeQLvrzNm2EphueO.jpg"
+        },
+        {
+          "name": "Aladeen Tawfeek",
+          "character": "Dr. Eugene Fastuca",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eLTYiIZagtV006aSyem5SrpifgE.jpg"
+        },
+        {
+          "name": "Kenny Wong",
+          "character": "McConnell",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3RJ74D2odaFbA7n4Io8tHhRm1HC.jpg"
+        },
+        {
+          "name": "Daniel Brochu",
+          "character": "Dr. Hargrave",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/u1Y4I2b3LhjAHTBMdNh7jgN6NED.jpg"
+        },
+        {
+          "name": "Alexandra Petrachuk",
+          "character": "Natalie Lazotti",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9gUrxfGiasdpuoHJHyEFwY9SzCI.jpg"
+        },
+        {
+          "name": "Howard Bilerman",
+          "character": "Dr. Keeney",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pOy0fCkMpaT9sDxhWKXZu6We95b.jpg"
+        },
+        {
+          "name": "Amber Jonas",
+          "character": "Jamie - Grad Student",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ulpgedN971lbzClcCkZPUlgDPqf.jpg"
+        },
+        {
+          "name": "Sierra Pompey",
+          "character": "Nervous Student",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3rK46ilb8yCInlvZuKWBa87OaHc.jpg"
+        },
+        {
+          "name": "Rahul Gandhi",
+          "character": "Annoyed Guy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/55P3gVViBQLPVEBKzmfee5MN6YT.jpg"
+        },
+        {
+          "name": "Marie-Ève Beauregard",
+          "character": "Worried Student",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dkaMyVM9VVJMiDU5tKL1SyxaI4T.jpg"
+        },
+        {
+          "name": "Ines Feghouli Bozon",
+          "character": "Rosa",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/evJfAJPq4BN5a3mTwTsdngRt6Ob.jpg"
+        },
+        {
+          "name": "Fatima Lopez",
+          "character": "Student"
+        },
+        {
+          "name": "Massimo Diem",
+          "character": "Male Grad Student"
+        },
+        {
+          "name": "Aadi Mahj",
+          "character": "Dr. Roshan Sethi"
+        },
+        {
+          "name": "Martyne Musau",
+          "character": "Dr. Annie Sargis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sUTPXjKFmx4urxKVfJFaptrusN0.jpg"
+        },
+        {
+          "name": "Prerna Nehta",
+          "character": "Barista"
+        },
+        {
+          "name": "Emmy Doody",
+          "character": "Janine"
+        },
+        {
+          "name": "Michael McNally-Sylla",
+          "character": "Referee Jackson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fgAdYaRscuFTKc97aen0bBjQPCQ.jpg"
+        },
+        {
+          "name": "Noah Labranche",
+          "character": "Drunk Jonathan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5Sb2tL2Nia31afwn7haYUJoESjD.jpg"
+        },
+        {
+          "name": "Pei Yao Xu",
+          "character": "Stoned Emma"
+        },
+        {
+          "name": "Laura Paolillo",
+          "character": "Drunk Ava",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AtDBOb2dxKldkI5bLOG8nPfO9Jx.jpg"
+        },
+        {
+          "name": "Isaiah Gero-Marsman",
+          "character": "High Max"
+        },
+        {
+          "name": "Patrice Beauchesne",
+          "character": "Dr. Broome",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5tHKT7IXbeUop9rqwtILdXkAuDG.jpg"
+        },
+        {
+          "name": "Kate MacLellan",
+          "character": "Nurse Lucy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1hDyQe8ficGg9XYMg7zhi6HxeCD.jpg"
+        }
+      ]
+    }
   }
 }

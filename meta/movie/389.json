@@ -23,7 +23,17 @@
       "Jack Klugman",
       "Edward Binns",
       "Jack Warden",
-      "Henry Fonda"
+      "Henry Fonda",
+      "Joseph Sweeney",
+      "Ed Begley",
+      "Jiří Voskovec",
+      "Robert Webber",
+      "Rudy Bond",
+      "Tom Gorman",
+      "James Kelly",
+      "Billy Nelson",
+      "Walter Stocker",
+      "John Savoca"
     ],
     "director": [
       "Sidney Lumet"
@@ -31,6 +41,96 @@
     "writer": [
       "Reginald Rose"
     ],
-    "runtime": "97 dk"
+    "runtime": "97 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uvXtPqfDAFEyxKCh06y0uiofK4T.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Martin Balsam",
+          "character": "Juror 1",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2q7xs6j6vGll3pc9Mm6TUEvvwBf.jpg"
+        },
+        {
+          "name": "John Fiedler",
+          "character": "Juror 2",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/27sXisLWQJQ49PD40j89miNhL73.jpg"
+        },
+        {
+          "name": "Lee J. Cobb",
+          "character": "Juror 3",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yxMxBvM0PZwu7YXQamG0kFwt9DZ.jpg"
+        },
+        {
+          "name": "E.G. Marshall",
+          "character": "Juror 4",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/psimeVoRk64DV7UNm4cLQylRFy2.jpg"
+        },
+        {
+          "name": "Jack Klugman",
+          "character": "Juror 5",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oJxveOxlunD8C9OczqKeryU0k6D.jpg"
+        },
+        {
+          "name": "Edward Binns",
+          "character": "Juror 6",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s3fk0d0fwuj6bDVP9AcPUXFsGmK.jpg"
+        },
+        {
+          "name": "Jack Warden",
+          "character": "Juror 7",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hSShXiYMfRpMByaB5euZ59qCKN.jpg"
+        },
+        {
+          "name": "Henry Fonda",
+          "character": "Juror 8",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6wXWsqSXF3wCsGcwVqiszy6RX9X.jpg"
+        },
+        {
+          "name": "Joseph Sweeney",
+          "character": "Juror 9",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yUDYdj0yk9dvDAR4dKHvK9zRpDv.jpg"
+        },
+        {
+          "name": "Ed Begley",
+          "character": "Juror 10",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/AuPwjGgPphtfQOShb8pTtp5W7Ft.jpg"
+        },
+        {
+          "name": "Jiří Voskovec",
+          "character": "Juror 11",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nxW7pLtG8xLo4J3QHXzLxt8fd8P.jpg"
+        },
+        {
+          "name": "Robert Webber",
+          "character": "Juror 12",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1RlhCcfCkaSz0cWRSowsj5FiKXg.jpg"
+        },
+        {
+          "name": "Rudy Bond",
+          "character": "Judge (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bd3YONpGsvQrpz6MkhsqsiPSaOD.jpg"
+        },
+        {
+          "name": "Tom Gorman",
+          "character": "Stenographer (uncredited)"
+        },
+        {
+          "name": "James Kelly",
+          "character": "Guard (uncredited)"
+        },
+        {
+          "name": "Billy Nelson",
+          "character": "Court Clerk (uncredited)"
+        },
+        {
+          "name": "Walter Stocker",
+          "character": "Man Waiting for Elevator (uncredited)"
+        },
+        {
+          "name": "John Savoca",
+          "character": "Defendant (uncredited)"
+        }
+      ]
+    }
   }
 }

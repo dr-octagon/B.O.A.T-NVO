@@ -26,7 +26,29 @@
       "Scarlett Spears",
       "Greta Lee",
       "Shelby Rabara",
-      "Mykal-Michelle Harris"
+      "Mykal-Michelle Harris",
+      "Craig Robinson",
+      "Jay Hernandez",
+      "Lori Alan",
+      "Bonnie Hunt",
+      "Kristen Schaal",
+      "Tony Hale",
+      "John Hopkins",
+      "Wallace Shawn",
+      "Blake Clark",
+      "Ernie Hudson",
+      "Krys Marshall",
+      "Jeff Bergman",
+      "Bad Bunny",
+      "Anna Vocino",
+      "Annie Potts",
+      "Matty Matheson",
+      "John Ratzenberger",
+      "Keanu Reeves",
+      "Melissa Villaseñor",
+      "Alan Cumming",
+      "Jerome Ranft",
+      "Andrew Stanton"
     ],
     "director": [
       "Andrew Stanton"
@@ -35,6 +57,160 @@
       "Andrew Stanton",
       "Kenna Harris"
     ],
-    "runtime": "102 dk"
+    "runtime": "102 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/d86yNTqJVB2lFO7KJE7gJrmfIhU.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Joan Cusack",
+          "character": "Jessie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/59UIeHZFYrKyP20lXqijtfTXglO.jpg"
+        },
+        {
+          "name": "Tom Hanks",
+          "character": "Woody (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        },
+        {
+          "name": "Tim Allen",
+          "character": "Buzz Lightyear (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg"
+        },
+        {
+          "name": "Conan O'Brien",
+          "character": "Smarty Pants (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/deRbViPut0t80miscBpP2DhBJU5.jpg"
+        },
+        {
+          "name": "Scarlett Spears",
+          "character": "Bonnie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h0loJ4v3wbUfUA6dxUYv7B6fET1.jpg"
+        },
+        {
+          "name": "Greta Lee",
+          "character": "Lilypad (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6SydTis4XUcovlwIGskT59JowLX.jpg"
+        },
+        {
+          "name": "Shelby Rabara",
+          "character": "Snappy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ouMiEKlhCj2LFKEQtI6fGRMDemF.jpg"
+        },
+        {
+          "name": "Mykal-Michelle Harris",
+          "character": "Blaze (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4TvVJYo8gEks8cegfNoZogXJgp2.jpg"
+        },
+        {
+          "name": "Craig Robinson",
+          "character": "Atlas (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mTyTrOWUSOBJMOlDpnd4OYx7FlJ.jpg"
+        },
+        {
+          "name": "Jay Hernandez",
+          "character": "Bonnie’s Dad (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rh4pzTAJvy0i84HYV4xZxCXuXgV.jpg"
+        },
+        {
+          "name": "Lori Alan",
+          "character": "Bonnie's Mom (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cavATg4fX0zAl2MHwlt1IZei7EI.jpg"
+        },
+        {
+          "name": "Bonnie Hunt",
+          "character": "Dolly (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+        },
+        {
+          "name": "Kristen Schaal",
+          "character": "Trixie (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+        },
+        {
+          "name": "Tony Hale",
+          "character": "Forky (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3dEyZgTye0Ec17VGKp0mJ3aU6ty.jpg"
+        },
+        {
+          "name": "John Hopkins",
+          "character": "Mr. Pricklepants (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uHlU7Noyk784MXMwwPRa0Gl02aZ.jpg"
+        },
+        {
+          "name": "Wallace Shawn",
+          "character": "Rex (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tiiz0t7fFiaeoujUyejzIiLRYpu.jpg"
+        },
+        {
+          "name": "Blake Clark",
+          "character": "Slinky Dog (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pA4OZQPyATEX9AqZYUIOItQ447o.jpg"
+        },
+        {
+          "name": "Ernie Hudson",
+          "character": "Combat Carl (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg"
+        },
+        {
+          "name": "Krys Marshall",
+          "character": "Blaze's Mom (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cJtnJMuRNjqgzC7CmIH74mWyBWX.jpg"
+        },
+        {
+          "name": "Jeff Bergman",
+          "character": "Mr. Potato Head (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qeCpFCrmocsMvI7pZ1vqCCo6cPZ.jpg"
+        },
+        {
+          "name": "Bad Bunny",
+          "character": "Pizza with Sunglasses (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/r70aP80HleYJYVScjDhenNCeeWX.jpg"
+        },
+        {
+          "name": "Anna Vocino",
+          "character": "Mrs. Potato Head (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bRzRpuzBUI8C4JKSTeF7edCcCl8.jpg"
+        },
+        {
+          "name": "Annie Potts",
+          "character": "Bo Peep (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nugPVN28qOhOIoHawrDJ6fIfrxR.jpg"
+        },
+        {
+          "name": "Matty Matheson",
+          "character": "Dr. Nutcase (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p1H19bBP5ePOxNpfOXIYpMgRfS7.jpg"
+        },
+        {
+          "name": "John Ratzenberger",
+          "character": "Hamm (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
+        },
+        {
+          "name": "Keanu Reeves",
+          "character": "Duke Caboom (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8RZLOyYGsoRe9p44q3xin9QkMHv.jpg"
+        },
+        {
+          "name": "Melissa Villaseñor",
+          "character": "Karen Beverly (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/144VoO4M5sU0Mn4lpTOYQFAgNVO.jpg"
+        },
+        {
+          "name": "Alan Cumming",
+          "character": "Evil Bullseye (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/axil8ufunARfqyU4ceZNh36fkVQ.jpg"
+        },
+        {
+          "name": "Jerome Ranft",
+          "character": "Garden Gnome (voice) (uncredited)"
+        },
+        {
+          "name": "Andrew Stanton",
+          "character": "Emperor Zurg (voice) (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fo6ePCWEVB0L1sccrvB99Iaoqcg.jpg"
+        }
+      ]
+    }
   }
 }

@@ -324,6 +324,31 @@
         "season": 3,
         "episode": 13
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/hbZ7fVgxEg50plxtQHpVyXAppCq.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Takuya Eguçi",
+          "character": "Loid Forger (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hPPhUp0mM65Lc87Q8WXUEmGQAXx.jpg"
+        },
+        {
+          "name": "Atsumi Tanezaki",
+          "character": "Anya Forger (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6tM8GU7QvrdUCvR4kxqVUZivtvO.jpg"
+        },
+        {
+          "name": "Saori Hayami",
+          "character": "Yor Forger (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gLv9lO7dlUbIsmyJUvgegqAAXki.jpg"
+        },
+        {
+          "name": "松田健一郎",
+          "character": "Bond Forger (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/YCEXgyl763zg62qhsjhWHRzGkL.jpg"
+        }
+      ]
+    }
   }
 }

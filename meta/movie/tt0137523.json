@@ -24,7 +24,29 @@
       "Jared Leto",
       "Zach Grenier",
       "Holt McCallany",
-      "Eion Bailey"
+      "Eion Bailey",
+      "Richmond Arquette",
+      "David Andrews",
+      "George Maguire",
+      "Eugenie Bondurant",
+      "Christina Cabot",
+      "Sydney 'Big Dawg' Colston",
+      "Rachel Singer",
+      "Christie Cronenweth",
+      "Tim DeZarn",
+      "Ezra Buzzington",
+      "Dierdre Downing-Jackson",
+      "Bob Stephenson",
+      "Charlie Dell",
+      "Rob Lanza",
+      "David Lee Smith",
+      "Joel Bissonnette",
+      "Evan Mirand",
+      "Robby Robinson",
+      "Lou Beatty Jr.",
+      "Thom Gossom Jr.",
+      "Valerie Bickford",
+      "Peter Iacangelo"
     ],
     "director": [
       "David Fincher"
@@ -32,6 +54,158 @@
     "writer": [
       "Jim Uhls"
     ],
-    "runtime": "139 dk"
+    "runtime": "139 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4XkF0Rf7gvSfea8fYLFbU5tmuJw.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Edward Norton",
+          "character": "Narrator",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg"
+        },
+        {
+          "name": "Brad Pitt",
+          "character": "Tyler Durden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ajNaPmXVVMJFg9GWmu6MJzTaXdV.jpg"
+        },
+        {
+          "name": "Helena Bonham Carter",
+          "character": "Marla Singer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hJMbNSPJ2PCahsP3rNEU39C8GWU.jpg"
+        },
+        {
+          "name": "Meat Loaf",
+          "character": "Robert Paulson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1zkohpaG3my4qQAZGVgzgPuXwZ6.jpg"
+        },
+        {
+          "name": "Jared Leto",
+          "character": "Angel Face",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg"
+        },
+        {
+          "name": "Zach Grenier",
+          "character": "Richard Chesler (Regional Manager)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fSyQKZO39sUsqY283GXiScOg3Hi.jpg"
+        },
+        {
+          "name": "Holt McCallany",
+          "character": "The Mechanic",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xHnvYcJv6YEku9pIg8LoDNHWQy.jpg"
+        },
+        {
+          "name": "Eion Bailey",
+          "character": "Ricky",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3DW13W47cKk4LQZwS4EvRaNBoVu.jpg"
+        },
+        {
+          "name": "Richmond Arquette",
+          "character": "Intern at Hospital",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7byGiVac0GjBSVD1h6ylZlVXZK6.jpg"
+        },
+        {
+          "name": "David Andrews",
+          "character": "Thomas at Remaining Men Together",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/s5jEvhtGrYptw3Mmv7bejvcAKLv.jpg"
+        },
+        {
+          "name": "George Maguire",
+          "character": "Group Leader at Remaining Men Together",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pyKzJNkpjCA96ItVq93x1Y2YfYx.jpg"
+        },
+        {
+          "name": "Eugenie Bondurant",
+          "character": "Weeping Woman - Onward and Upward",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9ULAELEKNha7VCJhRWoer58NcJe.jpg"
+        },
+        {
+          "name": "Christina Cabot",
+          "character": "Group Leader - Partners in Positivity",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h1vwbOfITSvDvDq8E9MVvWqMYSr.jpg"
+        },
+        {
+          "name": "Sydney 'Big Dawg' Colston",
+          "character": "Speaker - Free and Clear",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tdzVh7pstj6rcppqbBOX0KA7mX9.jpg"
+        },
+        {
+          "name": "Rachel Singer",
+          "character": "Chloe",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o4Hzvy1VRa3IILMrI45Ia08pstK.jpg"
+        },
+        {
+          "name": "Christie Cronenweth",
+          "character": "Airline Check-In Attendant",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/m9S13jmuBO2VeY0ZspSS7DlAEU.jpg"
+        },
+        {
+          "name": "Tim DeZarn",
+          "character": "Federated Motor Co. - Inspector Bird",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/tduRqomAU3LARfuDa2OMKFAd1rR.jpg"
+        },
+        {
+          "name": "Ezra Buzzington",
+          "character": "Federated Motor Co. - Inspector Dent",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vnkdumEom4lVAqdh7Odsf2nZpjB.jpg"
+        },
+        {
+          "name": "Dierdre Downing-Jackson",
+          "character": "Business Woman on Plane",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/81NKNmWmruKfvN6ZTAJmUVgz2yR.jpg"
+        },
+        {
+          "name": "Bob Stephenson",
+          "character": "Airport Security Officer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6RICLz0vofoGkI339Pk5sVn1657.jpg"
+        },
+        {
+          "name": "Charlie Dell",
+          "character": "Doorman at Person Towers"
+        },
+        {
+          "name": "Rob Lanza",
+          "character": "Man in Suit",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4qhdB9O9G5xm4K0KVxcXTOK35en.jpg"
+        },
+        {
+          "name": "David Lee Smith",
+          "character": "Walter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A3vP0a0CqmQSdslPRnEYDiyIZ3V.jpg"
+        },
+        {
+          "name": "Joel Bissonnette",
+          "character": "Food Court Maitre d'",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kOvh6paITOTaE7H1NnuTB01DiVV.jpg"
+        },
+        {
+          "name": "Evan Mirand",
+          "character": "'Steph'",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2juze2UWM22dWfoL2E6YLrKwsmH.jpg"
+        },
+        {
+          "name": "Robby Robinson",
+          "character": "Next Month's Opponent"
+        },
+        {
+          "name": "Lou Beatty Jr.",
+          "character": "Cop at Marla's Building",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eWEXAHp2VnOBUk0KXorvkSdhjYc.jpg"
+        },
+        {
+          "name": "Thom Gossom Jr.",
+          "character": "Detective Stern",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/plFARWSTQ021TOOC5gpChhiUIVu.jpg"
+        },
+        {
+          "name": "Valerie Bickford",
+          "character": "Cosmetics Buyer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qg6BYJ9qYYcz8ldT3zzp6h2BhQj.jpg"
+        },
+        {
+          "name": "Peter Iacangelo",
+          "character": "Lou"
+        }
+      ]
+    }
   }
 }

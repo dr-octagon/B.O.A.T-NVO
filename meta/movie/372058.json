@@ -25,7 +25,29 @@
       "Nobunaga Şimazaki",
       "Kaito İşikava",
       "Kanon Tani",
-      "Masaki Terasoma"
+      "Masaki Terasoma",
+      "Sayaka Ohara",
+      "Kazuhiko İnue",
+      "Çafurin",
+      "Yuka Kato",
+      "Kana Hanazava",
+      "長澤まさみ",
+      "市原悦子",
+      "寺崎裕香",
+      "Takaşi Onozuka",
+      "滑川洋平",
+      "辻美優",
+      "浜添伸也",
+      "佐藤奏美",
+      "合田慎二郎",
+      "菊池康弘",
+      "ひなたたまり",
+      "山根希美",
+      "新祐樹",
+      "村上達哉",
+      "長谷川暖",
+      "バロン山崎",
+      "珠希美碧"
     ],
     "director": [
       "Makoto Şinkay"
@@ -33,6 +55,160 @@
     "writer": [
       "Makoto Şinkay"
     ],
-    "runtime": "106 dk"
+    "runtime": "106 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/zKI7UKmsB5ywy6Rjs3wWvBfhafJ.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Ryunosuke Kamiki",
+          "character": "Taki Tachibana (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ut7ewXjdgUmgkhJ1EtbOo9tbc7s.jpg"
+        },
+        {
+          "name": "Mone Kamişiraişi",
+          "character": "Mitsuha Miyamizu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cPydoy2sSqFDsbXeBPmzQGPmq0R.jpg"
+        },
+        {
+          "name": "Ryo Narita",
+          "character": "Katsuhiko Teshigawara (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oCx1lnZnNnB5PxEBxEC1P2gitEf.jpg"
+        },
+        {
+          "name": "Aoi Yuki",
+          "character": "Sayaka Natori (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a5Mkd66GV1l3c9bZZtnvjUf33T2.jpg"
+        },
+        {
+          "name": "Nobunaga Şimazaki",
+          "character": "Tsukasa Fujii (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qke5rZusHsjSlvB0NKlJ5dQF5D.jpg"
+        },
+        {
+          "name": "Kaito İşikava",
+          "character": "Shinta Takagi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg"
+        },
+        {
+          "name": "Kanon Tani",
+          "character": "Yotsuha Miyamizu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/udR4Cax2EecH3ZkATE4h6ejiGD9.jpg"
+        },
+        {
+          "name": "Masaki Terasoma",
+          "character": "Toshiki Miyamizu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eol7Ul4buAam9SmJDuFIWln0Cd3.jpg"
+        },
+        {
+          "name": "Sayaka Ohara",
+          "character": "Futaha Miyamizu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4lAqrOmkOP3U9Owwijtvc8PaCDx.jpg"
+        },
+        {
+          "name": "Kazuhiko İnue",
+          "character": "Taki's Father (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3BpYtYRiLAmTNbCm2LXlXnkMRit.jpg"
+        },
+        {
+          "name": "Çafurin",
+          "character": "Teshigawara's Father (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kiPG7EtYWxkj78US35gnTIMq5Dn.jpg"
+        },
+        {
+          "name": "Yuka Kato",
+          "character": "Teshigawara's Mother (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xrjrGsb0yQYg0mf7KWQ8zWgeGYs.jpg"
+        },
+        {
+          "name": "Kana Hanazava",
+          "character": "Teacher Yuki-chan (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9UTBlNRopSOKyoWnCm74tyHOfR1.jpg"
+        },
+        {
+          "name": "長澤まさみ",
+          "character": "Miki Okudera (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yvHhfDOral1DeyBRSzpxsoHz60t.jpg"
+        },
+        {
+          "name": "市原悦子",
+          "character": "Hitoha Miyamizu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qDMwdYtLjj58ronpF7W0TNcwnSZ.jpg"
+        },
+        {
+          "name": "寺崎裕香",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hMorHtbCmbDkznBr6P71qHk2rSL.jpg"
+        },
+        {
+          "name": "Takaşi Onozuka",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9WVRLtiUrfYnPIqEeDtLDYCKYa9.jpg"
+        },
+        {
+          "name": "滑川洋平",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ArvaLD8Ocz7y721gTfIYprR2myb.jpg"
+        },
+        {
+          "name": "辻美優",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gW8o8fVajOQtc5b7QAbnG7bR2bF.jpg"
+        },
+        {
+          "name": "浜添伸也",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cO0iNO9YfiO91rzabUmu05AaJGf.jpg"
+        },
+        {
+          "name": "佐藤奏美",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/x4YEuNRfQ3LUMJklNblU99PuoJx.jpg"
+        },
+        {
+          "name": "合田慎二郎",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nB7P927JF3Jx9o6xfsniEyKX3HH.jpg"
+        },
+        {
+          "name": "菊池康弘",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/izNQyTUzNaKOwOOvXkBSbvZyP0O.jpg"
+        },
+        {
+          "name": "ひなたたまり",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t4L8iEaQjevQEbvDblrxi44sX9D.jpg"
+        },
+        {
+          "name": "山根希美",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4hOkfHGiPV9h65w3OHwFeAud56b.jpg"
+        },
+        {
+          "name": "新祐樹",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pyOAlLSA9ZabbVy5HD8j9QuUdV8.jpg"
+        },
+        {
+          "name": "村上達哉",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cftHVjpjvi0Kd3mh81R7avhyCgz.jpg"
+        },
+        {
+          "name": "長谷川暖",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gZn9jnapSyTZwhtR29LqXrzvXR9.jpg"
+        },
+        {
+          "name": "バロン山崎",
+          "character": "(voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/brjVSfFp4KXrmEL1XBSonyd8JXE.jpg"
+        },
+        {
+          "name": "珠希美碧",
+          "character": "(voice)"
+        }
+      ]
+    }
   }
 }

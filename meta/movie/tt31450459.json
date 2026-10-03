@@ -24,7 +24,29 @@
       "Michael Stuhlbarg",
       "Jesse Plemons",
       "Robert John Burke",
-      "Emma D'Arcy"
+      "Emma D'Arcy",
+      "Burn Gorman",
+      "Sophie Wilde",
+      "Danny Kirrane",
+      "Pip Torrens",
+      "Mercedes Hernández",
+      "James Dryden",
+      "Corey Johnson",
+      "Teddy Hawley",
+      "Aetheria Angel",
+      "Tom Bell",
+      "Kenton Craig",
+      "Linxi Doël",
+      "R.A. Donnelly",
+      "Ágota Dunai",
+      "Bodo Friesecke",
+      "Ross Hatt",
+      "Mary Higgins",
+      "Keith Higinbotham",
+      "Aoife Hinds",
+      "Joe Hurst",
+      "Blayne Kelly",
+      "David Lee-Jones"
     ],
     "director": [
       "Alejandro G. Iñárritu"
@@ -35,6 +57,149 @@
       "Nicolás Giacobone",
       "Sabina Berman"
     ],
-    "runtime": "129 dk"
+    "runtime": "129 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/wmC7xZW3uKschOwMSo2opJiSGI7.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Cruise",
+          "character": "Rockwell",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+        },
+        {
+          "name": "Riz Ahmed",
+          "character": "Ganesh",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg"
+        },
+        {
+          "name": "John Goodman",
+          "character": "President Compson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg"
+        },
+        {
+          "name": "Sandra Hüller",
+          "character": "Emma",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jQfKXVCPTH9KEnzHHU4QemCnlMe.jpg"
+        },
+        {
+          "name": "Michael Stuhlbarg",
+          "character": "Vice President",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg"
+        },
+        {
+          "name": "Jesse Plemons",
+          "character": "Kenny",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/og4I51GsuwohdPgoELOHVMMqMre.jpg"
+        },
+        {
+          "name": "Robert John Burke",
+          "character": "General Fitzgerald",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg"
+        },
+        {
+          "name": "Emma D'Arcy",
+          "character": "Lina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9Zlmb7VmtVCxkLq5yqFFRRxCaED.jpg"
+        },
+        {
+          "name": "Burn Gorman",
+          "character": "Defense Secretary Amos",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg"
+        },
+        {
+          "name": "Sophie Wilde",
+          "character": "Hannah",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fMZvMsvTv9MYSC6LTNdIUaMGjIv.jpg"
+        },
+        {
+          "name": "Danny Kirrane",
+          "character": "Clarkson",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yfui1GBLB2UBktBi9WRuxJoJqcs.jpg"
+        },
+        {
+          "name": "Pip Torrens",
+          "character": "AG Schumer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1n7pzFfT6jDHe8kc6I0AEfRryhz.jpg"
+        },
+        {
+          "name": "Mercedes Hernández",
+          "character": "Adelia",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2pC5Lv1eiItvAxeEe8KTbRlM1wY.jpg"
+        },
+        {
+          "name": "James Dryden",
+          "character": "Brad",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/66DNJWRWXzv0Sl3OHB9o5DSqFEo.jpg"
+        },
+        {
+          "name": "Corey Johnson",
+          "character": "Admiral Jacobs",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mhNbf4vGzixPL5mTIOBUPguqvpB.jpg"
+        },
+        {
+          "name": "Teddy Hawley",
+          "character": "Kyle",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lIgp8ltjD8AnHEv2Jfiyi5RJXLM.jpg"
+        },
+        {
+          "name": "Aetheria Angel"
+        },
+        {
+          "name": "Tom Bell",
+          "character": "Deputy NSA Flower",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dxeZ03hZgbRn9iwqWjeKtC3cBox.jpg"
+        },
+        {
+          "name": "Kenton Craig",
+          "character": "Cabinet Member",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aMwd30xzQQj62lDJKlk4FYgtIT2.jpg"
+        },
+        {
+          "name": "Linxi Doël",
+          "character": "Sinead"
+        },
+        {
+          "name": "R.A. Donnelly",
+          "character": "The Man"
+        },
+        {
+          "name": "Ágota Dunai",
+          "character": "Stewardess",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cFrwyGUS5OhVuNotTmdgEqGuFVT.jpg"
+        },
+        {
+          "name": "Bodo Friesecke",
+          "character": "EU Rep",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bHor8UdG5x1Pp4H95bcsYGciXO9.jpg"
+        },
+        {
+          "name": "Ross Hatt",
+          "character": "Dr. Berg"
+        },
+        {
+          "name": "Mary Higgins"
+        },
+        {
+          "name": "Keith Higinbotham",
+          "character": "Theatre Crew"
+        },
+        {
+          "name": "Aoife Hinds",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5Gckrcs7WXkMClFWszNOtuJqRou.jpg"
+        },
+        {
+          "name": "Joe Hurst",
+          "character": "White House Press Secretary Davis",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2OK4pzKuMw9fnPiDOef7509p7qN.jpg"
+        },
+        {
+          "name": "Blayne Kelly",
+          "character": "Kitchen Worker 5"
+        },
+        {
+          "name": "David Lee-Jones"
+        }
+      ]
+    }
   }
 }

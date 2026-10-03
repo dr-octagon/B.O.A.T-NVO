@@ -25534,6 +25534,25 @@
         "season": 22,
         "episode": 139
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4dN6p779hroqBeFihdhBr8XD074.svg",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "David Letterman",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nk1rMabb84e52G2oax6yO9FBiAd.jpg"
+        },
+        {
+          "name": "Paul Shaffer",
+          "character": "Self - Musical Director",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/j6SqQZDOAXUFPyFNNEYwzuAoZCz.jpg"
+        },
+        {
+          "name": "Alan Kalter",
+          "character": "Self - Announcer"
+        }
+      ]
+    }
   }
 }

@@ -128128,6 +128128,11 @@
         "season": 75,
         "episode": 19
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/nCcpZbBdCwyIM2CFWD2R0VfAcWg.png",
+    "cast": [],
+    "app_extras": {
+      "cast": []
+    }
   }
 }

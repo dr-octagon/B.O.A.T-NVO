@@ -25,7 +25,29 @@
       "Eva Victor",
       "Zach Cherry",
       "Sarah Sherman",
-      "Patrick Fischler"
+      "Patrick Fischler",
+      "Dylan Baker",
+      "Jasmin Savoy Brown",
+      "Kevin McDonald",
+      "Quintessa Swindell",
+      "Jack Haven",
+      "Aren Buchholz",
+      "Florence Barrett",
+      "Jordana Summer",
+      "Ryan McEwen",
+      "William Vaughan",
+      "Hunter Dillon",
+      "Nikki Bryce",
+      "Jess McLeod",
+      "Willy McGee",
+      "Louise Weard",
+      "Freya Edwards",
+      "Cassandra Ebner",
+      "Trevor Addie",
+      "Avalon Fast",
+      "Henri Gillespi",
+      "Cherry Moore",
+      "Austyn Van de Kamp"
     ],
     "director": [
       "Jane Schoenbrun"
@@ -33,6 +55,157 @@
     "writer": [
       "Jane Schoenbrun"
     ],
-    "runtime": "112 dk"
+    "runtime": "112 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bmC6rpqpEPhFCeydLsKpULkDTGM.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Hannah Einbinder",
+          "character": "Kris Williams",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iWMeyJAghUYP3zxmOxzcYLU5G8Z.jpg"
+        },
+        {
+          "name": "Gillian Anderson",
+          "character": "Billy Presley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gsxQC7yJT4vqnUqAN9bpsysxwO2.jpg"
+        },
+        {
+          "name": "Amanda Fix",
+          "character": "Young Billy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ju3aa2yJL4h5msWcbEryh7cjXOt.jpg"
+        },
+        {
+          "name": "Arthur Conti",
+          "character": "Alex",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg"
+        },
+        {
+          "name": "Eva Victor",
+          "character": "DJ Ella Giastic",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nlEirkGOQPVUVgNzIqEJysnt70q.jpg"
+        },
+        {
+          "name": "Zach Cherry",
+          "character": "Will",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg"
+        },
+        {
+          "name": "Sarah Sherman",
+          "character": "Kris' Agent",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sPLNz5GGee26tZDFv4eZeyVng6d.jpg"
+        },
+        {
+          "name": "Patrick Fischler",
+          "character": "Rudolph",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vVj7GjHL9hOilbKwViXZpnUlbcQ.jpg"
+        },
+        {
+          "name": "Dylan Baker",
+          "character": "Jeffrey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4mw6xj8Aj3ixjjeUj9pZdZPTbvz.jpg"
+        },
+        {
+          "name": "Jasmin Savoy Brown",
+          "character": "Mari",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/yWaCA2iKmVps20SFxwiB1DvbN6j.jpg"
+        },
+        {
+          "name": "Kevin McDonald",
+          "character": "Anthony / County Sheriff",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ymwrW99x9gyN0zeRkqavt3lZMa9.jpg"
+        },
+        {
+          "name": "Quintessa Swindell",
+          "character": "Julie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3rWuQThPernDgpluR1Q8xDgg3Tu.jpg"
+        },
+        {
+          "name": "Jack Haven",
+          "character": "Little Death",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g62akOVDYSsRXEj16CeFZx6QcIO.jpg"
+        },
+        {
+          "name": "Aren Buchholz",
+          "character": "Thor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kPf1KswsaAhXfXvtGaAwx9v1Aat.jpg"
+        },
+        {
+          "name": "Florence Barrett",
+          "character": "Flo"
+        },
+        {
+          "name": "Jordana Summer",
+          "character": "Doomed Teen Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gPqng6moT8VI6Ao9ZJAsF9QWSRz.jpg"
+        },
+        {
+          "name": "Ryan McEwen",
+          "character": "Doomed Teen Boy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1Miz5f7YZQQtNa20YsXbudgI1IN.jpg"
+        },
+        {
+          "name": "William Vaughan",
+          "character": "Squash Bro",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3Y8j1sV1ysM01HtSTyTAhNWMIRg.jpg"
+        },
+        {
+          "name": "Hunter Dillon",
+          "character": "Chuck",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oyS0TEPIm0dN489rFc2epzZmRxA.jpg"
+        },
+        {
+          "name": "Nikki Bryce",
+          "character": "Cafe Owner"
+        },
+        {
+          "name": "Jess McLeod",
+          "character": "Tracy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nJXORUI8JJVkYTCO4Lpjxz6VgzF.jpg"
+        },
+        {
+          "name": "Willy McGee",
+          "character": "Male Executive",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fhAoiei8Jn4XMHSSSfuwHEUeHBl.jpg"
+        },
+        {
+          "name": "Louise Weard",
+          "character": "Queer Assistant",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3NTHkK8Gh0eMSjUTeaihiXvBVtL.jpg"
+        },
+        {
+          "name": "Freya Edwards",
+          "character": "Young Kris"
+        },
+        {
+          "name": "Cassandra Ebner",
+          "character": "Doomed Wife",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ykIe7cvJjrdBgPilC5sCsZkwXCz.jpg"
+        },
+        {
+          "name": "Trevor Addie",
+          "character": "Doomed Husband"
+        },
+        {
+          "name": "Avalon Fast",
+          "character": "Camp Counselor (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bF4fJJzQRzgQ2hpX8pGiLSRZuni.jpg"
+        },
+        {
+          "name": "Henri Gillespi",
+          "character": "Camp Counselor (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/46H1sSGarqBcp3mc5uFlhQ67vat.jpg"
+        },
+        {
+          "name": "Cherry Moore",
+          "character": "Camp Counselor (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gUeFdPQ8KXd3z8TytSQvQmzz55y.jpg"
+        },
+        {
+          "name": "Austyn Van de Kamp",
+          "character": "Camp Counselor (uncredited)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ehCXIlfebhJ1joqRv5oMofJ5rfi.jpg"
+        }
+      ]
+    }
   }
 }

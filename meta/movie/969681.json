@@ -25,7 +25,29 @@
       "Jacob Batalon",
       "Sadie Sink",
       "Florence Pugh",
-      "Liza Colón-Zayas"
+      "Liza Colón-Zayas",
+      "Tramell Tillman",
+      "Marisa Tomei",
+      "Naomi Watts",
+      "Michael Mando",
+      "Keith David",
+      "Marvin Jones III",
+      "Olivia Booth-Ford",
+      "Taryn Marie Butler",
+      "Johnny Myers",
+      "Billy Clements",
+      "Zabryna Guevara",
+      "Nina Rose Galano",
+      "Maikol Roque",
+      "Jamel Davall Rodriguez",
+      "Ethan Sokontwe",
+      "Tariyé Peterside",
+      "Phoenix Di Sebastiani",
+      "Vivien Keene",
+      "Kurtis Lowe",
+      "Marc Small",
+      "David Hepple",
+      "Jamaal Burcher"
     ],
     "director": [
       "Destin Daniel Cretton"
@@ -34,6 +56,158 @@
       "Erik Sommers",
       "Chris McKenna"
     ],
-    "runtime": "145 dk"
+    "runtime": "145 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/sIkw9wsAUjOEzZI5dEYG0AUfyw4.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tom Holland",
+          "character": "Peter Parker / Spider-Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xKBAaPIa1c7tzZD3Y0MhBLv4hPE.jpg"
+        },
+        {
+          "name": "Zendaya",
+          "character": "MJ",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+        },
+        {
+          "name": "Mark Ruffalo",
+          "character": "Bruce Banner / Hulk",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+        },
+        {
+          "name": "Jon Bernthal",
+          "character": "Frank Castle / Punisher",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bjcglF1IpDcZNs1HwFxakGpzBo6.jpg"
+        },
+        {
+          "name": "Jacob Batalon",
+          "character": "Ned Leeds",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg"
+        },
+        {
+          "name": "Sadie Sink",
+          "character": "Jean Grey",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/92FddzBfK50XOUbtwjqHPraoGHy.jpg"
+        },
+        {
+          "name": "Florence Pugh",
+          "character": "Yelena Belova / Black Widow",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2URrZb95t3kY6pLroKny3Enmabp.jpg"
+        },
+        {
+          "name": "Liza Colón-Zayas",
+          "character": "Detective Jean DeWolff",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/q2gHcef0wckji0AS8ZEO6cYx065.jpg"
+        },
+        {
+          "name": "Tramell Tillman",
+          "character": "William 'Bill' Metzger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bEA15zMnkcXlRroYjKrFUWiiK7y.jpg"
+        },
+        {
+          "name": "Marisa Tomei",
+          "character": "May Parker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5NCCKQooVCQD36R6JL3a1hOeBVn.jpg"
+        },
+        {
+          "name": "Naomi Watts",
+          "character": "E.V. (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg"
+        },
+        {
+          "name": "Michael Mando",
+          "character": "Mac Gargan / Scorpion",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gvM2wG66bjEpiirdeQdyG9EzUfv.jpg"
+        },
+        {
+          "name": "Keith David",
+          "character": "Narrator of Spider Video (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1x0QXavmIy3QmhyrOsV7gMnJaEx.jpg"
+        },
+        {
+          "name": "Marvin Jones III",
+          "character": "Tombstone",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nS4X8TP3idFsxDdV9UqTRbz585g.jpg"
+        },
+        {
+          "name": "Olivia Booth-Ford",
+          "character": "Sara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nBerjq4BKbhxQeTgVKaD4zvmRKs.jpg"
+        },
+        {
+          "name": "Taryn Marie Butler",
+          "character": "Apartment Girl",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6J0TwaDUldwthNJEeOsZxbbKMHk.jpg"
+        },
+        {
+          "name": "Johnny Myers",
+          "character": "Building Manager",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lGRoYKUPsGgB3LfJjtuHCppzSDD.jpg"
+        },
+        {
+          "name": "Billy Clements",
+          "character": "Ramrod",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nipJ22DXJBsdM1teQodwop42U6S.jpg"
+        },
+        {
+          "name": "Zabryna Guevara",
+          "character": "Sheila Rivera",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7NlCmTZoauvyqjNdzTZv2auwOXg.jpg"
+        },
+        {
+          "name": "Nina Rose Galano",
+          "character": "Marley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eASy0nRcdFp8IFgAv6t4aeUpzMF.jpg"
+        },
+        {
+          "name": "Maikol Roque",
+          "character": "EJ",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mvHuLX4jwOqgm4HLV4S7e8MscxK.jpg"
+        },
+        {
+          "name": "Jamel Davall Rodriguez",
+          "character": "NYC Street Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cvjAg6a3bXwGuDppbHQ5dWc8E7X.jpg"
+        },
+        {
+          "name": "Ethan Sokontwe",
+          "character": "Scooter Kid"
+        },
+        {
+          "name": "Tariyé Peterside",
+          "character": "Tour Bus Guide"
+        },
+        {
+          "name": "Phoenix Di Sebastiani",
+          "character": "DODC Escort Guard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mBkkZ5irQZPsxdcCIPLCvNv5iT8.jpg"
+        },
+        {
+          "name": "Vivien Keene",
+          "character": "Female Janitor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7csygYDCRBnA7HET56990kK2ZWZ.jpg"
+        },
+        {
+          "name": "Kurtis Lowe",
+          "character": "DODC Box Guard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hl2paxbdmhZYVCiEfYx1HiCdD6M.jpg"
+        },
+        {
+          "name": "Marc Small",
+          "character": "DODC Box Agent"
+        },
+        {
+          "name": "David Hepple",
+          "character": "Warehouse Worker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/axRNDGr0MNeUKJBJA8nQcNq5adC.jpg"
+        },
+        {
+          "name": "Jamaal Burcher",
+          "character": "DODC Crew Chief",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d0Y282nAAAXEs9zmsd7v7jHJkD9.jpg"
+        }
+      ]
+    }
   }
 }

@@ -25,7 +25,29 @@
       "Alexander Ludwig",
       "Marc Menchaca",
       "Steven Ogg",
-      "Mark Camacho"
+      "Mark Camacho",
+      "David Webster",
+      "Bruce Ramsay",
+      "Michelle Leblanc",
+      "Gus Halper",
+      "William Kosovic",
+      "Matthew Kevin Anderson",
+      "Tanya Clarke",
+      "Emily Lê",
+      "Veronica Bergr",
+      "Madison Seguin",
+      "Michael Laurence",
+      "Michael Buie",
+      "Lola Grace",
+      "Sam Beaton",
+      "Vincent Messina",
+      "Tanya van Blokland",
+      "Brett Watson",
+      "Peter Garred",
+      "Christopher de Courcy-Ireland",
+      "Jace Fleming",
+      "Jonah Carson",
+      "Jason Cavalier"
     ],
     "director": [
       "Janus Metz"
@@ -34,6 +56,155 @@
       "Sam Chalsen",
       "Nelson Greaves"
     ],
-    "runtime": "101 dk"
+    "runtime": "101 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uzfKF1RAAbKEgQXaSl0x14zAfIN.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Russell Crowe",
+          "character": "Henry Murray",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3IBZF0qCZMZ7zJYlgrH0sQzNZV.jpg"
+        },
+        {
+          "name": "Jacob Tremblay",
+          "character": "Ted Kaczynski",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h8CXDp86Y36CUENF4SXJq5ZRTsf.jpg"
+        },
+        {
+          "name": "Shailene Woodley",
+          "character": "Joanne Miller",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gL2NvHKW9wAH3qkZuJ76ULUiArB.jpg"
+        },
+        {
+          "name": "Annabelle Wallis",
+          "character": "Christiana Morgan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg"
+        },
+        {
+          "name": "Alexander Ludwig",
+          "character": "Leo Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3KpzKT4iGhNivSISQMe6EwpAmCi.jpg"
+        },
+        {
+          "name": "Marc Menchaca",
+          "character": "Eddie Turrell",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fL0LmdBwau30M4AFPVJrpLRXXsU.jpg"
+        },
+        {
+          "name": "Steven Ogg",
+          "character": "Dean Kaplan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dorBNAwR8qpB13pe0zd3OkFjqWR.jpg"
+        },
+        {
+          "name": "Mark Camacho",
+          "character": "Bill Ford"
+        },
+        {
+          "name": "David Webster",
+          "character": "Roy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gWQ9r3s8fAsmEs0hvKBSgZppWEQ.jpg"
+        },
+        {
+          "name": "Bruce Ramsay",
+          "character": "Turk Kaczynski",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xvVbXMzHqZ0kMs77EScQ76S4gWH.jpg"
+        },
+        {
+          "name": "Michelle Leblanc",
+          "character": "Wanda Kaczynski"
+        },
+        {
+          "name": "Gus Halper",
+          "character": "Mr. C",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/50KfZII4TVqgYngoAjPgdxhwESP.jpg"
+        },
+        {
+          "name": "William Kosovic",
+          "character": "David Kaczynski (8 years old)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cvZfGqmFkehA32phRUxXi83lPgM.jpg"
+        },
+        {
+          "name": "Matthew Kevin Anderson",
+          "character": "David Kaczynski (51 Years Old)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lSCwDQjV2qaPapwq5q77aQW2Ndv.jpg"
+        },
+        {
+          "name": "Tanya Clarke",
+          "character": "Susan Mosser",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sxJxNhLEPy2B00bf2q16YKEhkj3.jpg"
+        },
+        {
+          "name": "Emily Lê",
+          "character": "Tess Vu",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xqEnskkrG6bPwF8rFBTxEZdLLom.jpg"
+        },
+        {
+          "name": "Veronica Bergr",
+          "character": "Joyce",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cITRRzqiRVUvamgK5tXW0M6mc0O.jpg"
+        },
+        {
+          "name": "Madison Seguin",
+          "character": "Susie"
+        },
+        {
+          "name": "Michael Laurence",
+          "character": "Older Ted",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vlP9ZPscnR59mAHaYGzxzS4VfAJ.jpg"
+        },
+        {
+          "name": "Michael Buie",
+          "character": "Tom Mosser",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3FILC7nQPFTYDkJys8y94gZoMfk.jpg"
+        },
+        {
+          "name": "Lola Grace",
+          "character": "Kelly Mosser"
+        },
+        {
+          "name": "Sam Beaton",
+          "character": "Hoodie Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7Tk2adNorXziNL6nMbxUOLSLfm5.jpg"
+        },
+        {
+          "name": "Vincent Messina",
+          "character": "Gear #1"
+        },
+        {
+          "name": "Tanya van Blokland",
+          "character": "Linda Patrik",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aHScwOziJviyfob2bFc4ZmJrUk5.jpg"
+        },
+        {
+          "name": "Brett Watson",
+          "character": "Agency Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aDhDTpsfg4Ub3G3iOI2AsppLgQw.jpg"
+        },
+        {
+          "name": "Peter Garred",
+          "character": "Interviewer"
+        },
+        {
+          "name": "Christopher de Courcy-Ireland",
+          "character": "Stuffy Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y4iYbM5mQMUNypg9sbE4ggde9cd.jpg"
+        },
+        {
+          "name": "Jace Fleming",
+          "character": "Mr. G",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uqbBJhYQVu7mFTKdzcDMjbjeX11.jpg"
+        },
+        {
+          "name": "Jonah Carson",
+          "character": "Baleen Researcher",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/c8BMvJ2M0lfnQPQWQPmZ1RMtJHr.jpg"
+        },
+        {
+          "name": "Jason Cavalier",
+          "character": "Tom McDaniel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nTCcnKIS8Eil9Ve2aGUz2fcf2I.jpg"
+        }
+      ]
+    }
   }
 }

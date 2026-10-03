@@ -32,6 +32,55 @@
         "season": 1,
         "episode": 2
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/fZNC52feyg0I9EOPyoycMSPi7pn.png",
+    "cast": [
+      "Iñaki Godoy",
+      "Emily Rudd",
+      "新田真剣佑",
+      "Jacob Gibson",
+      "Taz Skylar",
+      "Mikaela Hoover",
+      "Jeff Ward"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Iñaki Godoy",
+          "character": "Luffy (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oPwyLvGfgApD7MfRwj8zp7HOLMF.jpg"
+        },
+        {
+          "name": "Emily Rudd",
+          "character": "Nami (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vVl4ABlqUuh5n1M2B9AOOa9r6kV.jpg"
+        },
+        {
+          "name": "新田真剣佑",
+          "character": "Zoro (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y4FTSASxsO1F61p3hFIPMCeprut.jpg"
+        },
+        {
+          "name": "Jacob Gibson",
+          "character": "Usopp",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rjBm6lA9A077Id2lAnoNyryo268.jpg"
+        },
+        {
+          "name": "Taz Skylar",
+          "character": "Sanji (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3EXMkfzB8EXn3ZJPJvK6OfPWLfz.jpg"
+        },
+        {
+          "name": "Mikaela Hoover",
+          "character": "Chopper (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mC2jcUUd8I9eyRm1liQiMA63Vvm.jpg"
+        },
+        {
+          "name": "Jeff Ward",
+          "character": "Buggy the Clown (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/55Vj8VuALnptdxjJYCH6EdPyR0j.jpg"
+        }
+      ]
+    }
   }
 }

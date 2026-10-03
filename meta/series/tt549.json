@@ -3315,6 +3315,36 @@
         "season": 26,
         "episode": 4
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/uj8ohBxXBujyOASLEEPBwhI9FdH.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Maura Tierney",
+          "character": "Jessica Brady",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4BCrwdHdC4iRSDimvkoYaXg2qki.jpg"
+        },
+        {
+          "name": "David Ajala",
+          "character": "Theo Walker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aug1B4J5UjL1Z7iHQRF7WXdIZLk.jpg"
+        },
+        {
+          "name": "Tony Goldwyn",
+          "character": "Nicholas Baxter",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/A3hXimbzDtFxQ1PXNo8gG7RZeN4.jpg"
+        },
+        {
+          "name": "Hugh Dancy",
+          "character": "Nolan Price",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6UIiS3nxdNTbIo0G2kFNXpcDKhE.jpg"
+        },
+        {
+          "name": "Odelya Halevi",
+          "character": "Samantha Maroun",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/26jv3dcS5Us8Ut13Tu9PmvT7uPh.jpg"
+        }
+      ]
+    }
   }
 }

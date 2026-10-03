@@ -25,7 +25,29 @@
       "Andy Serkis",
       "Dominic Monaghan",
       "Billy Boyd",
-      "John Noble"
+      "John Noble",
+      "David Wenham",
+      "Miranda Otto",
+      "Bernard Hill",
+      "John Rhys-Davies",
+      "Orlando Bloom",
+      "Hugo Weaving",
+      "Liv Tyler",
+      "Cate Blanchett",
+      "Karl Urban",
+      "Ian Holm",
+      "Sean Bean",
+      "Lawrence Makoare",
+      "Marton Csokas",
+      "Paul Norell",
+      "Noel Appleby",
+      "Sarah McLeod",
+      "Ali Astin",
+      "Maisy McLeod-Riera",
+      "David Aston",
+      "John Bach",
+      "Sadwyn Brophy",
+      "Alistair Browning"
     ],
     "director": [
       "Peter Jackson"
@@ -35,6 +57,161 @@
       "Fran Walsh",
       "Philippa Boyens"
     ],
-    "runtime": "263 dk"
+    "runtime": "263 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/sg7d7NsPJJl2YZbmLIAYirOYVjm.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Elijah Wood",
+          "character": "Frodo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7UKRbJBNG7mxBl2QQc5XsAh6F8B.jpg"
+        },
+        {
+          "name": "Ian McKellen",
+          "character": "Gandalf",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+        },
+        {
+          "name": "Viggo Mortensen",
+          "character": "Aragorn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vH5gVSpHAMhDaFWfh0Q7BG61O1y.jpg"
+        },
+        {
+          "name": "Sean Astin",
+          "character": "Sam",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg"
+        },
+        {
+          "name": "Andy Serkis",
+          "character": "Gollum / Smeagol",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+        },
+        {
+          "name": "Dominic Monaghan",
+          "character": "Merry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/h3VEhi6cMaEdmmvoH3keWTv4vEb.jpg"
+        },
+        {
+          "name": "Billy Boyd",
+          "character": "Pippin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/jluumxuDr7rm2f97NFf9LydBdaZ.jpg"
+        },
+        {
+          "name": "John Noble",
+          "character": "Denethor",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/t9dB8uU27sQDaEEFMiQvp5sbrXU.jpg"
+        },
+        {
+          "name": "David Wenham",
+          "character": "Faramir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/F7CWSqUE75HtrcdqIQ7UMZ9aTX.jpg"
+        },
+        {
+          "name": "Miranda Otto",
+          "character": "Éowyn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/szME1IBVTLgiKrO5D5wvOGnvUDW.jpg"
+        },
+        {
+          "name": "Bernard Hill",
+          "character": "Théoden",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5i8bj2nsTrFU2ddSynleOjapxor.jpg"
+        },
+        {
+          "name": "John Rhys-Davies",
+          "character": "Gimli",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qpXl1YnqQsUKYEDm3BB2zK5wbhe.jpg"
+        },
+        {
+          "name": "Orlando Bloom",
+          "character": "Legolas",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lwQoA0qJTCZ6l2FH6PjmhRQjiaB.jpg"
+        },
+        {
+          "name": "Hugo Weaving",
+          "character": "Elrond",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lSC8Et0PYi5zeQb3IpPkFje7hgR.jpg"
+        },
+        {
+          "name": "Liv Tyler",
+          "character": "Arwen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rC6f9NoDN9l2tMgiEocIvnJi2tW.jpg"
+        },
+        {
+          "name": "Cate Blanchett",
+          "character": "Galadriel",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg"
+        },
+        {
+          "name": "Karl Urban",
+          "character": "Éomer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7Y96dAfg0HcFrcLjlD5eD9N0uj4.jpg"
+        },
+        {
+          "name": "Ian Holm",
+          "character": "Bilbo",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cOJDgvgj4nMec6Inzj1H5nugTO5.jpg"
+        },
+        {
+          "name": "Sean Bean",
+          "character": "Boromir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg"
+        },
+        {
+          "name": "Lawrence Makoare",
+          "character": "Witchking / Gothmog",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gNWX2QLQXzjPzynCwa0azyKYG4M.jpg"
+        },
+        {
+          "name": "Marton Csokas",
+          "character": "Celeborn",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gmeUY7FR0bFLdu7Ma5kvpH3Gt6B.jpg"
+        },
+        {
+          "name": "Paul Norell",
+          "character": "King of the Dead",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oa3NNRzbvxCHzrurjxAFwsWxWwb.jpg"
+        },
+        {
+          "name": "Noel Appleby",
+          "character": "Everard Proudfoot",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/us7w0GDegkKk0FWM5G41w7Zcubh.jpg"
+        },
+        {
+          "name": "Sarah McLeod",
+          "character": "Rosie Cotton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bkabFncTNi4TYolXWyKWXtt9WLQ.jpg"
+        },
+        {
+          "name": "Ali Astin",
+          "character": "Elanor Gamgee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/p3UamIJ6nrpafmTD8sWG2s2I4Hr.jpg"
+        },
+        {
+          "name": "Maisy McLeod-Riera",
+          "character": "Baby Gamgee",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/oQ7AjHCKyyg5UG44HQvTuWF2zJS.jpg"
+        },
+        {
+          "name": "David Aston",
+          "character": "Gondorian Soldier 3",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/98TG57IaWdMGBG41NHsUIWtecPX.jpg"
+        },
+        {
+          "name": "John Bach",
+          "character": "Madril",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/v7l9SKwlTaMQiIfWwfUAP1Sd1nz.jpg"
+        },
+        {
+          "name": "Sadwyn Brophy",
+          "character": "Eldarion",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/d6kmpSABo4lVtn2OUNpp9pxIdZF.jpg"
+        },
+        {
+          "name": "Alistair Browning",
+          "character": "Damrod",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dsmzpp5iW5pwb8gNvjlPnPzvAMK.jpg"
+        }
+      ]
+    }
   }
 }

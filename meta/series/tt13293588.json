@@ -391,6 +391,36 @@
         "season": 3,
         "episode": 14
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8hKunCjzL8jfiturHHZfRPfdaLA.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Yumi Uçiyama",
+          "character": "Rudeus Greyrat (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/JvavoF3YOLCf4LHfl4XvYobANE.jpg"
+        },
+        {
+          "name": "Tomokazu Sugita",
+          "character": "Rudeus Greyrat's Former Self (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cv5zuPZySNsHXu24pjKLYCRzJ2J.jpg"
+        },
+        {
+          "name": "Ai Kakuma",
+          "character": "Eris Boreas Greyrat (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/o3tQSeeJAeafJNvQs2IKvpKY7av.jpg"
+        },
+        {
+          "name": "Ai Kayano",
+          "character": "Sylphiette (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l8ywp387rfdAS7mOExe3cEZnsk0.jpg"
+        },
+        {
+          "name": "Konomi Kohara",
+          "character": "Roxy Migurdia (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3wjTzpJpBiTkLexdMmo9a3wfgRT.jpg"
+        }
+      ]
+    }
   }
 }

@@ -26,7 +26,26 @@
       "Frankie Adams",
       "Jemaine Clement",
       "Emma Puahi-Shapazian",
-      "Amaya Masoli"
+      "Amaya Masoli",
+      "Sam Puefua",
+      "Sione Milford",
+      "Kapeneta Te'o-Tafiti",
+      "Eric Scanlan",
+      "Moses Goods",
+      "La Masae Fa‘amausili-Siliato",
+      "Ehulani Hope Kāne",
+      "Hanalē Ka‘anapu",
+      "Michael Alisa",
+      "Michael Metuakore",
+      "Patricia Fa'asua",
+      "Malosi Scanlan",
+      "Elijah Fui",
+      "Sione Kite",
+      "Pisila Kioa",
+      "Huxley Hiko",
+      "Eli Matthew-Lauvao Lutali",
+      "Tealoha Hokulani Carrera",
+      "Joe Momoa"
     ],
     "director": [
       "Thomas Kail"
@@ -35,6 +54,131 @@
       "Jared Bush",
       "Dana Ledoux Miller"
     ],
-    "runtime": "115 dk"
+    "runtime": "115 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/4tJ2G8iecjDp5jL3HqjnJJsyKA0.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Catherine Lagaʻaia",
+          "character": "Moana",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2KRIRDwy1CtY7Bge3aqVZrORelc.jpg"
+        },
+        {
+          "name": "Dwayne Johnson",
+          "character": "Maui",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg"
+        },
+        {
+          "name": "Rena Owen",
+          "character": "Gramma Tala",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/648ZdDBmlx6OFDFRmgAbh6q5LBo.jpg"
+        },
+        {
+          "name": "John Tui",
+          "character": "Chief Tui",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2jIc9M5kl2GmK8fZtbtUr2s1jkS.jpg"
+        },
+        {
+          "name": "Frankie Adams",
+          "character": "Sina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aAUHUSf0lh3OBRoaiCRL9ep8lfL.jpg"
+        },
+        {
+          "name": "Jemaine Clement",
+          "character": "Tamatoa (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg"
+        },
+        {
+          "name": "Emma Puahi-Shapazian",
+          "character": "Moana (4 years old)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iFHiH7MAJja89Grgu47AdvsPhEU.jpg"
+        },
+        {
+          "name": "Amaya Masoli",
+          "character": "Moana (8 years old)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fDqCryVbJGSb6CPLCIxmfbN8wsV.jpg"
+        },
+        {
+          "name": "Sam Puefua",
+          "character": "Village Fisherman",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/iDcFUBYJMMPf2TIynGHu6U23cWI.jpg"
+        },
+        {
+          "name": "Sione Milford",
+          "character": "Coconut Farmer"
+        },
+        {
+          "name": "Kapeneta Te'o-Tafiti",
+          "character": "Coconut Farmer",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/bLR7ydoZq6l7FAaUoXrm0LenyuV.jpg"
+        },
+        {
+          "name": "Eric Scanlan",
+          "character": "Tulafale",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aNPlEfrnBZUP33clsQgLtupXXjU.jpg"
+        },
+        {
+          "name": "Moses Goods",
+          "character": "Elder Luaʻiufi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vo9EoB4dB4gRAtDLX2q0fV7aQvf.jpg"
+        },
+        {
+          "name": "La Masae Fa‘amausili-Siliato",
+          "character": "Elder Ope"
+        },
+        {
+          "name": "Ehulani Hope Kāne",
+          "character": "Village Elder"
+        },
+        {
+          "name": "Hanalē Ka‘anapu",
+          "character": "Village Elder"
+        },
+        {
+          "name": "Michael Alisa",
+          "character": "Tautaivasa"
+        },
+        {
+          "name": "Michael Metuakore",
+          "character": "Younger Navigator"
+        },
+        {
+          "name": "Patricia Fa'asua",
+          "character": "Villager"
+        },
+        {
+          "name": "Malosi Scanlan",
+          "character": "Pushy Farmer"
+        },
+        {
+          "name": "Elijah Fui",
+          "character": "Fale Kid"
+        },
+        {
+          "name": "Sione Kite",
+          "character": "Maivia"
+        },
+        {
+          "name": "Pisila Kioa",
+          "character": "Fale Kid"
+        },
+        {
+          "name": "Huxley Hiko",
+          "character": "Fale Kid"
+        },
+        {
+          "name": "Eli Matthew-Lauvao Lutali",
+          "character": "Young Boy"
+        },
+        {
+          "name": "Tealoha Hokulani Carrera",
+          "character": "Village Kid"
+        },
+        {
+          "name": "Joe Momoa",
+          "character": "Villager on Beach"
+        }
+      ]
+    }
   }
 }

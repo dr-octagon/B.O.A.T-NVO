@@ -1237,6 +1237,36 @@
         "season": 6,
         "episode": 12
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/bfcHax3WxaoqiRXzCkKjmd2myR8.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "坂田将吾",
+          "character": "Johnny Joestar (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fRRPNBz3OCNRdmLdUTdpq7dGqxM.jpg"
+        },
+        {
+          "name": "Yohei Azakami",
+          "character": "Gyro Zeppeli (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rLIqw8pIjVIxPb5engrTbu9iOex.jpg"
+        },
+        {
+          "name": "Kaito İşikava",
+          "character": "Diego Brando (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fzjIkotjUHHs3wgftM9tqdsG8ph.jpg"
+        },
+        {
+          "name": "高橋李依",
+          "character": "Lucy Steel (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/aeB7z0cBTASdjKOjQriBAO6hYq4.jpg"
+        },
+        {
+          "name": "Kenta Miyake",
+          "character": "Steven Steel (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7YL8vM2KYzPMeQqTpHWmNj6s1AP.jpg"
+        }
+      ]
+    }
   }
 }

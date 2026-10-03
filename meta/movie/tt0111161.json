@@ -24,7 +24,29 @@
       "Clancy Brown",
       "Gil Bellows",
       "James Whitmore",
-      "Mark Rolston"
+      "Mark Rolston",
+      "Jeffrey DeMunn",
+      "Larry Brandenburg",
+      "Neil Giuntoli",
+      "Brian Libby",
+      "David Proval",
+      "Joseph Ragno",
+      "Jude Ciccolella",
+      "Paul McCrane",
+      "Renee Blaine",
+      "Scott Mann",
+      "John Horton",
+      "Gordon Greene",
+      "Alfonso Freeman",
+      "Vincent Foster",
+      "John E. Summers",
+      "Frank Medrano",
+      "Mack Miles",
+      "Alan R. Kessler",
+      "Morgan Lund",
+      "Cornell Wallace",
+      "Gary Lee Davis",
+      "Neil Summers"
     ],
     "director": [
       "Frank Darabont"
@@ -32,6 +54,159 @@
     "writer": [
       "Frank Darabont"
     ],
-    "runtime": "142 dk"
+    "runtime": "142 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/8pPq3gJG4oWYonbL6DaHslJeCaM.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tim Robbins",
+          "character": "Andy Dufresne",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3FfJMIVwXgsIXbAT8ECBSZJAncR.jpg"
+        },
+        {
+          "name": "Morgan Freeman",
+          "character": "Ellis Boyd 'Red' Redding",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+        },
+        {
+          "name": "Bob Gunton",
+          "character": "Warden Norton",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ulbVvuBToBN3aCGcV028hwO0MOP.jpg"
+        },
+        {
+          "name": "William Sadler",
+          "character": "Heywood",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg"
+        },
+        {
+          "name": "Clancy Brown",
+          "character": "Captain Byron T. Hadley",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg"
+        },
+        {
+          "name": "Gil Bellows",
+          "character": "Tommy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eCOIv2nSGnWTHdn88NoMyNOKWyR.jpg"
+        },
+        {
+          "name": "James Whitmore",
+          "character": "Brooks Hatlen",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nYMAbkfwFIgKK84vnLoQctI6vHg.jpg"
+        },
+        {
+          "name": "Mark Rolston",
+          "character": "Bogs Diamond",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/hcrNRIptYMRXgkJ9k76BlQu6DQp.jpg"
+        },
+        {
+          "name": "Jeffrey DeMunn",
+          "character": "1946 D.A.",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/70bkLdlkBB7x2NztuJAh4pjdyxy.jpg"
+        },
+        {
+          "name": "Larry Brandenburg",
+          "character": "Skeet",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/y13c1a4keaLnoTbi3dERwolQXWP.jpg"
+        },
+        {
+          "name": "Neil Giuntoli",
+          "character": "Jigger",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/dRFzPIAinOjXbYOqYEax0sGrfTl.jpg"
+        },
+        {
+          "name": "Brian Libby",
+          "character": "Floyd",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sumWxPgIbCpnp1v1exfJWIt43i3.jpg"
+        },
+        {
+          "name": "David Proval",
+          "character": "Snooze",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ku3LWQXiJ80nWgs21fKvTMaR6Ui.jpg"
+        },
+        {
+          "name": "Joseph Ragno",
+          "character": "Ernie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/fF7M5JyfA2kUeh8YItkiCd1of1b.jpg"
+        },
+        {
+          "name": "Jude Ciccolella",
+          "character": "Guard Mert",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sS506N50Brzyu0wgq18mk3pj4dH.jpg"
+        },
+        {
+          "name": "Paul McCrane",
+          "character": "Guard Trout",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nzFUnpptZ5hhiivD1lsUcPDB8V0.jpg"
+        },
+        {
+          "name": "Renee Blaine",
+          "character": "Andy Dufresne's Wife"
+        },
+        {
+          "name": "Scott Mann",
+          "character": "Glenn Quentin",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sOqi4IDMyOo96eZhk15gqsxDitc.jpg"
+        },
+        {
+          "name": "John Horton",
+          "character": "1946 Judge",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/6c1x9prTCTcG3DyZ8l6pqvTEobk.jpg"
+        },
+        {
+          "name": "Gordon Greene",
+          "character": "1947 Parole Hearings Man",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/uJF1H9opCmHJjWIOIUvez1pGhPW.jpg"
+        },
+        {
+          "name": "Alfonso Freeman",
+          "character": "Fresh Fish Con",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/9H4wX5clEpFfD3SG2JPoGH3LIgV.jpg"
+        },
+        {
+          "name": "Vincent Foster",
+          "character": "Hungry Fish Con",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4H11cOROVjOyVNOoaIDdYYOkNNr.jpg"
+        },
+        {
+          "name": "John E. Summers",
+          "character": "New Fish Guard"
+        },
+        {
+          "name": "Frank Medrano",
+          "character": "Fat Ass",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ps427z5PMzVcwxipZptxLxx2Hbe.jpg"
+        },
+        {
+          "name": "Mack Miles",
+          "character": "Tyrell",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/z4WVgPpOvUFkS5VCn8rOeuCMh5O.jpg"
+        },
+        {
+          "name": "Alan R. Kessler",
+          "character": "Laundry Bob",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/cSK84R5XIYyq2XTjvv6dhlzhJHE.jpg"
+        },
+        {
+          "name": "Morgan Lund",
+          "character": "Laundry Truck Driver",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/80p9IRMll98CxH8w1gpPwieFV83.jpg"
+        },
+        {
+          "name": "Cornell Wallace",
+          "character": "Laundry Leonard",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/xsleUHzEWMcBZq6sLMJLBws5wds.jpg"
+        },
+        {
+          "name": "Gary Lee Davis",
+          "character": "Rooster",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/a0UgFGytMZGJrDH6T0VBcsGt1qd.jpg"
+        },
+        {
+          "name": "Neil Summers",
+          "character": "Pete",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/2ESnlgBQzWM17KvSao5GrJInd0u.jpg"
+        }
+      ]
+    }
   }
 }

@@ -7434,6 +7434,31 @@
         "season": 25,
         "episode": 57
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/xvERvRImZQOj83WPj1y3nxPxMDv.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "松本梨香",
+          "character": "Satoshi (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/8kGjV2Ke6MVaR2UGtO9YpFkvuTu.jpg"
+        },
+        {
+          "name": "İkue Otani",
+          "character": "Pikachu (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/my8LBLQ4MsK4hRz1PAATIqtieaI.jpg"
+        },
+        {
+          "name": "Daiki Yamaşita",
+          "character": "Gou (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/rQNdJdZewk7VGP16ZNbpfJ9ZeMd.jpg"
+        },
+        {
+          "name": "Kenyu Horiuçi",
+          "character": "Narrator (voice)",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/qIsrjSbtdhmmUdd3xvpDHNWRuJp.jpg"
+        }
+      ]
+    }
   }
 }

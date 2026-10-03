@@ -299,6 +299,25 @@
         "season": 1,
         "episode": 47
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/rQZBBKsTg0Ztzofr5lFmNZvli9t.png",
+    "cast": [
+      "Tan Songyun",
+      "刘学义"
+    ],
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Tan Songyun",
+          "character": "Xu Lanxiang / Shen Jialan",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/4HJFzfLjIAmqLakN29AQisFyjSU.jpg"
+        },
+        {
+          "name": "刘学义",
+          "character": "Lin Jinqi",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/zJG3K9Ey4EJp9p2wu88UchkgRG0.jpg"
+        }
+      ]
+    }
   }
 }

@@ -24,7 +24,29 @@
       "Navit Nikaban",
       "Annet Mahendru",
       "Grant Harvey",
-      "Augusto Aguilera"
+      "Augusto Aguilera",
+      "Numan Acar",
+      "Elnaaz Norouzi",
+      "Oliver Trevena",
+      "Quincy Isaiah",
+      "Despina Mirou",
+      "Lara Wolf",
+      "Jake Choi",
+      "Ash Goldeh",
+      "Major Dodge Jr.",
+      "K.J. Baker",
+      "Jonathan Rosenthal",
+      "David Cicci",
+      "Patricia Guevara",
+      "Veronica Ginn",
+      "Tabitha Mixon",
+      "სანდრო კახეთელიძე",
+      "Alon Aboutboul",
+      "Nicole Ansari-Cox",
+      "Jeff Perkins",
+      "Lavie Moshe",
+      "Tekla Aslani",
+      "Irakli Revazishvili"
     ],
     "director": [
       "Guy Moshe"
@@ -33,6 +55,153 @@
       "Guy Moshe",
       "Mark Bacci"
     ],
-    "runtime": "142 dk"
+    "runtime": "142 dk",
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/e8GdKxhgIBVR06z1Xar4g2RHrN7.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Zachary Levi",
+          "character": "Tucker",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/1W8L3kEMMPF9umT3ZGaNIiCYKfZ.jpg"
+        },
+        {
+          "name": "Liam Neeson",
+          "character": "Larry",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg"
+        },
+        {
+          "name": "Wes Chatham",
+          "character": "Alex",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/lFoUyX8FZs3XvUWWItCm2ezvAEs.jpg"
+        },
+        {
+          "name": "Titus Welliver",
+          "character": "James",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/3hTwn7Maktr6ONq1VvfqyRacjiv.jpg"
+        },
+        {
+          "name": "Navit Nikaban",
+          "character": "Qasim",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/pWi5tINf4mDvTYbNKZDJPODYKra.jpg"
+        },
+        {
+          "name": "Annet Mahendru",
+          "character": "Sophie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/kEeokLN5vJsOdKSEFaN36qlzCRa.jpg"
+        },
+        {
+          "name": "Grant Harvey",
+          "character": "Matt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/sThJJbhgjQOZNvCkHVO0g3qy78j.jpg"
+        },
+        {
+          "name": "Augusto Aguilera",
+          "character": "Bruce",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/vxW6iEHbuCcC7eFoQWoBAS7SYjM.jpg"
+        },
+        {
+          "name": "Numan Acar",
+          "character": "Nadir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/krAYCiFQGreNOOqtTLX3v6TlHk5.jpg"
+        },
+        {
+          "name": "Elnaaz Norouzi",
+          "character": "Zara",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/gbiXh5zoIKFH1kEPFtuhjfElY5c.jpg"
+        },
+        {
+          "name": "Oliver Trevena",
+          "character": "Colonel Wilkes",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/j0ejU7vdE7lRxYKKrhA5aWw1zCT.jpg"
+        },
+        {
+          "name": "Quincy Isaiah",
+          "character": "Clay",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/szlTbGRFRTo0Mx9jtwXGqcGrZhP.jpg"
+        },
+        {
+          "name": "Despina Mirou",
+          "character": "Katarina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/mjpyxXY6AGH2dbbEIkOtpYCk1rU.jpg"
+        },
+        {
+          "name": "Lara Wolf",
+          "character": "Maryam",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/l2nYt7kKmQgUYCmpxY9jiL4LEXO.jpg"
+        },
+        {
+          "name": "Jake Choi",
+          "character": "Charlie",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ftutoBlPWjWVjdT86wBZxLB13kU.jpg"
+        },
+        {
+          "name": "Ash Goldeh",
+          "character": "Samir",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nZWBdV8LauA3ealoweaXxxTHrGz.jpg"
+        },
+        {
+          "name": "Major Dodge Jr.",
+          "character": "Troy",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/wv9GCnJAaEYanuVhbZXHmAk2iiZ.jpg"
+        },
+        {
+          "name": "K.J. Baker",
+          "character": "Gina",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/7ruBbiRt8kPjh6y4lqkHAXHMHkl.jpg"
+        },
+        {
+          "name": "Jonathan Rosenthal",
+          "character": "DCOS Jones",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/g7dupw7fKfrFbhAL9gAWbrkBTpU.jpg"
+        },
+        {
+          "name": "David Cicci",
+          "character": "Stanfield Turner"
+        },
+        {
+          "name": "Patricia Guevara",
+          "character": "Linda"
+        },
+        {
+          "name": "Veronica Ginn",
+          "character": "Dinara"
+        },
+        {
+          "name": "Tabitha Mixon",
+          "character": "Nurse"
+        },
+        {
+          "name": "სანდრო კახეთელიძე",
+          "character": "Mehdi"
+        },
+        {
+          "name": "Alon Aboutboul",
+          "character": "Moshe",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/ja0vix3b43U5whDTYZascbeXlQo.jpg"
+        },
+        {
+          "name": "Nicole Ansari-Cox",
+          "character": "Fariba",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/Qa4zWGLkDEjedoHbNlMG0e9giq.jpg"
+        },
+        {
+          "name": "Jeff Perkins",
+          "character": "OTS Officer MIchael Hunt",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/nnwlU0raxgJuZ6Y3wKXPRGcK6yM.jpg"
+        },
+        {
+          "name": "Lavie Moshe",
+          "character": "Pete"
+        },
+        {
+          "name": "Tekla Aslani",
+          "character": "Darya"
+        },
+        {
+          "name": "Irakli Revazishvili",
+          "character": "Seyyed"
+        }
+      ]
+    }
   }
 }

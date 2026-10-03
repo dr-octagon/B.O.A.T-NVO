@@ -19313,6 +19313,16 @@
         "season": 23,
         "episode": 157
       }
-    ]
+    ],
+    "logo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/original/oYB3zGjXNrmmznTUAxORfReWzhw.png",
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Andy Cohen",
+          "character": "Self - Host",
+          "photo": "https://wsrv.nl/?url=https://image.tmdb.org/t/p/w185/eZrNjW7RQgkhwfcBw0qGTLPVgf4.jpg"
+        }
+      ]
+    }
   }
 }
