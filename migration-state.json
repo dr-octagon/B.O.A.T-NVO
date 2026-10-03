@@ -797,8 +797,8 @@
         "catalogEntries": 40,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "Native anime catalog and direct episode requests currently return HTTP 500; provider remains disabled.",
-        "latestNativeSample": "12 oz. Mouse",
+        "lastFailure": "Site recovered from HTTP 500: native anime catalog gives 40 cards and metadata works. Two current sample episode players return HTTP 403; Sibnet explicitly says Request forbidden by administrative rules. Provider remains disabled.",
+        "latestNativeSample": "\"Deji\" Meets Girl",
         "redirectMethod": "GET with original Referer",
         "deniedRedirects": "excluded from results",
         "redirectRegressionTest": true,
@@ -806,7 +806,11 @@
         "implementedCatalogTypes": [
           "movie",
           "series"
-        ]
+        ],
+        "nativeMetadata": true,
+        "metadataSample": "\"Bungaku Shoujo\" Kyou no Oyatsu: Hatsukoi",
+        "metadataEpisodes": 1,
+        "upstreamRecovery": "Catalog and metadata HTTP 200; player access remains denied."
       }
     },
     {
