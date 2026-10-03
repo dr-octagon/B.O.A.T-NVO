@@ -1,5 +1,5 @@
 {
-  "version": "1.10.6",
+  "version": "1.10.7",
   "providers": [
     {
       "id": "bronzecloud",
@@ -3627,6 +3627,112 @@
           "id": "filmekseni_top_series",
           "name": "Yüksek Puanlı Diziler",
           "type": "series"
+        }
+      ]
+    },
+    {
+      "id": "webteizle",
+      "name": "WebteIzle",
+      "catalogs": [
+        {
+          "id": "webteizle_film-izle",
+          "name": "film-izle",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_yeni-filmler",
+          "name": "yeni-filmler",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_tavsiye-filmler",
+          "name": "tavsiye-filmler",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Aile",
+          "name": "Aile",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Aksiyon",
+          "name": "Aksiyon",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Animasyon",
+          "name": "Animasyon",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Belgesel",
+          "name": "Belgesel",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Bilim-Kurgu",
+          "name": "Bilim-Kurgu",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Biyografi",
+          "name": "Biyografi",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Dram",
+          "name": "Dram",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Fantastik",
+          "name": "Fantastik",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Gerilim",
+          "name": "Gerilim",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Gizem",
+          "name": "Gizem",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Komedi",
+          "name": "Komedi",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Korku",
+          "name": "Korku",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Macera",
+          "name": "Macera",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Romantik",
+          "name": "Romantik",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Spor",
+          "name": "Spor",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Tarihi",
+          "name": "Tarihi",
+          "type": "movie"
+        },
+        {
+          "id": "webteizle_Western",
+          "name": "Western",
+          "type": "movie"
         }
       ]
     },

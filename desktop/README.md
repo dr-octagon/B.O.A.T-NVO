@@ -33,13 +33,11 @@ kişisel anahtarları günlüklere yazmaz.
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
-42 sağlayıcının 1025 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
+43 sağlayıcının 1045 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
 FilmModu'nun özgün ve güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
 sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
-DiziBox katalog/metadata kodu
-eklendi ancak site şu anda sunucu/VPN IP'lerine 403 döndüğü için canlı
-doğrulaması bekliyor. Nuvio'nun yerleşik ayrıştırıcıları manifest, dizi
-bölümleri ve canlı kartları okudu; arayüzün görsel kontrolü henüz yapılmadı.
+DiziBox güncel Desktop kontrolünde Reacher 8 bölüm ve VidMoly/King akışlarıyla çalıştı; King 1080p H.264/AAC olarak doğrulandı. Diğer sezonlarda sitenin kaldırılma/üyelik uyarısı korunur.
+Desktop veri ayrıştırıcısı bölüm ve canlı kartları okudu; arayüzün görsel kontrolü henüz yapılmadı.
 
 Kaynak deposundan bu PC'ye kurulum için Nuvio kapalıyken
 `scripts/install_desktop_catalogs.ps1` çalıştırılır. Araç, kurulu uygulamanın

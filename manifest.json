@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.6",
+  "version": "1.10.7",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -129,7 +129,7 @@
       "id": "bronzecloud",
       "name": "BronzeCloud (Tüm Türkçe Kaynaklar)",
       "description": "BronzeCloud — HDFilmCehennemi, FilmModu, Sinewix & DiziBox Akışlarını Tek Listede Toplar",
-      "version": "1.10.6",
+      "version": "1.10.7",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -249,7 +249,7 @@
       "id": "dizibox",
       "name": "DiziBox",
       "description": "DiziBox — Yabancı Diziler, VidMoly 1080p Doğrudan Akış & King Player",
-      "version": "1.10.2",
+      "version": "1.10.7",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "series",
@@ -638,7 +638,7 @@
       "id": "cizgimax",
       "name": "CizgiMax",
       "description": "CizgiMax — Cloudstream JS portu",
-      "version": "1.10.5",
+      "version": "1.10.7",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/cizgimax.js",
       "supportedTypes": [
@@ -763,13 +763,13 @@
       "id": "webteizle",
       "name": "WebteIzle",
       "description": "WebteIzle — Cloudstream JS portu",
-      "version": "1.10.2",
+      "version": "1.10.7",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/webteizle.js",
       "supportedTypes": [
         "movie"
       ],
-      "enabled": false,
+      "enabled": true,
       "formats": [
         "m3u8",
         "mp4",

@@ -791,12 +791,16 @@
         "catalogEntries": 40,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "Native metadata request for 2 Stupid Dogs returns HTTP 500; previous copyright player restrictions remain. Provider stays disabled.",
+        "lastFailure": "Current native direct episode request for 101 Dalmaçyalı Sokağı returns HTTP 500; provider remains disabled.",
         "latestNativeSample": "12 oz. Mouse",
         "redirectMethod": "GET with original Referer",
         "deniedRedirects": "excluded from results",
         "redirectRegressionTest": true,
-        "releaseVersion": "1.10.5"
+        "releaseVersion": "1.10.5",
+        "implementedCatalogTypes": [
+          "movie",
+          "series"
+        ]
       }
     },
     {
@@ -813,15 +817,34 @@
     {
       "module": "DiziBox",
       "providerId": "dizibox",
-      "status": "existing-parity-pending",
+      "status": "ported-smoke-passed",
       "checks": {
         "nativeCategoriesImplemented": 12,
         "multiSeasonMetadata": "implemented-fixture-passed",
         "allAlternativePlayers": "implemented-live-validation-pending",
         "directContentAndEpisodeIds": "implemented",
-        "lastFailure": "Current native and helper requests to dizibox.live return HTTP 403 with an explicit VPN/server IP rejection. Earlier native Reacher stream smoke returned HTTP 200.",
+        "lastFailure": null,
         "desktopCatalogUi": "native-layout-defined-live-validation-pending",
-        "fullValidation": "deferred-until-all-ports"
+        "fullValidation": "deferred-until-all-ports",
+        "nativeDesktop": true,
+        "streamCount": 2,
+        "releaseVersion": "1.10.7",
+        "livePlaylistHttpStatus": 200,
+        "nativeMetadata": true,
+        "metadataEpisodes": 8,
+        "metadataSample": "Reacher",
+        "nativeKing": {
+          "sample": "Reacher S1E1",
+          "masterHttpStatus": 200,
+          "videoPlaylistHttpStatus": 200,
+          "videoCodec": "h264",
+          "audioCodec": "aac",
+          "resolution": "1920x1080"
+        },
+        "availableSeasons": "Season 1 exposes 8 episodes; season 2/3 pages show removal or membership notices. No missing episodes are fabricated.",
+        "requestHeaders": "Catalog and player use the same User-Agent/Accept; metadata uses a full GET instead of the failing Range request.",
+        "catalogEntries": 6,
+        "currentCatalogLayout": "new-series / article-series-poster, first page uses root URL"
       }
     },
     {
@@ -1200,13 +1223,22 @@
     {
       "module": "WebteIzle",
       "providerId": "webteizle",
-      "status": "implemented-validation-pending",
+      "status": "ported-smoke-passed",
       "checks": {
-        "nativeDesktop": false,
+        "nativeDesktop": true,
         "catalogEntries": 20,
-        "streamCount": 0,
+        "streamCount": 2,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "Both language variants of first film require reCAPTCHA in dataEmbed.asp; catalog/meta work, protected player skipped"
+        "lastFailure": null,
+        "releaseVersion": "1.10.7",
+        "livePlaylistHttpStatus": 200,
+        "nativeMetadata": true,
+        "metadataSample": "Hayata Mahkûm",
+        "verifiedVariants": [
+          "Dublaj",
+          "Altyazı"
+        ],
+        "previousFailure": "An earlier request required reCAPTCHA. Current ordinary native player calls return VidMoly streams without solving a challenge."
       }
     },
     {
