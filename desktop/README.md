@@ -33,7 +33,7 @@ kişisel anahtarları günlüklere yazmaz.
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
-43 sağlayıcının 1045 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
+44 sağlayıcının 1064 kategorisini tanımlar. Katalog envanterinde eksik sağlayıcı kalmadı.
 FilmModu'nun özgün ve güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
 sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
 DiziBox güncel Desktop kontrolünde Reacher 8 bölüm ve VidMoly/King akışlarıyla çalıştı; King 1080p H.264/AAC olarak doğrulandı. Diğer sezonlarda sitenin kaldırılma/üyelik uyarısı korunur.

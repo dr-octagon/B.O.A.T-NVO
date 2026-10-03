@@ -76,18 +76,24 @@
     {
       "module": "BelgeselX",
       "providerId": "belgeselx",
-      "status": "implemented-validation-pending",
+      "status": "ported-smoke-passed",
       "checks": {
-        "nativeDesktop": false,
+        "nativeDesktop": true,
         "catalogEntries": 20,
-        "streamCount": 0,
+        "streamCount": 1,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "Player pages return 200, but Google Photos exposes no public video; alternate generated OK/Dailymotion embeds return 404 and the malformed Google video endpoint returns 400.",
+        "lastFailure": null,
         "nativeMetadata": true,
-        "metadataSample": "Geleceğe Kalanlar",
-        "metadataEpisodes": 2,
+        "metadataSample": "Antik Uzaylılar Kökenler",
+        "metadataEpisodes": 3,
         "opaqueEpisodeRouting": "fixed: epId URLs retain episode identity when native season/episode arguments are supplied",
-        "nativePlayerRequestsReached": true
+        "nativePlayerRequestsReached": true,
+        "releaseVersion": "1.10.8",
+        "mediaHttpStatus": 200,
+        "mediaContentType": "video/mp4",
+        "mediaHeader": "ftyp",
+        "verifiedPlayer": "Google public video download URL",
+        "remainingUpstreamFailures": "Geleceğe Kalanlar exposes no public video; generated alternate OK/Dailymotion embeds can return 404. Not every documentary/player is verified."
       }
     },
     {
@@ -791,7 +797,7 @@
         "catalogEntries": 40,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "Current native direct episode request for 101 Dalmaçyalı Sokağı returns HTTP 500; provider remains disabled.",
+        "lastFailure": "Native anime catalog and direct episode requests currently return HTTP 500; provider remains disabled.",
         "latestNativeSample": "12 oz. Mouse",
         "redirectMethod": "GET with original Referer",
         "deniedRedirects": "excluded from results",

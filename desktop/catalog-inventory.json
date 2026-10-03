@@ -1,5 +1,5 @@
 {
-  "version": "1.10.7",
+  "version": "1.10.8",
   "providers": [
     {
       "id": "bronzecloud",
@@ -3389,6 +3389,107 @@
         {
           "id": "webdramaturkey_xianxia",
           "name": "xianxia",
+          "type": "series"
+        }
+      ]
+    },
+    {
+      "id": "belgeselx",
+      "name": "BelgeselX",
+      "catalogs": [
+        {
+          "id": "belgeselx_turk-tarihi-belgeselleri",
+          "name": "Turk Tarihi Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_tarih-belgeselleri",
+          "name": "Tarih Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_seyehat-belgeselleri",
+          "name": "Seyehat Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_seri-belgeseller",
+          "name": "Seri Belgeseller",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_savas-belgeselleri",
+          "name": "Savas Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_sanat-belgeselleri",
+          "name": "Sanat Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_psikoloji-belgeselleri",
+          "name": "Psikoloji Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_polisiye-belgeselleri",
+          "name": "Polisiye Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_otomobil-belgeselleri",
+          "name": "Otomobil Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_nazi-belgeselleri",
+          "name": "Nazi Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_muhendislik-belgeselleri",
+          "name": "Muhendislik Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_kultur-din-belgeselleri",
+          "name": "Kultur Din Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_kozmik-belgeseller",
+          "name": "Kozmik Belgeseller",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_hayvan-belgeselleri",
+          "name": "Hayvan Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_eski-tarih-belgeselleri",
+          "name": "Eski Tarih Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_egitim-belgeselleri",
+          "name": "Egitim Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_dunya-belgeselleri",
+          "name": "Dunya Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_doga-belgeselleri",
+          "name": "Doga Belgeselleri",
+          "type": "series"
+        },
+        {
+          "id": "belgeselx_bilim-belgeselleri",
+          "name": "Bilim Belgeselleri",
           "type": "series"
         }
       ]

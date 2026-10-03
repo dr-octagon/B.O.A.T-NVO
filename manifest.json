@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.7",
+  "version": "1.10.8",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -688,7 +688,7 @@
       "id": "belgeselx",
       "name": "BelgeselX",
       "description": "BelgeselX — Cloudstream JS portu",
-      "version": "1.10.3",
+      "version": "1.10.8",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/belgeselx.js",
       "supportedTypes": [
@@ -696,7 +696,7 @@
         "movie",
         "tv"
       ],
-      "enabled": false,
+      "enabled": true,
       "formats": [
         "m3u8",
         "mp4",
