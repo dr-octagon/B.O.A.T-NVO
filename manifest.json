@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.4",
+  "version": "1.10.5",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -201,7 +201,7 @@
       "id": "hdfilmizle",
       "name": "HDFilmizle",
       "description": "HDFilmizle — 1080p FHD Çift Ses (Dual-Audio Türkçe Dublaj & Altyazı), Vidrame & Vidmoxy Akışları",
-      "version": "1.10.2",
+      "version": "1.10.5",
       "author": "Dr.Octagon",
       "supportedTypes": [
         "movie",
@@ -638,7 +638,7 @@
       "id": "cizgimax",
       "name": "CizgiMax",
       "description": "CizgiMax — Cloudstream JS portu",
-      "version": "1.10.2",
+      "version": "1.10.5",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/cizgimax.js",
       "supportedTypes": [

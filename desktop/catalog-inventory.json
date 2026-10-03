@@ -1,5 +1,5 @@
 {
-  "version": "1.10.4",
+  "version": "1.10.5",
   "providers": [
     {
       "id": "filmmodu",
@@ -359,6 +359,142 @@
         {
           "id": "sinewix_animation",
           "name": "Animasyonlar",
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "id": "hdfilmizle",
+      "name": "HDFilmizle",
+      "catalogs": [
+        {
+          "id": "hdfilmizle_latest",
+          "name": "HD Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_dubbed",
+          "name": "Türkçe Dublaj",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_subbed",
+          "name": "Türkçe Altyazılı",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_popular",
+          "name": "En Çok İzlenenler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_imdb",
+          "name": "IMDb 500",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_series",
+          "name": "Diziler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmizle_aile-1",
+          "name": "Aile",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_aksiyon-2",
+          "name": "Aksiyon",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_animasyon-1",
+          "name": "Animasyon",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_belgesel",
+          "name": "Belgesel",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_bilim-kurgu-1",
+          "name": "Bilim Kurgu",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_dram-1",
+          "name": "Dram",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_fantastik-1",
+          "name": "Fantastik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_gerilim-1",
+          "name": "Gerilim",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_gizem-1",
+          "name": "Gizem",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_komedi-1",
+          "name": "Komedi",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_korku-1",
+          "name": "Korku",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_macera-1",
+          "name": "Macera",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_muzik",
+          "name": "Müzik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_romantik-1",
+          "name": "Romantik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_savas-1",
+          "name": "Savaş",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_suc-1",
+          "name": "Suç",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_tarih-1",
+          "name": "Tarih",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_tv-film-1",
+          "name": "TV Film",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_vahsi-bati",
+          "name": "Vahşi Batı",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmizle_yerli-film-izle-1",
+          "name": "Yerli",
           "type": "movie"
         }
       ]
@@ -4538,7 +4674,6 @@
     }
   ],
   "pending": [
-    "bronzecloud",
-    "hdfilmizle"
+    "bronzecloud"
   ]
 }

@@ -77,3 +77,5 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 5. Her sağlayıcıyı manifest kaydı, bir film veya birkaç farklı dizi bölümü, varsa ses/altyazı ve gerçek Desktop oynatma kontrolüyle yayımla.
 
 43 modülün tamamı henüz taşınmadı. Kısa katalog ve akış kontrolleri her grup için yapılır; son doğrulama ve kapsamlı testler tüm portlar tamamlandıktan sonra uygulanır.
+
+1.10.5: HDFilmizle için 26 gerçek site kategorisi, site URL kimliği, film metadata ve dizi sezon/bölüm yönlendirmesi eklendi. Desktop kısa kontrolde 20 + 20 katalog kartı, Avatar 15 bölüm ve Aile Planı Dual HLS listesi HTTP 200 geldi. ÇizgiMax imzalı yönlendirmelerinde özgün GET yöntemi korundu, 403 adresler kaynak sonucundan çıkarıldı; site metadata HTTP 500 nedeniyle sağlayıcı devre dışı kalıyor.

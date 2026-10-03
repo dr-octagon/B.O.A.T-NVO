@@ -791,8 +791,12 @@
         "catalogEntries": 40,
         "streamCount": 0,
         "fullValidation": "deferred-until-all-ports",
-        "lastFailure": "12 oz. Mouse metadata page currently returns HTTP 500; previous sample player wrappers and Sibnet returned HTTP 403.",
-        "latestNativeSample": "12 oz. Mouse"
+        "lastFailure": "Native metadata request for 2 Stupid Dogs returns HTTP 500; previous copyright player restrictions remain. Provider stays disabled.",
+        "latestNativeSample": "12 oz. Mouse",
+        "redirectMethod": "GET with original Referer",
+        "deniedRedirects": "excluded from results",
+        "redirectRegressionTest": true,
+        "releaseVersion": "1.10.5"
       }
     },
     {
@@ -1333,5 +1337,21 @@
     },
     "fullValidation": "deferred-until-all-ports",
     "releaseVersion": "1.10.2"
+  },
+  "additionalProviders": {
+    "hdfilmizle": {
+      "status": "catalog-meta-stream-smoke-passed",
+      "releaseVersion": "1.10.5",
+      "nativeDesktop": true,
+      "catalogs": 26,
+      "catalogEntries": 20,
+      "page2Entries": 20,
+      "nativeEpisodeCount": 15,
+      "sampleMovie": "Aile Planı (2023)",
+      "streamCount": 1,
+      "livePlaylistHttpStatus": 200,
+      "siteIdentityPreserved": true,
+      "fullValidation": "deferred-until-all-ports"
+    }
   }
 }
