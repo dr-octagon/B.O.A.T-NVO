@@ -1,6 +1,30 @@
 # Third-party notices
 
-These MIT-licensed libraries are bundled into provider JavaScript files.
+The libraries below are bundled into provider JavaScript files or the local
+Desktop catalog runtime. Their original license texts are preserved.
+
+## CineStream extractor protocol references
+
+The JavaScript implementation also uses protocol references from the Cloudstream
+project's DoodExtractor, VidHidePro, VidStack, ByseSX and GDMirrorbot extractors:
+https://github.com/recloudstream/cloudstream/tree/master/library/src/commonMain/kotlin/com/lagradost/cloudstream3/extractors
+
+The reference project is licensed under GPL-3.0. Its license text is preserved in
+`licenses/cloudstream-GPL-3.0.txt`.
+
+## CineStream DOM dependencies
+
+CineStream and the Desktop catalog runtime bundle Cheerio's browser-compatible slim parser because Desktop's
+native shim does not implement the required parent/child DOM boundaries. The
+complete license texts for Cheerio, htmlparser2, its DOM utilities, entities,
+selector dependencies and boolbase are preserved in
+`licenses/cinestream-cheerio-dependencies.txt`.
+
+## Desktop catalog CryptoJS
+
+The local catalog runtime bundles crypto-js 4.2.0 so providers can run without
+installing npm dependencies. Its MIT license is preserved in
+`licenses/desktop-crypto-js-LICENSE.txt`.
 
 ## @noble/ciphers 2.4.0
 

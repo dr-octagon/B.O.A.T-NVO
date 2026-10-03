@@ -45,7 +45,7 @@ async function tmdbAddress() {
     return dnsResult.address;
 }
 const tmdbPaths = /^(?:trending\/(?:all|movie|tv)\/(?:day|week)|(?:movie|tv)\/(?:popular|top_rated|upcoming|now_playing|on_the_air|airing_today)|discover\/(?:movie|tv)|search\/(?:multi|movie|tv)|find\/tt\d+|(?:movie|tv)\/\d+(?:\/(?:external_ids|images|credits|videos|recommendations|release_dates)|\/season\/\d+(?:\/episode\/\d+(?:\/external_ids)?)?)?)$/;
-const tmdbQueries = new Set(['api_key', 'language', 'page', 'query', 'include_adult', 'external_source', 'append_to_response', 'include_image_language', 'with_networks', 'with_genres', 'sort_by', 'with_original_language', 'year', 'first_air_date_year']);
+const tmdbQueries = new Set(['api_key', 'language', 'page', 'query', 'include_adult', 'external_source', 'append_to_response', 'include_image_language', 'with_networks', 'with_genres', 'sort_by', 'with_original_language', 'year', 'first_air_date_year', 'region', 'without_keywords', 'with_watch_providers', 'watch_region', 'with_origin_country', 'release_date.gte', 'release_date.lte']);
 async function tmdbJson(path) {
     if (typeof path !== 'string' || path.length > 4096) throw new Error('Invalid TMDB path');
     const url = new URL('https://api.themoviedb.org/3/' + path);
@@ -62,4 +62,24 @@ async function tmdbJson(path) {
         request.on('error', reject);
     });
 }
-module.exports = { cinejoyBinary, tmdbJson };
+const simklFeeds = /^discover\/(?:trending\/(?:(?:movies|tv|anime)\/)?(?:today|month)_500|dvd\/releases_500)\.json$/;
+const simklCache = new Map();
+async function simklCatalog(path) {
+    if (typeof path !== 'string' || !simklFeeds.test(path)) throw new Error('Unsupported Simkl catalog');
+    const cached = simklCache.get(path);
+    if (cached && cached.expires > Date.now()) return cached.rows;
+    const response = await fetch('https://data.simkl.in/' + path, { redirect: 'error', signal: AbortSignal.timeout(10000) });
+    if (!response.ok) throw new Error('Simkl catalog HTTP ' + response.status);
+    const chunks = []; let size = 0;
+    for await (const chunk of response.body) { size += chunk.length; if (size > 8 * 1024 * 1024) throw new Error('Simkl catalog size limit'); chunks.push(chunk); }
+    const data = JSON.parse(Buffer.concat(chunks).toString('utf8'));
+    if (!Array.isArray(data)) throw new Error('Invalid Simkl catalog');
+    // Desktop returns null for oversized JSON. Preserve all cards, omitting
+    // descriptions/alternate-title lists that belong in the metadata request.
+    const rows = data.map(item => ({ title: item.title, title_en: item.title_en, en_title: item.en_title, url: item.url, type: item.type,
+        poster: item.poster, year: item.year, release_date: item.release_date, ratings: item.ratings,
+        ids: item.ids && { simkl: item.ids.simkl || item.ids.simkl_id, imdb: item.ids.imdb, tmdb: item.ids.tmdb } }));
+    simklCache.set(path, { rows, expires: Date.now() + 300000 });
+    return rows;
+}
+module.exports = { cinejoyBinary, tmdbJson, simklCatalog };

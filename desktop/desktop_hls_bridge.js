@@ -1,12 +1,22 @@
 const http = require('node:http');
 const { randomUUID, createHash } = require('node:crypto');
 const { readFileSync } = require('node:fs');
+const { existsSync } = require('node:fs');
+const path = require('node:path');
 const { gunzipSync } = require('node:zlib');
-const { cinejoyBinary, tmdbJson } = require('./desktop_provider_transport');
+const { cinejoyBinary, tmdbJson, simklCatalog } = require('./desktop_provider_transport');
 const { createLiveTransport } = require('./desktop_live_transport');
+const { cineStreamFetch } = require('./desktop_cinestream_transport');
+const { createCatalogAddon } = require('./desktop_catalog_addon');
 const REVISION = createHash('sha256').update(readFileSync(__filename)).digest('hex');
 const TRANSPORT_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_provider_transport'))).digest('hex');
 const LIVE_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_live_transport'))).digest('hex');
+const CINESTREAM_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_cinestream_transport'))).digest('hex');
+const ROOT=path.resolve(__dirname,'..');
+const CATALOG_DESKTOP=existsSync(path.join(ROOT,'dist/desktop/catalog-inventory.json'))?path.join(ROOT,'dist/desktop'):path.join(ROOT,'desktop');
+const catalogFiles=[path.join(__dirname,'desktop_catalog_addon.js'),path.join(__dirname,'desktop_catalog_runtime.js'),path.join(CATALOG_DESKTOP,'catalog-inventory.json'),path.join(CATALOG_DESKTOP,'runtime_modules.cjs')];
+const catalogHash=createHash('sha256');for(const file of catalogFiles)if(existsSync(file))catalogHash.update(readFileSync(file));
+const CATALOG_REVISION=catalogHash.digest('hex');
 const isHls = text => typeof text === 'string' && /^\s*#EXTM3U\b/.test(text);
 
 const PORT = 18765;
@@ -28,8 +38,10 @@ function rewritePlaylist(text, base, urls) {
 function createBridge() {
     let server;
     const live = createLiveTransport(() => server.address().port);
+    const addon=createCatalogAddon();
     const sessions = new Map();
     const catalogs = new Map();
+    const runtimeTimers = new Map();
     const foldCatalogTitle = value => String(value || '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, ' ').trim();
     const catalogBase = 'https://raw.githubusercontent.com/dr-octagon/Cloudstream-BronzeCloud/builds';
     async function dominoCatalog(name) {
@@ -54,12 +66,38 @@ function createBridge() {
         };
         // Native plugin requests have no Origin. Browsers must not register playlists.
         const route = (req.url || '').split('?')[0];
-        if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/') || route.startsWith('/transport/'))) return send(403, { error: 'Native requests only' });
+        if (req.headers.origin && (route === '/playlists' || route.startsWith('/catalog/') || route.startsWith('/transport/') || route.startsWith('/addon/'))) return send(403, { error: 'Native requests only' });
         for (const [key, session] of sessions) if (Date.now() - session.created > TTL) sessions.delete(key);
-        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 4, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live'] });
+        if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 7, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, cinestreamRevision:CINESTREAM_REVISION, catalogRevision:CATALOG_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live', 'simkl-json', 'runtime-timer', 'cinestream-fetch', ...(addon.manifest?['provider-catalogs']:[])] });
+        if (req.method === 'POST' && route === '/transport/timer/cancel') {
+            const token=new URL(req.url,'http://127.0.0.1').searchParams.get('token');
+            runtimeTimers.get(token)?.(true);return send(200,{cancelled:true});
+        }
+        if (req.method === 'GET' && route === '/transport/timer') {
+            const query = new URL(req.url, 'http://127.0.0.1').searchParams;
+            const ms=Number(query.get('ms')),token=query.get('token');
+            if ([...query.keys()].some(key=>!['ms','token'].includes(key)) || !Number.isInteger(ms) || ms<1 || ms>50000 || !/^[a-f0-9]{32}$/.test(token || '') || runtimeTimers.has(token)) return send(400,{error:'Invalid timer duration'});
+            if(runtimeTimers.size>=64)return send(429,{error:'Timer limit'});
+            const finish=(cancelled=false)=>{clearTimeout(timer);runtimeTimers.delete(token);send(200,{elapsed:cancelled?0:ms,cancelled});};
+            const timer=setTimeout(()=>finish(),ms);runtimeTimers.set(token,finish);
+            res.on('close',()=>{clearTimeout(timer);runtimeTimers.delete(token);});
+            return;
+        }
+        if (await addon.handle(req,res,send))return;
         if (await live(req, res, send)) return;
+        if (req.method === 'POST' && route === '/transport/cinestream') {
+            try {
+                const chunks=[];let size=0;
+                for await(const chunk of req){size+=chunk.length;if(size>300*1024){send(413,{error:'CineStream request size limit'});req.destroy();return;}chunks.push(chunk);}
+                return send(200,await cineStreamFetch(JSON.parse(Buffer.concat(chunks).toString('utf8'))));
+            }catch(error){return send(502,{error:error.message});}
+        }
         if (req.method === 'GET' && route === '/transport/tmdb') {
             try { return send(200, await tmdbJson(new URL(req.url, 'http://127.0.0.1').searchParams.get('path'))); }
+            catch (error) { return send(502, { error: error.message }); }
+        }
+        if (req.method === 'GET' && route === '/transport/simkl') {
+            try { return send(200, await simklCatalog(new URL(req.url, 'http://127.0.0.1').searchParams.get('path'))); }
             catch (error) { return send(502, { error: error.message }); }
         }
         if (req.method === 'POST' && route === '/transport/cinejoy') {
@@ -73,6 +111,7 @@ function createBridge() {
             try {
                 const query = new URL(req.url, 'http://127.0.0.1').searchParams;
                 const kind = query.get('type') === 'series' ? 'series' : 'movie';
+                if (route === '/catalog/domino/file') return send(200,await dominoCatalog(query.get('name')));
                 if (route === '/catalog/domino/section') {
                     const data = await dominoCatalog('home_bundle'), key = query.get('section');
                     const skip = Math.max(0, Number(query.get('skip')) || 0), ids = (data.sections[key] || []).slice(skip, skip + 20);

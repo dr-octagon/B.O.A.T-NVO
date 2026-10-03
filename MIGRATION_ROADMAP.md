@@ -2,7 +2,7 @@
 
 2026-10-02 tarihli güncel yerel kaynak envanteri: Cloudstream deposunda `build.gradle.kts` içeren ve `settings.gradle.kts` tarafından etkinleştirilen 43 modül var. Taşıma sırasında eklenen DomatesTV ve Trdiziizle envantere alındı. `__Temel`, `NovaStream` ve `NovaStream_backup_pre_tv` dışarıda bırakılıyor.
 
-Taşıma öncesinde Nuvio'da yedi JavaScript sağlayıcı vardı: BOAT, BronzeCloud, DiziBox, FilmModu, HDFilmCehennemi, HDFilmizle ve Sinewix. BronzeCloud bir birleştirici; HDFilmizle mevcut Cloudstream modül adıyla birebir eşleşmiyor. Beş Cloudstream modülünün JS karşılığı mevcut olması tam özellik eşitliği anlamına gelmiyor. Örneğin DiziBox şu anda yalnız akış çözüyor.
+Taşıma öncesinde Nuvio'da yedi JavaScript sağlayıcı vardı: BOAT, BronzeCloud, DiziBox, FilmModu, HDFilmCehennemi, HDFilmizle ve Sinewix. BronzeCloud bir birleştirici; HDFilmizle mevcut Cloudstream modül adıyla birebir eşleşmiyor. Beş Cloudstream modülünün JS karşılığı mevcut olması tam özellik eşitliği anlamına gelmiyor. DiziBox'ın eksik katalog/metadata işlevleri ve alternatif oynatıcı yolları eklendi; sitenin güncel IP engeli nedeniyle canlı kontrolü bekliyor.
 
 ## Dönüşüm eşlemesi
 
@@ -25,7 +25,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | Cloudstream modülü | Nuvio karşılığı / durum |
 |---|---|
 | BOAT | `boat` mevcut; özellik eşitliği incelenecek |
-| DiziBox | `dizibox` mevcut; katalog/meta ve diğer oynatıcılar incelenecek |
+| DiziBox | 12 yerel kategori, arama ve çok sezonlu metadata eklendi; doğrudan içerik/bölüm kimlikleri oynatma yoluna bağlandı. Tüm alternatif oynatıcılar sınırlı eşzamanlılıkla sorgulanır; Haydi ve genel extractor yolu eklendi. Şu anda site sunucu/VPN IP mesajıyla 403 dönüyor; canlı katalog/oynatma doğrulaması bekliyor |
 | FilmModu | `filmmodu` mevcut; güncel site/Pilavyer desteği eklendi |
 | HDFilmcehennemiLand | `hdfilmcehennemi` mevcut; SetPlay/FastPlay düzeltildi |
 | Sinewix | `sinewix` mevcut; özellik eşitliği incelenecek |
@@ -33,7 +33,7 @@ Taşımanın güncel makine tarafından okunabilir kaydı `migration-state.json`
 | BCSports | JS portu; altı aktif kaynak ailesi, 12 kanal grubu ve BeIN kategorisinde 12 kart; BeIN Sports 1 için C/E/F canlı HLS listesi ve gerçek MPEG-TS parçası HTTP 200. B RGBTS PNG çözümü ve D AES anahtar yolu mevcut; A 403/B bağlantı hatası/D boş 204 nedeniyle bu yolların canlı kontrolü bekliyor |
 | BelgeselX | Katalog/meta hazır; ilk bölümün Google Photos yanıtında kullanılabilir medya yok |
 | CineJoy | JS portu; 13 TMDB kategori, 20 katalog kaydı, Reacher 32 bölüm ve Matrix altı Movy sunucusundan 10 HLS kaynak. Türkçe normal/forced altyazılar, kalite seçenekleri, domain yenileme ve AES-GCM/AAD protokolü mevcut; ana CineJoy API 502 nedeniyle bu dalın canlı kontrolü bekliyor |
-| CineStream | Taşınacak |
+| CineStream | Taşıma sürüyor; CineMeta/TMDB/Simkl katalogları, 71/71 kaynak ve 44 özel extractor yolu yazıldı. Desktop kısa kontrolde 49/20/500 katalog kaydı, Reacher 32 bölüm; 71 kaynaklı sürümde Matrix 22 akış geldi. Önceki sürümde Solo Leveling araması 4 kayıt, metadata 12 bölüm ve S1E1 için 24 akış; Anikage/Animekizz HLS ve medya HTTP 200. Yerleşik ayarlar düzeni 71 kaynak anahtarıyla Desktop çalışma ortamında okundu. Gerçek Cheerio ve yardımcı v6 ile DOM sınırları/ağ zaman aşımı uyarlandı. Extractor özellik eşitliği/canlı doğrulama, Simkl hesap girişi, ayar ekranının görsel kontrolü ve Desktop katalog entegrasyonu bekliyor; henüz yayımlanmadı |
 | CizgiMax | Katalog/meta hazır; ilk SibNet kaynağı HTTP 403, diğer örnek oynatıcı HTTP 404 |
 | Ddizi | JS portu; tam bölüm Twitter HLS akışı ve kısa katalog kontrolü geçti |
 | Dizilla | JS portu; Next.js AES veri çözümü, Pichive HLS ve kısa kontrol geçti |

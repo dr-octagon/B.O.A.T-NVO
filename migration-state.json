@@ -102,9 +102,630 @@
     },
     {
       "module": "CineStream",
-      "providerId": null,
-      "status": "pending",
-      "checks": {}
+      "providerId": "cinestream",
+      "status": "port-in-progress",
+      "checks": {
+        "nativeDesktop": true,
+        "catalogFamilies": {
+          "cinemeta": 49,
+          "tmdb": 20,
+          "simkl": 500
+        },
+        "metadataEpisodes": 32,
+        "sampleSeries": "Reacher",
+        "sampleMovie": "The Matrix",
+        "streamCount": 22,
+        "verifiedSourceFamilies": [
+          "VaPlayer",
+          "Vidrock",
+          "Vidcore",
+          "Vidfast",
+          "HindMoviez",
+          "4Khdhub",
+          "Dudefilms"
+        ],
+        "sourceCount": 71,
+        "implementedSources": [
+          {
+            "key": "p_torrentio",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_torrentsdb",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_animetosho",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_wyziesubs",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_stremiosubs",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_showbox",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_vidrock",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_moviebox",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_cinemacity",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_movieblast",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_fibwatch",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_allmovieland",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_hdhub4u",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_hexa",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_xpass",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_fshare",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_videasy",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_vaplayer",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_ctgmovies",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_vidzee",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_peachify",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_vidfastpro",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_cinejoy",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_vidcore",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_av1encodes",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_castle",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_reanime",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_just4anime",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_zinkmovies",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_meowtv",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_bollywood",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_vegamovies",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_rogmovies",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_bollyflix",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_topmovies",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_vidup",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_moviesmod",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_movies4u",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_dudefilms",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_uhdmovies",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_moviesdrive",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_hindmoviez",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_4khdhub",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_primesrc",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_projectfreetv",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_mlsbd",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_levidia",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_hdghartv",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_animesalt",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_m4ufree",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_multimovies",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_akwam",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_rtally",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_asiaflix",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_skymovies",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_hdmovie2",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_mostraguarda",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_kisskh",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_onetouchtv",
+            "modes": [
+              "standard"
+            ]
+          },
+          {
+            "key": "p_toonstream",
+            "modes": [
+              "standard",
+              "anime"
+            ]
+          },
+          {
+            "key": "p_anineko",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_animedao",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_anikoto",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_anikage",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_anidb",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_animepahe",
+            "modes": [
+              "malsync"
+            ]
+          },
+          {
+            "key": "p_animetoshohttp",
+            "modes": [
+              "malsync"
+            ]
+          },
+          {
+            "key": "p_tokyoinsider",
+            "modes": [
+              "anime",
+              "malsync"
+            ]
+          },
+          {
+            "key": "p_anizone",
+            "modes": [
+              "anime",
+              "malsync"
+            ]
+          },
+          {
+            "key": "p_animes",
+            "modes": [
+              "anime"
+            ]
+          },
+          {
+            "key": "p_animekizz",
+            "modes": [
+              "anime",
+              "malsync"
+            ]
+          }
+        ],
+        "pendingSources": [],
+        "animeSample": "Solo Leveling S1E1",
+        "animeSearchEntries": 4,
+        "animeEpisodes": 12,
+        "animeStreams": 24,
+        "animeMediaChecks": [
+          {
+            "name": "[CineStream] Anikage • koto • sub",
+            "playlistStatus": 200,
+            "mediaStatus": 200,
+            "mediaType": "image/jpeg",
+            "firstByte": 71,
+            "sampleBytes": 1363
+          },
+          {
+            "name": "[CineStream] Animekizz • yuki • sub",
+            "playlistStatus": 200,
+            "mediaStatus": 200,
+            "mediaType": "image/jpeg",
+            "firstByte": 71,
+            "sampleBytes": 266
+          }
+        ],
+        "extractorInventory": [
+          "Kwik",
+          "Pahe",
+          "SuperVideo",
+          "Akamaicdn",
+          "HubCloud",
+          "VCloud",
+          "GDLink",
+          "GDFlixApp",
+          "GdFlix1",
+          "GdFlix2",
+          "GDFlixNet",
+          "GDFlix",
+          "fastdlserver",
+          "Hubdrive",
+          "Driveseed",
+          "Driveleech",
+          "Howblogs",
+          "Wootly",
+          "Gofile",
+          "Videostr",
+          "Streameeeeee",
+          "PpzjYoutube",
+          "Asianload",
+          "Embedload",
+          "Cloudnestra",
+          "Cloudorchestranova",
+          "FlixCloud",
+          "VibePlayer",
+          "Bibiemb",
+          "Vivibebe",
+          "Playmogo",
+          "Otakuvid",
+          "Otakuhg",
+          "Allanimeups",
+          "Bysekoze",
+          "MegaPlay",
+          "Vidtube",
+          "Vidwish",
+          "Modiplay",
+          "Iqsmartgames",
+          "Minochinos",
+          "Hblinks",
+          "HdStream4u",
+          "Hubstream"
+        ],
+        "implementedExtractors": [
+          "SuperVideo",
+          "Kwik",
+          "Pahe",
+          "Videostr",
+          "Streameeeeee",
+          "Gofile",
+          "Akamaicdn",
+          "fastdlserver",
+          "Hubdrive",
+          "Howblogs",
+          "GDFlix",
+          "GDLink",
+          "GDFlixApp",
+          "GdFlix1",
+          "GdFlix2",
+          "GDFlixNet",
+          "HubCloud",
+          "VCloud",
+          "Driveleech",
+          "Driveseed",
+          "Hblinks",
+          "Asianload",
+          "Embedload",
+          "Cloudnestra",
+          "Cloudorchestranova",
+          "VibePlayer",
+          "Bibiemb",
+          "Vivibebe",
+          "FlixCloud",
+          "Wootly",
+          "PpzjYoutube",
+          "Playmogo",
+          "Otakuvid",
+          "Otakuhg",
+          "Allanimeups",
+          "Bysekoze",
+          "MegaPlay",
+          "Vidtube",
+          "Vidwish",
+          "Modiplay",
+          "Iqsmartgames",
+          "Minochinos",
+          "HdStream4u",
+          "Hubstream"
+        ],
+        "pendingExtractors": [],
+        "extractorParity": "pending",
+        "simklAccount": "pending",
+        "settingsUi": "native-layout-verified-visual-check-pending",
+        "desktopCatalogUi": "pending",
+        "malSyncRouting": "implemented-live-validation-pending",
+        "focusedTests": 12,
+        "saltedAesNative": true,
+        "fullValidation": "deferred-until-all-ports",
+        "published": false,
+        "nativeSettingsFields": 90,
+        "nativeSourceToggles": 71,
+        "nativeCheerio": "slim-bundled-parent-children-verified",
+        "desktopTransportVersion": 6,
+        "nativeStreamDeadline": "Bounded native transport completed the 71-handler default Matrix request; slow upstream requests are capped at 12 seconds and overall source search at 50 seconds.",
+        "previousFailure": "With native fetch, Maidaan default HTTP search exceeded the Desktop 60000ms deadline. Promise.race alone did not release outstanding native requests.",
+        "timeoutRegression": {
+          "sample": "Maidaan",
+          "id": "tt10869778",
+          "streamCount": 9,
+          "nativeDesktop": true,
+          "completedWithinRuntimeDeadline": true
+        },
+        "deadlineExpiryRegression": {
+          "nativeDesktop": true,
+          "budgetSeconds": 10,
+          "partialStreams": 3,
+          "completedWithinRuntimeDeadline": true
+        }
+      }
     },
     {
       "module": "CizgiMax",
@@ -133,7 +754,15 @@
       "module": "DiziBox",
       "providerId": "dizibox",
       "status": "existing-parity-pending",
-      "checks": {}
+      "checks": {
+        "nativeCategoriesImplemented": 12,
+        "multiSeasonMetadata": "implemented-fixture-passed",
+        "allAlternativePlayers": "implemented-live-validation-pending",
+        "directContentAndEpisodeIds": "implemented",
+        "lastFailure": "Current native and helper requests to dizibox.live return HTTP 403 with an explicit VPN/server IP rejection. Earlier native Reacher stream smoke returned HTTP 200.",
+        "desktopCatalogUi": "native-layout-defined-live-validation-pending",
+        "fullValidation": "deferred-until-all-ports"
+      }
     },
     {
       "module": "DiziMom",
@@ -519,5 +1148,46 @@
         ]
       }
     }
-  ]
+  ],
+  "desktopCatalogAdapter": {
+    "helperVersion": 7,
+    "state": "installed-local-native-protocol-verified",
+    "providerDefinitions": 34,
+    "categoryDefinitions": 596,
+    "nativeCatalogGroups": 59,
+    "pendingProviderDefinitions": [
+      "bronzecloud",
+      "filmmodu",
+      "sinewix",
+      "hdfilmizle",
+      "hdfilmcehennemi",
+      "boat"
+    ],
+    "manifestUrl": "http://127.0.0.1:18765/addon/manifest.json",
+    "nativeManifestParser": true,
+    "nativeCatalogParser": true,
+    "nativeMetaParser": true,
+    "nativeStreamParser": true,
+    "localAddonInstalled": true,
+    "visualUiValidation": "pending",
+    "published": true,
+    "samples": {
+      "diziyou": {
+        "search": "Reacher",
+        "catalogEntries": 1,
+        "metadataEpisodes": 8,
+        "streams": 2,
+        "playlistHttpStatus": 200
+      },
+      "rectv": {
+        "liveCatalogEntries": 18,
+        "parsedType": "live"
+      },
+      "bcsports": {
+        "liveCatalogEntries": 12
+      }
+    },
+    "fullValidation": "deferred-until-all-ports",
+    "releaseVersion": "1.10.1"
+  }
 }

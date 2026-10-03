@@ -8,7 +8,9 @@ try {
         $taskTransportScript = Join-Path $PSScriptRoot 'desktop_provider_transport.js'
         $taskTransportRevision = (Get-FileHash -LiteralPath $taskTransportScript -Algorithm SHA256).Hash
         $taskLiveRevision = (Get-FileHash -LiteralPath (Join-Path $PSScriptRoot 'desktop_live_transport.js') -Algorithm SHA256).Hash
-        if ($taskHealth.version -ge 4 -and $taskHealth.revision -eq $taskExpectedRevision -and $taskHealth.transportRevision -eq $taskTransportRevision -and $taskHealth.liveRevision -eq $taskLiveRevision) { return }
+        $taskCineStreamRevision = (Get-FileHash -LiteralPath (Join-Path $PSScriptRoot 'desktop_cinestream_transport.js') -Algorithm SHA256).Hash
+        $taskCatalogRevision = & node -e 'const fs=require("fs"),p=require("path"),c=require("crypto"),root=p.resolve(process.argv[1],".."),d=fs.existsSync(p.join(root,"dist/desktop/catalog-inventory.json"))?p.join(root,"dist/desktop"):p.join(root,"desktop"),h=c.createHash("sha256");for(const f of [p.join(process.argv[1],"desktop_catalog_addon.js"),p.join(process.argv[1],"desktop_catalog_runtime.js"),p.join(d,"catalog-inventory.json"),p.join(d,"runtime_modules.cjs")])if(fs.existsSync(f))h.update(fs.readFileSync(f));process.stdout.write(h.digest("hex"));' $PSScriptRoot
+        if ($taskHealth.version -ge 7 -and $taskHealth.revision -eq $taskExpectedRevision -and $taskHealth.transportRevision -eq $taskTransportRevision -and $taskHealth.liveRevision -eq $taskLiveRevision -and $taskHealth.cinestreamRevision -eq $taskCineStreamRevision -and $taskHealth.catalogRevision -eq $taskCatalogRevision) { return }
         $taskPidFile = Join-Path (Split-Path $PSScriptRoot -Parent) 'tmp/desktop-hls.pid'
         $taskOwnedId = if (Test-Path -LiteralPath $taskPidFile) { [int](Get-Content -LiteralPath $taskPidFile) } else { 0 }
         $taskOwnedProcess = if ($taskOwnedId) { Get-CimInstance Win32_Process -Filter "ProcessId = $taskOwnedId" } else { $null }
