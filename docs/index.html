@@ -11,22 +11,24 @@
 </head>
 <body>
 <main>
-<header><span class="eyebrow">Nuvio Türkiye</span><h1>Ana ekran ve arama hazır.</h1><p>Kurulu kaynaklarını kullanarak film ve dizi bul. Bu iki katalog eklentisini Nuvio'ya bir kez eklemen yeterli.</p></header>
-<section class="card" aria-labelledby="search-title">
-<h2 id="search-title">Türkçe aramayı ekle</h2>
-<p>TMDB üzerinden film ve dizi ara. Bu eklenti yalnızca aramada görünür; ana ekranına ek satırlar koymaz.</p>
-<div class="buttons"><a id="search-install" class="action" href="#">Aramayı Nuvio'ya ekle</a><button type="button" data-copy="search">Arama adresini kopyala</button></div>
-<p id="search-status" class="status" role="status"></p>
+<header><span class="eyebrow">Nuvio Türkiye</span><h1>İki bağlantıyla kurulum.</h1><p>Bir bağlantı bütün kaynaklarımızı ekler. İkinci bağlantı ana ekranı, içerik detaylarını ve aramayı birlikte getirir.</p></header>
+<section class="card" aria-labelledby="plugin-title">
+<h2 id="plugin-title">1. Bütün kaynakları ekle</h2>
+<p>FilmModu, DiziBox, HDFilmCehennemi ve diğer kaynaklarımız tek pakette. Adresi Nuvio'nun <strong>plugin / kaynak deposu ekleme</strong> bölümüne yapıştır.</p>
+<input id="plugin-address" aria-label="Plugin depo adresi" readonly value="https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json" style="width:100%;padding:12px;border-radius:8px;border:1px solid #646a84;background:#111217;color:#f4f4f8">
+<div class="buttons"><button class="action" type="button" data-copy="plugin">Plugin bağlantısını kopyala</button></div>
+<p id="plugin-status" class="status" role="status"></p>
+<small>Bu kaynak deposu zaten kuruluysa yeniden eklemene gerek yok.</small>
 </section>
-<section class="card" aria-labelledby="home-title">
-<h2 id="home-title">Bizim ana ekranı ekle</h2>
-<p>Trend filmler, vizyondakiler, popüler diziler, en çok beğenilen filmler ve animeler. Emojisiz başlıklar, TMDB'de mevcut olan oyuncu fotoğrafları ve başlık logoları.</p>
-<div class="buttons"><a id="home-install" class="action" href="#">Ana ekranı Nuvio'ya ekle</a><button type="button" data-copy="home">Ana ekran adresini kopyala</button></div>
-<p id="home-status" class="status" role="status"></p>
+<section class="card" aria-labelledby="catalog-title">
+<h2 id="catalog-title">2. Ana ekran ve aramayı ekle</h2>
+<p>Trendler, yeni çıkanlar ve popüler içerikler için altı film/dizi listesi. Türkçe içerik bilgileri, film ve dizi araması, TMDB'de mevcut olan oyuncu fotoğrafları ve başlık logoları tek eklentide.</p>
+<div class="buttons"><a id="catalog-install" class="action" href="#">Ana ekran ve aramayı Nuvio'ya ekle</a><button type="button" data-copy="catalog">Katalog bağlantısını kopyala</button></div>
+<p id="catalog-status" class="status" role="status"></p>
+<small>Hazır TMDB hizmetinde liste başlıkları şu an Trending, Latest Releases ve Popular olarak görünür; emoji yoktur.</small>
 </section>
-<div class="note"><p><strong>Uygulama açılmadı mı?</strong> Adresi kopyala. Nuvio'da Ayarlar → Eklentiler → Eklenti ekle bölümüne yapıştırıp kurulumu tamamla. Adresi yalnızca tarayıcıda açmak eklentiyi kurmaz.</p><p>JS kaynak paketin kuruluysa onu yeniden eklemene gerek yok. Bulduğun içeriği açtığında kurulu kaynaklar akışlarını arar. Kaynak deposu kurulumu ile katalog eklentisi kurulumu ayrıdır.</p></div>
-<details class="fallback"><summary>Alternatif arama katalogları</summary><p>TMDB arama hizmetine ulaşılamazsa <a href="https://catalog.nuvio.tv/">Nuvio'nun hazır TMDB kataloğunu</a> veya <a href="nuvio://v3-cinemeta.strem.io/manifest.json">Cinemeta'yı ekleyebilirsin</a>. Bu kataloglar ana ekrana da satırlar ekleyebilir.</p><button type="button" data-copy="cinemeta">Cinemeta adresini kopyala</button><p id="cinemeta-status" class="status" role="status"></p></details>
-<footer>Ana ekran: <a href="https://github.com/dr-octagon/Nuvio">Nuvio Türkiye reposu</a> · Arama: <a href="https://github.com/mrcanelas/tmdb-addon">TMDB Addon</a></footer>
+<div class="note"><p><strong>Katalog düğmesi uygulamayı açmadı mı?</strong> Katalog bağlantısını kopyala. Nuvio'da Ayarlar → Eklentiler → Eklenti ekle bölümüne yapıştırıp kurulumu tamamla. Adresi yalnızca tarayıcıda açmak eklentiyi kurmaz.</p><p>Önceki kurulumu kullanıyorsan ayrı TMDB arama eklentisini ve GitHub ana ekranını <strong>katalog eklentileri</strong> bölümünden kaldırabilirsin. Plugin / kaynak deposunu koru; kaynaklar aynı bağlantıyla çalışmaya devam eder.</p><p>Arama içerikleri TMDB'den bulur. İçeriği açtığında kurulu kaynaklarımız uygun akışları arar. Mac, Android ve Windows aynı iki bağlantıyı kullanır.</p></div>
+<footer>Kaynaklar: <a href="https://github.com/dr-octagon/Nuvio">Nuvio Türkiye reposu</a> · Ana ekran ve arama: <a href="https://github.com/mrcanelas/tmdb-addon">TMDB Addon</a></footer>
 </main>
 <script src="setup.js"></script>
 </body>
