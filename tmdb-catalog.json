@@ -1,44 +1,14 @@
 {
-  "name": "TMDB Türkçe Ana Ekran ve Arama",
-  "manifestUrl": "https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNqgCWAJmpgLbsBGAOmxIo7VrBKYAngAcU6bjQBurFKXoALGgHcAklAASNbvOxwkAX2JtO6DL0HDR4mJIyz5IekiyrG6rT1DY1MscysbLnt+AUgMJHoMNw8uRRU1L0D9IxM0M0trEA4oh1jKBKTSdzkub18EyU0dbJC8sILIu1KMGhlkmoVlVUas4NzUfIii2x4Ynr6qlPQ6vxHmsdDwgF1SLCQMOCwoXQddGfzJCkSAYRo4KCTUACYABnUkCCwyDQBRKAg+GAkOd2m4HAAFPYAM1YAA8uFDqN4QBYgA/manifest.json",
+  "name": "Nuvio TMDB Türkçe Ana Ekran ve Arama",
+  "manifestUrl": "https://catalog.nuvio.tv/%7B%22language%22%3A%22tr-TR%22%2C%22region%22%3A%22TR%22%7D/manifest.json",
   "settings": {
     "language": "tr-TR",
-    "catalogs": [
-      {
-        "id": "tmdb.trending",
-        "type": "movie",
-        "showInHome": true
-      },
-      {
-        "id": "tmdb.trending",
-        "type": "series",
-        "showInHome": true
-      },
-      {
-        "id": "tmdb.latest",
-        "type": "movie",
-        "showInHome": true
-      },
-      {
-        "id": "tmdb.latest",
-        "type": "series",
-        "showInHome": true
-      },
-      {
-        "id": "tmdb.top",
-        "type": "movie",
-        "showInHome": true
-      },
-      {
-        "id": "tmdb.top",
-        "type": "series",
-        "showInHome": true
-      }
-    ],
-    "returnImdbId": "true",
-    "castCount": 20,
-    "searchEnabled": "true",
-    "tmdbPrefix": "false"
+    "region": "TR"
   },
-  "note": "Install as a catalog addon in Nuvio. Six home catalogs and movie/series search share one manifest. Content metadata uses Turkish; service catalog headings currently use English without emoji."
+  "replaces": [
+    "https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNqgCWAJmpgLbsBGAOmxIo7VrBKYAngAcU6bjQBurFKXoALGgHcAklAASNbvOxwkAX2JtO6DL0HDR4mJIyz5IekiyrG6rT1DY1MscysbLnt+AUgMJHoMNw8uRRU1L0D9IxM0M0trEA4oh1jKBKTSdzkub18EyU0dbJC8sILIu1KMGhlkmoVlVUas4NzUfIii2x4Ynr6qlPQ6vxHmsdDwgF1SLCQMOCwoXQddGfzJCkSAYRo4KCTUACYABnUkCCwyDQBRKAg+GAkOd2m4HAAFPYAM1YAA8uFDqN4QBYgA/manifest.json",
+    "https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNoC6pWSGcWUAkgLYATAEa9BaTFjgpSFehgDCNOFAxoATAAYAvkA/manifest.json",
+    "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json"
+  ],
+  "note": "Nuvio Catalog Addon includes title logos in home previews and detail metadata. Includes movie/series search and 27 home catalogs. Content metadata uses Turkish; headings currently use English without emoji."
 }
