@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -64,7 +64,8 @@
     "inatbox:",
     "rectv:",
     "cinejoy:",
-    "bcsports:"
+    "bcsports:",
+    "cinestream:"
   ],
   "catalogs": [
     {
@@ -1202,6 +1203,34 @@
       "supportsExternalPlayer": true,
       "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
       "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "cinestream",
+      "name": "CineStream",
+      "description": "CineMeta, CineTmdb ve CineSimkl katalogları; 71 Cloudstream kaynak işleyicisi",
+      "version": "1.10.3",
+      "author": "Dr.Octagon / BronzeCloud",
+      "filename": "providers/cinestream.js",
+      "supportedTypes": [
+        "movie",
+        "series",
+        "anime",
+        "tv"
+      ],
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "m3u8",
+        "mp4",
+        "mkv",
+        "video"
+      ],
+      "supportsExternalPlayer": true,
+      "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+      "contentLanguage": [
+        "en",
         "tr"
       ]
     }

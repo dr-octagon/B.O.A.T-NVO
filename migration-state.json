@@ -113,7 +113,7 @@
     {
       "module": "CineStream",
       "providerId": "cinestream",
-      "status": "port-in-progress",
+      "status": "ported-smoke-passed",
       "checks": {
         "nativeDesktop": true,
         "catalogFamilies": {
@@ -124,7 +124,7 @@
         "metadataEpisodes": 32,
         "sampleSeries": "Reacher",
         "sampleMovie": "The Matrix",
-        "streamCount": 22,
+        "streamCount": 27,
         "verifiedSourceFamilies": [
           "VaPlayer",
           "Vidrock",
@@ -708,31 +708,44 @@
         ],
         "pendingExtractors": [],
         "extractorParity": "pending",
-        "simklAccount": "pending",
+        "simklAccount": "deferred-at-user-request",
         "desktopCatalogSettings": {
           "storage": "read-only native Java properties",
           "liveRefresh": true,
           "metadataCacheInvalidation": true,
-          "nativeStorageHashParity": ["cinestream", "filmmodu", "hdfilmcehennemi", "dizibox", "sinewix"],
+          "nativeStorageHashParity": [
+            "cinestream",
+            "filmmodu",
+            "hdfilmcehennemi",
+            "dizibox",
+            "sinewix"
+          ],
           "desktopHelperVersion": 8,
           "installedLocally": true
         },
         "simklPersonalLibrary": {
-          "exportFormats": ["flat-items", "sync-all-items-object"],
+          "exportFormats": [
+            "flat-items",
+            "sync-all-items-object"
+          ],
           "statusCategories": 13,
           "pageSize": 10,
           "nativeDesktop": true,
-          "verifiedTypes": ["movie", "series", "anime"],
-          "accountLogin": "pending",
+          "verifiedTypes": [
+            "movie",
+            "series",
+            "anime"
+          ],
+          "accountLogin": "deferred-at-user-request",
           "apiRequestIdentity": "client_id, app-name, app-version and descriptive User-Agent"
         },
-        "settingsUi": "native-layout-verified-visual-check-pending",
-        "desktopCatalogUi": "pending",
+        "settingsUi": "native-layout-verified-visual-check-deferred",
+        "desktopCatalogUi": "catalog-addon-registered",
         "malSyncRouting": "implemented-live-validation-pending",
         "focusedTests": 12,
         "saltedAesNative": true,
         "fullValidation": "deferred-until-all-ports",
-        "published": false,
+        "published": true,
         "nativeSettingsFields": 90,
         "nativeSourceToggles": 71,
         "nativeCheerio": "slim-bundled-parent-children-verified",
@@ -751,6 +764,16 @@
           "budgetSeconds": 10,
           "partialStreams": 3,
           "completedWithinRuntimeDeadline": true
+        },
+        "catalogEntries": 49,
+        "releaseVersion": "1.10.3",
+        "nativeEpisodeCount": 32,
+        "publicSimklMetadata": {
+          "accountRequired": false,
+          "catalogEntries": 500,
+          "sample": "Coyote vs. Acme",
+          "identityPreserved": true,
+          "nativeDesktop": true
         }
       }
     },

@@ -10,7 +10,7 @@ Sürüm 3, CineJoy için `/transport/cinejoy` ikili POST/yanıt aktarımı ve TM
 
 Sürüm 4, BC Sports için `/live/register` ve opak oturum adresleriyle canlı aktarım ekler. Canlı listeler uzak sunucudan yenilenir; iki saniyelik kısa önbellek canlı yayını sabit bir listeye dönüştürmez. Bu yolda video parçaları da yardımcıdan geçer: kaynak B’nin RGBTS PNG parçaları MPEG-TS olarak açılır, kaynak D’nin oynatıcı AES anahtar isteği uyarlanır. Kayıt yalnız bilinen kaynak/CDN alan adlarına ve genel HTTPS adreslerine izin verir; yönlendirmelerde de hedef kontrol edilir. Tarayıcı Origin’i olan kayıtlar reddedilir. Canlı oturumlar iki saat kullanılmadığında silinir; en fazla 64 oturum tutulur. C/E/F’nin BeIN Sports 1 listesinin ve video parçasının HTTP 200 kontrolü geçti; A/B/D’nin canlı doğrulaması mevcut sunucu hataları nedeniyle bekliyor.
 
-Sürüm 6, geliştirilmekte olan CineStream için gerçek ağ zaman aşımı ve iptal edilebilir süre sayacı ekler. Desktop'ın `fetch()` uyarlaması AbortSignal'i uygulamıyor ve arka plandaki istekleri de bekliyor. CineStream'in bu yoldaki HTML/API/HLS istekleri en fazla 12 saniye, toplam kaynak araması en fazla 50 saniye sürer. Yardımcı yalnız geri döngü adresinde dinler, tarayıcı Origin'i olan istekleri reddeder ve her hedef/yönlendirme için genel IP kontrolü ile DNS sabitlemesi yapar. HTTP yanıtı en fazla 512 KiB'dır. Video dosyaları bu yoldan aktarılmaz. Kaynak seçimleri, sıralama ve kişisel anahtarlar Nuvio'nun yerleşik eklenti ayarlarından okunur; CineStream henüz dağıtım manifestine eklenmedi.
+Sürüm 6, CineStream için gerçek ağ zaman aşımı ve iptal edilebilir süre sayacı ekler. Desktop'ın `fetch()` uyarlaması AbortSignal'i uygulamıyor ve arka plandaki istekleri de bekliyor. CineStream'in bu yoldaki HTML/API/HLS istekleri en fazla 12 saniye, toplam kaynak araması en fazla 50 saniye sürer. Yardımcı yalnız geri döngü adresinde dinler, tarayıcı Origin'i olan istekleri reddeder ve her hedef/yönlendirme için genel IP kontrolü ile DNS sabitlemesi yapar. HTTP yanıtı en fazla 512 KiB'dır. Video dosyaları bu yoldan aktarılmaz. Kaynak seçimleri, sıralama ve kişisel anahtarlar Nuvio'nun yerleşik eklenti ayarlarından okunur; CineStream 1.10.3 ile dağıtım manifestine eklendi.
 
 Node.js gereklidir. Dağıtım deposundaki bu klasörde:
 
@@ -33,8 +33,8 @@ kişisel anahtarları günlüklere yazmaz.
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
-38 sağlayıcının 734 kategorisini tanımlar; BronzeCloud ve HDFilmizle katalog
-tanımları ve CineStream yayını bekliyor. FilmModu'nun özgün 28 kategorisi ve
+39 sağlayıcının 803 kategorisini tanımlar; BronzeCloud ve HDFilmizle katalog
+tanımları bekliyor. FilmModu'nun özgün 28 kategorisi ve
 güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
 sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
 DiziBox katalog/metadata kodu
@@ -61,3 +61,8 @@ Kaynak deposunda aynı dosyalar `scripts/` altındadır. `scripts/install_deskto
 Yardımcı kapalı olduğunda sağlayıcılar uzak URL'leri döndürür; bu Desktop sürümünde King/FastPlay sorunu tekrar oluşabilir ve DominoTV'nin gzip katalogları açılamaz. Yardımcı yeniden başlatıldıktan veya kaynak tokeni sona erdikten sonra Nuvio'da kaynak listesini yeniden açın. VOD listeleri bellekte en fazla 12 saat/128 oturum tutulur. Servis yalnız loopback'e bağlanır, tarayıcı Origin'iyle liste kaydını ve katalog isteklerini reddeder. Katalog yolu yalnız üç sabit DominoTV GitHub dosyasına erişir; istekten alınan dış URL'leri çekmez.
 
 FilmModu öncelikle güncel `filmmodu.live`/Pilavyer yolunu kullanır. Eski `.one` ayrıştırıcısı geriye uyumluluk için korunur; eski CDN'nin 503 dönen dosyaları eklenti tarafından onarılamaz. Başlık/yıl eşleştirmesi yanlış filmi döndürmeyi engeller; arşivde bulunmayan içerik için kaynak gelmeyebilir.
+
+CineStream’in Simkl hesap girişi kullanıcı isteğiyle ertelendi. Herkese açık
+katalog kartlarında IMDb/TMDB kimlikleri içerik kimliğine taşınır; böylece
+uygulamanın yeni JS çağrısında da hesap gerektirmeyen metadata/akış yolu
+kullanılabilir. Eşleme olmayan Simkl içerikleri için API istemci kimliği gerekir.

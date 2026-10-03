@@ -1,5 +1,5 @@
 {
-  "version": "1.10.2",
+  "version": "1.10.3",
   "providers": [
     {
       "id": "filmmodu",
@@ -3896,6 +3896,357 @@
           "id": "bcsports_11",
           "name": "Genel",
           "type": "live"
+        }
+      ]
+    },
+    {
+      "id": "cinestream",
+      "name": "CineStream",
+      "catalogs": [
+        {
+          "id": "cinestream_cinemeta_0",
+          "name": "CineMeta • Top Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_1",
+          "name": "CineMeta • Top Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_2",
+          "name": "CineMeta • Top Action Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_3",
+          "name": "CineMeta • Top Action Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_4",
+          "name": "CineMeta • Top Comedy Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_5",
+          "name": "CineMeta • Top Comedy Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_6",
+          "name": "CineMeta • Top Romance Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_7",
+          "name": "CineMeta • Top Romance Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_8",
+          "name": "CineMeta • Top Horror Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_9",
+          "name": "CineMeta • Top Horror Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_10",
+          "name": "CineMeta • Top Thriller Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_11",
+          "name": "CineMeta • Top Thriller Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_12",
+          "name": "CineMeta • Top Sci-Fi Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_13",
+          "name": "CineMeta • Top Sci-Fi Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_14",
+          "name": "CineMeta • Top Fantasy Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_15",
+          "name": "CineMeta • Top Fantasy Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_16",
+          "name": "CineMeta • Top Mystery Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_17",
+          "name": "CineMeta • Top Mystery Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_cinemeta_18",
+          "name": "CineMeta • Top Crime Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_cinemeta_19",
+          "name": "CineMeta • Top Crime Series",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_0",
+          "name": "CineSimkl • Trending Movies Today",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_1",
+          "name": "CineSimkl • Trending Shows Today",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_2",
+          "name": "CineSimkl • Trending Anime Today",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_3",
+          "name": "CineSimkl • Airing Anime Today",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_4",
+          "name": "CineSimkl • Trending Korean Shows",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_5",
+          "name": "CineSimkl • Trending Movie DVD Releases",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_6",
+          "name": "CineSimkl • Trending Movie This Month",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_7",
+          "name": "CineSimkl • Trending Series This Month",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_8",
+          "name": "CineSimkl • Trending This Month",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_8",
+          "name": "CineSimkl • Trending This Month",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_8",
+          "name": "CineSimkl • Trending This Month",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_9",
+          "name": "CineSimkl • Trending Anime This Month",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_10",
+          "name": "CineSimkl • Top Rated Movies",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_11",
+          "name": "CineSimkl • Top Rated Shows",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_12",
+          "name": "CineSimkl • Top Rated Anime",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_13",
+          "name": "CineSimkl • Top Rated Korean Shows",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_14",
+          "name": "CineSimkl • Upcoming Anime",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15",
+          "name": "CineSimkl • Personal",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_15_plantowatch",
+          "name": "CineSimkl • Personal • Plan to watch",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_15_completed",
+          "name": "CineSimkl • Personal • Completed",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_15_dropped",
+          "name": "CineSimkl • Personal • Dropped",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_simkl_15",
+          "name": "CineSimkl • Personal",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15_plantowatch",
+          "name": "CineSimkl • Personal • Plan to watch",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15_watching",
+          "name": "CineSimkl • Personal • Watching",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15_hold",
+          "name": "CineSimkl • Personal • On hold",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15_completed",
+          "name": "CineSimkl • Personal • Completed",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15_dropped",
+          "name": "CineSimkl • Personal • Dropped",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_simkl_15",
+          "name": "CineSimkl • Personal",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15_plantowatch",
+          "name": "CineSimkl • Personal • Plan to watch",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15_watching",
+          "name": "CineSimkl • Personal • Watching",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15_hold",
+          "name": "CineSimkl • Personal • On hold",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15_completed",
+          "name": "CineSimkl • Personal • Completed",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_simkl_15_dropped",
+          "name": "CineSimkl • Personal • Dropped",
+          "type": "anime"
+        },
+        {
+          "id": "cinestream_tmdb_0",
+          "name": "CineTmdb • Trendler",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_tmdb_0",
+          "name": "CineTmdb • Trendler",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_1",
+          "name": "CineTmdb • Popüler Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_tmdb_2",
+          "name": "CineTmdb • Popüler Diziler",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_3",
+          "name": "CineTmdb • Kore Dizileri",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_4",
+          "name": "CineTmdb • Netflix",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_5",
+          "name": "CineTmdb • Amazon",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_6",
+          "name": "CineTmdb • Disney+",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_7",
+          "name": "CineTmdb • JioHotstar",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_8",
+          "name": "CineTmdb • Hulu",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_9",
+          "name": "CineTmdb • Apple TV+",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_10",
+          "name": "CineTmdb • HBO",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_11",
+          "name": "CineTmdb • Paramount+",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_12",
+          "name": "CineTmdb • Peacock",
+          "type": "series"
+        },
+        {
+          "id": "cinestream_tmdb_13",
+          "name": "CineTmdb • Trend Hint Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "cinestream_tmdb_14",
+          "name": "CineTmdb • En Çok Oy Alan Diziler",
+          "type": "series"
         }
       ]
     }
