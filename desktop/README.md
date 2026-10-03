@@ -26,8 +26,11 @@ seçimi, arama, sayfalama ve kaynakların kendi içerik/bölüm kimlikleri korun
 Kategoriler sağlayıcı ve içerik türüne göre gruplandırılır, kategori seçimi
 `genre` filtresinde sunulur. Canlı kanallar `live` türünü korur. Cheerio ve
 CryptoJS dağıtıma dahildir; npm kurulumu gerekmez. Mevcut geliştirme envanteri
-34 sağlayıcının 596 kategorisini tanımlar; eski altı sağlayıcının katalog
-tanımları ve CineStream yayını bekliyor. DiziBox katalog/metadata kodu
+38 sağlayıcının 734 kategorisini tanımlar; BronzeCloud ve HDFilmizle katalog
+tanımları ve CineStream yayını bekliyor. FilmModu'nun özgün 28 kategorisi ve
+güncel Live kategorileri, HDFilmCehennemi Land'in 30 kategori sorgusu ve AJAX
+sayfalaması, Sinewix'in 11 API kategorisi ve BOAT'ın 15 TMDB sorgusu bağlıdır.
+DiziBox katalog/metadata kodu
 eklendi ancak site şu anda sunucu/VPN IP'lerine 403 döndüğü için canlı
 doğrulaması bekliyor. Nuvio'nun yerleşik ayrıştırıcıları manifest, dizi
 bölümleri ve canlı kartları okudu; arayüzün görsel kontrolü henüz yapılmadı.

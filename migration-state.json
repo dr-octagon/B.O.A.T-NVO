@@ -61,7 +61,17 @@
       "module": "BOAT",
       "providerId": "boat",
       "status": "existing-parity-pending",
-      "checks": {}
+      "checks": {
+        "nativeDesktop": true,
+        "fullValidation": "deferred-until-all-ports",
+        "originalCatalogQueries": 15,
+        "catalogEntries": 20,
+        "sampleCatalog": "Netflix",
+        "metadataEpisodes": 32,
+        "sampleSeries": "Reacher",
+        "metadataEpisodeTitles": true,
+        "sourceRegistryParity": "pending"
+      }
     },
     {
       "module": "BelgeselX",
@@ -841,9 +851,11 @@
         "fullValidation": "deferred-until-all-ports",
         "movieStreamCount": 1,
         "searchOriginalTitleMatched": true,
-        "upstreamLimitations": [
-          "Mezarlik first CDN episode API: unauthorized; preroll videos excluded"
-        ]
+        "upstreamLimitations": [],
+        "originalSourceVersion": 5,
+        "ag2m4BrowserFetchHeaders": true,
+        "mezarlikStreamCount": 1,
+        "mezarlikPlaylistHttpStatus": 200
       }
     },
     {
@@ -883,8 +895,21 @@
     {
       "module": "FilmModu",
       "providerId": "filmmodu",
-      "status": "existing-parity-pending",
-      "checks": {}
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "fullValidation": "deferred-until-all-ports",
+        "originalCategories": 28,
+        "currentLiveCategories": 31,
+        "catalogEntries": 24,
+        "originalCategoryPage2Entries": 24,
+        "streamCount": 1,
+        "playlistHttpStatus": 200,
+        "metadataYear": 2010,
+        "metadataCast": 5,
+        "sampleMovie": "Başlangıç",
+        "legacyCdn": "Original .one paths retained; some legacy CDN streams remain unavailable upstream"
+      }
     },
     {
       "module": "FullHDFilm",
@@ -933,8 +958,20 @@
     {
       "module": "HDFilmcehennemiLand",
       "providerId": "hdfilmcehennemi",
-      "status": "existing-parity-pending",
-      "checks": {}
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "fullValidation": "deferred-until-all-ports",
+        "originalCategories": 30,
+        "catalogEntries": 24,
+        "page2Entries": 24,
+        "ajaxPagination": true,
+        "streamCount": 1,
+        "playlistHttpStatus": 200,
+        "metadataCast": 5,
+        "sampleMovie": "Çizmeli Kedi: Son Dilek",
+        "episodeIdentity": "Exact season/episode numbers and own episode URLs"
+      }
     },
     {
       "module": "JetFilmizle",
@@ -1027,8 +1064,21 @@
     {
       "module": "Sinewix",
       "providerId": "sinewix",
-      "status": "existing-parity-pending",
-      "checks": {}
+      "status": "ported-smoke-passed",
+      "checks": {
+        "nativeDesktop": true,
+        "fullValidation": "deferred-until-all-ports",
+        "originalCategories": 11,
+        "catalogEntries": 12,
+        "animeCatalogEntries": 12,
+        "metadataEpisodes": 10,
+        "streamCount": 1,
+        "mediaHttpStatus": 206,
+        "mediaContentType": "video/x-matroska",
+        "sampleSeries": "Brokat",
+        "apiPageSize": 12,
+        "animeSeasonEpisodeIdentity": "Fixture verified exact season selection without fallback to first season"
+      }
     },
     {
       "module": "TLCtr",
@@ -1152,16 +1202,12 @@
   "desktopCatalogAdapter": {
     "helperVersion": 7,
     "state": "installed-local-native-protocol-verified",
-    "providerDefinitions": 34,
-    "categoryDefinitions": 596,
-    "nativeCatalogGroups": 59,
+    "providerDefinitions": 38,
+    "categoryDefinitions": 734,
+    "nativeCatalogGroups": 67,
     "pendingProviderDefinitions": [
       "bronzecloud",
-      "filmmodu",
-      "sinewix",
-      "hdfilmizle",
-      "hdfilmcehennemi",
-      "boat"
+      "hdfilmizle"
     ],
     "manifestUrl": "http://127.0.0.1:18765/addon/manifest.json",
     "nativeManifestParser": true,
@@ -1185,9 +1231,52 @@
       },
       "bcsports": {
         "liveCatalogEntries": 12
+      },
+      "legacyProviders": {
+        "FilmModu": {
+          "nativeDesktop": true,
+          "fullValidation": "deferred-until-all-ports",
+          "originalCategories": 28,
+          "currentLiveCategories": 31,
+          "catalogEntries": 24,
+          "originalCategoryPage2Entries": 24,
+          "streamCount": 1,
+          "playlistHttpStatus": 200,
+          "metadataYear": 2010,
+          "metadataCast": 5,
+          "sampleMovie": "Başlangıç",
+          "legacyCdn": "Original .one paths retained; some legacy CDN streams remain unavailable upstream"
+        },
+        "HDFilmcehennemiLand": {
+          "nativeDesktop": true,
+          "fullValidation": "deferred-until-all-ports",
+          "originalCategories": 30,
+          "catalogEntries": 24,
+          "page2Entries": 24,
+          "ajaxPagination": true,
+          "streamCount": 1,
+          "playlistHttpStatus": 200,
+          "metadataCast": 5,
+          "sampleMovie": "Çizmeli Kedi: Son Dilek",
+          "episodeIdentity": "Exact season/episode numbers and own episode URLs"
+        },
+        "Sinewix": {
+          "nativeDesktop": true,
+          "fullValidation": "deferred-until-all-ports",
+          "originalCategories": 11,
+          "catalogEntries": 12,
+          "animeCatalogEntries": 12,
+          "metadataEpisodes": 10,
+          "streamCount": 1,
+          "mediaHttpStatus": 206,
+          "mediaContentType": "video/x-matroska",
+          "sampleSeries": "Brokat",
+          "apiPageSize": 12,
+          "animeSeasonEpisodeIdentity": "Fixture verified exact season selection without fallback to first season"
+        }
       }
     },
     "fullValidation": "deferred-until-all-ports",
-    "releaseVersion": "1.10.1"
+    "releaseVersion": "1.10.2"
   }
 }

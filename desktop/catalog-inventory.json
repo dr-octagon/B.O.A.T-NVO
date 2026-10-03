@@ -1,6 +1,634 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "providers": [
+    {
+      "id": "filmmodu",
+      "name": "FilmModu",
+      "catalogs": [
+        {
+          "id": "filmmodu_4k-film-izle",
+          "name": "4K",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_aile-filmleri",
+          "name": "Aile",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_aksiyon",
+          "name": "Aksiyon",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_animasyon",
+          "name": "Animasyon",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_belgeseller",
+          "name": "Belgesel",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_bilim-kurgu-filmleri",
+          "name": "Bilim-Kurgu",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_dram-filmleri",
+          "name": "Dram",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_fantastik-filmler",
+          "name": "Fantastik",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_gerilim",
+          "name": "Gerilim",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_gizem-filmleri",
+          "name": "Gizem",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_hd-hint-filmleri",
+          "name": "Hint Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_kisa-film",
+          "name": "Kısa Film",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_hd-komedi-filmleri",
+          "name": "Komedi",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_komedi",
+          "name": "Komedi",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_korku-filmleri",
+          "name": "Korku",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_kult-filmler-izle",
+          "name": "Kült Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_macera-filmleri",
+          "name": "Macera",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_muzik",
+          "name": "Müzik",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_odullu-filmler-izle",
+          "name": "Oscar Ödüllü Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_romantik-filmler",
+          "name": "Romantik",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_savas",
+          "name": "Savaş",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_savas-filmleri",
+          "name": "Savaş",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_stand-up",
+          "name": "Stand Up",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_suc-filmleri",
+          "name": "Suç",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_tarih",
+          "name": "Tarih",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_tavsiye-filmler",
+          "name": "Tavsiye Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_tv-film",
+          "name": "TV film",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_vahsi-bati-filmleri",
+          "name": "Vahşi Batı",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_latest",
+          "name": "Son Eklenenler (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_aile",
+          "name": "Aile (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_aksiyon",
+          "name": "Aksiyon (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_aksiyon-macera",
+          "name": "Aksiyon & Macera (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_animasyon",
+          "name": "Animasyon (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_anime",
+          "name": "Anime (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_belgesel",
+          "name": "Belgesel (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_bilim-kurgu-fantastik",
+          "name": "Bilim Kurgu & Fantazi (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_bilim-kurgu",
+          "name": "Bilim-Kurgu (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_biyografi",
+          "name": "Biyografi (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_cocuklar",
+          "name": "Çocuklar (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_dram",
+          "name": "Dram (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_fantastik",
+          "name": "Fantastik (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_reality",
+          "name": "Gerçeklik (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_gerilim",
+          "name": "Gerilim (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_gizem",
+          "name": "Gizem (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_haber",
+          "name": "Haber (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_komedi",
+          "name": "Komedi (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_korku",
+          "name": "Korku (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_macera",
+          "name": "Macera (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_muzik",
+          "name": "Müzik (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_olmeden-once-izle",
+          "name": "Ölmeden Önce İzle (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_pembe-dizi",
+          "name": "Pembe Dizi (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_romantik",
+          "name": "Romantik (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_savas",
+          "name": "Savaş (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_savas-politika",
+          "name": "Savaş & Politik (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_suc",
+          "name": "Suç (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_talk",
+          "name": "Talk (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_tarih",
+          "name": "Tarih (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_tv-film",
+          "name": "TV film (Live)",
+          "type": "movie"
+        },
+        {
+          "id": "filmmodu_live_western",
+          "name": "Vahşi Batı (Live)",
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "id": "sinewix",
+      "name": "Sinewix",
+      "catalogs": [
+        {
+          "id": "sinewix_episodes",
+          "name": "Yeni Bölümler",
+          "type": "series"
+        },
+        {
+          "id": "sinewix_movies",
+          "name": "Son Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "sinewix_series",
+          "name": "Son Diziler",
+          "type": "series"
+        },
+        {
+          "id": "sinewix_anime",
+          "name": "Son Animeler",
+          "type": "anime"
+        },
+        {
+          "id": "sinewix_scifi_movies",
+          "name": "Bilim Kurgu Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "sinewix_crime_series",
+          "name": "Suç Dizileri",
+          "type": "series"
+        },
+        {
+          "id": "sinewix_crime_movies",
+          "name": "Suç Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "sinewix_mystery_series",
+          "name": "Gizem Dizileri",
+          "type": "series"
+        },
+        {
+          "id": "sinewix_mystery_movies",
+          "name": "Gizem Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "sinewix_korean_series",
+          "name": "Kore Diziler",
+          "type": "series"
+        },
+        {
+          "id": "sinewix_animation",
+          "name": "Animasyonlar",
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "id": "hdfilmcehennemi",
+      "name": "HDFilmCehennemi",
+      "catalogs": [
+        {
+          "id": "hdfilmcehennemi_0",
+          "name": "Son Eklenen Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_1",
+          "name": "Son Eklenen Diziler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_2",
+          "name": "Türkçe Dublaj Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_3",
+          "name": "Türkçe Altyazılı Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_4",
+          "name": "Yerli Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_5",
+          "name": "Türkçe Dublaj Diziler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_6",
+          "name": "Türkçe Altyazılı Diziler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_7",
+          "name": "Yerli Diziler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_8",
+          "name": "Popüler",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_8",
+          "name": "Popüler",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_9",
+          "name": "Aksiyon",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_9",
+          "name": "Aksiyon",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_10",
+          "name": "Komedi",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_10",
+          "name": "Komedi",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_11",
+          "name": "Bilim-Kurgu",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_11",
+          "name": "Bilim-Kurgu",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_12",
+          "name": "Korku",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_12",
+          "name": "Korku",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_13",
+          "name": "Dram",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_13",
+          "name": "Dram",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_14",
+          "name": "Animasyon",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_14",
+          "name": "Animasyon",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_15",
+          "name": "Macera",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_15",
+          "name": "Macera",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_16",
+          "name": "Gerilim",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_16",
+          "name": "Gerilim",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_17",
+          "name": "Suç",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_17",
+          "name": "Suç",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_18",
+          "name": "Romantik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_18",
+          "name": "Romantik",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_19",
+          "name": "Fantastik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_19",
+          "name": "Fantastik",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_20",
+          "name": "Belgesel",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_20",
+          "name": "Belgesel",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_21",
+          "name": "Aile",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_21",
+          "name": "Aile",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_22",
+          "name": "Biyografi",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_22",
+          "name": "Biyografi",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_23",
+          "name": "Gizem",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_23",
+          "name": "Gizem",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_24",
+          "name": "Tarih",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_24",
+          "name": "Tarih",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_25",
+          "name": "Savaş",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_25",
+          "name": "Savaş",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_26",
+          "name": "Spor",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_26",
+          "name": "Spor",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_27",
+          "name": "Müzik",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_27",
+          "name": "Müzik",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_28",
+          "name": "Western",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_28",
+          "name": "Western",
+          "type": "series"
+        },
+        {
+          "id": "hdfilmcehennemi_29",
+          "name": "Mini Dizi",
+          "type": "movie"
+        },
+        {
+          "id": "hdfilmcehennemi_29",
+          "name": "Mini Dizi",
+          "type": "series"
+        }
+      ]
+    },
     {
       "id": "dizibox",
       "name": "DiziBox",
@@ -63,6 +691,92 @@
         {
           "id": "dizibox_suc",
           "name": "Suç",
+          "type": "series"
+        }
+      ]
+    },
+    {
+      "id": "boat",
+      "name": "B.O.A.T (Best Of All Time)",
+      "catalogs": [
+        {
+          "id": "boat_trending",
+          "name": "Trendler",
+          "type": "movie"
+        },
+        {
+          "id": "boat_trending",
+          "name": "Trendler",
+          "type": "series"
+        },
+        {
+          "id": "boat_popular_movies",
+          "name": "Popüler Filmler",
+          "type": "movie"
+        },
+        {
+          "id": "boat_popular_series",
+          "name": "Popüler Diziler",
+          "type": "series"
+        },
+        {
+          "id": "boat_korean",
+          "name": "Kore Dizileri",
+          "type": "series"
+        },
+        {
+          "id": "boat_netflix",
+          "name": "Netflix",
+          "type": "series"
+        },
+        {
+          "id": "boat_amazon",
+          "name": "Amazon",
+          "type": "series"
+        },
+        {
+          "id": "boat_disney",
+          "name": "Disney+",
+          "type": "series"
+        },
+        {
+          "id": "boat_jiohotstar",
+          "name": "JioHotstar",
+          "type": "series"
+        },
+        {
+          "id": "boat_hulu",
+          "name": "Hulu",
+          "type": "series"
+        },
+        {
+          "id": "boat_apple",
+          "name": "Apple TV+",
+          "type": "series"
+        },
+        {
+          "id": "boat_hbo",
+          "name": "HBO",
+          "type": "series"
+        },
+        {
+          "id": "boat_paramount",
+          "name": "Paramount+",
+          "type": "series"
+        },
+        {
+          "id": "boat_peacock",
+          "name": "Peacock",
+          "type": "series"
+        },
+        {
+          "id": "boat_india_week",
+          "name": "Trend Hint Filmleri",
+          "type": "movie"
+        },
+        {
+          "id": "boat_top_series",
+          "name": "En Çok Oy Alan Diziler",
           "type": "series"
         }
       ]
@@ -3188,10 +3902,6 @@
   ],
   "pending": [
     "bronzecloud",
-    "filmmodu",
-    "sinewix",
-    "hdfilmizle",
-    "hdfilmcehennemi",
-    "boat"
+    "hdfilmizle"
   ]
 }
