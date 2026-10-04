@@ -1,0 +1,6 @@
+{
+  "name": "Nuvio Türkiye Canlı TV",
+  "manifestUrl": "https://dr-octagon.github.io/Nuvio/live/manifest.json",
+  "providers": ["bcsports", "inatbox", "dominotv", "rectv", "vavoo"],
+  "note": "All five home rows are configurable in Nuvio home settings. Nuvio enables new rows by default. The independent TMDB catalog continues to provide movie/series search."
+}
