@@ -15,6 +15,10 @@ Eklenti listesindeki **Ayarlar / Yapılandır** düğmesi satır tercihleri ekra
 
 Yeni satırlar açık başlar. TMDB'nin 27 kategorisi ayrı satırlardır; Nuvio'da tek bir toplu TMDB anahtarı yoktur. İstediğiniz TMDB satırlarını gizlemek film/dizi aramasını kapatmaz. Bir canlı TV satırını gizlemek de JS oynatma kaynağını kapatmaz. Bu tercihler kullanıcının cihaz/profil ayarlarıdır; ortak katalog yapılandırmasını değiştirmez.
 
+**BC Sports + TMDB seçimi:** “Öne çıkan kaynakları” üstteki sliderı besler; burada `Trending Movies` ve `Trending Series` seçin. “Kataloglar” aşağıdaki satırların görünürlüğünü belirler; BC Sports ve istenen TMDB kategorileri açık, İnatBox, DominoTV, RecTV ve Vavoo kapalı olsun. Slider kaynak seçimi ile katalog görünürlüğü ayrı tercihlerdir.
+
+Bu seçim manifestten otomatik uygulanmış değildir. Nuvio, tercihi kaydedilmemiş her yeni satırı açık başlatır. Diğer kaynakları ayarlardan yeniden açılabilecek şekilde listede tutarken ilk kurulumda kapalı başlatacak bir manifest alanı yoktur. Her cihaz/profilde bu dört satırın bir kez kapatılması gerekir; manifestten tamamen çıkarmak onları Nuvio'nun satır ayarlarından da kaldırır.
+
 ## Önceki kurulumdan geçiş
 
 Birleşik kataloğu ekleyin; ardından ayrı **Nuvio Catalog Addon** ve **Nuvio Türkiye Canlı TV** katalog eklentilerini kaldırın. Eski ElfHosted TMDB veya ayrı Türkçe arama kataloğu hâlâ kuruluysa bunları da kaldırabilirsiniz. **Plugin / kaynak deposunu koruyun.** Aynı içeriklerin iki kez görünmemesi için katalog eklentileri listesinde yeni **Nuvio Türkiye** tek başına yeterlidir.
