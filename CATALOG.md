@@ -9,15 +9,15 @@ Birleşik **Nuvio Türkiye** eklentisi BC Sports, İnatBox, DominoTV, RecTV ve V
 
 ## Satır tercihleri
 
-Nuvio'da **Ayarlar → Görünüm → Ana ekran → Kataloglar** bölümünden canlı TV ve TMDB satırlarını ayrı ayrı açıp kapatın ve sıralayın. Bu işlem şifre istemez. Manifestte önce BC Sports, ardından İnatBox, DominoTV, RecTV, Vavoo ve TMDB satırları gelir. Uygulamada önceden kaydedilmiş sıralama varsa kullanıcı tercihi geçerlidir.
+Nuvio'da **Ayarlar → Görünüm → Ana ekran → Kataloglar** bölümünden canlı TV ve TMDB satırlarını ayrı ayrı açıp kapatın ve sıralayın. Bu işlem şifre istemez. Manifestte ilk iki katalog Trending Movies ve Trending Series'dir; ardından BC Sports, İnatBox, DominoTV, RecTV, Vavoo ve kalan TMDB satırları gelir. Nuvio yeni profilde ilk iki kataloğu slider kaynağı seçtiği için bu sıra yalnız iki TMDB trend kaynağını varsayılan yapar. Uygulamada önceden kaydedilmiş sıralama ve slider tercihleri korunur.
 
 Eklenti listesindeki **Ayarlar / Yapılandır** düğmesi satır tercihleri ekranı değildir. AIOStreams'in ortak kataloğun yönetimi için parola isteyen `/configure` sayfasını açar. Hazır hizmet `configurable: true` alanını sabit yayımladığı için bu düğme repo yapılandırmasından gizlenemez. Kullanıcı satır seçimi için bu sayfaya giriş gerekmez; ortak yönetim parolası dağıtılmaz. [AIOStreams manifest davranışı](https://github.com/Viren070/AIOStreams/blob/v2.35.9/packages/server/src/routes/stremio/manifest.ts), [Nuvio ana ekran ayarları](https://github.com/NuvioMedia/NuvioMobile/blob/cmp-rewrite/composeApp/src/commonMain/kotlin/com/nuvio/app/features/settings/HomescreenSettingsPage.kt).
 
 Yeni satırlar açık başlar. TMDB'nin 27 kategorisi ayrı satırlardır; Nuvio'da tek bir toplu TMDB anahtarı yoktur. İstediğiniz TMDB satırlarını gizlemek film/dizi aramasını kapatmaz. Bir canlı TV satırını gizlemek de JS oynatma kaynağını kapatmaz. Bu tercihler kullanıcının cihaz/profil ayarlarıdır; ortak katalog yapılandırmasını değiştirmez.
 
-**BC Sports + TMDB seçimi:** “Öne çıkan kaynakları” üstteki sliderı besler; burada `Trending Movies` ve `Trending Series` seçin. “Kataloglar” aşağıdaki satırların görünürlüğünü belirler; BC Sports ve istenen TMDB kategorileri açık, İnatBox, DominoTV, RecTV ve Vavoo kapalı olsun. Slider kaynak seçimi ile katalog görünürlüğü ayrı tercihlerdir.
+**BC Sports + TMDB seçimi:** “Öne çıkan kaynakları” üstteki sliderı besler; yeni kurulumda yalnız `Trending Movies` ve `Trending Series` seçilir. Daha önce başka slider kaynakları kaydedildiyse bunları kapatıp bu iki listeyi bir kez seçin. “Kataloglar” aşağıdaki satırların görünürlüğünü belirler; BC Sports ve istenen TMDB kategorileri açık, İnatBox, DominoTV, RecTV ve Vavoo kapalı olsun. BC Sports'u satır sıralamasında en üste taşıyabilirsiniz; kayıtlı slider kaynaklarını değiştirmez.
 
-Bu seçim manifestten otomatik uygulanmış değildir. Nuvio, tercihi kaydedilmemiş her yeni satırı açık başlatır. Diğer kaynakları ayarlardan yeniden açılabilecek şekilde listede tutarken ilk kurulumda kapalı başlatacak bir manifest alanı yoktur. Her cihaz/profilde bu dört satırın bir kez kapatılması gerekir; manifestten tamamen çıkarmak onları Nuvio'nun satır ayarlarından da kaldırır.
+Canlı TV satırlarının kapalı tercihi manifestten otomatik uygulanmış değildir. Nuvio, tercihi kaydedilmemiş her yeni satırı açık başlatır. Diğer kaynakları ayarlardan yeniden açılabilecek şekilde listede tutarken ilk kurulumda kapalı başlatacak bir manifest alanı yoktur. Her cihaz/profilde bu dört satırın bir kez kapatılması gerekir; manifestten tamamen çıkarmak onları Nuvio'nun satır ayarlarından da kaldırır.
 
 ## Önceki kurulumdan geçiş
 
@@ -40,3 +40,5 @@ Kurulum metinlerini veya manifest adresini değiştirdikten sonra `node scripts/
 Birleşik HTTPS adresinden beş canlı TV listesi ve kanal detayları, iki TMDB ana ekran listesi, Matrix film araması, Reacher dizi araması ve Reacher detayları HTTP 200 ile alındı. Kurulu Nuvio Desktop'ın manifest, ana ekran ve detay ayrıştırıcıları tek eklentiden 32 satır, 1.533 canlı TV kartı, iki arama tanımı, 40 ana ekran başlık logosu, Reacher için altı oyuncu fotoğrafı ve 32 bölüm okudu. Bilinen IMDb kimlikleri ve canlı yayın kaynak kimlikleri korundu. Nuvio kurulum bağlantısı ayrıştırıldı.
 
 Mac/Android arayüzünde fiziksel test ve tüm kanalların baştan sona oynatma testi yapılmadı. Bu değişiklik canlı yayınları veya sistem DNS ayarlarını değiştirmez. BOAT sağlayıcısı değiştirilmedi.
+
+Slider varsayılanı ayrıca boş bir test profilinde kurulu Nuvio Desktop'ın gerçek ana ekran ayarlarıyla doğrulandı: yalnız Trending Movies ve Trending Series öne çıkan kaynağı olarak seçildi; 32 katalog satırı erişilebilir kaldı. Test ayrı bir depolama dizininde çalıştı, kullanıcının kayıtlı tercihlerini değiştirmedi. Güncel manifestte iki arama tanımı ve önceki katalog kimlikleri korundu; Matrix araması tekrar aynı IMDb kimliğini döndürdü.

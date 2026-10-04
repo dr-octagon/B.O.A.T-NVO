@@ -43,5 +43,15 @@
     "enabled": false
   },
   "checkOwned": false,
-  "externalDownloads": false
+  "externalDownloads": false,
+  "catalogModifications": [
+    {
+      "id": "turkiye-tmdbe3b0.trending-movies",
+      "type": "movie"
+    },
+    {
+      "id": "turkiye-tmdbe3b0.trending-series",
+      "type": "series"
+    }
+  ]
 }
