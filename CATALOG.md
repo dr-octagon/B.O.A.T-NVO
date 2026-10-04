@@ -9,7 +9,9 @@ Birleşik **Nuvio Türkiye** eklentisi BC Sports, İnatBox, DominoTV, RecTV ve V
 
 ## Satır tercihleri
 
-Nuvio'nun **ana ekran / katalog ayarlarından** canlı TV ve TMDB satırlarını ayrı ayrı açıp kapatın ve sıralayın. Manifestte önce BC Sports, ardından İnatBox, DominoTV, RecTV, Vavoo ve TMDB satırları gelir. Uygulamada önceden kaydedilmiş sıralama varsa kullanıcı tercihi geçerlidir.
+Nuvio'da **Ayarlar → Görünüm → Ana ekran → Kataloglar** bölümünden canlı TV ve TMDB satırlarını ayrı ayrı açıp kapatın ve sıralayın. Bu işlem şifre istemez. Manifestte önce BC Sports, ardından İnatBox, DominoTV, RecTV, Vavoo ve TMDB satırları gelir. Uygulamada önceden kaydedilmiş sıralama varsa kullanıcı tercihi geçerlidir.
+
+Eklenti listesindeki **Ayarlar / Yapılandır** düğmesi satır tercihleri ekranı değildir. AIOStreams'in ortak kataloğun yönetimi için parola isteyen `/configure` sayfasını açar. Hazır hizmet `configurable: true` alanını sabit yayımladığı için bu düğme repo yapılandırmasından gizlenemez. Kullanıcı satır seçimi için bu sayfaya giriş gerekmez; ortak yönetim parolası dağıtılmaz. [AIOStreams manifest davranışı](https://github.com/Viren070/AIOStreams/blob/v2.35.9/packages/server/src/routes/stremio/manifest.ts), [Nuvio ana ekran ayarları](https://github.com/NuvioMedia/NuvioMobile/blob/cmp-rewrite/composeApp/src/commonMain/kotlin/com/nuvio/app/features/settings/HomescreenSettingsPage.kt).
 
 Yeni satırlar açık başlar. TMDB'nin 27 kategorisi ayrı satırlardır; Nuvio'da tek bir toplu TMDB anahtarı yoktur. İstediğiniz TMDB satırlarını gizlemek film/dizi aramasını kapatmaz. Bir canlı TV satırını gizlemek de JS oynatma kaynağını kapatmaz. Bu tercihler kullanıcının cihaz/profil ayarlarıdır; ortak katalog yapılandırmasını değiştirmez.
 
