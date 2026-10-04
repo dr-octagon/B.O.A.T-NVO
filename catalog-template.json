@@ -1,0 +1,47 @@
+{
+  "addonName": "Nuvio Türkiye",
+  "addonDescription": "Türkçe TMDB ana ekranı ve araması, BC Sports, İnatBox, DominoTV, RecTV ve Vavoo.",
+  "addonLogo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
+  "formatter": {
+    "id": "torrentio"
+  },
+  "sortCriteria": {
+    "global": []
+  },
+  "services": [],
+  "presets": [
+    {
+      "type": "custom",
+      "instanceId": "turkiye-live",
+      "enabled": true,
+      "options": {
+        "name": "Canlı TV",
+        "manifestUrl": "https://dr-octagon.github.io/Nuvio/live/manifest.json",
+        "resources": [
+          "catalog",
+          "meta"
+        ],
+        "timeout": 25000
+      }
+    },
+    {
+      "type": "custom",
+      "instanceId": "turkiye-tmdb",
+      "enabled": true,
+      "options": {
+        "name": "TMDB",
+        "manifestUrl": "https://catalog.nuvio.tv/%7B%22language%22%3A%22tr-TR%22%2C%22region%22%3A%22TR%22%7D/manifest.json",
+        "resources": [
+          "catalog",
+          "meta"
+        ],
+        "timeout": 25000
+      }
+    }
+  ],
+  "statistics": {
+    "enabled": false
+  },
+  "checkOwned": false,
+  "externalDownloads": false
+}

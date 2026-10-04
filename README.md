@@ -1,14 +1,15 @@
 
 # Nuvio Türkiye
 
-**[Nuvio kurulum sayfası](https://dr-octagon.github.io/Nuvio/)** — bütün kaynaklar için plugin deposu; ana ekran ve arama için TMDB; isteğe bağlı canlı TV kataloğu.
+**[Kurulum sayfası](https://dr-octagon.github.io/Nuvio/)** iki bağlantı sunar:
 
-JS kaynak deposu: `https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json`
+1. **Plugin / kaynak deposu:** `https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json`. Bütün JS oynatma kaynaklarını ekler.
+2. **Nuvio Türkiye birleşik katalog:** TMDB ana ekranı, film/dizi araması, içerik detayları ve BC Sports, İnatBox, DominoTV, RecTV, Vavoo canlı TV satırları. Sayfadaki katalog düğmesini kullanın veya bağlantıyı kopyalayın. Tam adres [catalog-addon.json](catalog-addon.json) içindedir.
 
-Mac, Android ve Windows'ta **Nuvio Catalog Addon (Türkçe)** katalog eklentisini de ekleyin. Ana ekran sliderına başlık logolarını da gönderir. Tam bağlantı [tmdb-catalog.json](tmdb-catalog.json) içinde; [kurulum ve eski sürümden geçiş](TMDB.md).
+TMDB'nin 27 kategorisi ve beş canlı TV satırı Nuvio'nun **ana ekran / katalog ayarlarından** ayrı ayrı açılıp kapanır ve sıralanır. Yeni satırlar açık gelir. TMDB satırlarını gizleseniz de arama çalışır. Başlık logoları ana ekran sliderına ve detaylara, oyuncu fotoğrafları detaylara gönderilir.
 
-Ana ekran listeleri, Türkçe içerik detayları, oyuncu fotoğrafları, başlık logoları ve dinamik arama aynı hazır TMDB eklentisinden gelir. İçerik açılınca kurulu JS kaynakları uygun akışları arar. Netlify veya kişisel katalog sunucusu gerekmez. Eski GitHub katalogları uyumluluk için korunur.
+Önceden ayrı TMDB ve Canlı TV kataloglarını kurduysanız birleşik kataloğu ekledikten sonra bu iki eski katalog kaydını kaldırın. **Plugin / kaynak deposunu koruyun.** Mac, Android ve Windows aynı iki bağlantıyı kullanır.
+
+Birleşik katalog, hazır public AIOStreams hizmetiyle Nuvio Catalog Addon'ı ve repodaki canlı TV dosyalarını bir araya getirir. Netlify veya kişisel sunucu gerekmez; katalog bu hizmetlerin erişilebilirliğine bağlıdır. Oynatma kurulu JS kaynaklarımızdan gelir. [Kurulum, doğrulama ve bakım](CATALOG.md), [canlı TV bakım bilgisi](LIVE_TV.md).
 
 Kaynak kodları: [Nuvio-Source](https://github.com/dr-octagon/Nuvio-Source).
-
-**[Canlı TV kataloğu](https://dr-octagon.github.io/Nuvio/live/manifest.json)**, BC Sports, İnatBox, DominoTV, RecTV ve Vavoo'yu ayrı ana ekran satırlarında sunar. Kaynak deposunu 1.10.11 sürümüne yenileyip bu adresi katalog eklentisi olarak ekleyin. Nuvio'nun ana ekran / katalog ayarlarından her satırı açıp kapatabilir ve sıralayabilirsiniz. İlk kurulumda yeni satırlar açık gelir; tercihlerinizi buradan seçin. Mevcut TMDB eklentisini koruyun: film ve dizi araması aynı hizmetten devam eder. [Canlı TV kurulumu ve bakım](LIVE_TV.md).
