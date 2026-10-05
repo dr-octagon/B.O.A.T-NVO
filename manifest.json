@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.12",
+  "version": "1.10.13",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/assets/boat.png",
@@ -1165,7 +1165,7 @@
       "id": "bcsports",
       "name": "BC Sports",
       "description": "BCSports — altı canlı spor/TV kaynak ailesinin Cloudstream JS portu",
-      "version": "1.10.12",
+      "version": "1.10.13",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/bcsports.js",
       "supportedTypes": [

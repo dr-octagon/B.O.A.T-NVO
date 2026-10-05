@@ -2,7 +2,7 @@
 
 Yeni kurulumda canlı TV, TMDB ve arama aynı **Nuvio Türkiye** katalog eklentisinden gelir. [Birleşik kurulum ve eski sürümden geçiş](CATALOG.md). Tek katalog bağlantısı [catalog-addon.json](catalog-addon.json) içindedir.
 
-Kaynak deposu 1.10.12 veya üzerini yenileyin ve birleşik kataloğu ekleyin. Önceden ayrı TMDB ve Canlı TV katalogları kuruluysa birleşik katalogdan sonra bu iki eski kaydı kaldırın. `https://dr-octagon.github.io/Nuvio/live/manifest.json`, birleştiricinin kullandığı statik veri kaynağı ve eski kurulumlar için korunur; yeni kullanıcılara ayrıca kurdurulmaz. Bu veri kaynağı yalnız `live` katalogları ve kanal detayları sunar; film/dizi aramasını birleşik hizmetin TMDB kaynağı sağlar.
+Kaynak deposu 1.10.13 veya üzerini yenileyin ve birleşik kataloğu ekleyin. Önceden ayrı TMDB ve Canlı TV katalogları kuruluysa birleşik katalogdan sonra bu iki eski kaydı kaldırın. `https://dr-octagon.github.io/Nuvio/live/manifest.json`, birleştiricinin kullandığı statik veri kaynağı ve eski kurulumlar için korunur; yeni kullanıcılara ayrıca kurdurulmaz. Bu veri kaynağı yalnız `live` katalogları ve kanal detayları sunar; film/dizi aramasını birleşik hizmetin TMDB kaynağı sağlar.
 
 Beş ayrı satır, manifestte bu sırayla sunulur: **BC Sports, İnatBox, DominoTV, RecTV, Vavoo**. Nuvio'nun **ana ekran / katalog ayarlarından** satırları açıp kapatın, BC Sports'u TMDB satırlarının üzerine taşıyın veya istediğiniz sırayı seçin. Satırın görünürlüğü oynatma kaynağının etkinliğinden ayrıdır. Nuvio yeni katalogları açık başlatır; manifestten varsayılan kapalı seçimi desteklemiyor. İlk kurulumda istediğiniz satırları seçin.
 
@@ -10,9 +10,9 @@ Katalog dosyaları GitHub Pages'de statik yayımlanır. Kısa kanal kimlikleri `
 
 Kanalların görünmesi yayının o anda erişilebilir olduğunu garanti etmez; yayın sağlayıcısı akışını değiştirebilir. Bu sürümde beş kaynağın güncel kanal listeleri ve Nuvio katalog/detay uyumluluğu kontrol edildi. Her kanalın baştan sona oynatılması doğrulanmadı.
 
-BC Sports 1.10.12, Kaynak A'yı Nuvio'nun plugin HTTP istemcisinden gelen 403 nedeniyle erken elemez. Cloudstream ile aynı güncel Mono adresini ve istek başlıklarını oynatıcıya verir. Mevcut yerel canlı yayın adaptörü bulunursa önce onun üzerinden çözülür; adaptör yoksa veya kayıt başarısızsa özgün yayın adresi korunur. CDN, TLS istemcisine göre farklı yanıt verebildiği için listede görünmesi her cihazın oynatıcısında açılacağını garanti etmez; Cloudstream oynatma sırasında ayrıca WebView ağ katmanı kullanır.
+BC Sports 1.10.13, Kaynak A'yı yalnız mevcut yerel canlı yayın adaptörü başarılı biçimde kayıt yapabildiğinde listeler. Adaptör yoksa veya kayıt başarısızsa kaynak gizlenir; buffering ekranında kalan özgün URL döndürülmez. Android'de ayrı bir yardımcı veya değiştirilmiş Nuvio uygulaması gerektiren çalışma ertelendi. Diğer BC Sports kaynaklarının çözümleme davranışı korunur. Cloudstream, bu CDN için oynatma sırasında ayrıca WebView ağ katmanı kullanır; Nuvio Android'in normal ağ istemcisi aynı adresi açamıyor.
 
-Kaynak A düzeltmesi, adaptör olmayan ve adaptörün başarısız olduğu durumlarda kaynağın listede kalması için test edildi. Kurulu Nuvio Desktop'ın gerçek JS çalışma ortamı BeIN Sports 1 için Kaynak A'yı döndürdü. Bu PC'deki mevcut canlı yayın adaptörüyle HLS listesi ve MPEG-TS video parçası HTTP 200 ile alındı; medya sırası ilerledi. Mac/Android cihazlarda fiziksel oynatma testi yapılmadı.
+Testler, adaptör olmadığında ve kayıt başarısız olduğunda Kaynak A'nın gizlendiğini, çalışan Kaynak E'nin listede kaldığını ve başarılı adaptörle Kaynak A'nın korunduğunu doğrular. Bu PC'deki mevcut canlı yayın adaptörüyle HLS listesi ve MPEG-TS video parçası HTTP 200 ile alındı; medya sırası ilerledi. Kullanıcı Android 0.5.6-beta (138) üzerinde ham Kaynak A adresinin buffering ekranında kaldığını bildirdi; yerel ham adres MPV testinde de video/ses okunamadı.
 
 Bakım:
 
