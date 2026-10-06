@@ -4,7 +4,7 @@
   "backend": "https://aiostreams.fortheweak.cloud",
   "upstreams": {
     "tmdb": "https://catalog.nuvio.tv/%7B%22language%22%3A%22tr-TR%22%2C%22region%22%3A%22TR%22%7D/manifest.json",
-    "live": "https://dr-octagon.github.io/Nuvio/live/manifest.json"
+    "live": "https://dr-octagon.github.io/B.O.A.T-NVO/live/manifest.json"
   },
   "providers": [
     "bcsports",

@@ -1,8 +1,8 @@
 # İki bağlantıyla Nuvio Türkiye
 
-[Kurulum sayfası](https://dr-octagon.github.io/Nuvio/) iki adres sunar:
+[Kurulum sayfası](https://dr-octagon.github.io/B.O.A.T-NVO/) iki adres sunar:
 
-1. **Plugin / kaynak deposu:** `https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json`. Bütün JS oynatma kaynaklarını ekler.
+1. **Plugin / kaynak deposu:** `https://raw.githubusercontent.com/dr-octagon/B.O.A.T-NVO/main/manifest.json`. Bütün JS oynatma kaynaklarını ekler.
 2. **Birleşik katalog:** Sayfadaki **Birleşik kataloğu Nuvio'ya ekle** veya **Katalog bağlantısını kopyala** düğmesini kullanın. Tam manifest adresi [catalog-addon.json](catalog-addon.json) içindedir.
 
 Birleşik **Nuvio Türkiye** eklentisi BC Sports, İnatBox, DominoTV, RecTV ve Vavoo için beş canlı TV satırı; 27 TMDB ana ekran satırı; film/dizi araması ve içerik detayları sunar. Mac, Android ve Windows aynı bağlantıları kullanır. Yeni bir Netlify hesabı, kişisel sunucu veya bu PC'deki katalog yardımcısı gerekmez.

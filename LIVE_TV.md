@@ -2,7 +2,7 @@
 
 Yeni kurulumda canlı TV, TMDB ve arama aynı **Nuvio Türkiye** katalog eklentisinden gelir. [Birleşik kurulum ve eski sürümden geçiş](CATALOG.md). Tek katalog bağlantısı [catalog-addon.json](catalog-addon.json) içindedir.
 
-Kaynak deposu 1.10.13 veya üzerini yenileyin ve birleşik kataloğu ekleyin. Önceden ayrı TMDB ve Canlı TV katalogları kuruluysa birleşik katalogdan sonra bu iki eski kaydı kaldırın. `https://dr-octagon.github.io/Nuvio/live/manifest.json`, birleştiricinin kullandığı statik veri kaynağı ve eski kurulumlar için korunur; yeni kullanıcılara ayrıca kurdurulmaz. Bu veri kaynağı yalnız `live` katalogları ve kanal detayları sunar; film/dizi aramasını birleşik hizmetin TMDB kaynağı sağlar.
+Kaynak deposu 1.10.13 veya üzerini yenileyin ve birleşik kataloğu ekleyin. Önceden ayrı TMDB ve Canlı TV katalogları kuruluysa birleşik katalogdan sonra bu iki eski kaydı kaldırın. `https://dr-octagon.github.io/B.O.A.T-NVO/live/manifest.json`, birleştiricinin kullandığı statik veri kaynağı ve eski kurulumlar için korunur; yeni kullanıcılara ayrıca kurdurulmaz. Bu veri kaynağı yalnız `live` katalogları ve kanal detayları sunar; film/dizi aramasını birleşik hizmetin TMDB kaynağı sağlar.
 
 Beş ayrı satır, manifestte bu sırayla sunulur: **BC Sports, İnatBox, DominoTV, RecTV, Vavoo**. Nuvio'nun **ana ekran / katalog ayarlarından** satırları açıp kapatın, BC Sports'u TMDB satırlarının üzerine taşıyın veya istediğiniz sırayı seçin. Satırın görünürlüğü oynatma kaynağının etkinliğinden ayrıdır. Nuvio yeni katalogları açık başlatır; manifestten varsayılan kapalı seçimi desteklemiyor. İlk kurulumda istediğiniz satırları seçin.
 

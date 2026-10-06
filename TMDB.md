@@ -1,6 +1,6 @@
 # TMDB ana ekranı ve arama
 
-Yeni kurulumda TMDB, arama ve canlı TV aynı **Nuvio Türkiye** katalog eklentisinden gelir. [Kurulum ve eski iki katalogdan geçiş](CATALOG.md), [kurulum sayfası](https://dr-octagon.github.io/Nuvio/). Dağıtılacak tek katalog adresi [catalog-addon.json](catalog-addon.json) içindedir.
+Yeni kurulumda TMDB, arama ve canlı TV aynı **Nuvio Türkiye** katalog eklentisinden gelir. [Kurulum ve eski iki katalogdan geçiş](CATALOG.md), [kurulum sayfası](https://dr-octagon.github.io/B.O.A.T-NVO/). Dağıtılacak tek katalog adresi [catalog-addon.json](catalog-addon.json) içindedir.
 
 [tmdb-catalog.json](tmdb-catalog.json), birleştiricinin kullandığı Nuvio Catalog Addon adresini ve `tr-TR`/`TR` tercihlerini tutar. Bu dosyadaki adres yeni kullanıcılara ayrıca kurdurulmaz. Hizmet 27 TMDB ana ekran kategorisi ve iki film/dizi arama tanımı sağlar. İçerik bilgileri Türkçedir; kategori başlıkları hazır hizmetten İngilizce gelir ve emoji içermez.
 

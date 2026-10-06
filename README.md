@@ -1,17 +1,44 @@
+# Nuvio Türkçe eklenti kaynakları
 
-# Nuvio Türkiye
+JavaScript sağlayıcıları `src/`, ortak HTTP/oynatıcı çözücüleri `src/shared/` altında bulunur. `npm run build`, sağlayıcıları derler ve `dist/providers/` ile komşu `../Nuvio` dağıtım deposuna kopyalar. Desktop katalog envanteri ve bağımlılık runtime'ı da üretilir. Derleme tek başına GitHub'a göndermez.
 
-**[Kurulum sayfası](https://dr-octagon.github.io/Nuvio/)** iki bağlantı sunar:
+```powershell
+npm install
+npm test
+npm run build
+node build.js filmmodu bronzecloud
+node scripts/test_provider.js filmmodu 603 movie
+```
 
-1. **Plugin / kaynak deposu:** `https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json`. Bütün JS oynatma kaynaklarını ekler.
-2. **Nuvio Türkiye birleşik katalog:** TMDB ana ekranı, film/dizi araması, içerik detayları ve BC Sports, İnatBox, DominoTV, RecTV, Vavoo canlı TV satırları. Sayfadaki katalog düğmesini kullanın veya bağlantıyı kopyalayın. Tam adres [catalog-addon.json](catalog-addon.json) içindedir.
+`npm test` ağ gerektirmeyen regresyon testlerini çalıştırır. `test:live` Node üzerindeki canlı kaynak kontrolüdür. Desktop'ın yerel HTTP ve Cheerio davranışı Node'dan farklı olduğundan Desktop doğrulaması ayrıca yapılır.
 
-TMDB'nin 27 kategorisi ve beş canlı TV satırı Nuvio'da **Ayarlar → Görünüm → Ana ekran → Kataloglar** bölümünden ayrı ayrı açılıp kapanır ve sıralanır; şifre gerekmez. Eklentinin **Ayarlar / Yapılandır** düğmesi ortak AIOStreams yönetim sayfasını açar ve satır seçimi için kullanılmaz. Yeni satırlar açık gelir. TMDB satırlarını gizleseniz de arama çalışır. Başlık logoları ana ekran sliderına ve detaylara, oyuncu fotoğrafları detaylara gönderilir.
+## Nuvio Desktop
 
-Yeni kurulumda slider için yalnız **Trending Movies** ve **Trending Series** varsayılan seçilir. Önceden kaydedilmiş slider kaynakları korunur; mevcut kurulumda gerekiyorsa bu iki listeyi **Öne çıkan kaynakları** bölümünden bir kez seçin.
+[Nuvio Türkiye kurulum sayfası](https://dr-octagon.github.io/B.O.A.T-NVO/) iki bağlantı sunar: bütün JS kaynaklarını ekleyen plugin deposu ve TMDB ana ekranını, Türkçe aramayı, detayları ve beş canlı TV satırını birleştiren katalog eklentisi. TMDB ve canlı TV satırları Nuvio'nun ana ekran ayarlarından açılıp kapanır ve sıralanır. [Kurulum, geçiş ve hizmet bilgisi](CATALOG.md). Netlify veya kişisel katalog sunucusu gerektirmez.
 
-Önceden ayrı TMDB ve Canlı TV kataloglarını kurduysanız birleşik kataloğu ekledikten sonra bu iki eski katalog kaydını kaldırın. **Plugin / kaynak deposunu koruyun.** Mac, Android ve Windows aynı iki bağlantıyı kullanır.
+Mac, Android ve Windows aynı birleşik katalog adresini kullanır. Katalog eklentisi GitHub plugin deposundan ayrı olarak bir kez eklenir; Windows yerel katalog yardımcısına bağlı değildir.
 
-Birleşik katalog, hazır public AIOStreams hizmetiyle Nuvio Catalog Addon'ı ve repodaki canlı TV dosyalarını bir araya getirir. Netlify veya kişisel sunucu gerekmez; katalog bu hizmetlerin erişilebilirliğine bağlıdır. Oynatma kurulu JS kaynaklarımızdan gelir. [Kurulum, doğrulama ve bakım](CATALOG.md), [canlı TV bakım bilgisi](LIVE_TV.md).
+[Desktop kurulumu ve HLS yardımcısı](DESKTOP.md), uzantısız veya yanlış MIME ile sunulan HLS listelerinin ses dosyası olarak açılması sorununu giderir. VOD video parçaları doğrudan kaynak sunucudan oynatıcıya gider; canlı spor aktarımı ayrı bir yol kullanır. Yardımcı ayrıca sağlayıcıların kategori, arama ve bölüm listelerini Nuvio'nun HTTP katalog arayüzüne bağlar.
 
-Kaynak kodları: [Nuvio-Source](https://github.com/dr-octagon/Nuvio-Source).
+Kaynak deposundan kurulu profilin önbelleğini güncellemek için Nuvio kapalıyken:
+
+```powershell
+npm run build
+pwsh -NoProfile -File scripts/install_desktop_hls.ps1 -ProfileId 1 -AutoStart
+```
+
+Bu işlem FilmModu, HDFilmCehennemi, DiziBox ve BronzeCloud'un kurulu kodlarını uygulamanın kendi depolama API'siyle günceller. Etkinleştirme tercihlerini korur ve önce `tmp/desktop-backup-*` altında yedek alır. Java 17+, Node.js ve kurulu Nuvio Desktop gerekir.
+
+## Kurulu uygulama ile canlı doğrulama
+
+Aşağıdaki araçlar kurulu Desktop sürümünün sınıflarını ve libmpv kitaplığını kullanır. Uygulama güncellemelerinde iç API değişirse araçların güncellenmesi gerekebilir. `mpv_probe.py` başsız oynatıcıda video/ses çözülmesini kontrol eder; arayüz testi yerine geçmez.
+
+```powershell
+javac -cp 'C:/Program Files/Nuvio/app/*' -d tmp scripts/desktop_probe/DesktopProbe.java
+java -cp 'tmp;C:/Program Files/Nuvio/app/*' DesktopProbe dist/providers/dizibox.js 108978 tv 1 1
+java -cp 'tmp;C:/Program Files/Nuvio/app/*' DesktopProbe saved:filmmodu 603 movie
+$env:NUVIO_PROBE_HEADERS = 'Referer: https://play2.pilavyerplay.top/'
+python scripts/desktop_probe/mpv_probe.py 'OLUSTURULAN_HLS_URL'
+```
+
+[Doğrulama sonuçları](VALIDATION.md) ve [Cloudstream taşıma planı](MIGRATION_ROADMAP.md) depoda tutulur. Yeni sağlayıcılar `getStreams`, `getCatalog`, `getMeta`, gerekirse `getSubtitles` dışa aktarır ve manifestte kayıt edilir.
