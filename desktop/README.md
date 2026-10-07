@@ -14,6 +14,18 @@ Sürüm 6, CineStream için gerçek ağ zaman aşımı ve iptal edilebilir süre
 
 Node.js gereklidir. Dağıtım deposundaki bu klasörde:
 
+BC Sports 1.10.15, Kaynak F'nin güncel XOR ile kodlanan oynatıcısını okur.
+Yeni F yayınındaki WebP dosyalarının EXIF bölümünde MPEG-TS video bulunur;
+yardımcı dosya boyutunu ve her TS paketini doğrulayarak görüntü kabını çıkarır.
+BeIN Sports 1 bu yolla kurulu Desktop oynatıcı kitaplığında 1920×1080 H.264/AAC
+olarak doğrulandı. B/D'nin korumalı listelerini yardımcı doğrudan kontrol eder;
+öncesinde eklentinin yerel HTTP istemcisine takılmaz. Yardımcı yoksa B/D ve
+WebP parçalı F gösterilmez. Yardımcının kullanılabilirliği beş saniyede tekrar
+kontrol edilir. Bir kaynağın uzak sunucusu çalışmıyorsa yardımcı bunu onaramaz.
+
+Mac'te de Node.js ile bu klasörden `node desktop_hls_bridge.js` çalıştırılır.
+Terminal açık kalmalıdır. Manifest kurulumu bu yerel programı otomatik kurmaz.
+
 ```powershell
 pwsh -NoProfile -File ./start_desktop_hls.ps1
 ```

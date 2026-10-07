@@ -5,6 +5,22 @@ const { isIP } = require('node:net');
 const CONFIG = 'https://raw.githubusercontent.com/dr-octagon/Cloudstream-BronzeCloud/builds/bcsports_config.json';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const MAX_RESOURCE = 16 * 1024 * 1024;
+function unmaskWebp(bytes) {
+    if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') return bytes;
+    if (bytes.length < 20 || bytes.readUInt32LE(4) + 8 !== bytes.length) throw new Error('Invalid live WebP size');
+    for (let offset = 12; offset + 8 <= bytes.length;) {
+        const length = bytes.readUInt32LE(offset + 4), start = offset + 8;
+        if (start + length > bytes.length) throw new Error('Truncated live WebP chunk');
+        if (bytes.toString('ascii', offset, offset + 4) === 'EXIF') {
+            const ts = bytes.subarray(start, start + length);
+            if (ts.length < 188 * 3 || ts.length % 188 !== 0) throw new Error('Live WebP MPEG-TS size mismatch');
+            for (let i = 0; i < ts.length; i += 188) if (ts[i] !== 0x47) throw new Error('Live WebP MPEG-TS sync missing');
+            return ts;
+        }
+        offset = start + length + (length & 1);
+    }
+    throw new Error('Live WebP MPEG-TS missing');
+}
 function unmaskPng(bytes) {
     if (!bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) return bytes;
     if (bytes.length < 33 || bytes[24] !== 8 || bytes[25] !== 2 || bytes[28] !== 0) throw new Error('Unsupported RGBTS PNG');
@@ -77,7 +93,7 @@ const rootHosts = {
     C: /(?:^|\.)(?:bc4\.live|bc4live\.[a-z]+|bc4live(?:cdn|iframe)\d+\.shop|betcolivecdn\d*\.[a-z]+)$/i,
     D: /(?:^|\.)(?:kakirikodes\.shop|jsthinkingtodaytoo\.(?:online|com)|autmnresemblenow\.[a-z]+)$/i,
     E: /(?:^|\.)(?:evrenesoglu\d+\.click|8602741\.xyz|streamsport365\.com|player-us\.xyz|fastly\.net|xmediaget\.[a-z]+)$/i,
-    F: /(?:^|\.)beyazelma\d+\.com$/i
+    F: /(?:^|\.)(?:beyazelma\d+\.com|ijekhaje\.xyz)$/i
 };
 async function approve(data) {
     if (!rootHosts[data.mode]) throw new Error('Unknown BCSports source');
@@ -157,7 +173,7 @@ function createLiveTransport(port) {
                 }
                 bytes = cached.bytes;
                 if (/^\s*#EXTM3U\b/.test(bytes.toString('utf8', 0, Math.min(128, bytes.length)))) { bytes = Buffer.from(rewrite(session, bytes.toString('utf8'), cached.url)); type = 'application/vnd.apple.mpegurl'; }
-                else if (session.mode === 'B') { bytes = unmaskPng(bytes); type = bytes[0] === 0x47 ? 'video/mp2t' : cached.contentType; }
+                else if (session.mode === 'B' || session.mode === 'F') { bytes = unmaskWebp(unmaskPng(bytes)); type = bytes[0] === 0x47 ? 'video/mp2t' : cached.contentType; }
                 else type = bytes[0] === 0x47 || /\.(?:png|jpg|ts)(?:[?#]|$)/i.test(resource.url) ? 'video/mp2t' : cached.contentType || 'application/octet-stream';
             }
             res.writeHead(200, { 'Content-Type': type || 'application/octet-stream', 'Content-Length': bytes.length, 'Cache-Control': 'no-store' });
@@ -166,4 +182,4 @@ function createLiveTransport(port) {
         return true;
     };
 }
-module.exports = { createLiveTransport, unmaskPng };
+module.exports = { createLiveTransport, unmaskPng, unmaskWebp };
