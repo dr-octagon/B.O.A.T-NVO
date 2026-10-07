@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Türkiye",
-  "manifestUrl": "https://aiostreams.fortheweak.cloud/stremio/133b2fb5-fc7e-44e3-a37e-4a43e7741340/eyJpIjoiaWUwU0MwRWtiVUgvajVDb1ZqdmZDdz09IiwiZSI6IlZpa2pLcHpSOXFKYTk0SWxkZWg4bFhPbjRYT1Uyb1ZMdFZRcVI4Y1F1V3dyVE5RbEFEaWRhUVFDWUxITWNTT2JDdzZ5aWtTdExGUXpJSzBHbkd0YzBnPT0iLCJ0IjoiYSJ9/manifest.json",
+  "manifestUrl": "https://nuvio-tr.netlify.app/manifest.json",
   "backend": "https://aiostreams.fortheweak.cloud",
   "upstreams": {
     "tmdb": "https://catalog.nuvio.tv/%7B%22language%22%3A%22tr-TR%22%2C%22region%22%3A%22TR%22%7D/manifest.json",
@@ -20,5 +20,6 @@
     "https://tmdb.elfhosted.com/N4IgNghgdg5grhGBTEAuEAXATgWgCoBKIANCAMYQYRgD2MAzmgNoC6pWSGcWUAkgLYATAEa9BaTFjgpSFehgDCNOFAxoATAAYAvkA/manifest.json",
     "https://raw.githubusercontent.com/dr-octagon/Nuvio/main/manifest.json"
   ],
-  "note": "One addon provides 27 TMDB home rows, five live TV rows, movie/series search and metadata. Visibility and order are per-row client settings; hiding TMDB home rows does not disable search. The shared configuration is served by the public AIOStreams instance."
+  "note": "One addon provides 27 TMDB home rows, five live TV rows, movie/series search and metadata. Visibility and order are per-row client settings; hiding TMDB home rows does not disable search. The shared configuration is served by the public AIOStreams instance.",
+  "upstreamManifestUrl": "https://aiostreams.fortheweak.cloud/stremio/133b2fb5-fc7e-44e3-a37e-4a43e7741340/eyJpIjoiaWUwU0MwRWtiVUgvajVDb1ZqdmZDdz09IiwiZSI6IlZpa2pLcHpSOXFKYTk0SWxkZWg4bFhPbjRYT1Uyb1ZMdFZRcVI4Y1F1V3dyVE5RbEFEaWRhUVFDWUxITWNTT2JDdzZ5aWtTdExGUXpJSzBHbkd0YzBnPT0iLCJ0IjoiYSJ9/manifest.json"
 }

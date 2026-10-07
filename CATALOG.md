@@ -3,7 +3,7 @@
 [Kurulum sayfası](https://dr-octagon.github.io/B.O.A.T-NVO/) iki adres sunar:
 
 1. **Plugin / kaynak deposu:** `https://raw.githubusercontent.com/dr-octagon/B.O.A.T-NVO/main/manifest.json`. Bütün JS oynatma kaynaklarını ekler.
-2. **Birleşik katalog:** Sayfadaki **Birleşik kataloğu Nuvio'ya ekle** veya **Katalog bağlantısını kopyala** düğmesini kullanın. Tam manifest adresi [catalog-addon.json](catalog-addon.json) içindedir.
+2. **Birleşik katalog:** `https://nuvio-tr.netlify.app/manifest.json`. Sayfadaki **Birleşik kataloğu Nuvio'ya ekle** veya **Katalog bağlantısını kopyala** düğmesini kullanın.
 
 Birleşik **Nuvio Türkiye** eklentisi BC Sports, İnatBox, DominoTV, RecTV ve Vavoo için beş canlı TV satırı; 27 TMDB ana ekran satırı; film/dizi araması ve içerik detayları sunar. Mac, Android ve Windows aynı bağlantıları kullanır. Yeni bir Netlify hesabı, kişisel sunucu veya bu PC'deki katalog yardımcısı gerekmez.
 
@@ -29,7 +29,9 @@ Windows Desktop kapalıyken `./scripts/install_desktop_tmdb_catalog.ps1` mevcut 
 
 [AIOStreams](https://github.com/Viren070/AIOStreams), [Nuvio Catalog Addon](https://catalog.nuvio.tv/) ve repodaki statik canlı TV kataloğunun `catalog`/`meta` yanıtlarını tek manifest adresinden sunar. TMDB'deki IMDb kimlikleri ve canlı TV kanal kimlikleri korunur; oynatma mevcut JS sağlayıcılarımızdan gelir. Birleştirici video akışlarını taşımaz.
 
-Manifest ve tüm kaynak yolları AIOStreams'in hazır public hizmetine bağlıdır. TMDB verileri ayrıca Nuvio Catalog Addon'ın erişilebilirliğine bağlıdır. GitHub Pages tek başına dinamik arama isteklerini çalıştıramadığı için birleşik adres GitHub Pages üzerinde değildir; dağıtılan adres kurulum sayfasında ve `catalog-addon.json` dosyasında tutulur. Eski ayrı manifestler uyumluluk ve birleştiricinin veri kaynağı olarak korunur.
+Kısa adres Netlify'deki `nuvio-tr` projesinden mevcut AIOStreams hizmetine HTTP 302 ile yönlenir. Manifest, katalog, arama, detay ve diğer kaynak yolları aynı yönlendirmeyi kullanır; Netlify video veya katalog yanıtlarını taşımaz. Manifest ve tüm kaynak yanıtları AIOStreams'in hazır public hizmetine bağlıdır. TMDB verileri ayrıca Nuvio Catalog Addon'ın erişilebilirliğine bağlıdır. GitHub Pages tek başına dinamik arama isteklerini çalıştıramadığı için birleşik adres GitHub Pages üzerinde değildir; dağıtılan kısa adres `catalog-addon.json` içindeki `manifestUrl`, asıl hizmet adresi `upstreamManifestUrl` alanında tutulur. Eski uzun kurulum adresi çalışmaya devam eder. Mevcut uzun katalog zaten kuruluysa kısa adresi ikinci bir eklenti olarak eklemeyin; gerekiyorsa eski katalog kaydını kısa adresle değiştirin. Eski ayrı manifestler uyumluluk ve birleştiricinin veri kaynağı olarak korunur.
+
+Kısa adresin yayın dosyaları `node scripts/build_catalog_link.js` ile `dist/catalog-link` altında üretilir. [Yayın ve bakım bilgisi](https://github.com/dr-octagon/Nuvio-Source/blob/main/catalog-link/README.md). Kullanıcıların kişisel sunucu veya Netlify hesabı açması gerekmez.
 
 [catalog-template.json](catalog-template.json), hizmetteki iki kaynaklı yapılandırmanın kimlik bilgisi içermeyen kopyasıdır. Yönetim parolası repoya yüklenmez; Windows bakım kopyası `%LOCALAPPDATA%/NuvioTurkey/catalog-union-admin.json` konumunda saklanır. Ortak yapılandırmayı değiştirmenin bütün kurulumları etkilediğini dikkate alın; kullanıcıların satır tercihleri için Nuvio ayarlarını kullanın.
 
@@ -42,3 +44,7 @@ Birleşik HTTPS adresinden beş canlı TV listesi ve kanal detayları, iki TMDB 
 Mac/Android arayüzünde fiziksel test ve tüm kanalların baştan sona oynatma testi yapılmadı. Bu değişiklik canlı yayınları veya sistem DNS ayarlarını değiştirmez. BOAT sağlayıcısı değiştirilmedi.
 
 Slider varsayılanı ayrıca boş bir test profilinde kurulu Nuvio Desktop'ın gerçek ana ekran ayarlarıyla doğrulandı: yalnız Trending Movies ve Trending Series öne çıkan kaynağı olarak seçildi; 32 katalog satırı erişilebilir kaldı. Test ayrı bir depolama dizininde çalıştı, kullanıcının kayıtlı tercihlerini değiştirmedi. Güncel manifestte iki arama tanımı ve önceki katalog kimlikleri korundu; Matrix araması tekrar aynı IMDb kimliğini döndürdü.
+
+## Kısa adres doğrulaması — 2026-10-07
+
+`https://nuvio-tr.netlify.app/manifest.json` kalıcı olarak yayınlandı ve Netlify hesabındaki `nuvio-tr` projesine bağlandı. Canlı kısa adres üzerinden 32 satırlı manifest, iki TMDB trend listesi, Matrix/Reacher araması, beş canlı TV listesi ve her listenin ilk kanal detayı, Reacher dizi detayı HTTP 200 döndü. Manifest katalog kimlikleri ve sırası eski uzun adresle aynı kaldı. Kurulu Nuvio Desktop'ın ayrıştırıcıları bu yanıtları kısa HTTPS adresiyle okudu: 1.533 canlı TV kartı, 40 başlık logosu, altı oyuncu fotoğrafı ve 32 bölüm korundu; Nuvio kurulum bağlantısı ayrıştırıldı. Cihazdaki kurulu eklenti veya tercih kayıtları değiştirilmedi. Mac/Android arayüzünde fiziksel test yapılmadı.
