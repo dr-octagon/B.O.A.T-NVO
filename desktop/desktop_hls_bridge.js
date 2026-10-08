@@ -6,7 +6,7 @@ const path = require('node:path');
 const { gunzipSync } = require('node:zlib');
 const { cinejoyBinary, tmdbJson, simklCatalog } = require('./desktop_provider_transport');
 const { createLiveTransport } = require('./desktop_live_transport');
-const { cineStreamFetch } = require('./desktop_cinestream_transport');
+const { cineStreamFetch, cancelScope } = require('./desktop_cinestream_transport');
 const { createCatalogAddon } = require('./desktop_catalog_addon');
 const REVISION = createHash('sha256').update(readFileSync(__filename)).digest('hex');
 const TRANSPORT_REVISION = createHash('sha256').update(readFileSync(require.resolve('./desktop_provider_transport'))).digest('hex');
@@ -71,16 +71,16 @@ function createBridge() {
         if (req.method === 'GET' && route === '/health') return send(200, { service: 'nuvio-hls', version: 8, revision: REVISION, transportRevision: TRANSPORT_REVISION, liveRevision: LIVE_REVISION, cinestreamRevision:CINESTREAM_REVISION, catalogRevision:CATALOG_REVISION, transports: ['tmdb-json', 'cinejoy-binary', 'bcsports-live', 'simkl-json', 'runtime-timer', 'cinestream-fetch', ...(addon.manifest?['provider-catalogs','plugin-settings']:[])] });
         if (req.method === 'POST' && route === '/transport/timer/cancel') {
             const token=new URL(req.url,'http://127.0.0.1').searchParams.get('token');
-            runtimeTimers.get(token)?.(true);return send(200,{cancelled:true});
+            cancelScope(token);runtimeTimers.get(token)?.(true);return send(200,{cancelled:true});
         }
         if (req.method === 'GET' && route === '/transport/timer') {
             const query = new URL(req.url, 'http://127.0.0.1').searchParams;
             const ms=Number(query.get('ms')),token=query.get('token');
             if ([...query.keys()].some(key=>!['ms','token'].includes(key)) || !Number.isInteger(ms) || ms<1 || ms>50000 || !/^[a-f0-9]{32}$/.test(token || '') || runtimeTimers.has(token)) return send(400,{error:'Invalid timer duration'});
             if(runtimeTimers.size>=64)return send(429,{error:'Timer limit'});
-            const finish=(cancelled=false)=>{clearTimeout(timer);runtimeTimers.delete(token);send(200,{elapsed:cancelled?0:ms,cancelled});};
+            const finish=(cancelled=false)=>{cancelScope(token);clearTimeout(timer);runtimeTimers.delete(token);send(200,{elapsed:cancelled?0:ms,cancelled});};
             const timer=setTimeout(()=>finish(),ms);runtimeTimers.set(token,finish);
-            res.on('close',()=>{clearTimeout(timer);runtimeTimers.delete(token);});
+            res.on('close',()=>{cancelScope(token);clearTimeout(timer);runtimeTimers.delete(token);});
             return;
         }
         if (await addon.handle(req,res,send))return;

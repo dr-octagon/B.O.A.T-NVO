@@ -3,6 +3,20 @@ const https=require('node:https');
 const dns=require('node:dns').promises;
 const {isIP}=require('node:net');
 const {gunzipSync,inflateSync,brotliDecompressSync}=require('node:zlib');
+const scopes=new Map();
+function cancelScope(token){
+    if(!/^[a-f0-9]{32}$/.test(token || ''))return;
+    if(!scopes.has(token) && scopes.size>=256)return;
+    const scope=scopes.get(token) || {controller:new AbortController(),created:Date.now()};
+    scope.controller.abort(Error('CineStream scope cancelled'));scopes.set(token,scope);
+}
+function scopeSignal(token){
+    if(token==null)return undefined;
+    if(!/^[a-f0-9]{32}$/.test(token))throw Error('Invalid CineStream scope');
+    for(const [key,scope] of scopes)if(Date.now()-scope.created>300000){scope.controller.abort();scopes.delete(key);}
+    if(!scopes.has(token)){if(scopes.size>=256)throw Error('CineStream scope limit');scopes.set(token,{controller:new AbortController(),created:Date.now()});}
+    const signal=scopes.get(token).controller.signal;signal.throwIfAborted();return signal;
+}
 // Loopback-only transport for Desktop's fetch, which ignores AbortSignal.
 // Every destination and redirect is checked, then DNS is pinned to a public IP.
 function publicV4(value){
@@ -16,6 +30,7 @@ function destination(value){
     return url;
 }
 async function cineStreamFetch(data){
+    const signal=scopeSignal(data.scopeToken);
     if(typeof data.url!=='string' || data.url.length>16384)throw Error('Invalid CineStream URL');
     const initial=destination(data.url),method=String(data.method || 'GET').toUpperCase();
     if(!['GET','HEAD','POST'].includes(method))throw Error('Unsupported CineStream method');
@@ -32,14 +47,18 @@ async function cineStreamFetch(data){
     const ms=Math.max(1,Math.min(12000,Number(data.timeoutMs) || 10000)),end=Date.now()+ms;
     async function visit(url,method,body,headers,depth){
         destination(url.href);
-        let timer;
-        const addresses=await Promise.race([dns.lookup(url.hostname,{all:true}),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('CineStream DNS timeout')),Math.max(1,end-Date.now()));})]).finally(()=>clearTimeout(timer));
+        signal?.throwIfAborted();let timer,abort;
+        const addresses=await Promise.race([dns.lookup(url.hostname,{all:true}),new Promise((_,reject)=>{
+            timer=setTimeout(()=>reject(Error('CineStream DNS timeout')),Math.max(1,end-Date.now()));
+            abort=()=>reject(signal.reason || Error('CineStream scope cancelled'));signal?.addEventListener('abort',abort,{once:true});
+        })]).finally(()=>{clearTimeout(timer);signal?.removeEventListener('abort',abort);});
+        signal?.throwIfAborted();
         if(!addresses.length || addresses.some(item=>item.family===4&&!publicV4(item.address)))throw Error('Non-public CineStream destination');
         const address=addresses.find(item=>item.family===4&&publicV4(item.address));
         if(!address)throw Error('CineStream requires a public IPv4 destination');
         if(Date.now()>=end)throw Error('CineStream request timeout');
         const response=await new Promise((resolve,reject)=>{
-            const req=(url.protocol==='https:'?https:http).request(url,{method,headers,lookup:(_host,options,callback)=>options.all?callback(null,[address]):callback(null,address.address,address.family)},res=>{
+            const req=(url.protocol==='https:'?https:http).request(url,{method,headers,signal,lookup:(_host,options,callback)=>options.all?callback(null,[address]):callback(null,address.address,address.family)},res=>{
                 const chunks=[];let size=0;
                 res.on('data',chunk=>{size+=chunk.length;if(size>512*1024)req.destroy(Error('CineStream response size limit'));else chunks.push(chunk);});
                 res.on('error',reject);
@@ -63,4 +82,4 @@ async function cineStreamFetch(data){
     }
     return visit(initial,method,data.body,headers,0);
 }
-module.exports={cineStreamFetch,destination,publicV4};
+module.exports={cineStreamFetch,destination,publicV4,cancelScope};

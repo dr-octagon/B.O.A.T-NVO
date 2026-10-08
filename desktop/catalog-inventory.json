@@ -1,5 +1,5 @@
 {
-  "version": "1.10.15",
+  "version": "1.10.16",
   "providers": [
     {
       "id": "bronzecloud",
@@ -166,298 +166,158 @@
           "type": "series"
         },
         {
-          "id": "bronzecloud_filmmodu_filmmodu_4k-film-izle",
-          "name": "filmmodu • 4K",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_aile-filmleri",
-          "name": "filmmodu • Aile",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_aksiyon",
-          "name": "filmmodu • Aksiyon",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_animasyon",
-          "name": "filmmodu • Animasyon",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_belgeseller",
-          "name": "filmmodu • Belgesel",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_bilim-kurgu-filmleri",
-          "name": "filmmodu • Bilim-Kurgu",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_dram-filmleri",
-          "name": "filmmodu • Dram",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_fantastik-filmler",
-          "name": "filmmodu • Fantastik",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_gerilim",
-          "name": "filmmodu • Gerilim",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_gizem-filmleri",
-          "name": "filmmodu • Gizem",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_hd-hint-filmleri",
-          "name": "filmmodu • Hint Filmleri",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_kisa-film",
-          "name": "filmmodu • Kısa Film",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_hd-komedi-filmleri",
-          "name": "filmmodu • Komedi",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_komedi",
-          "name": "filmmodu • Komedi",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_korku-filmleri",
-          "name": "filmmodu • Korku",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_kult-filmler-izle",
-          "name": "filmmodu • Kült Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_macera-filmleri",
-          "name": "filmmodu • Macera",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_muzik",
-          "name": "filmmodu • Müzik",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_odullu-filmler-izle",
-          "name": "filmmodu • Oscar Ödüllü Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_romantik-filmler",
-          "name": "filmmodu • Romantik",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_savas",
-          "name": "filmmodu • Savaş",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_savas-filmleri",
-          "name": "filmmodu • Savaş",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_stand-up",
-          "name": "filmmodu • Stand Up",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_suc-filmleri",
-          "name": "filmmodu • Suç",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_tarih",
-          "name": "filmmodu • Tarih",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_tavsiye-filmler",
-          "name": "filmmodu • Tavsiye Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_tv-film",
-          "name": "filmmodu • TV film",
-          "type": "movie"
-        },
-        {
-          "id": "bronzecloud_filmmodu_filmmodu_vahsi-bati-filmleri",
-          "name": "filmmodu • Vahşi Batı",
-          "type": "movie"
-        },
-        {
           "id": "bronzecloud_filmmodu_filmmodu_live_latest",
-          "name": "filmmodu • Son Eklenenler (Live)",
+          "name": "filmmodu • Son Eklenenler",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_aile",
-          "name": "filmmodu • Aile (Live)",
+          "name": "filmmodu • Aile",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_aksiyon",
-          "name": "filmmodu • Aksiyon (Live)",
+          "name": "filmmodu • Aksiyon",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_aksiyon-macera",
-          "name": "filmmodu • Aksiyon & Macera (Live)",
+          "name": "filmmodu • Aksiyon & Macera",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_animasyon",
-          "name": "filmmodu • Animasyon (Live)",
+          "name": "filmmodu • Animasyon",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_anime",
-          "name": "filmmodu • Anime (Live)",
+          "name": "filmmodu • Anime",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_belgesel",
-          "name": "filmmodu • Belgesel (Live)",
+          "name": "filmmodu • Belgesel",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_bilim-kurgu-fantastik",
-          "name": "filmmodu • Bilim Kurgu & Fantazi (Live)",
+          "name": "filmmodu • Bilim Kurgu & Fantazi",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_bilim-kurgu",
-          "name": "filmmodu • Bilim-Kurgu (Live)",
+          "name": "filmmodu • Bilim-Kurgu",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_biyografi",
-          "name": "filmmodu • Biyografi (Live)",
+          "name": "filmmodu • Biyografi",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_cocuklar",
-          "name": "filmmodu • Çocuklar (Live)",
+          "name": "filmmodu • Çocuklar",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_dram",
-          "name": "filmmodu • Dram (Live)",
+          "name": "filmmodu • Dram",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_fantastik",
-          "name": "filmmodu • Fantastik (Live)",
+          "name": "filmmodu • Fantastik",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_reality",
-          "name": "filmmodu • Gerçeklik (Live)",
+          "name": "filmmodu • Gerçeklik",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_gerilim",
-          "name": "filmmodu • Gerilim (Live)",
+          "name": "filmmodu • Gerilim",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_gizem",
-          "name": "filmmodu • Gizem (Live)",
+          "name": "filmmodu • Gizem",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_haber",
-          "name": "filmmodu • Haber (Live)",
+          "name": "filmmodu • Haber",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_komedi",
-          "name": "filmmodu • Komedi (Live)",
+          "name": "filmmodu • Komedi",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_korku",
-          "name": "filmmodu • Korku (Live)",
+          "name": "filmmodu • Korku",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_macera",
-          "name": "filmmodu • Macera (Live)",
+          "name": "filmmodu • Macera",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_muzik",
-          "name": "filmmodu • Müzik (Live)",
+          "name": "filmmodu • Müzik",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_olmeden-once-izle",
-          "name": "filmmodu • Ölmeden Önce İzle (Live)",
+          "name": "filmmodu • Ölmeden Önce İzle",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_pembe-dizi",
-          "name": "filmmodu • Pembe Dizi (Live)",
+          "name": "filmmodu • Pembe Dizi",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_romantik",
-          "name": "filmmodu • Romantik (Live)",
+          "name": "filmmodu • Romantik",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_savas",
-          "name": "filmmodu • Savaş (Live)",
+          "name": "filmmodu • Savaş",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_savas-politika",
-          "name": "filmmodu • Savaş & Politik (Live)",
+          "name": "filmmodu • Savaş & Politik",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_suc",
-          "name": "filmmodu • Suç (Live)",
+          "name": "filmmodu • Suç",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_talk",
-          "name": "filmmodu • Talk (Live)",
+          "name": "filmmodu • Talk",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_tarih",
-          "name": "filmmodu • Tarih (Live)",
+          "name": "filmmodu • Tarih",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_tv-film",
-          "name": "filmmodu • TV film (Live)",
+          "name": "filmmodu • TV film",
           "type": "movie"
         },
         {
           "id": "bronzecloud_filmmodu_filmmodu_live_western",
-          "name": "filmmodu • Vahşi Batı (Live)",
+          "name": "filmmodu • Vahşi Batı",
           "type": "movie"
         },
         {
@@ -712,298 +572,158 @@
       "name": "FilmModu",
       "catalogs": [
         {
-          "id": "filmmodu_4k-film-izle",
-          "name": "4K",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_aile-filmleri",
-          "name": "Aile",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_aksiyon",
-          "name": "Aksiyon",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_animasyon",
-          "name": "Animasyon",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_belgeseller",
-          "name": "Belgesel",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_bilim-kurgu-filmleri",
-          "name": "Bilim-Kurgu",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_dram-filmleri",
-          "name": "Dram",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_fantastik-filmler",
-          "name": "Fantastik",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_gerilim",
-          "name": "Gerilim",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_gizem-filmleri",
-          "name": "Gizem",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_hd-hint-filmleri",
-          "name": "Hint Filmleri",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_kisa-film",
-          "name": "Kısa Film",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_hd-komedi-filmleri",
-          "name": "Komedi",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_komedi",
-          "name": "Komedi",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_korku-filmleri",
-          "name": "Korku",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_kult-filmler-izle",
-          "name": "Kült Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_macera-filmleri",
-          "name": "Macera",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_muzik",
-          "name": "Müzik",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_odullu-filmler-izle",
-          "name": "Oscar Ödüllü Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_romantik-filmler",
-          "name": "Romantik",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_savas",
-          "name": "Savaş",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_savas-filmleri",
-          "name": "Savaş",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_stand-up",
-          "name": "Stand Up",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_suc-filmleri",
-          "name": "Suç",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_tarih",
-          "name": "Tarih",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_tavsiye-filmler",
-          "name": "Tavsiye Filmler",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_tv-film",
-          "name": "TV film",
-          "type": "movie"
-        },
-        {
-          "id": "filmmodu_vahsi-bati-filmleri",
-          "name": "Vahşi Batı",
-          "type": "movie"
-        },
-        {
           "id": "filmmodu_live_latest",
-          "name": "Son Eklenenler (Live)",
+          "name": "Son Eklenenler",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_aile",
-          "name": "Aile (Live)",
+          "name": "Aile",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_aksiyon",
-          "name": "Aksiyon (Live)",
+          "name": "Aksiyon",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_aksiyon-macera",
-          "name": "Aksiyon & Macera (Live)",
+          "name": "Aksiyon & Macera",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_animasyon",
-          "name": "Animasyon (Live)",
+          "name": "Animasyon",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_anime",
-          "name": "Anime (Live)",
+          "name": "Anime",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_belgesel",
-          "name": "Belgesel (Live)",
+          "name": "Belgesel",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_bilim-kurgu-fantastik",
-          "name": "Bilim Kurgu & Fantazi (Live)",
+          "name": "Bilim Kurgu & Fantazi",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_bilim-kurgu",
-          "name": "Bilim-Kurgu (Live)",
+          "name": "Bilim-Kurgu",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_biyografi",
-          "name": "Biyografi (Live)",
+          "name": "Biyografi",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_cocuklar",
-          "name": "Çocuklar (Live)",
+          "name": "Çocuklar",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_dram",
-          "name": "Dram (Live)",
+          "name": "Dram",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_fantastik",
-          "name": "Fantastik (Live)",
+          "name": "Fantastik",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_reality",
-          "name": "Gerçeklik (Live)",
+          "name": "Gerçeklik",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_gerilim",
-          "name": "Gerilim (Live)",
+          "name": "Gerilim",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_gizem",
-          "name": "Gizem (Live)",
+          "name": "Gizem",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_haber",
-          "name": "Haber (Live)",
+          "name": "Haber",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_komedi",
-          "name": "Komedi (Live)",
+          "name": "Komedi",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_korku",
-          "name": "Korku (Live)",
+          "name": "Korku",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_macera",
-          "name": "Macera (Live)",
+          "name": "Macera",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_muzik",
-          "name": "Müzik (Live)",
+          "name": "Müzik",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_olmeden-once-izle",
-          "name": "Ölmeden Önce İzle (Live)",
+          "name": "Ölmeden Önce İzle",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_pembe-dizi",
-          "name": "Pembe Dizi (Live)",
+          "name": "Pembe Dizi",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_romantik",
-          "name": "Romantik (Live)",
+          "name": "Romantik",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_savas",
-          "name": "Savaş (Live)",
+          "name": "Savaş",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_savas-politika",
-          "name": "Savaş & Politik (Live)",
+          "name": "Savaş & Politik",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_suc",
-          "name": "Suç (Live)",
+          "name": "Suç",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_talk",
-          "name": "Talk (Live)",
+          "name": "Talk",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_tarih",
-          "name": "Tarih (Live)",
+          "name": "Tarih",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_tv-film",
-          "name": "TV film (Live)",
+          "name": "TV film",
           "type": "movie"
         },
         {
           "id": "filmmodu_live_western",
-          "name": "Vahşi Batı (Live)",
+          "name": "Vahşi Batı",
           "type": "movie"
         }
       ]
