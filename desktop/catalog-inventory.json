@@ -1,5 +1,5 @@
 {
-  "version": "1.10.16",
+  "version": "1.10.17",
   "providers": [
     {
       "id": "bronzecloud",
@@ -564,6 +564,176 @@
           "id": "bronzecloud_hdfilmizle_hdfilmizle_yerli-film-izle-1",
           "name": "hdfilmizle • Yerli",
           "type": "movie"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_live",
+          "name": "bcsports • 🏆 Canlı Spor Kanalları (BC Sports)",
+          "type": "live",
+          "extra": [
+            {
+              "name": "genre",
+              "isRequired": false,
+              "options": [
+                "BeIN Sports",
+                "S Sports",
+                "Smart Spor",
+                "Tivibu Spor",
+                "Tabii / Exxen",
+                "Euro Sport",
+                "TRT Kanalları",
+                "Ulusal Spor Kanalları",
+                "Ulusal Kanallar",
+                "Kulüp Kanalları",
+                "Yabancı Spor",
+                "Genel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_channels",
+          "name": "bcsports • 🏆 Canlı Spor Kanalları (BC Sports)",
+          "type": "tv",
+          "extra": [
+            {
+              "name": "genre",
+              "isRequired": false,
+              "options": [
+                "BeIN Sports",
+                "S Sports",
+                "Smart Spor",
+                "Tivibu Spor",
+                "Tabii / Exxen",
+                "Euro Sport",
+                "TRT Kanalları",
+                "Ulusal Spor Kanalları",
+                "Ulusal Kanallar",
+                "Kulüp Kanalları",
+                "Yabancı Spor",
+                "Genel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_0",
+          "name": "bcsports • BeIN Sports",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_1",
+          "name": "bcsports • S Sports",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_2",
+          "name": "bcsports • Smart Spor",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_3",
+          "name": "bcsports • Tivibu Spor",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_4",
+          "name": "bcsports • Tabii / Exxen",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_5",
+          "name": "bcsports • Euro Sport",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_6",
+          "name": "bcsports • TRT Kanalları",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_7",
+          "name": "bcsports • Ulusal Spor Kanalları",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_8",
+          "name": "bcsports • Ulusal Kanallar",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_9",
+          "name": "bcsports • Kulüp Kanalları",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_10",
+          "name": "bcsports • Yabancı Spor",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_11",
+          "name": "bcsports • Genel",
+          "type": "live"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_0",
+          "name": "bcsports • BeIN Sports",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_1",
+          "name": "bcsports • S Sports",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_2",
+          "name": "bcsports • Smart Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_3",
+          "name": "bcsports • Tivibu Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_4",
+          "name": "bcsports • Tabii / Exxen",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_5",
+          "name": "bcsports • Euro Sport",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_6",
+          "name": "bcsports • TRT Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_7",
+          "name": "bcsports • Ulusal Spor Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_8",
+          "name": "bcsports • Ulusal Kanallar",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_9",
+          "name": "bcsports • Kulüp Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_10",
+          "name": "bcsports • Yabancı Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bronzecloud_bcsports_bcsports_tv_11",
+          "name": "bcsports • Genel",
+          "type": "tv"
         }
       ]
     },
@@ -4893,6 +5063,56 @@
       "name": "BC Sports",
       "catalogs": [
         {
+          "id": "bcsports_live",
+          "name": "🏆 Canlı Spor Kanalları (BC Sports)",
+          "type": "live",
+          "extra": [
+            {
+              "name": "genre",
+              "isRequired": false,
+              "options": [
+                "BeIN Sports",
+                "S Sports",
+                "Smart Spor",
+                "Tivibu Spor",
+                "Tabii / Exxen",
+                "Euro Sport",
+                "TRT Kanalları",
+                "Ulusal Spor Kanalları",
+                "Ulusal Kanallar",
+                "Kulüp Kanalları",
+                "Yabancı Spor",
+                "Genel"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bcsports_channels",
+          "name": "🏆 Canlı Spor Kanalları (BC Sports)",
+          "type": "tv",
+          "extra": [
+            {
+              "name": "genre",
+              "isRequired": false,
+              "options": [
+                "BeIN Sports",
+                "S Sports",
+                "Smart Spor",
+                "Tivibu Spor",
+                "Tabii / Exxen",
+                "Euro Sport",
+                "TRT Kanalları",
+                "Ulusal Spor Kanalları",
+                "Ulusal Kanallar",
+                "Kulüp Kanalları",
+                "Yabancı Spor",
+                "Genel"
+              ]
+            }
+          ]
+        },
+        {
           "id": "bcsports_0",
           "name": "BeIN Sports",
           "type": "live"
@@ -4951,6 +5171,66 @@
           "id": "bcsports_11",
           "name": "Genel",
           "type": "live"
+        },
+        {
+          "id": "bcsports_tv_0",
+          "name": "BeIN Sports",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_1",
+          "name": "S Sports",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_2",
+          "name": "Smart Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_3",
+          "name": "Tivibu Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_4",
+          "name": "Tabii / Exxen",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_5",
+          "name": "Euro Sport",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_6",
+          "name": "TRT Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_7",
+          "name": "Ulusal Spor Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_8",
+          "name": "Ulusal Kanallar",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_9",
+          "name": "Kulüp Kanalları",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_10",
+          "name": "Yabancı Spor",
+          "type": "tv"
+        },
+        {
+          "id": "bcsports_tv_11",
+          "name": "Genel",
+          "type": "tv"
         }
       ]
     },
