@@ -80,7 +80,7 @@
         "base": "https://www.setfilmizle.ltd"
       },
       "sinemacx": {
-        "base": "https://www.sinema.gg",
+        "base": "https://sinemacc.com",
         "player": "https://player.filmizle.in"
       },
       "sinewix": {
@@ -96,7 +96,7 @@
     },
     "series": {
       "ddizi": {
-        "base": "https://www.ddizi.im"
+        "base": "https://www.ddizi.tel"
       },
       "dizibak": {
         "base": "https://dizibak.net",
@@ -110,13 +110,13 @@
         "storage": "https://storage.diziyou.one"
       },
       "diziboxizle": {
-        "base": "https://diziboxizle.com"
+        "base": "https://www.dizibox.live"
       },
       "dizipod": {
         "base": "https://dizipod.com"
       },
       "diziwatch": {
-        "base": "https://diziwatch.ac"
+        "base": "https://diziwatch.app"
       },
       "yabancidizi": {
         "base": "https://yabancidizi.news"
