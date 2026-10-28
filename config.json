@@ -176,5 +176,17 @@
         "base": "https://vidlink.pro"
       }
     }
+  },
+  "domains": {
+    "movies": {
+      "selcukflix": {
+        "base": "https://selcukflix.app"
+      }
+    },
+    "series": {
+      "selcukflix": {
+        "base": "https://selcukflix.app"
+      }
+    }
   }
 }
