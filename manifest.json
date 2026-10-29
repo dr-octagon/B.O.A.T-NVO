@@ -1,7 +1,7 @@
 {
   "id": "community.nuvio.boat",
   "name": "Nuvio Türkiye (BronzeCloud, TMDB, B.O.A.T, FilmModu, Sinewix, HDFilmizle)",
-  "version": "1.10.23",
+  "version": "1.10.24",
   "description": "Nuvio Türkiye — BronzeCloud ve Cloudstream JS sağlayıcıları",
   "author": "Dr.Octagon",
   "logo": "https://raw.githubusercontent.com/dr-octagon/B.O.A.T-NVO/main/assets/boat.png",
@@ -1011,7 +1011,7 @@
       "id": "dominotv",
       "name": "DominoTV",
       "description": "DominoTV — Cloudstream JS portu",
-      "version": "1.10.16",
+      "version": "1.10.24",
       "author": "Dr.Octagon / BronzeCloud",
       "filename": "providers/dominotv.js",
       "supportedTypes": [
